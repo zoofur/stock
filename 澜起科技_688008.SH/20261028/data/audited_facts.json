@@ -1,0 +1,195 @@
+{
+  "ticker": "688008.SH",
+  "as_of": "2026-10-28",
+  "retrieved_at": "2026-10-28T14:56:43.650114+08:00",
+  "currency": "CNY",
+  "financial_amount_unit": "yuan",
+  "sources": {
+    "2025FY": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225057736.PDF",
+      "pages": [
+        14,
+        15,
+        154,
+        155
+      ],
+      "status": "audited"
+    },
+    "2026H1": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225530486.PDF",
+      "pages": [
+        12,
+        13,
+        41,
+        42,
+        93,
+        99,
+        100,
+        126,
+        154,
+        155,
+        156
+      ],
+      "status": "unaudited_half_year_report"
+    },
+    "2026Q3_preview": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-21/1225612915.PDF",
+      "pages": [
+        1,
+        2
+      ],
+      "status": "unaudited_preliminary_forecast"
+    },
+    "buyback": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225620359.PDF",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "dividend": {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225609494.PDF",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  "FY2025": {
+    "revenue": 5456316783.63,
+    "net_profit_parent": 2235569970.18,
+    "net_profit_core": 2021628734.94,
+    "cfo": 2022020556.92,
+    "capex": 265828735.88,
+    "roe_pct": 18.25,
+    "roe_core_pct": 16.5,
+    "fcf_cfo_less_capex": 1756191821.04
+  },
+  "H12026": {
+    "revenue": 3335497521.81,
+    "net_profit_parent": 1997374517.87,
+    "net_profit_core": 1322478536.33,
+    "cfo": 1328028043.56,
+    "capex": 255293531.99,
+    "cash": 15109529544.43,
+    "cash_equivalents": 15011597968.05,
+    "restricted_cash": 29770400.78,
+    "long_debt": 107079875.18,
+    "current_long_debt": 5750000,
+    "long_lease": 14506393.08,
+    "current_lease": 15038994.92,
+    "equity_parent": 21516182565.85,
+    "assets": 23177717270.09,
+    "liabilities_total": 1740377469.34,
+    "structured_deposits": 2524975313.42,
+    "interconnect_revenue_approx": 3111000000,
+    "interconnect_gm_pct_rounded": 69.3,
+    "consolidated_gm_pct_rounded": 65.3,
+    "q2_interconnect_revenue_approx": 1694000000,
+    "q2_interconnect_gm_pct_rounded": 67.4,
+    "q2_revenue_approx": 1875000000,
+    "xconn_and_marvell_disposal_gain_approx": 456000000,
+    "investment_and_fair_value_gain_approx": 682000000,
+    "fx_loss_approx": 174000000,
+    "shares_at_6_30": 1222200021,
+    "roe_pct": 10.72,
+    "roe_core_pct": 7.1,
+    "sbc_after_tax": 182672217.71,
+    "fcf_cfo_less_capex": 1072734511.5699999
+  },
+  "H12025": {
+    "revenue": 2633456481.08,
+    "net_profit_parent": 1159070379.72,
+    "net_profit_core": 1091385758.7,
+    "cfo": 1058689019.33,
+    "capex": 111947248.64
+  },
+  "Q32025": {
+    "revenue": 1424232009.73,
+    "net_profit_parent": 473213606.21,
+    "net_profit_core": 376038130.77,
+    "cfo": 541982422.33
+  },
+  "Q32026_forecast": {
+    "revenue_approx": 2079000000,
+    "net_profit_parent_range": [
+      1200000000,
+      1300000000
+    ],
+    "net_profit_core_range": [
+      950000000,
+      1050000000
+    ],
+    "interconnect_revenue_approx": 2047000000,
+    "interconnect_gm_pct_range": [
+      68.0,
+      68.5
+    ]
+  },
+  "TTM_H12026": {
+    "revenue": 6158357824.360001,
+    "net_profit_parent": 3073874108.33,
+    "net_profit_core": 2252721512.5699997,
+    "cfo": 2291359581.15,
+    "capex": 409175019.23,
+    "fcf_cfo_less_capex": 1882184561.92
+  },
+  "TTM_Q32026_forecast": {
+    "revenue_approx": 6813125814.630001,
+    "net_profit_parent_range": [
+      3800660502.12,
+      3900660502.12
+    ],
+    "net_profit_core_range": [
+      2826683381.7999997,
+      2926683381.7999997
+    ]
+  },
+  "balance_bridge": {
+    "interest_bearing_debt_including_leases": 142375263.18,
+    "net_cash_using_cash_equivalents": 14869222704.869999,
+    "currency_cash_not_cash_equivalents_difference": 97931576.38000107,
+    "note": "交易性金融资产29.17亿元不是全部现金，其中25.25亿结构性存款与3.92亿权益工具须分开；不与现金等价物重复。净现金桥不能把总负债17.40亿都当有息债。"
+  },
+  "valuation_snapshot": {
+    "source_url": "https://qt.gtimg.cn/q=sh688008,sh688048,sh603986,sz300223",
+    "quote_time": "20261028150027",
+    "retrieved_at": "2026-10-28T15:00:49.100887+08:00",
+    "price_cny": 174.7,
+    "market_cap_yi": 2132.2799226869997,
+    "shares_current": 1220538021,
+    "shares_current_yi": 12.20538021,
+    "pe_ttm_parent": 69.36783510127039,
+    "pe_ttm_core": 94.6535073593897,
+    "pe_q3_preview_parent_range": [
+      54.664586203493236,
+      56.10287794707311
+    ],
+    "pe_q3_preview_core_range": [
+      72.85652885948949,
+      75.43398515787035
+    ]
+  },
+  "methodology": {
+    "ttm": "FY2025 + H12026 - H12025",
+    "q3_rollforward": "TTM_H12026 + Q32026_forecast - Q32025",
+    "fcf_proxy": "cash_flow_from_operations - purchase_fixed_intangible_and_long_term_assets",
+    "pe": "A_share_equivalent_market_cap / attributable_or_core_TTM_profit"
+  },
+  "critical_notes": [
+    "所有财务金额为人民币元；_yi仅显式出现于估值字段。TTM=2025FY+2026H1-2025H1，绝不将半年值直接年化后当TTM。",
+    "2026Q3为单季预告，未经审计；叠加TTM是计算情景，不是已披露2026Q3正式报表。没有Q3 CFO/Capex，不能估造对应TTM现金流。",
+    "H1归母净利19.97亿与扣非13.22亿差额6.75亿，不可把净利增长72.33%当扣非增长；扣非增长21.17%。XConn与Marvell处置合计收益4.56亿属于H1已完成事项。",
+    "H1互连毛利69.3%是半年加权率；Q2原文P42为67.4%；Q3预告68%-68.5%相对Q2+0.57~1.07pp隐含67.43%，只是四舍五入。Q3较H1低不等于环比下降。",
+    "H1现金增长主要包含H股募资，不能称经营现金流增长78%。H1 C&E150.12亿，货币资金151.10亿，交易性金融资产29.17亿不混为一个科目。",
+    "CFO-Capex仅为现金流代理，未经去杠杆/去利息处理，不能无条件当FCFF。模型若加回全部现金，应审查利息收入是否已在现金流中，避免重复计值。",
+    "2026H1资产负债率约7.51%；有息借款约1.13亿，加租赁后约1.42亿；不适用默认30%目标债务权重的杠杆DCF/LBO叙事。",
+    "H1扣非ROE7.10%低于同期9.14%，受H股融资扩大净资产分母影响；非经营恶化的充分证据。不能将半年ROE10.72%直接与全年2025ROE18.25%判趋势。",
+    "股本6月底12.2220亿股，7月8日注销166.2万股后为12.20538021亿股。9月15日857638股由回购账户过户用于激励归属，总股本不变。",
+    "10月24日披露回购208.8万股、4.10228亿、均价196.47，10月23日完成；用途维护价值，非立即注销。可于披露12个月后出售，三年未转让才应注销。回购价格不是价格底。",
+    "H股属于同一发行人，不得在同行估值中作为独立公司。按A股价格乘全部A+H股本是A股等价市值，不是A/H各自市值按汇率相加的实际总市值。",
+    "股份支付为经常性损益中的真实股东成本。扣除股份支付影响后的净利与扣非净利定义不同，不能相互替代。"
+  ]
+}

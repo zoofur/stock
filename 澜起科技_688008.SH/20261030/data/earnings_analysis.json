@@ -1,0 +1,187 @@
+{
+  "ticker": "688008.SH",
+  "report_date": "2026-10-30",
+  "financial_period": "2026-09-30",
+  "financial_unit": "CNY yuan",
+  "audit_status": "正式三季报，未经审计",
+  "Q32026": {
+    "revenue": 2078918669.66,
+    "net_profit_parent": 1239743093.95,
+    "net_profit_core": 1004796167.13,
+    "interconnect_revenue": 2047000000,
+    "interconnect_gm_pct": 68.4,
+    "revenue_yoy_pct": 45.97,
+    "revenue_qoq_pct": 10.9,
+    "net_profit_parent_yoy_pct": 161.98,
+    "net_profit_parent_qoq_pct": 7.8,
+    "net_profit_core_yoy_pct": 167.21,
+    "net_profit_core_qoq_pct": 39.8,
+    "investment_and_fair_value_income_approx": 222000000,
+    "nonrecurring_parent": 234946926.82,
+    "rd": 186196715.8,
+    "parent_profit_ex_sbc_approx": 1332000000,
+    "parent_profit_ex_sbc_yoy_pct": 64.1,
+    "cfo": 1570289011.54,
+    "capex": 147228638.68,
+    "fcf_proxy": 1423060372.86,
+    "cogs": 674436827.6099999,
+    "gross_margin_pct": 67.55828703388855,
+    "cfo_to_parent": 1.2666245282616038,
+    "cfo_to_core": 1.5627935922817238
+  },
+  "9M2026": {
+    "revenue": 5414416191.47,
+    "net_profit_parent": 3237117611.82,
+    "net_profit_core": 2327274703.46,
+    "cfo": 2898317055.1,
+    "capex": 402522170.67,
+    "cogs": 1831431030.3,
+    "cash_equivalents": 15680151487.3,
+    "cash": 15798925948.0,
+    "equity_parent": 22150204322.87,
+    "receivables": 530411100.01,
+    "inventory": 1165852898.44,
+    "nonrecurring_parent": 909842908.36,
+    "investment_income": 263936837.6,
+    "fair_value_income": 639936759.04,
+    "fx_loss_approx": 238000000,
+    "interest_income": 342785781.09,
+    "liabilities": 1656469844.38,
+    "assets": 23956066226.53,
+    "long_debt": 107079875.18,
+    "current_noncurrent_debt_and_leases": 17953972.91,
+    "long_lease": 11267900.95,
+    "rd": 639279893.8,
+    "fcf_proxy": 2495794884.43,
+    "gross_profit": 3582985161.17,
+    "cfo_to_parent": 0.8953388176311836,
+    "cfo_to_core": 1.2453695521164825,
+    "nonrecurring_pct_of_parent": 28.106575585570408
+  },
+  "9M2025": {
+    "revenue": 4057688490.81,
+    "net_profit_parent": 1632283985.93,
+    "net_profit_core": 1467423889.47,
+    "cfo": 1600671441.66,
+    "capex": 227859052.56
+  },
+  "TTM": {
+    "revenue": 6813044484.290001,
+    "net_profit_parent": 3840403596.0699997,
+    "net_profit_core": 2881479548.9299994,
+    "cfo": 3319666170.3600006,
+    "capex": 440491853.98999995,
+    "fcf_proxy": 2879174316.370001
+  },
+  "balance_review": {
+    "ar_change_qoq": -444200323.97,
+    "ar_change_qoq_pct": -45.57717189031384,
+    "inventory_change_qoq_pct": 17.012023804240496,
+    "net_cash_conservative": 15543849738.259998
+  },
+  "valuation": {
+    "quote_at": "20261030100851",
+    "retrieved_at": "2026-10-30T10:08:55.002631+08:00",
+    "price": 159.4,
+    "shares": 1220538021,
+    "a_share_equivalent_market_cap_yi": 1945.537605474,
+    "pe_parent_ttm": 50.65971731369398,
+    "pe_core_ttm": 67.51870254281175,
+    "pb": 8.783384465059946,
+    "fcf_proxy_yield_pct": 1.4798862320980606,
+    "q3_core_annualized_pe_reference": 48.40627554917532,
+    "prior_2027_core_profit_assumption_yi": 48,
+    "prior_2027_pe_assumption": 40,
+    "prior_growth_scenario_price": 157.3076763661097,
+    "prior_growth_scenario_discount_10_15pct": [
+      133.71152491119324,
+      141.5769087294987
+    ],
+    "implied_2027_core_pe_if_profit_48yi": 40.532033447375
+  },
+  "orders": {
+    "as_of": "2026-10-26",
+    "q4_delivery_backlog_yi": [
+      25.0,
+      27.9
+    ],
+    "growth_vs_q3_interconnect_pct": [
+      22.12994626282365,
+      36.29702002931119
+    ],
+    "status": "订单不等于已确认收入，可能取消、推迟或交付受限"
+  },
+  "vs_company_forecast": {
+    "source": "公司2026-10-21预告，不是卖方一致预期",
+    "revenue_midpoint_yi": 20.79,
+    "parent_profit_midpoint_yi": 12.5,
+    "core_profit_midpoint_yi": 10,
+    "revenue_deviation_pct": -0.003911993265992564,
+    "parent_deviation_pct": -0.8205524839999923,
+    "core_deviation_pct": 0.4796167130000084,
+    "assessment": "基本符合公司预告；未核验可靠市场一致预期"
+  },
+  "technical": {
+    "basis": "腾讯前复权，科创板成交量单位为股；仅使用完整交易日",
+    "as_of": "2026-10-29",
+    "previous_close": 166.79,
+    "moving_averages": {
+      "ma5": 170.694,
+      "ma10": 170.986,
+      "ma20": 182.696,
+      "ma60": 196.10083333333333,
+      "ma120": 222.06488333333334
+    },
+    "recent_20d_low": 157.45,
+    "low_date": "2026-10-15",
+    "current_day_incomplete": [
+      "2026-10-30",
+      "161.90",
+      "159.40",
+      "164.42",
+      "157.72",
+      "12931742"
+    ],
+    "resistance_reference": [
+      164.42,
+      166.79
+    ],
+    "note": "盘中高低点可能继续变化；均线为10月29日已完成数据，报价时间见valuation.quote_at"
+  },
+  "sources": {
+    "cancellation": {
+      "html_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688008&id=12678360",
+      "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202610291831179138_1.pdf",
+      "local_pdf": "sources/cancellation.pdf"
+    },
+    "board": {
+      "html_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688008&id=12678361",
+      "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202610291831179140_1.pdf",
+      "local_pdf": "sources/board.pdf"
+    },
+    "new_buyback": {
+      "html_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688008&id=12678362",
+      "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202610291831179135_1.pdf",
+      "local_pdf": "sources/new_buyback.pdf"
+    },
+    "2026Q3": {
+      "html_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688008&id=12678366",
+      "pdf_url": "https://pdf.dfcfw.com/pdf/H2_AN202610291831179133_1.pdf",
+      "local_pdf": "sources/2026Q3.pdf"
+    }
+  },
+  "new_disclosures": {
+    "buyback": "董事会已通过3-5亿元、2个月内回购，价格上限280元，全部拟用于员工持股或激励",
+    "wlt": "追加承诺：公司披露本次股份回购实施结果公告前不减持；11/2原窗口不能解释为必有抛售",
+    "cancellation": "拟注销676万股，占总股本0.55%，尚待股东会；不是当下已注销",
+    "total_share_denominator_change_reference_pct": 0.5569387386361369,
+    "cancellation_note": "仅为总股本分母变化的机械参照；本次不据此上调经营利润或基本EPS，注销尚未完成"
+  },
+  "limits": [
+    "没有核实卖方一致预期，不能称大幅超预期",
+    "Q3现金流部分来自应收回收，不能线性年化",
+    "新品单品收入和Q4利润未披露",
+    "订单不是收入承诺",
+    "盘中行情不是收盘确认"
+  ]
+}

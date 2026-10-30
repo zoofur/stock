@@ -1,0 +1,174 @@
+{
+  "as_of": "2026-10-29 Asia/Shanghai，Q3已于17:29在HKEX正式刊发后核对",
+  "read_only": "未修改项目；本文件为研究输出",
+  "latest_report": {
+    "status": "正式2026Q3财报，未经审计，中国企业会计准则；非业绩预告或预约",
+    "source_id": "Q3",
+    "quarter": "2026-07-01至2026-09-30",
+    "revenue_yi_cny": 87.3161094435,
+    "revenue_qoq_pct": 18.35,
+    "attributable_profit_yi_cny": 42.0890097828,
+    "attributable_profit_qoq_pct": -21.99,
+    "recurring_profit_yi_cny": 45.5092744296,
+    "recurring_profit_qoq_pct": 31.04,
+    "gross_margin_pct": 70.3233487248,
+    "gross_margin_q2_pct": 66.567,
+    "gross_margin_qoq_pp": 3.756,
+    "operating_cash_flow_yi_cny": 40.7573117182,
+    "fvtpl_gain_q3_yi_cny": -3.5005115575,
+    "inventory_end_q3_yi_cny": 62.9197470244,
+    "inventory_end_q2_yi_cny": 41.8422474831,
+    "inventory_qoq_pct": 50.37,
+    "contract_liabilities_end_q3_yi_cny": 12.3617321575,
+    "contract_liabilities_end_q2_yi_cny": 4.5236211512,
+    "contract_liabilities_qoq_pct": 173.2707,
+    "other_equity_instruments_fvoci_end_q3_yi_cny": 517.6468398073,
+    "note": "Q3直接读取主agent从HKEX下载的21页正文；Q2及部分环比以同期H1减Q1计算。季报将收入增长解释为存储量价齐升和MCU等出货增长，未给DRAM/NOR单独销量、ASP或毛利率。"
+  },
+  "confirmed_events": [
+    {
+      "date": "2026-10-20",
+      "disclosed_date": "2026-10-21(A股)；2026-10-20(H股)",
+      "event": "第四次临时股东会通过关联采购额度议案",
+      "result": "同意89634555票、99.1574%；朱一明回避表决，InfoGrid未参投。审批状态由待股东会变为已通过。",
+      "annual_2026_cap_yi_cny": 78.54,
+      "previous_cap_yi_cny": 57.11,
+      "increase_yi_cny": 21.43,
+      "increase_pct": 37.52,
+      "jan_apr_2027_cap_yi_cny": 44.11,
+      "source_ids": ["EGM", "PROCUREMENT"],
+      "interpretation": "本年度上调主要因DRAM代工价格随市况上行；2027年前四月兼有利基DRAM及定制项目新品。预算不含税，不能当已执行采购、客户订单或出货量增幅。"
+    },
+    {
+      "date": "2026-11-17 09:00—10:00",
+      "announced_date": "2026-10-29",
+      "event": "2026Q3业绩说明会，SSE路演中心线上互动",
+      "source_id": "Q3_BRIEFING",
+      "interpretation": "未来安排，尚未发生；可关注售价与成本、库存结构、青耘量产和投资公允价值。不能写成今天已开会的新指引。"
+    }
+  ],
+  "company_price_guidance": {
+    "source_id": "IR_2026003",
+    "meeting_date": "2026-08-18",
+    "disclosed_date": "2026-08-24",
+    "verified_pdf": true,
+    "guidance": [
+      "下半年利基DRAM价格预计温和上行，2027年预计高位震荡；属于当时管理层展望。",
+      "NOR价格预计温和上涨，大容量涨幅更明显；SLC紧缺被预计延续至2027年全年。",
+      "售价与供应成本同时上行，预期毛利率逐渐平稳；Q3实际毛利仍上升，证明本季表现强于这项保守表述，但不能直接外推Q4。",
+      "青耘2026贡献收入、2027多端侧AI客户量产为展望，不等于已披露订单或量产收入。",
+      "公司明确建议看扣非利润环比，FVTPL账面变化可能扰动归母。"
+    ],
+    "superseded_item": "8月交流预期全年约57亿元DRAM代工采购，已被9/29公告、10/20批准的78.54亿元新额度取代。",
+    "coverage_gap": "截至本轮未核实到8/24以后已发生的新的业绩交流实录；不据此断言不存在。"
+  },
+  "causal_chains": [
+    {
+      "id": "主营兑现",
+      "chain": "存储供给偏紧、公司量价齐升 → Q3收入环比+18.35%、毛利再升3.76pp → 扣非利润环比+31.04%，形成后续盈利支撑。归母却环比-21.99%，主要需结合公允价值扰动理解。",
+      "direction": "主营趋势偏正；若仅看归母下降，会低估本季经营改善。",
+      "risk_and_test": "Q4能否维持70.32%毛利、扣非与现金兑现，才决定盈利能否继续上修；Q3高增长不保证股价立即反转。",
+      "source_ids": ["Q3", "IR_2026003"]
+    },
+    {
+      "id": "成本与备货",
+      "chain": "长鑫代工涨价 → 采购额度提高37.52%且股东会已批准 → 既保障供应，也抬升成本和资金占用。Q3库存环比+50.37%，快于收入增长，需要跟踪成本能否继续传导。",
+      "direction": "对供货与扩张有利，对未来毛利存在压力。",
+      "risk_and_test": "合同负债同期环比+173.27%，不能把库存增长单独定性为滞销；但合同负债也非可直接计入收入的确定订单。需库存中原料/在制/成品结构、库龄及ASP/成本拆分，现有季报不足以证明单价或出货量继续高增。",
+      "source_ids": ["Q3", "H1", "PROCUREMENT", "EGM"]
+    },
+    {
+      "id": "价格周期与需求约束",
+      "chain": "先进AI需求吸走供给、利基供应不足 → 同业已兑现高ASP；南亚Q3售价环比>60%而bit出货下降中个位数，主要涨幅来自长协续约 → 证明价格驱动强，也提示不能把销售增长全当出货扩张。高价还会促使一般应用降规格/延长换机周期。",
+      "direction": "短期行业价格支撑仍在，持续需求与销量并非单向上升。",
+      "risk_and_test": "南亚为IDM、产品和合约结构不同，不可把其涨价和85.7%毛利率套给兆易。NOR分容量：华邦官方8/6支持高容量紧缺；TrendForce9/14对256Mb以上H2涨90—110%、128Mb以下Q4涨10—20%的数字属于第三方预测，非兆易已实现ASP。",
+      "source_ids": ["NANYA_Q3_RELEASE", "NANYA_Q3_SLIDES", "WINBOND_Q2", "TRENDFORCE_NOR"]
+    },
+    {
+      "id": "利润与资产重估分离",
+      "chain": "股权投资市场估值波动 → FVTPL影响归母，FVOCI影响其他综合收益和净资产 → Q3可以同时出现主营扣非改善、归母环比下降、PB明显降低。",
+      "direction": "应分别估主营持续盈利与非经营资产，避免把账面升值当经营成长或可分配现金。",
+      "risk_and_test": "Q3其他权益工具账面517.65亿元是合并项目总额，不宜全指认为长鑫单一标的；Q3未给完整逐项估值分解。未实现FVOCI可回撤、也不等于即时变现。旧研报及网页预测应标日期、样本与归母/扣非口径，不称严格一致预期。",
+      "source_ids": ["Q3", "H1", "IR_2026003"]
+    }
+  ],
+  "sources": {
+    "Q3": {
+      "date": "2026-10-29",
+      "type": "公司正式季报/HKEX",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900756.pdf",
+      "chinese_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900757_c.pdf",
+      "local_verified_text": "/private/tmp/gd-earnings-20261029/2026Q3.txt",
+      "pages": "3—6、10—17；全篇21页",
+      "access": "主agent本轮取得PDF，本agent已读本地全文；web工具未能直接解析该URL。"
+    },
+    "H1": {
+      "date": "2026-08-19",
+      "type": "公司正式中报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480384.PDF",
+      "local_verified_text": "/private/tmp/gd-earnings-20261029/2026H1.txt",
+      "use": "H1库存41.8422亿元及合同负债4.5236亿元作为Q3环比基数"
+    },
+    "PROCUREMENT": {
+      "date": "2026-09-29披露，10/20会议资料",
+      "type": "公司原始议案/巨潮",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-09-29/1225584774.PDF",
+      "pages": "4—8",
+      "access": "已打开并读原PDF",
+      "use": "年度代工额度78.54亿元，2027年前四月44.11亿元；涨价为主要原因"
+    },
+    "EGM": {
+      "date": "2026-10-20表决；2026-10-21 A股披露",
+      "type": "公司股东会决议/交易所；正文镜像交叉验证",
+      "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-10-21/603986_20261021_KPVV.pdf",
+      "text_mirror": "https://www.cfi.net.cn/p20261020002346.html",
+      "a_share_text_mirror": "https://www.cnfin.com/announ/detail/index.html?announ=lc&code=603986&dannoun=lcdetail&id=845839659890",
+      "access": "官方URL由公告参考链接定位，但SSE防爬返回HTML；H股原公告镜像正文及A股索引全文均已读，99.1574%一致。"
+    },
+    "IR_2026003": {
+      "date": "2026-08-18交流；2026-08-24披露",
+      "type": "公司交流实录原PDF，同花顺承载；前瞻表述非财报承诺",
+      "url": "https://notice.10jqka.com.cn/api/pdf/5404183b9ce1f29b.pdf",
+      "text_mirror": "https://m.10jqka.com.cn/sn/20260824/59422697.shtml",
+      "access": "已下载到内存、读取全部5页；未改项目文件",
+      "pages": "2—5"
+    },
+    "Q3_BRIEFING": {
+      "date": "2026-10-29",
+      "type": "公司正式未来业绩说明会安排/HKEX",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900782.pdf",
+      "chinese_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900783_c.pdf",
+      "local_verified_text": "/private/tmp/gd-earnings-20261029/Q3_briefing.txt",
+      "use": "已读3页全文，确认11/17 9:00—10:00说明会"
+    },
+    "NANYA_Q3_RELEASE": {
+      "date": "2026-10-12",
+      "type": "厂商官方已实现业绩，未经审计",
+      "url": "https://www.nanya.com/en/IR/16/Press%20Release?IRId=14188",
+      "use": "Q3 ASP环比>60%、bit出货中个位数下降、毛利85.7%；不同公司不直接类推"
+    },
+    "NANYA_Q3_SLIDES": {
+      "date": "2026-10-12",
+      "type": "厂商官方法说材料，包含未来展望",
+      "url": "https://www.nanya.com/en/Activity?Action=IR_investorcalendar_FileName&Id=5298&column=Presentation",
+      "landing_page": "https://www.nanya.com/en/IR/14/Investor%20Calendar?IRId=5298",
+      "access": "已读取原PDF全部18页",
+      "pages": "7（涨价主要来自长协续约）；13（高价使客户降规格或延长周期）；15—16（预期出货持平至新厂2027Q4产出）"
+    },
+    "WINBOND_Q2": {
+      "date": "2026-08-06",
+      "type": "厂商官方既有法说材料，不是Q3新指引",
+      "url": "https://www.winbond.com/export/sites/winbond/about-winbond/investor/investor-conference/2Q26-investor-conference_EN_Final.pdf",
+      "pages": "21—22",
+      "use": "高容量NOR需求超供给、SLC紧缺、DDR4出货供应收缩；11/3才举行Q3法说，不能冒充已发生",
+      "q3_calendar_url": "https://www.winbond.com/hq/about-winbond/investor/investor-conference/?__locale=en"
+    },
+    "TRENDFORCE_NOR": {
+      "date": "2026-09-14",
+      "type": "第三方研究机构自身原始预测，非厂商实际成交数据",
+      "url": "https://www.trendforce.com/presscenter/news/20260914-13235.html",
+      "use": "NOR高低容量价格路径分化；具体涨幅仅作为外部预测，不称兆易ASP或严格一致预期"
+    }
+  },
+  "conclusion": "Q3正式财报强化主营盈利仍向上的判断；代工涨价和库存积累使Q4毛利持续性更关键。行业涨价有厂商实绩支撑，但价格驱动、长协换价与需求降规格并存，不能外推销量或股价单边上行。"
+}

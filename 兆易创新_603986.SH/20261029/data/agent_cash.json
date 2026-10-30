@@ -1,0 +1,291 @@
+{
+  "as_of": "2026-10-29",
+  "latest_report": "2026Q3, published October 29, unaudited PRC GAAP",
+  "unit": "CNY unless key ends with pct or pp",
+  "verification": "本轮重新打开Q1/H1巨潮原文；Q3读取主agent本轮从HKEX下载的PDF提取全文2026Q3.txt，21页。未复用10月9日分析数据作为当前证据。",
+  "sources": [
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225257883.PDF",
+      "pages": "1, 5–10",
+      "use": "Q1归母/扣非/CFO、合并利润表营业成本与公允价值收益、资产负债表"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480384.PDF",
+      "pages": "6, 47–56, 94–95, 112–113, 138, 143",
+      "use": "H1累计数据、现金桥、FVOCI及FVTPL分类及标的"
+    },
+    {
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900756.pdf",
+      "pages": "3–6, 10–21",
+      "use": "Q3单季披露与9M累计合并报表；Q3毛利率按累计差额计算"
+    }
+  ],
+  "periods": {
+    "2026Q1": {
+      "revenue": 4188075574.04,
+      "cost": 1797659470.9,
+      "attributable_np": 1461248353.08,
+      "deducted_np": 1410064284.2,
+      "cfo": 1783057278.72,
+      "fair_value_gain": 40858139.94,
+      "investment_income": -7396870.54,
+      "consolidated_np": 1472515257.26,
+      "gross_profit": 2390416103.14,
+      "gross_margin_pct": 57.076718432616545,
+      "deducted_net_margin_pct": 33.668549176627934,
+      "cfo_to_deducted_np_pct": 126.45219786781689,
+      "cfo_to_attributable_np_pct": 122.0228768752208,
+      "cfo_to_revenue_pct": 42.57462042405279,
+      "nonrecurring_attributable_np": 51184068.88
+    },
+    "2026Q2": {
+      "revenue": 7377684858.11,
+      "cost": 2466584248.37,
+      "attributable_np": 5395538060.6,
+      "deducted_np": 3472969194.73,
+      "cfo": 4265283778.34,
+      "fair_value_gain": 2187086919.23,
+      "investment_income": -427584.8,
+      "consolidated_np": 5412483761.65,
+      "gross_profit": 4911100609.74,
+      "gross_margin_pct": 66.56696110218667,
+      "deducted_net_margin_pct": 47.07397051410106,
+      "cfo_to_deducted_np_pct": 122.81375212922374,
+      "cfo_to_attributable_np_pct": 79.05205617001407,
+      "cfo_to_revenue_pct": 57.81330946457195,
+      "nonrecurring_attributable_np": 1922568865.87
+    },
+    "2026H1": {
+      "revenue": 11565760432.15,
+      "cost": 4264243719.27,
+      "attributable_np": 6856786413.68,
+      "deducted_np": 4883033478.93,
+      "cfo": 6048341057.06,
+      "fair_value_gain": 2227945059.17,
+      "investment_income": -7824455.34,
+      "consolidated_np": 6884999018.91,
+      "capex": 945105427.08,
+      "financial_investment_cash_paid": 4348868937.11,
+      "inventory": 4184224748.31,
+      "ar": 435689503.57,
+      "ap": 1649350170.94,
+      "contract_liabilities": 452362115.12,
+      "prepayments": 125555502.21,
+      "cash_bank": 16964598373.16,
+      "cash_equivalents": 13929445789.18,
+      "fvoci_assets": 11437360730.29,
+      "fvtpl_noncurrent": 2984128403.73,
+      "trading_assets": 472401818.21,
+      "fvtpl_liability": 2987785.67,
+      "net_oci_equity_change": 6978143715.81,
+      "assets": 42405173401.79,
+      "gross_profit": 7301516712.88,
+      "gross_margin_pct": 63.130450917724005,
+      "deducted_net_margin_pct": 42.2197356375838,
+      "cfo_to_deducted_np_pct": 123.86441918037698,
+      "cfo_to_attributable_np_pct": 88.20955899972228,
+      "cfo_to_revenue_pct": 52.29523032698381,
+      "nonrecurring_attributable_np": 1973752934.75
+    },
+    "2026Q3": {
+      "revenue": 8731610944.35,
+      "cost": 2591249730.66,
+      "attributable_np": 4208900978.28,
+      "deducted_np": 4550927442.96,
+      "cfo": 4075731171.82,
+      "fair_value_gain": -350051155.75,
+      "investment_income": -4847728.98,
+      "consolidated_np": 4236466071.04,
+      "gross_profit": 6140361213.69,
+      "gross_margin_pct": 70.32334872482231,
+      "deducted_net_margin_pct": 52.12013535606265,
+      "cfo_to_deducted_np_pct": 89.55825428781338,
+      "cfo_to_attributable_np_pct": 96.83599573505715,
+      "cfo_to_revenue_pct": 46.67788335733511,
+      "nonrecurring_attributable_np": -342026464.68
+    },
+    "2026_9M": {
+      "revenue": 20297371376.5,
+      "cost": 6855493449.93,
+      "attributable_np": 11065687391.96,
+      "deducted_np": 9433960921.89,
+      "cfo": 10124072228.88,
+      "fair_value_gain": 1877893903.42,
+      "investment_income": -12672184.32,
+      "consolidated_np": 11121465089.95,
+      "capex": 1404275936.57,
+      "financial_investment_cash_paid": 6505767349.45,
+      "inventory": 6291974702.44,
+      "ar": 599663920.58,
+      "ap": 1814292666.42,
+      "contract_liabilities": 1236173215.75,
+      "prepayments": 140034726.38,
+      "cash_bank": 18860394865.64,
+      "cash_equivalents": 14962439626.46,
+      "fvoci_assets": 51764683980.73,
+      "fvtpl_noncurrent": 2782331751.53,
+      "trading_assets": 808782959.16,
+      "fvtpl_liability": 401633.69,
+      "net_oci_equity_change": 43000905435.24,
+      "assets": 87654926728.13,
+      "attributable_equity": 76828535308.48,
+      "gross_profit": 13441877926.57,
+      "gross_margin_pct": 66.22472278421634,
+      "deducted_net_margin_pct": 46.47873237818618,
+      "cfo_to_deducted_np_pct": 107.31518089489545,
+      "cfo_to_attributable_np_pct": 91.49067627046693,
+      "cfo_to_revenue_pct": 49.87873572930484,
+      "nonrecurring_attributable_np": 1631726470.07
+    }
+  },
+  "q3_qoq": {
+    "revenue": 18.351638925748958,
+    "deducted_np": 31.038520291678083,
+    "attributable_np": -21.99293321615532,
+    "cfo": -4.444079605736617
+  },
+  "q3_gross_margin_change_pp": 3.7563876226356427,
+  "balance_changes": {
+    "inventory": {
+      "2026_06_30": 4184224748.31,
+      "2026_09_30": 6291974702.44,
+      "change": 2107749954.13,
+      "growth_pct": 50.37372705616055
+    },
+    "ar": {
+      "2026_06_30": 435689503.57,
+      "2026_09_30": 599663920.58,
+      "change": 163974417.01,
+      "growth_pct": 37.6356133591488
+    },
+    "ap": {
+      "2026_06_30": 1649350170.94,
+      "2026_09_30": 1814292666.42,
+      "change": 164942495.48,
+      "growth_pct": 10.000453414085841
+    },
+    "contract_liabilities": {
+      "2026_06_30": 452362115.12,
+      "2026_09_30": 1236173215.75,
+      "change": 783811100.63,
+      "growth_pct": 173.27072149312838
+    },
+    "prepayments": {
+      "2026_06_30": 125555502.21,
+      "2026_09_30": 140034726.38,
+      "change": 14479224.17,
+      "growth_pct": 11.532130344859382
+    },
+    "cash_bank": {
+      "2026_06_30": 16964598373.16,
+      "2026_09_30": 18860394865.64,
+      "change": 1895796492.48,
+      "growth_pct": 11.175015469151184
+    },
+    "cash_equivalents": {
+      "2026_06_30": 13929445789.18,
+      "2026_09_30": 14962439626.46,
+      "change": 1032993837.28,
+      "growth_pct": 7.415900480996873
+    },
+    "fvoci_assets": {
+      "2026_06_30": 11437360730.29,
+      "2026_09_30": 51764683980.73,
+      "change": 40327323250.44,
+      "growth_pct": 352.5929119612325
+    },
+    "fvtpl_noncurrent": {
+      "2026_06_30": 2984128403.73,
+      "2026_09_30": 2782331751.53,
+      "change": -201796652.2,
+      "growth_pct": -6.762331404632748
+    },
+    "trading_assets": {
+      "2026_06_30": 472401818.21,
+      "2026_09_30": 808782959.16,
+      "change": 336381140.95,
+      "growth_pct": 71.20657202899802
+    }
+  },
+  "cash_analysis": {
+    "q3_capex_proxy": 459170509.4899999,
+    "q3_cfo_less_capex_proxy": 3616560662.3300004,
+    "9m_cfo_less_capex_proxy": 8719796292.31,
+    "capex_proxy_note": "购建固定资产、无形资产和其他长期资产支付的现金；该FCF简化口径不含金融投资及收购，不能视为可分配现金。",
+    "q3_financial_investment_cash_paid": 2156898412.34,
+    "q3_contract_liability_increase": 783811100.63,
+    "simple_trade_wc_increase_q3": 1337449999.1999998,
+    "working_capital_note": "仅按存货+应收+预付−应付−合同负债的期末余额变化估算，非完整现金流桥；汇率、非现金及其他应收应付均可造成差异，Q3未提供补充现金桥。",
+    "h1_reported_cash_bridge": {
+      "inventory_cash_drag": -1203189964.34,
+      "operating_receivables_cash_drag": -130666393.0,
+      "operating_payables_cash_support": 1946431361.6,
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-19/1225480384.PDF",
+      "page": 143
+    }
+  },
+  "financial_assets": {
+    "as_of": "2026-09-30",
+    "FVTPL_trading": {
+      "balance": 808782959.16,
+      "accounting": "公允价值变动计入当期损益",
+      "source_pages": "Q3 p10；H1分类确认p94–95"
+    },
+    "FVTPL_noncurrent": {
+      "balance": 2782331751.53,
+      "accounting": "公允价值变动计入当期损益",
+      "source_pages": "Q3 p11；H1分类确认p113"
+    },
+    "FVOCI_other_equity": {
+      "balance": 51764683980.73,
+      "pct_of_assets": 59.05507643772613,
+      "pct_of_attributable_equity": 67.37689814453152,
+      "accounting": "非交易性权益工具投资公允价值变动计入OCI，不重分类进损益；股利另按规则处理。",
+      "source_pages": "Q3 p11、p17；H1 p112"
+    },
+    "equity_method_longterm": {
+      "balance": 1123240659.54,
+      "9m_associates_income": -14557657.72,
+      "accounting": "权益法确认损益，不是按公开股价变动重估当期利润",
+      "source_pages": "Q3 p11、p16"
+    },
+    "H1_named_holdings_mapping_only": {
+      "FVOCI": [
+        "长鑫科技（当时未上市，H1 p14、112）",
+        "翱捷科技",
+        "精智达",
+        "埃泰克"
+      ],
+      "FVTPL_noncurrent": [
+        "强一股份",
+        "联讯仪器",
+        "中科仪",
+        "臻宝科技"
+      ],
+      "FVTPL_trading": [
+        "曦智科技",
+        "理财产品"
+      ],
+      "source_pages": "H1 p14、18、94–95、112–113",
+      "limit": "Q3未逐项披露持仓，不能把H1名单和各标的H1账面价值当作9月30日持仓明细，也不能把517.65亿元全算成长鑫价值。"
+    },
+    "q3_profit_fv_change": -350051155.75,
+    "9m_profit_fv_change": 1877893903.42,
+    "9m_other_equity_fv_change_net_tax_OCI": 43000905435.24,
+    "q3_other_equity_fv_change_net_tax_OCI": 36022761719.43,
+    "9m_total_oci_net_tax_parent": 42937635250.16,
+    "asset_profit_warning": "9M430.01亿元权益工具浮盈进入OCI，不能加到110.66亿元归母利润或CFO；Q3公允价值变动收益反为-3.50亿元。P/B账面净资产大幅增长不等于主营资本回报同步改善。"
+  },
+  "conclusions": [
+    "主营继续加速：Q3营收环比+18.35%、扣非归母+31.04%、毛利率70.32%较Q2+3.76pp。扣非仍非分部主营利润，不能等同纯芯片经营净利。",
+    "表观归母环比下降21.99%，主因公允价值变动由Q2+21.87亿元转Q3-3.50亿元；Q3扣非高于归母3.42亿元，不能把净利润下降直接解读成主营下滑。",
+    "Q3现金转换弱于Q2：CFO环比-4.44%，CFO/扣非89.56%，低于Q2 122.81%；9M仍107.32%。库存季度增50.37%明显快于收入增18.35%，新增合同负债7.84亿元及其他经营应付对现金有支撑，需跟踪备货兑现与回款。",
+    "期末大额FVOCI资产占总资产59.06%、归母净资产67.38%；市场估值波动会显著改变OCI/账面净资产，但不是直接当期利润。FVTPL交易性及非流动金融资产合计35.91亿元，才是直接公允价值损益风险资产池。"
+  ],
+  "limitations": [
+    "Q3未经审计、采用中国企业会计准则。",
+    "Q3未披露存货构成/减值准备及分产品毛利；不能由合并报表断定DRAM单品毛利或全部库存为涨价投机备货。",
+    "9M资产减值损失1.1231亿元、Q3差额4252.43万元；科目可能包含多种资产，不能全当存货跌价。",
+    "现金流/归母与现金流/扣非均存在合并CFO包含少数股东的口径差异，用作近似现金质量指标。"
+  ]
+}

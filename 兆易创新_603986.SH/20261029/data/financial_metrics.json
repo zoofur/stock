@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-10-29 17:45 Asia/Shanghai",
+  "filing_published": "2026-10-29 17:29 Asia/Shanghai",
+  "quote": {
+    "name": "兆易创新",
+    "price": "275.99",
+    "prev_close": "289.88",
+    "open": "285.00",
+    "timestamp": "20261029161453",
+    "change_pct": "-4.79",
+    "high": "288.88",
+    "low": "273.99",
+    "amount_wan": "991256",
+    "turnover": "5.28",
+    "pe_ttm": "24.50",
+    "float_cap_yi": "1851.12",
+    "cap_yi": "1942.89",
+    "pb": "5.18",
+    "volume_ratio": "1.01"
+  },
+  "price_basis": "A股收盘价格×2026-09-30全部A/H普通股股数，非混合A/H实际市值；未扣未来回购注销",
+  "shares": 703971427,
+  "a_price_equivalent_equity_yi": 1942.8907413773002,
+  "profit_ttm_yi": 116.30482163619999,
+  "core_ttm_yi": 98.61025282669998,
+  "reported_pe_recomputed": 16.70516074952282,
+  "core_pe_recomputed": 19.702725484253477,
+  "pb_recomputed": 2.5288660438159525,
+  "api_pe_pre_release": 24.5,
+  "api_pb_pre_release": 5.18,
+  "q3_nonrecurring_yi": -3.4202646467999984,
+  "q2_nonrecurring_yi": 19.225688658700005,
+  "q3_core_change_yi": 10.7795824823,
+  "q3_nonrecurring_change_yi": -22.6459533055,
+  "normalized_annual_core_sensitivity": [
+    {
+      "annual_core_profit_yi": 60,
+      "pe_at_current_price": 32.38151235628833
+    },
+    {
+      "annual_core_profit_yi": 80,
+      "pe_at_current_price": 24.28613426721625
+    },
+    {
+      "annual_core_profit_yi": 100,
+      "pe_at_current_price": 19.428907413773
+    }
+  ],
+  "annualized_9m_core_profit_yi": 125.78614562519999,
+  "annualized_9m_core_pe": 15.445983591598832,
+  "sensitivity_note": "仅反推估值对周期利润的敏感性，非盈利预测；没有给情景赋概率",
+  "latest_filing_sources": [
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900757_c.pdf",
+    "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900756.pdf"
+  ],
+  "history_sources": [
+    "https://static.cninfo.com.cn/finalpage/2026-03-31/1225061352.PDF",
+    "https://static.cninfo.com.cn/finalpage/2025-10-29/1224754267.PDF"
+  ],
+  "consensus": null,
+  "consensus_note": "未获得完整同口径一致预期；禁用工具缺省95%实际数作为伪共识的逻辑，不判断beat/miss"
+}

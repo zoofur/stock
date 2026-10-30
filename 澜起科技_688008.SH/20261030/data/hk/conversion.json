@@ -1,0 +1,32 @@
+{
+  "ticker": "06809.HK",
+  "name": "澜起科技",
+  "quote_at": "2026/10/30 10:16:11",
+  "price_hkd": 211.0,
+  "quote_source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk06809,day,,,320,qfq",
+  "quote_basis": "K线响应内qt快照；单独quote接口HK字段缓存为10:01，未采用",
+  "a_price_cny": 161.6,
+  "a_quote_at": "20261030101609",
+  "hkd_to_cny": 0.8489036409,
+  "fx_time": "10:15:52",
+  "h_price_cny": 179.1186682299,
+  "h_premium_to_a_pct": 10.84076004325496,
+  "h_price_equivalent_pe_parent": 56.92660663821878,
+  "h_price_equivalent_pe_core": 75.87114228406024,
+  "pe_basis": "H股价折人民币乘总A+H股本，再除集团TTM利润；不等于A/H分别定价的实际总市值PE",
+  "prior_growth_scenario_hkd": 185.30686969292947,
+  "discount_10_15pct_hkd": [
+    157.51083923899003,
+    166.7761827236365
+  ],
+  "scenario_assumptions": "2027扣非48亿元、PE40倍、股本12.20538亿；非公司指引，未额外假设H股溢价",
+  "technical_as_of": "2026-10-29",
+  "recent_20d_low_hkd": 198.5,
+  "low_date": "2026-10-15",
+  "previous_close": 215.0,
+  "current_day_high": 221.2,
+  "current_day_low": 207.2,
+  "ma5": 215.32000000000002,
+  "ma10": 212.24,
+  "ma20": 243.57
+}

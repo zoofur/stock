@@ -1,0 +1,16 @@
+{
+  "report_as_of": "2026-10-29 17:45 Asia/Shanghai",
+  "filing_published": "2026-10-29 17:29 Asia/Shanghai",
+  "raw_pdf_byte_equality": true,
+  "sha256": {
+    "2026年第三季度报告.pdf": "7b7d7e341603f43eb75aa64dfc703c8c1efc6f0b60bb82a94e65d9a59b0a7da4",
+    "2026Q3英文原文.pdf": "711c57035eb9a06cc77da0f51fa359e57e40a6a77f65bc1c682141738e21fa93",
+    "三季度业绩说明会公告.pdf": "36bd35d0241bfd4ef2ac96dad0f9d26d723e9f16305c2854005ca14e8c2cd5c8",
+    "财报解读.md": "624c7ae3bd79983dee73d606f41e9471e851280c401ae4f39f9c9a278752e62d"
+  },
+  "quarter_reconciliation": "Q3披露的归母/扣非与9M-H1完全一致",
+  "quote_crosscheck": "腾讯和新浪均275.99；腾讯日线亦一致",
+  "history_basis": "FY2025 + 9M2026 - 9M2025；股本703971427",
+  "consensus_status": "未取得严格同口径共识，不输出超预期判断",
+  "pipeline_scope": "earnings update; no fabricated consensus or old 66-person score reused"
+}
