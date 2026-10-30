@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="5 家公司的股票研究归档。按公司与日期查阅深度分析、财报更新和专题研究，以及原始来源与估值底稿。">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>研究档案 | 股票研究归档</title>
+  <link rel="icon" href="data:,">
+  <style>
+/* Hallmark · shape: app screen · genre: modern-minimal · theme: Furrow (adapted to approved navy ink and system fonts)
+ * nav: wordmark and repository link · footer: archive note and top link · signature: dated company research ledger
+ * states: full, filtered, empty, no-script · axes: light/system-sans/warm · posture: restrained · imagery: none · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H5 E4 S5 R5 V4 · weakest: execution, verify dense report rows at phone widths */
+:root {
+  color-scheme: light;
+  --color-paper: oklch(97.5% 0.006 85);
+  --color-paper-2: oklch(99% 0.003 85);
+  --color-paper-3: oklch(94.5% 0.009 85);
+  --color-ink: oklch(28% 0.035 250);
+  --color-ink-2: oklch(37% 0.028 250);
+  --color-muted: oklch(48% 0.018 250);
+  --color-rule: oklch(88% 0.009 85);
+  --color-field-border: oklch(62% 0.012 250);
+  --color-accent: oklch(40% 0.075 250);
+  --color-accent-ink: oklch(99% 0.003 85);
+  --color-focus: oklch(46% 0.14 250);
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-display: var(--font-body);
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --content-width: 1120px;
+  --radius-control: 6px;
+  --control-size: 44px;
+  --text-small: 13px;
+  --text-label: 14px;
+  --text-body: 16px;
+  --text-title: 18px;
+  --text-company: 21px;
+  --text-display: 38px;
+}
+* { box-sizing: border-box; }
+* { scrollbar-color: var(--color-field-border) var(--color-paper); }
+::selection { background: var(--color-accent); color: var(--color-accent-ink); }
+html, body { overflow-x: clip; }
+html { scroll-padding-top: var(--space-lg); }
+body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-body); font-size: var(--text-body); line-height: 1.6; font-synthesis: none; }
+button, input, select { font: inherit; }
+button, select, summary { cursor: pointer; }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a, button, input, select, summary { -webkit-tap-highlight-color: transparent; }
+:where(a, button, input, select, summary):focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+button:disabled, input:disabled, select:disabled { opacity: 0.55; cursor: not-allowed; }
+button:active, .read-link:active { transform: translateY(1px); }
+[hidden] { display: none !important; }
+h1, h2, h3, p { margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; overflow-wrap: break-word; min-width: 0; }
+p { text-wrap: pretty; }
+.shell { width: calc(100% - var(--space-xl) * 2); max-width: var(--content-width); margin-inline: auto; }
+.skip { position: absolute; inset: var(--space-xs) auto auto var(--space-xs); z-index: 10; padding: var(--space-xs) var(--space-md); background: var(--color-ink); color: var(--color-accent-ink); transform: translateY(-160%); }
+.skip:focus-visible { transform: none; }
+.site-header { border-bottom: 1px solid var(--color-rule); }
+.nav { min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: var(--space-lg); }
+.brand { font-size: 19px; font-weight: 600; text-decoration: none; }
+.repo-link { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: var(--control-size); font-size: var(--text-label); color: var(--color-muted); text-decoration: none; }
+.repo-link:hover, .repo-link:active { color: var(--color-accent); }
+.icon { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.intro { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-xl); padding-block: var(--space-2xl) var(--space-xl); }
+h1 { font-size: var(--text-display); line-height: 1.3; letter-spacing: -0.035em; }
+.intro-copy { margin-top: var(--space-sm); color: var(--color-muted); }
+.overview { display: flex; gap: var(--space-lg); align-items: center; flex-shrink: 0; padding-bottom: var(--space-2xs); font-size: var(--text-label); color: var(--color-muted); }
+.overview span + span { border-left: 1px solid var(--color-rule); padding-left: var(--space-lg); }
+.overview strong { color: var(--color-ink); font-size: 22px; font-weight: 500; font-variant-numeric: tabular-nums; margin-right: var(--space-2xs); }
+.filters { margin-bottom: var(--space-lg); }
+.search-row { display: flex; gap: var(--space-sm); }
+.search-field { position: relative; flex: 1; min-width: 0; }
+.search-field .icon { position: absolute; inset: 12px auto auto var(--space-md); color: var(--color-muted); pointer-events: none; }
+input[type="search"] { appearance: none; width: 100%; min-height: var(--control-size); border: 1px solid var(--color-field-border); border-radius: var(--radius-control); background: var(--color-paper-2); color: var(--color-ink); caret-color: var(--color-accent); padding: var(--space-xs) var(--space-md) var(--space-xs) 48px; }
+input::placeholder { color: var(--color-muted); opacity: 1; }
+input:hover, select:hover { border-color: var(--color-ink-2); }
+input:focus-visible, select:focus-visible { outline-offset: 2px; }
+.sort-field { display: flex; align-items: center; gap: var(--space-xs); }
+select { min-height: var(--control-size); max-width: 100%; border: 1px solid var(--color-field-border); border-radius: var(--radius-control); background: var(--color-paper-2); color: var(--color-ink-2); padding-inline: var(--space-sm); font-size: var(--text-label); }
+.filter-bottom { display: flex; align-items: center; justify-content: space-between; gap: var(--space-md); margin-top: var(--space-lg); }
+.type-filters { display: flex; flex-wrap: wrap; gap: var(--space-2xs); }
+.filter { border: 0; border-radius: var(--radius-control); padding: var(--space-xs) var(--space-sm); min-height: var(--control-size); background: transparent; color: var(--color-muted); font-size: var(--text-label); }
+.filter:hover { background: var(--color-paper-3); }
+.filter[aria-pressed="true"] { background: var(--color-ink); color: var(--color-accent-ink); }
+.filter-count { margin-left: var(--space-xs); font-variant-numeric: tabular-nums; }
+.result-count { color: var(--color-muted); font-size: var(--text-small); white-space: nowrap; }
+.archive { border-top: 1px solid var(--color-ink-2); }
+.company { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: var(--space-xl); border-bottom: 1px solid var(--color-rule); }
+.company-heading { padding-block: 28px var(--space-lg); }
+h2 { font-size: var(--text-company); line-height: 1.5; }
+.company-code { margin-top: var(--space-2xs); font-size: var(--text-small); color: var(--color-muted); font-variant-numeric: tabular-nums; }
+.company-count { display: block; margin-top: var(--space-sm); color: var(--color-muted); font-size: var(--text-small); }
+.report { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; align-items: start; gap: var(--space-lg); padding-block: var(--space-lg); border-bottom: 1px solid var(--color-rule); }
+.report:last-child { border-bottom: 0; }
+.report-date { padding-top: var(--space-2xs); font-variant-numeric: tabular-nums; line-height: 1.5; }
+.date-year { display: block; color: var(--color-muted); font-size: var(--text-small); }
+.date-day { display: block; font-size: 19px; color: var(--color-ink-2); }
+.report-body { min-width: 0; }
+.report-heading { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-xs) var(--space-sm); }
+h3 { font-size: var(--text-title); line-height: 1.6; }
+h3 a { text-decoration: none; }
+h3 a:hover { color: var(--color-accent); text-decoration: underline; }
+.report-type { color: var(--color-muted); background: var(--color-paper-3); border-radius: 4px; padding: 2px var(--space-xs); font-size: 12px; white-space: nowrap; }
+.report-code { color: var(--color-muted); font-size: var(--text-small); }
+.report-summary { margin-top: var(--space-xs); color: var(--color-muted); font-size: var(--text-body); line-height: 1.7; }
+.read-link { display: inline-flex; align-items: center; justify-content: center; min-height: var(--control-size); padding-inline: var(--space-md); margin-top: var(--space-2xs); border: 1px solid var(--color-rule); border-radius: var(--radius-control); font-size: var(--text-label); font-weight: 500; text-decoration: none; white-space: nowrap; }
+.read-link:hover { border-color: var(--color-accent); }
+.materials { margin-top: var(--space-2xs); color: var(--color-muted); font-size: var(--text-small); }
+.materials summary { display: list-item; width: fit-content; min-height: var(--control-size); padding-block: var(--space-sm); }
+.materials summary:hover, .materials summary:active { color: var(--color-accent); }
+.materials ul { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-md); padding: 0 0 var(--space-xs); margin: 0; list-style: none; font-size: var(--text-label); }
+.materials a { display: inline-flex; align-items: center; min-height: var(--control-size); color: var(--color-accent); }
+.materials a:hover, .materials a:active { text-decoration-thickness: 2px; }
+.empty { padding-block: var(--space-2xl); text-align: center; border-top: 1px solid var(--color-rule); }
+.empty p { margin-block: var(--space-sm) var(--space-lg); color: var(--color-muted); }
+.clear { border: 1px solid var(--color-field-border); border-radius: var(--radius-control); background: var(--color-paper-2); color: var(--color-ink); min-height: var(--control-size); padding-inline: var(--space-md); }
+.clear:hover { border-color: var(--color-accent); }
+.site-footer { display: flex; justify-content: space-between; align-items: start; gap: var(--space-lg); padding-block: var(--space-xl); color: var(--color-muted); font-size: var(--text-small); }
+.site-footer p { max-width: 50ch; }
+.site-footer a { display: inline-flex; align-items: center; min-height: var(--control-size); white-space: nowrap; }
+.site-footer a:hover, .site-footer a:active { color: var(--color-accent); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: clip; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 900px) {
+  .company { grid-template-columns: 148px minmax(0, 1fr); gap: var(--space-lg); }
+  .report { gap: var(--space-md); }
+}
+@media (max-width: 650px) {
+  :root { --text-display: 30px; --text-company: 20px; }
+  .shell { width: calc(100% - var(--space-lg) * 2); }
+  .nav { min-height: 72px; }
+  .intro { flex-direction: column; align-items: start; gap: var(--space-lg); padding-block: var(--space-xl); }
+  .intro-copy { max-width: 28ch; }
+  .overview { gap: var(--space-md); }
+  .overview span + span { padding-left: var(--space-md); }
+  .search-row { gap: var(--space-xs); }
+  input[type="search"] { font-size: var(--text-body); }
+  select { width: 104px; padding-inline: var(--space-xs); }
+  .filter-bottom { flex-direction: column; align-items: start; gap: var(--space-sm); margin-top: var(--space-md); }
+  .type-filters { width: 100%; gap: 0; justify-content: space-between; }
+  .filter { padding-inline: var(--space-xs); font-size: var(--text-small); }
+  .filter-count { margin-left: var(--space-2xs); }
+  .company { display: block; }
+  .company-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-xs) var(--space-sm); padding-block: var(--space-lg) 0; }
+  .company-code { margin: 0; }
+  .company-count { margin: 0 0 0 auto; }
+  .report { grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-sm); padding-block: var(--space-lg); }
+  .report-date { grid-column: 1 / -1; display: flex; align-items: baseline; gap: var(--space-xs); padding-top: 0; }
+  .date-day, .date-year { font-size: var(--text-small); color: var(--color-muted); }
+  .report-body { grid-column: 1; }
+  .read-link { grid-column: 2; margin: 0; padding-inline: var(--space-sm); }
+  .report-heading { gap: var(--space-xs); }
+  .report-summary { margin-top: var(--space-sm); }
+  .materials { margin-top: var(--space-xs); }
+  .site-footer { flex-direction: column; gap: var(--space-xs); }
+}
+@media (prefers-reduced-motion: reduce) {
+  button:active, .read-link:active, .skip { transform: none; }
+  .skip:not(:focus-visible) { position: absolute; clip-path: inset(50%); }
+}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#reports">跳到报告列表</a>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="./">研究档案</a>
+      <a class="repo-link" href="https://github.com/zoofur/stock">GitHub 仓库<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4h5v5m0-5-9 9"/><path d="M20 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5"/></svg></a>
+    </nav>
+  </header>
+  <main class="shell">
+    <header class="intro">
+      <div><h1>股票研究档案</h1><p class="intro-copy">财报、估值与判断，按时间归档。</p></div>
+      <div class="overview" aria-label="归档概览"><span><strong id="company-total">5</strong> 家公司</span><span><strong id="report-total">8</strong> 份报告</span></div>
+    </header>
+    <div class="filters" id="filters" hidden>
+      <div class="search-row">
+        <div class="search-field"><label class="sr-only" for="search">搜索公司、代码或报告</label><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" name="q" type="search" placeholder="名称或代码" autocomplete="off" maxlength="120"></div>
+        <div class="sort-field"><label class="sr-only" for="sort">日期排序</label><select id="sort" name="sort"><option value="newest">最近优先</option><option value="oldest">最早优先</option></select></div>
+      </div>
+      <div class="filter-bottom">
+        <div class="type-filters" role="group" aria-label="报告类型">
+          <button class="filter" type="button" data-type="all" aria-pressed="true">全部<span class="filter-count">8</span></button>
+          <button class="filter" type="button" data-type="analysis" aria-pressed="false">深度分析<span class="filter-count">5</span></button>
+          <button class="filter" type="button" data-type="earnings" aria-pressed="false">财报更新<span class="filter-count">2</span></button>
+          <button class="filter" type="button" data-type="special" aria-pressed="false">专题研究<span class="filter-count">1</span></button>
+        </div>
+        <p class="result-count" id="result-count" role="status" aria-live="polite">全部 8 份报告</p>
+      </div>
+    </div>
+    <noscript><p>全部报告如下；搜索与筛选需启用 JavaScript。</p></noscript>
+    <div class="archive" id="reports" aria-label="报告列表" tabindex="-1">
+<section class="company" aria-labelledby="company-688008.SH">
+      <header class="company-heading"><h2 id="company-688008.SH">澜起科技</h2><p class="company-code">688008.SH</p><span class="company-count">3 份报告</span></header>
+      <div class="report-list"><article class="report" data-date="2026-10-30" data-kind="earnings" data-search="澜起科技 688008.SH 澜起 lanqi 688008 2026 三季报解读 财报更新">
+          <time class="report-date" datetime="2026-10-30"><span class="date-year">2026</span><span class="date-day">10.30</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="澜起科技_688008.SH/20261030/full-report-standalone.html">2026 三季报解读</a></h3><span class="report-type">财报更新</span></div>
+            <p class="report-summary">主营与现金兑现改善，空仓先等止跌。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="https://github.com/zoofur/stock/blob/master/澜起科技_688008.SH/20261030/sources/index.md">来源索引</a></li><li><a href="澜起科技_688008.SH/20261030/data/earnings_analysis.json">财报底稿</a></li><li><a href="澜起科技_688008.SH/20261030/data/document_sources.json">公告来源</a></li></ul></details>
+          </div>
+          <a class="read-link" href="澜起科技_688008.SH/20261030/full-report-standalone.html" aria-label="阅读澜起科技2026-10-302026 三季报解读">阅读报告</a>
+        </article><article class="report" data-date="2026-10-30" data-kind="special" data-search="澜起科技 688008.SH 澜起 lanqi 688008 06809.HK hk06809 06809 6809 港股购买意见 专题研究">
+          <time class="report-date" datetime="2026-10-30"><span class="date-year">2026</span><span class="date-day">10.30</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="澜起科技_688008.SH/20261030/港股购买意见.html">港股购买意见</a></h3><span class="report-type">专题研究</span><span class="report-code">06809.HK</span></div>
+            <p class="report-summary">财报改善成立，港股较 A 股溢价，暂未体现价格优势。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="澜起科技_688008.SH/20261030/data/hk/conversion.json">换算底稿</a></li><li><a href="澜起科技_688008.SH/20261030/data/hk/retrieval.json">原始数据</a></li></ul></details>
+          </div>
+          <a class="read-link" href="澜起科技_688008.SH/20261030/港股购买意见.html" aria-label="阅读澜起科技2026-10-30港股购买意见">阅读报告</a>
+        </article><article class="report" data-date="2026-10-28" data-kind="analysis" data-search="澜起科技 688008.SH 澜起 lanqi 688008 深度分析 深度分析">
+          <time class="report-date" datetime="2026-10-28"><span class="date-year">2026</span><span class="date-day">10.28</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="澜起科技_688008.SH/20261028/full-report-standalone.html">深度分析</a></h3></div>
+            <p class="report-summary">增长加速，价格仍要求高兑现。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="https://github.com/zoofur/stock/blob/master/澜起科技_688008.SH/20261028/sources/index.md">来源索引</a></li><li><a href="澜起科技_688008.SH/20261028/data/audited_facts.json">财务核验</a></li><li><a href="澜起科技_688008.SH/20261028/data/valuation_scenarios.json">估值假设</a></li><li><a href="澜起科技_688008.SH/20261028/data/market_snapshot.json">行情快照</a></li></ul></details>
+          </div>
+          <a class="read-link" href="澜起科技_688008.SH/20261028/full-report-standalone.html" aria-label="阅读澜起科技2026-10-28深度分析">阅读报告</a>
+        </article></div>
+    </section>
+<section class="company" aria-labelledby="company-603986.SH">
+      <header class="company-heading"><h2 id="company-603986.SH">兆易创新</h2><p class="company-code">603986.SH</p><span class="company-count">2 份报告</span></header>
+      <div class="report-list"><article class="report" data-date="2026-10-29" data-kind="earnings" data-search="兆易创新 603986.SH 兆易 zhaoyi 603986 03986 2026 三季报解读 财报更新">
+          <time class="report-date" datetime="2026-10-29"><span class="date-year">2026</span><span class="date-day">10.29</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="兆易创新_603986.SH/20261029/full-report-standalone.html">2026 三季报解读</a></h3><span class="report-type">财报更新</span></div>
+            <p class="report-summary">扣非继续增长，归母受投资损益扰动。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="兆易创新_603986.SH/20261029/data/financial_metrics.json">财务计算</a></li><li><a href="兆易创新_603986.SH/20261029/data/agent_cash.json">现金与资产核验</a></li><li><a href="兆易创新_603986.SH/20261029/data/industry_update.json">行业更新</a></li><li><a href="兆易创新_603986.SH/20261029/data/technical.json">技术快照</a></li><li><a href="兆易创新_603986.SH/20261029/data/quote.json">行情快照</a></li><li><a href="兆易创新_603986.SH/20261029/data/validation.json">原核验记录</a></li></ul></details>
+          </div>
+          <a class="read-link" href="兆易创新_603986.SH/20261029/full-report-standalone.html" aria-label="阅读兆易创新2026-10-292026 三季报解读">阅读报告</a>
+        </article><article class="report" data-date="2026-10-09" data-kind="analysis" data-search="兆易创新 603986.SH 兆易 zhaoyi 603986 03986 深度分析 深度分析">
+          <time class="report-date" datetime="2026-10-09"><span class="date-year">2026</span><span class="date-day">10.09</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="兆易创新_603986.SH/20261009/full-report-standalone.html">深度分析</a></h3></div>
+            <p class="report-summary">主营复苏真实，现价依赖高利润持续。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="兆易创新_603986.SH/20261009/valuation.json">估值底稿</a></li><li><a href="兆易创新_603986.SH/20261009/quote.json">行情快照</a></li><li><a href="兆易创新_603986.SH/20261009/technical.json">技术快照</a></li><li><a href="兆易创新_603986.SH/20261009/raw_data.json">原始数据</a></li></ul></details>
+          </div>
+          <a class="read-link" href="兆易创新_603986.SH/20261009/full-report-standalone.html" aria-label="阅读兆易创新2026-10-09深度分析">阅读报告</a>
+        </article></div>
+    </section>
+<section class="company" aria-labelledby="company-603125.SH">
+      <header class="company-heading"><h2 id="company-603125.SH">常青科技</h2><p class="company-code">603125.SH</p><span class="company-count">1 份报告</span></header>
+      <div class="report-list"><article class="report" data-date="2026-10-28" data-kind="analysis" data-search="常青科技 603125.SH 常青 changqing 603125 深度分析 深度分析">
+          <time class="report-date" datetime="2026-10-28"><span class="date-year">2026</span><span class="date-day">10.28</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="常青科技_603125.SH/20261028/full-report-standalone.html">深度分析</a></h3></div>
+            <p class="report-summary">利润修复已有证据，扩产回报尚未兑现。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="https://github.com/zoofur/stock/blob/master/常青科技_603125.SH/20261028/sources/index.md">来源索引</a></li><li><a href="常青科技_603125.SH/20261028/data/financial_audit.json">财务核验</a></li><li><a href="常青科技_603125.SH/20261028/data/valuation_scenarios.json">估值假设</a></li><li><a href="常青科技_603125.SH/20261028/data/market_snapshot.json">行情快照</a></li></ul></details>
+          </div>
+          <a class="read-link" href="常青科技_603125.SH/20261028/full-report-standalone.html" aria-label="阅读常青科技2026-10-28深度分析">阅读报告</a>
+        </article></div>
+    </section>
+<section class="company" aria-labelledby="company-001309.SZ">
+      <header class="company-heading"><h2 id="company-001309.SZ">德明利</h2><p class="company-code">001309.SZ</p><span class="company-count">1 份报告</span></header>
+      <div class="report-list"><article class="report" data-date="2026-10-26" data-kind="analysis" data-search="德明利 001309.SZ 德明利 demingli 001309 深度分析 深度分析">
+          <time class="report-date" datetime="2026-10-26"><span class="date-year">2026</span><span class="date-day">10.26</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="德明利_001309.SZ/20261026/full-report-standalone.html">深度分析</a></h3></div>
+            <p class="report-summary">谨慎，暂不追涨。等待现金兑现。</p>
+            <details class="materials"><summary>来源与底稿</summary><ul><li><a href="https://github.com/zoofur/stock/blob/master/德明利_001309.SZ/20261026/sources/index.md">来源索引</a></li><li><a href="德明利_001309.SZ/20261026/data/audited_facts.json">财务核验</a></li><li><a href="德明利_001309.SZ/20261026/data/valuation_scenarios.json">估值假设</a></li><li><a href="德明利_001309.SZ/20261026/data/market_snapshot.json">行情快照</a></li></ul></details>
+          </div>
+          <a class="read-link" href="德明利_001309.SZ/20261026/full-report-standalone.html" aria-label="阅读德明利2026-10-26深度分析">阅读报告</a>
+        </article></div>
+    </section>
+<section class="company" aria-labelledby="company-02498.HK">
+      <header class="company-heading"><h2 id="company-02498.HK">速腾聚创</h2><p class="company-code">02498.HK</p><span class="company-count">1 份报告</span></header>
+      <div class="report-list"><article class="report" data-date="2026-09-23" data-kind="analysis" data-search="速腾聚创 02498.HK 速腾 suteng robosense 02498 2498 深度分析 深度分析">
+          <time class="report-date" datetime="2026-09-23"><span class="date-year">2026</span><span class="date-day">09.23</span></time>
+          <div class="report-body">
+            <div class="report-heading"><h3><a href="速腾聚创_02498.HK/20260923/full-report-standalone.html">深度分析</a></h3></div>
+            <p class="report-summary">回看激光雷达业务的价格、份额与现金流。</p>
+
+          </div>
+          <a class="read-link" href="速腾聚创_02498.HK/20260923/full-report-standalone.html" aria-label="阅读速腾聚创2026-09-23深度分析">阅读报告</a>
+        </article></div>
+    </section>
+    </div>
+    <section class="empty" id="empty" hidden><h2>没有找到相关报告</h2><p>试试公司名或股票代码，或清除筛选。</p><button class="clear" id="clear" type="button">清除筛选</button></section>
+    <footer class="site-footer"><p>报告保留各自日期的数据与观点，行情及结论不随市场自动更新。</p><a href="#top">回到顶部</a></footer>
+  </main>
+  <script>
+(() => {
+  'use strict';
+
+  const Kind = Object.freeze({ all: 'all', analysis: 'analysis', earnings: 'earnings', special: 'special' });
+  const Order = Object.freeze({ newest: 'newest', oldest: 'oldest' });
+  const Param = Object.freeze({ query: 'q', kind: 'type', order: 'sort' });
+  const QUERY_LIMIT = 120;
+  const groups = Array.from(document.querySelectorAll('.company'));
+  const rows = Array.from(document.querySelectorAll('.report'));
+  const buttons = Array.from(document.querySelectorAll('[data-type]'));
+  const search = document.getElementById('search');
+  const sort = document.getElementById('sort');
+  const archive = document.getElementById('reports');
+  const empty = document.getElementById('empty');
+  const count = document.getElementById('result-count');
+  const clear = document.getElementById('clear');
+  const groupRows = new Map(groups.map(group => [group, Array.from(group.querySelectorAll('.report'))]));
+  const normalize = value => value.normalize('NFKC').trim().toLocaleLowerCase();
+  const searchable = new Map(rows.map(row => [row, normalize(row.dataset.search)]));
+  let state = { query: '', kind: Kind.all, order: Order.newest };
+
+  function readUrl() {
+    const params = new URL(location.href).searchParams;
+    const kind = params.get(Param.kind);
+    const order = params.get(Param.order);
+    return {
+      query: (params.get(Param.query) || '').slice(0, QUERY_LIMIT),
+      kind: Object.values(Kind).includes(kind) ? kind : Kind.all,
+      order: Object.values(Order).includes(order) ? order : Order.newest
+    };
+  }
+
+  // 筛选写入地址，分享链接可还原同一份目录视图。
+  function syncUrl() {
+    const url = new URL(location.href);
+    const values = {
+      [Param.query]: state.query.trim(),
+      [Param.kind]: state.kind === Kind.all ? '' : state.kind,
+      [Param.order]: state.order === Order.newest ? '' : state.order
+    };
+    for (const [key, value] of Object.entries(values)) {
+      if (value) url.searchParams.set(key, value);
+      else url.searchParams.delete(key);
+    }
+    if (url.href === location.href) return;
+    try { history.replaceState(null, '', url); }
+    catch { /* 本地文件禁止修改地址时，筛选仍可使用。 */ }
+  }
+
+  function render() {
+    const words = normalize(state.query).split(/\s+/).filter(Boolean);
+    const direction = state.order === Order.newest ? -1 : 1;
+    let visibleCount = 0;
+    const groupDates = new Map();
+
+    for (const group of groups) {
+      const reports = groupRows.get(group);
+      const visible = [];
+      for (const row of reports) {
+        const matchesKind = state.kind === Kind.all || row.dataset.kind === state.kind;
+        const matchesQuery = words.every(word => searchable.get(row).includes(word));
+        row.hidden = !(matchesKind && matchesQuery);
+        if (row.hidden) continue;
+        visible.push(row);
+        visibleCount += 1;
+      }
+      group.hidden = visible.length === 0;
+      if (group.hidden) continue;
+
+      const compare = (left, right) => direction * left.dataset.date.localeCompare(right.dataset.date);
+      reports.sort(compare);
+      const list = group.querySelector('.report-list');
+      for (const row of reports) list.append(row);
+      visible.sort(compare);
+      groupDates.set(group, visible[0].dataset.date);
+      group.querySelector('.company-count').textContent = `${visible.length} 份报告`;
+    }
+
+    const ordered = groups.filter(group => !group.hidden).sort((left, right) =>
+      direction * groupDates.get(left).localeCompare(groupDates.get(right)));
+    for (const group of ordered) archive.append(group);
+    for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.type === state.kind));
+    const active = words.length > 0 || state.kind !== Kind.all;
+    count.textContent = active ? `找到 ${visibleCount} 份报告` : `全部 ${visibleCount} 份报告`;
+    empty.hidden = visibleCount > 0;
+    archive.hidden = visibleCount === 0;
+  }
+
+  function update() {
+    render();
+    syncUrl();
+  }
+
+  search.addEventListener('input', () => { state.query = search.value; update(); });
+  sort.addEventListener('change', () => { state.order = sort.value; update(); });
+  for (const button of buttons) button.addEventListener('click', () => {
+    state.kind = button.dataset.type;
+    update();
+  });
+  clear.addEventListener('click', () => {
+    state = { query: '', kind: Kind.all, order: Order.newest };
+    search.value = '';
+    sort.value = state.order;
+    update();
+    search.focus();
+  });
+  window.addEventListener('popstate', () => {
+    state = readUrl();
+    search.value = state.query;
+    sort.value = state.order;
+    render();
+  });
+
+  document.getElementById('company-total').textContent = groups.length;
+  document.getElementById('report-total').textContent = rows.length;
+  for (const button of buttons) {
+    const total = button.dataset.type === Kind.all ? rows.length : rows.filter(row => row.dataset.kind === button.dataset.type).length;
+    button.querySelector('.filter-count').textContent = total;
+  }
+  state = readUrl();
+  search.value = state.query;
+  sort.value = state.order;
+  render();
+  document.getElementById('filters').hidden = false;
+})();
+  </script>
+</body>
+</html>
