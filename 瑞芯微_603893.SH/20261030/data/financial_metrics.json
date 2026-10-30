@@ -1,0 +1,170 @@
+{
+  "source": {
+    "q3": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225627336.PDF",
+    "h1": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225478618.PDF",
+    "annual_2025": "https://pdf.dfcfw.com/pdf/H2_AN202604141821197102_1.pdf?1776197958000.pdf",
+    "abstract": "akshare.stock_financial_abstract_ths(603893,按报告期)"
+  },
+  "unit": "亿元",
+  "annual": {
+    "years": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "revenue": [
+      18.63,
+      27.19,
+      20.3,
+      21.35,
+      31.36,
+      44.02
+    ],
+    "net_profit": [
+      3.2,
+      6.02,
+      2.97,
+      1.35,
+      5.95,
+      10.4
+    ],
+    "roe_pct": [
+      15.32,
+      24.05,
+      10.35,
+      4.53,
+      17.81,
+      25.79
+    ]
+  },
+  "cumulative": {
+    "2025Q3": {
+      "revenue": 31.41,
+      "net_profit": 7.8
+    },
+    "2025": {
+      "revenue": 44.02,
+      "net_profit": 10.4,
+      "gross_margin_pct": 41.95
+    },
+    "2026Q1": {
+      "revenue": 12.05,
+      "net_profit": 3.29,
+      "gross_margin_pct": 43.04
+    },
+    "2026H1": {
+      "revenue": 28.77,
+      "net_profit": 8.59,
+      "gross_margin_pct": 45.79
+    },
+    "2026Q3": {
+      "revenue": 44.49,
+      "revenue_yoy_pct": 41.64,
+      "net_profit": 13.32,
+      "net_profit_yoy_pct": 70.9,
+      "gross_margin_pct": 46.37,
+      "roe_pct": 27.35,
+      "eps": 3.16,
+      "bvps": 12.92
+    }
+  },
+  "quarterly_2026": {
+    "Q1": {
+      "revenue": 12.05,
+      "net_profit": 3.29
+    },
+    "Q2": {
+      "revenue": 16.71,
+      "net_profit": 5.3
+    },
+    "Q3": {
+      "revenue": 15.73,
+      "net_profit": 4.73,
+      "revenue_yoy_pct": 43.57,
+      "net_profit_yoy_pct": 90.49,
+      "gross_margin_pct_derived": 47.4
+    }
+  },
+  "ttm": {
+    "net_profit": 15.92,
+    "eps": 3.76,
+    "method": "2025年 + 2026前三季度 − 2025前三季度"
+  },
+  "cash_quality": {
+    "ocf_q1_q3": 8.82,
+    "ocf_yoy_pct": 4.13,
+    "ocf_to_np": 0.66,
+    "inventory_begin": 12.54,
+    "inventory_h1": 15.18,
+    "inventory_q3": 18.84,
+    "inventory_days": 177.47,
+    "cash_plus_tradable": 30.66,
+    "interest_bearing_debt": 0,
+    "debt_ratio_pct": 16.46,
+    "rd_q1_q3": 6.0,
+    "rd_yoy_pct": 33.2
+  },
+  "segments_2026H1": {
+    "智能应用处理器芯片": {
+      "revenue": 26.0,
+      "share_pct": 90.37,
+      "gross_margin_pct": 45.7
+    },
+    "数模混合芯片": {
+      "revenue": 2.16,
+      "share_pct": 7.51,
+      "gross_margin_pct": 42.09
+    }
+  },
+  "cost_structure_2025": {
+    "wafer_pct": 68.05,
+    "packaging_test_pct": 23.63,
+    "other_pct": 8.32,
+    "top5_supplier_pct": 79.62
+  },
+  "gross_margin_sensitivity": [
+    {
+      "scenario": "晶圆+10%",
+      "gross_margin": "42.72%（零顺价，-3.65pp）；50%顺价43.74%；全额顺价44.73%"
+    },
+    {
+      "scenario": "晶圆+20%",
+      "gross_margin": "39.07%（零顺价，-7.30pp）；50%顺价41.21%；全额顺价43.21%"
+    },
+    {
+      "scenario": "晶圆-10%",
+      "gross_margin": "50.02%（价格不变，+3.65pp）；50%让利49.09%"
+    },
+    {
+      "scenario": "封测+10%",
+      "gross_margin": "45.10%（零顺价，-1.27pp）；50%顺价45.44%"
+    },
+    {
+      "scenario": "封测+20%",
+      "gross_margin": "43.83%（零顺价，-2.53pp）；50%顺价44.53%"
+    },
+    {
+      "scenario": "封测-10%",
+      "gross_margin": "47.63%（价格不变，+1.27pp）"
+    },
+    {
+      "scenario": "晶圆与封测同时+10%",
+      "gross_margin": "41.45%（零顺价，-4.92pp）；50%顺价42.85%；全额顺价44.19%"
+    },
+    {
+      "scenario": "晶圆与封测同时+20%",
+      "gross_margin": "36.53%（零顺价，-9.83pp）；50%顺价39.51%"
+    },
+    {
+      "scenario": "假设说明",
+      "gross_margin": "基准为2026前三季度毛利率46.37%、营业成本/收入53.63%；成本结构沿用2025年报（晶圆68.05%、加工费23.63%）；“顺价”指售价上调幅度为成本增加额的50%或100%，销量不变；未计存货时滞与产品结构变化。"
+    }
+  ],
+  "corrections": [
+    "脚本0_basic.pe_ttm原值42.62实为动态PE，按腾讯行情更正为TTM 47.54",
+    "脚本DCF净债桥按负债7.16亿−现金3.69亿，实际货币资金+交易性金融资产30.66亿、无有息借款"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "ticker": "603893.SH",
+  "report_date": "2026-10-30",
+  "financial_period": "2026-09-30",
+  "audit_status": "正式三季报，未经审计",
+  "unit": "亿元（另注明除外）",
+  "Q3_2026": {
+    "revenue": 15.73,
+    "revenue_yoy_pct": 43.57,
+    "revenue_qoq_pct": -5.9,
+    "gross_margin_pct": 47.42,
+    "q2_gross_margin_pct_approx": 47.8,
+    "rd": 2.3,
+    "rd_pct_rev": 14.6,
+    "rd_yoy_pct": 34.2,
+    "selling": 0.25,
+    "admin": 0.33,
+    "other_income": 0.49,
+    "tax_rate_pct": 8.4,
+    "net_profit": 4.73,
+    "net_profit_yoy_pct": 90.49,
+    "net_profit_qoq_pct": -10.7,
+    "net_profit_core": 4.61,
+    "net_profit_core_yoy_pct": 92.1,
+    "nonrecurring": 0.12,
+    "net_margin_pct": 30.1,
+    "roe_weighted_pct": 9.01,
+    "cfo": 0.82,
+    "cfo_q3_2025": 1.39,
+    "cfo_to_np": 0.17,
+    "sales_cash": 16.8,
+    "sales_cash_to_rev": 1.07,
+    "purchase_cash": 13.97,
+    "capex": 1.67,
+    "fcf_proxy": -0.85,
+    "dividend_paid": 5.08
+  },
+  "balance_change_Q3": {
+    "inventory": [
+      15.18,
+      18.84,
+      3.66
+    ],
+    "accounts_payable": [
+      7.13,
+      5.82,
+      -1.31
+    ],
+    "receivables": [
+      4.82,
+      4.76,
+      -0.06
+    ],
+    "contract_liabilities": [
+      0.68,
+      0.71
+    ],
+    "cash_plus_tfa": [
+      36.47,
+      30.66,
+      -5.81
+    ],
+    "inventory_to_q3_cogs_quarters": 2.28,
+    "note": "[H1, Q3末, 变动]"
+  },
+  "9M_2026": {
+    "revenue": 44.49,
+    "net_profit": 13.32,
+    "net_profit_core": 13.01,
+    "gross_margin_pct": 46.37,
+    "cfo": 8.82,
+    "cfo_yoy_pct": 4.13,
+    "cfo_to_np": 0.66,
+    "capex": 3.34,
+    "inventory_vs_begin_pct": 50.2,
+    "equity": 54.69,
+    "debt_ratio_pct": 16.46,
+    "interest_bearing_debt": 0,
+    "tax_rate_pct": 8.7
+  },
+  "ttm": {
+    "revenue": 57.1,
+    "net_profit": 15.93,
+    "net_profit_core": 15.54,
+    "method": "2025全年＋2026前三季−2025前三季"
+  },
+  "valuation_at_close": {
+    "price": 178.81,
+    "price_time": "2026-10-30 收盘",
+    "market_cap": 757.08,
+    "pe_ttm": 47.5,
+    "pe_ttm_core": 48.7,
+    "ps_ttm": 13.3,
+    "pb": 13.8
+  },
+  "q4_scenarios": {
+    "base_q4_2025": {
+      "revenue": 12.61,
+      "net_profit": 2.6,
+      "net_margin_pct": 20.7
+    },
+    "cases": {
+      "A_东吴隐含": {
+        "q4_revenue": 21.54,
+        "q4_net_margin_pct": 22.1,
+        "q4_net_profit": 4.75,
+        "fy_net_profit": 18.07,
+        "fy_eps": 4.27,
+        "pe_at_price": 41.9
+      },
+      "B_同比+43%": {
+        "q4_revenue": 18.03,
+        "q4_net_margin_pct": 25.0,
+        "q4_net_profit": 4.51,
+        "fy_net_profit": 17.83,
+        "fy_eps": 4.21,
+        "pe_at_price": 42.5
+      },
+      "C_持平Q3": {
+        "q4_revenue": 15.73,
+        "q4_net_margin_pct": 20.7,
+        "q4_net_profit": 3.26,
+        "fy_net_profit": 16.58,
+        "fy_eps": 3.92,
+        "pe_at_price": 45.7
+      }
+    },
+    "scenario_not_guidance": true
+  },
+  "technical": {
+    "as_of": "2026-10-30 收盘",
+    "ma": {
+      "5": 195.69,
+      "10": 195.02,
+      "20": 197.24,
+      "60": 194.34,
+      "120": 190.93,
+      "200": 184.3
+    },
+    "levels": {
+      "10-16收盘": 171.01,
+      "10-20盘中低点": 166.0,
+      "10-19盘中低点": 159.34,
+      "250日盘中高点(07-23)": 232.68,
+      "250日收盘高点(07-22)": 227.66
+    },
+    "source": "腾讯前复权日K；10-30 用收盘行情补入"
+  },
+  "sources": {
+    "q3": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225627336.PDF",
+    "h1": "http://static.cninfo.com.cn/finalpage/2026-08-18/1225478618.PDF",
+    "q1_abstract": "akshare.stock_financial_abstract_ths(603893)",
+    "kline": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603893,day,2025-06-01,2026-10-30,400,qfq",
+    "quote": "https://qt.gtimg.cn/q=sh603893",
+    "dongwu": "https://data.eastmoney.com/report/info/AP202610281831106006.html"
+  },
+  "notes": [
+    "单季＝累计相减；Q2毛利率与净利率用同花顺Q1摘要近似",
+    "FY2025扣非10.09亿、9M2025扣非7.56亿来自同花顺摘要",
+    "Q4情景为分析假设，非公司指引"
+  ],
+  "guidance": {
+    "empty": {
+      "now": "不买",
+      "right_side": {
+        "trigger": "收盘站回184.30且次日不跌回、量高于此前20日均量",
+        "size": "20%",
+        "stop": "收盘跌破171"
+      },
+      "left_side": {
+        "zone": "156-160且守住159.34",
+        "size": "20%-30%",
+        "cancel": "收盘跌破159.34且3日收不回，等134-137"
+      },
+      "add": "年报预告Q4营收≥18亿且存货下降或CFO转正，加到50%"
+    },
+    "holding": {
+      "cost_below_160": "守171持有；破171减1/3，破159.34再减1/3",
+      "cost_above_180": "194-197不能连续两日收在197上方减1/3至1/2",
+      "overweight": "先降到计划仓位"
+    },
+    "size_unit": "计划仓位比例"
+  }
+}

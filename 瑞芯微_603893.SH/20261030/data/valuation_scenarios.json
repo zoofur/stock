@@ -1,0 +1,122 @@
+{
+  "price": 178.81,
+  "price_date": "2026-10-30",
+  "script_default": {
+    "dcf_per_share": 67.93,
+    "dcf_assumptions": "beta1.0、增速10%/5%、g2.5%、负债率30%",
+    "lbo_irr_pct": 21.7,
+    "lbo_note": "8x EBITDA入场，与现价不可比",
+    "comps_peer_stats": {
+      "pe": {
+        "min": 21.11,
+        "p25": 21.89,
+        "median": 31.26,
+        "p75": 68.14,
+        "max": 78.1,
+        "mean": 40.43,
+        "n": 4
+      },
+      "pb": {
+        "min": 3.41,
+        "p25": 3.58,
+        "median": 5.4,
+        "p75": 7.4,
+        "max": 7.63,
+        "mean": 5.46,
+        "n": 4
+      },
+      "revenue_growth": {
+        "min": 29.49,
+        "p25": 29.49,
+        "median": 40.7,
+        "p75": 111.21,
+        "max": 111.21,
+        "mean": 60.47,
+        "n": 3
+      }
+    }
+  },
+  "adjusted_dcf": {
+    "wacc": 0.103,
+    "beta": 1.3,
+    "base_fcf_yi": 12.0,
+    "net_cash_yi": 30.66,
+    "terminal_g": 0.03,
+    "tax": 0.15,
+    "scenarios": {
+      "bear": {
+        "growth": "15%/8%",
+        "per_share": 84.07
+      },
+      "base": {
+        "growth": "25%/12%",
+        "per_share": 136.62
+      },
+      "bull": {
+        "growth": "32%/15%",
+        "per_share": 192.75
+      }
+    },
+    "note": "基期FCF 12亿为agent假设（前三季度经营现金流8.82亿、TTM净利15.92亿之间），非公司披露"
+  },
+  "relative": {
+    "peer_median_pe_ttm": 31.26,
+    "x_eps_ttm_3.76": 117.5,
+    "x_eps_2026E_4.27": 133.5,
+    "x_eps_2027E_5.21_at_30x": 156.3
+  },
+  "sell_side": {
+    "reports": 60,
+    "buy_or_overweight_pct": 100,
+    "script_target_avg": 147.42,
+    "target_note": "近3个月报告未填目标价，均值疑含旧报告",
+    "dongwu_2026-10-28": {
+      "np_yi": [
+        18.07,
+        22.05,
+        27.39
+      ],
+      "eps": [
+        4.27,
+        5.21,
+        6.47
+      ],
+      "pe_at_178.81": [
+        41.9,
+        34.3,
+        27.6
+      ],
+      "implied_q4_revenue_yi": 21.54
+    },
+    "q4_flat_case_eps_2026": 3.91
+  },
+  "buy_zones": {
+    "value": {
+      "price": 116.0,
+      "rationale": "调整后DCF中性137元×0.85安全边际≈116元，接近同行中位31.3x×EPS TTM 3.76≈118元"
+    },
+    "growth": {
+      "price": 156.0,
+      "rationale": "2027E EPS 5.21×30倍（略低于同行中位31.3x），对应约156元，低于行权价159元"
+    },
+    "technical": {
+      "price": 171.0,
+      "rationale": "10-16跌停收盘171.01元，机构专用席位当日合计买2.36亿；失守则下看行权价159元"
+    },
+    "youzi": {
+      "price": 184.4,
+      "rationale": "游资只做右侧，放量收复MA200 184.4才算弱转强；回落跌破178.81止损"
+    }
+  },
+  "panel": {
+    "bullish": 9,
+    "neutral": 10,
+    "bearish": 21,
+    "skip": 26,
+    "consensus": 37.1,
+    "overall_score": 54.7,
+    "verdict": "观望偏空 · 1 派看多 / 4 派看空",
+    "script_style": "quant_factor"
+  },
+  "scenario_not_guidance": true
+}

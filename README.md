@@ -8,6 +8,7 @@
 |---|---|---|---|
 | 兆易创新 603986.SH | [2026-10-09](兆易创新_603986.SH/20261009/full-report-standalone.html) | [2026-10-29 三季报](兆易创新_603986.SH/20261029/full-report-standalone.html) | — |
 | 常青科技 603125.SH | [2026-10-28](常青科技_603125.SH/20261028/full-report-standalone.html) | — | — |
+| 瑞芯微 603893.SH | [2026-10-30](瑞芯微_603893.SH/20261030/full-report-standalone.html) | [2026-10-30 三季报](瑞芯微_603893.SH/20261030/三季报解读.html) | — |
 | 德明利 001309.SZ | [2026-10-26](德明利_001309.SZ/20261026/full-report-standalone.html) | — | — |
 | 澜起科技 688008.SH | [2026-10-28](澜起科技_688008.SH/20261028/full-report-standalone.html) | [2026-10-30 三季报](澜起科技_688008.SH/20261030/full-report-standalone.html) | [2026-10-30 港股购买意见](澜起科技_688008.SH/20261030/港股购买意见.html) |
 | 速腾聚创 02498.HK | [2026-09-23](速腾聚创_02498.HK/20260923/full-report-standalone.html) | — | — |
