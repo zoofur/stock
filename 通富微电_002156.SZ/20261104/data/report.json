@@ -1,0 +1,179 @@
+{
+  "ticker": "002156.SZ",
+  "name": "通富微电",
+  "analysis_date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "quote_price": 42.33,
+  "source_snapshot_time": "2026-11-04 16:14:54",
+  "dimension_count": 23,
+  "method_count": 66,
+  "data_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [
+      {
+        "dim": "10_valuation",
+        "path": "pe_quantile",
+        "label": "PE 5 年分位"
+      },
+      {
+        "dim": "10_valuation",
+        "path": "pb_quantile",
+        "label": "PB 5 年分位"
+      },
+      {
+        "dim": "7_industry",
+        "path": "growth",
+        "label": "行业增速"
+      }
+    ],
+    "missing_enrichment": [],
+    "fallback_dims": [
+      {
+        "dim": "0_basic",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "1_financials",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "2_kline",
+        "reason": "unknown"
+      },
+      {
+        "dim": "12_capital_flow",
+        "reason": "unknown"
+      },
+      {
+        "dim": "16_lhb",
+        "reason": "unknown"
+      },
+      {
+        "dim": "17_sentiment",
+        "reason": "unknown"
+      },
+      {
+        "dim": "18_trap",
+        "reason": "unknown"
+      },
+      {
+        "dim": "19_contests",
+        "reason": "unknown"
+      },
+      {
+        "dim": "3_macro",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "13_policy",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "7_industry",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "15_events",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "8_materials",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "9_futures",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "4_peers",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "5_chain",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "6_research",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "10_valuation",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "11_governance",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "14_moat",
+        "reason": "公开资料人工核验"
+      }
+    ],
+    "coverage_pct": 83.0,
+    "passed_checks": 15,
+    "total_checks": 18
+  },
+  "mechanical_review": {
+    "ticker": "002156.SZ",
+    "market": "A",
+    "reviewed_at": "2026-11-04T17:26:32",
+    "critical_count": 0,
+    "warning_count": 0,
+    "info_count": 1,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "info",
+        "category": "valuation",
+        "dim": "20_valuation_models",
+        "issue": "Comps 隐含目标价缺失",
+        "evidence": "implied_price=None",
+        "suggested_fix": "检查 fetch_peers 是否返回足够同行样本"
+      }
+    ],
+    "checks_run": [
+      "check_industry_mapping_sanity",
+      "check_all_dims_exist",
+      "check_empty_dims",
+      "check_hk_kline_populated",
+      "check_hk_financials_populated",
+      "check_panel_non_empty",
+      "check_coverage_threshold",
+      "check_placeholder_strings",
+      "check_valuation_sanity",
+      "check_industry_data_coverage",
+      "check_metals_materials_populated",
+      "check_agent_analysis_exists",
+      "check_factcheck_redflags",
+      "check_consensus_formula_sanity",
+      "check_panel_hollow_verdicts",
+      "check_panel_insights_rendered",
+      "check_debate_bull_bear_populated"
+    ]
+  },
+  "limitations": {
+    "10_valuation.pe_quantile": "已搜索及浏览器兜底；未得完整同口径历史PE序列，空缺保留。",
+    "10_valuation.pb_quantile": "已搜索及浏览器兜底；未得完整同口径历史PB序列，空缺保留。",
+    "7_industry.growth": "未核实同口径封测细分市场增速；不拿公司或全球半导体增速替代。",
+    "16_lhb": "未核实今日官方完整席位及封单，游资参考价保持null。",
+    "17_sentiment": "实时社交排名和推介全覆盖未取得，不能认定无推广风险。",
+    "19_contests": "当前实盘组合持仓未经验证；不给决策权重。",
+    "global_peers": "未取得至少3家同周期全球同行财务与币种标准化，未给全球估值中位数。",
+    "fund_managers": "仅股东名单，不编造基金经理五年收益和跟投权重。"
+  },
+  "model_notice": "所有未来值为研究者假设；完整三表/LBO/并购条件不足，未伪造",
+  "visual_check": {
+    "status": "passed",
+    "desktop_width": 1440,
+    "mobile_width": 390,
+    "page_errors": [],
+    "external_requests": [],
+    "nojs_readable": true,
+    "report_dimension_cards": 23,
+    "method_entries": 66,
+    "index_search_empty_url_restore": "passed"
+  },
+  "skill_schema_warning": "游资price=null：无当日席位与封单证据，刻意不给伪造数值；其余结构校验通过。"
+}

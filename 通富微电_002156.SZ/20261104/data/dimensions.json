@@ -1,0 +1,145 @@
+{
+  "ticker": "002156.SZ",
+  "score_notice": "研究者主观1–10分；证据不足维度权重0，不用中性数值伪造有效证据",
+  "dimensions": {
+    "0_basic": {
+      "score": 5,
+      "weight": 0,
+      "label": "42.33元为2026-11-04收盘快照，涨10.01%；总股本15.93798亿股，市值674.65亿元。报价时间16:14:54，不混用盘中价格。",
+      "agent_reviewed": true
+    },
+    "1_financials": {
+      "score": 6,
+      "weight": 8,
+      "label": "前三季营收248.85亿、扣非13.78亿，同比增长23.71%/77.10%；归母30.61亿中约55%为非经常损益。CFO55.47亿减Capex77.71亿为−22.24亿现金代理，盈利增长尚未转为股东可分配现金。",
+      "agent_reviewed": true
+    },
+    "2_kline": {
+      "score": 3,
+      "weight": 6,
+      "label": "收42.33元，MA10/20/60为43.36/47.28/56.60元；RSI14为33.95、MACD水下未金叉。单日涨停属于反弹证据，未完成中期趋势反转；Stage1仅算法标签。",
+      "agent_reviewed": true
+    },
+    "3_macro": {
+      "score": 5,
+      "weight": 3,
+      "label": "LPR3%提供融资支撑，PMI49.3显示总需求偏弱。境外收入63.40%伴随进口和外币债务，不能把汇率变动直接当净利润利好。 来源：https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html；https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html；https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "agent_reviewed": true
+    },
+    "4_peers": {
+      "score": 6,
+      "weight": 4,
+      "label": "2026前三季通富/长电扣非13.78/15.61亿，增速77.10%/99.17%；长电归母与扣非差异更小。通富营收增速23.71%领先长电7.96%，经营利润质量并非同方向全面领先。",
+      "agent_reviewed": true
+    },
+    "5_chain": {
+      "score": 5,
+      "weight": 5,
+      "label": "2025第一客户占52.29%、前五69.54%；认证和长期合作提高黏性，也带来客户议价和集中风险。AMD强需求不能按比例映射通富收入，GPU需求也不能等同已确认2.5D订单。",
+      "agent_reviewed": true
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 0,
+      "label": "已找到三季报点评，但未取得同一时点完整券商样本及一致预期。保留卖方关于AI封装增长的逻辑，不把旧全年盈利预测或零散评级当作当前共识。",
+      "agent_reviewed": true
+    },
+    "7_industry": {
+      "score": 7,
+      "weight": 6,
+      "label": "先进封装有结构性增量，成熟封装仍受周期约束。AMD景气支持订单逻辑，但业务份额、量产阶段与回报率必须单独验证。 来源：https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results；https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "agent_reviewed": true
+    },
+    "8_materials": {
+      "score": 5,
+      "weight": 3,
+      "label": "公司真实材料占比和合同顺价机制未披露，不能把金铜期货涨幅直接代入全部营业成本。15.89%毛利率下，采购涨价和利用率变化会显著影响利润。 来源：https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF；https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+      "agent_reviewed": true
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 0,
+      "label": "期货维度以外汇风险和材料成本传导为主，尚无公司金铜商品头寸证据。5亿美元是拟授权额度，不能计作已套保资产或利润。 来源：https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "agent_reviewed": true
+    },
+    "10_valuation": {
+      "score": 4,
+      "weight": 8,
+      "label": "报表TTM PE19.73倍；按2025扣非8.4057＋本期13.7784−同期7.7801亿重算，扣非TTM14.4041亿，对应46.84倍。未取得历史PE/PB分位，股价回撤不能代替低估证据。",
+      "agent_reviewed": true
+    },
+    "11_governance": {
+      "score": 5,
+      "weight": 4,
+      "label": "Q3华达微持17.90%、大基金4.66%；9月新增7620.08万股，较原股本增5.02%。55.38元定增价低于或高于市价均不形成兑付承诺，42.2亿元募资也不是经营现金创造。",
+      "agent_reviewed": true
+    },
+    "12_capital_flow": {
+      "score": 4,
+      "weight": 2,
+      "label": "11月3日融资余额35.0149亿、净偿还1.1652亿，为前一交易日数据；不能冒充11月4日资金净流入。9月末46.3874万股东为时点存量，也不是实时散户拥挤度。",
+      "agent_reviewed": true
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 3,
+      "label": "政策支持先进封测，但VAT资格须逐年核验；BIS逐案许可也不等于全面放开，海外客户和设备合规仍是经营约束。 来源：https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html；https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html；https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf；https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+      "agent_reviewed": true
+    },
+    "14_moat": {
+      "score": 6,
+      "weight": 6,
+      "label": "2025研发15.92亿、占收入5.70%，工艺和客户认证形成壁垒；同年ROE8.08%，资本回报尚未显示高复利。先进封装业务不自动拥有技术独占或强网络效应。",
+      "agent_reviewed": true
+    },
+    "15_events": {
+      "score": 6,
+      "weight": 3,
+      "label": "业绩催化已兑现，后续应检验扣非增速和扩产回报。定增解禁不在60天窗口，未核得未来60天已公告的季报或重大会议日期。 来源：https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156；https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "agent_reviewed": true
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "未核得11月4日完整官方龙虎榜与封单轨迹；无法确认席位成本、集中成交区或主导资金。旧榜单只作历史，不推导今日游资买点。",
+      "agent_reviewed": true
+    },
+    "17_sentiment": {
+      "score": 5,
+      "weight": 0,
+      "label": "今日涨停和成交放量可核验；实时雪球热度排名、社交推介覆盖未核实。价格反应不等于订单验证，不能把热度缺失写成情绪低位。",
+      "agent_reviewed": true
+    },
+    "18_trap": {
+      "score": 5,
+      "weight": 0,
+      "label": "推广风险标为🟡信息不足，未获得全面社交推广样本；没有检出报道不构成安全证明。财报、客户集中与估值风险已独立核验，不作欺诈指控。",
+      "agent_reviewed": true
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "未验证当前实盘比赛或组合持仓，不能用0个组合推断无人参与，也不使用历史战绩为股票背书；此维不参与投资决策加分。",
+      "agent_reviewed": true
+    },
+    "20_valuation_models": {
+      "score": 4,
+      "weight": 6,
+      "label": "独立FCFF基准26.14元，2027扣非22亿×30倍得到41.41元；两者分歧反映扩产现金消耗。DCF悲观8.00/乐观60.93元，仅假设敏感性；默认利润代理LBO收益率已弃用。",
+      "agent_reviewed": true
+    },
+    "21_research_workflow": {
+      "score": 5,
+      "weight": 3,
+      "label": "未来60天有11月30日后税惠清单查询安排，公司是否入选未确认。AMD11月3日业绩已公布，定增解禁不在窗口内；未编造新合同或财报发布日期。",
+      "agent_reviewed": true
+    },
+    "22_deep_methods": {
+      "score": 5,
+      "weight": 3,
+      "label": "投委会框架结论为观望：扣非增长、客户依赖和负现金代理并存。完整三表、LBO和并购模型缺必要输入，明确降级；不以虚设持仓与成本给再平衡建议。",
+      "agent_reviewed": true
+    }
+  },
+  "fundamental_score": 51.1
+}

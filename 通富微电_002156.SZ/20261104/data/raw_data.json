@@ -1,0 +1,3600 @@
+{
+  "ticker": "002156.SZ",
+  "name": "通富微电",
+  "market": "A",
+  "fetched_at": "2026-11-04T17:10:01+08:00",
+  "_profile_depth": "deep",
+  "dimensions": {
+    "0_basic": {
+      "data": {
+        "name": "通富微电",
+        "code": "002156",
+        "price": 42.33,
+        "pe": 19.73,
+        "pb": 3.02,
+        "market_cap_yi": 674.65,
+        "quote_time": "20261104161454",
+        "industry": "半导体封装测试",
+        "main_business": "集成电路封装与测试；先进封装含FC、Bumping、SiP及Chiplet相关工艺。",
+        "market_cap": 674.65,
+        "circulating_cap_yi": 642.34,
+        "pe_ttm": 19.73,
+        "change_pct": 10.01,
+        "listed_date": "2007-08-16",
+        "chairman": "石磊",
+        "actual_controller": "石明达",
+        "total_shares": 1593797706,
+        "currency": "CNY"
+      },
+      "source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362; https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "1_financials": {
+      "data": {
+        "financial_period": "2026-09-30",
+        "annual_years": [
+          2023,
+          2024,
+          2025
+        ],
+        "roe_history": [
+          1.22,
+          4.75,
+          8.08
+        ],
+        "revenue_history": [
+          222.6928321086,
+          238.8168071028,
+          279.2142465615
+        ],
+        "net_profit_history": [
+          1.6943851085,
+          6.7758831275,
+          12.1870814338
+        ],
+        "revenue_ttm": 326.90340754100004,
+        "net_profit_ttm": 34.1882321914,
+        "revenue_growth_yoy": 23.71,
+        "net_profit_growth_yoy": 255.68,
+        "revenue_growth_period": "2026-01/09",
+        "net_profit_growth_period": "2026-01/09",
+        "revenue_growth_basis": "9M同比",
+        "net_profit_growth_basis": "报表归母9M同比",
+        "revenue_growth_source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+        "net_profit_growth_source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+        "net_margin": 12.298913538420294,
+        "gross_margin": 15.889417,
+        "operating_cash_flow_yi": 55.4664106613,
+        "capital_expenditure_yi": 77.7110568465,
+        "free_cash_flow_yi": -22.244646185199997,
+        "fcf_period": "2026-01/09",
+        "fcf_note": "CFO减购建长期资产支付现金，现金代理而非完整FCFF",
+        "reported": {
+          "period": "2026-01/09",
+          "revenue_yi": 248.8517498736,
+          "net_profit_yi": 30.6060615558,
+          "recurring_net_profit_yi": 13.778421138299999,
+          "recurring_growth_pct": 77.1,
+          "nonrecurring_yi": 16.8276404175,
+          "fair_value_gain_before_tax_yi": 19.7694401502,
+          "reported_roe_pct": 17.61,
+          "q3_revenue_yi": 88.4415507761,
+          "q3_recurring_yi": 6.3038082722,
+          "q3_recurring_growth_pct": 76.3,
+          "cfo_yoy_pct": 1.47,
+          "capex_yoy_pct": 75.14
+        },
+        "normalization": {
+          "recurring_ttm_yi": 14.404081420499999,
+          "formula": "2025扣非8.4057421779+2026九月13.7784211383−2025九月7.7800818957",
+          "pe_recurring_ttm": 46.83741922201529,
+          "pe_reported_ttm": 19.733398212081504,
+          "nonrecurring_share_pct": 54.98139767777824
+        },
+        "financial_health": {
+          "debt_ratio": 60.9718493561059,
+          "current_ratio": 0.9914047671438352,
+          "total_debt": 223.8425783896,
+          "cash": 101.2482446859,
+          "equity": 223.0603245223,
+          "fcf_margin": -8.938914914803206,
+          "debt_note": "借款、到期非流动负债、债券和租赁，部分到期科目不能完全拆分；并非全部负债",
+          "net_margin_pct": 12.298913538420294
+        },
+        "dividend_years": [
+          2025
+        ],
+        "dividend_amounts": [
+          0.81
+        ],
+        "dividend_history_incomplete": true,
+        "sources": [
+          "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF"
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF; https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "2_kline": {
+      "ticker": "002156.SZ",
+      "data": {
+        "kline_count": 641,
+        "period_end": "2026-11-04",
+        "adjustment": "qfq",
+        "stage": "Stage 1 · 算法标签，未确认筑底",
+        "ma_align": "非多头；MA5<MA10<MA20<MA60<MA120",
+        "macd": "水下；DIF低于DEA，未金叉",
+        "rsi": 33.95,
+        "chip_distribution": null,
+        "indicators": {
+          "last_close": 42.33,
+          "ma5": 40.984,
+          "ma10": 43.358999999999995,
+          "ma20": 47.284000000000006,
+          "ma60": 56.59900000000001,
+          "ma120": 61.681149999999995,
+          "ma200": 56.03158999999998,
+          "above_ma20": false,
+          "above_ma200": false,
+          "ma_bull_alignment": false,
+          "macd_dif": -4.470669948583861,
+          "macd_dea": -4.082275656857151,
+          "macd_hist": -0.7767885834534205,
+          "macd_golden_cross": false,
+          "rsi_14": 33.95328719723183,
+          "kdj_k": 17.6,
+          "kdj_d": 12.2,
+          "kdj_j": 28.3,
+          "obv": 79758877.0,
+          "obv_trend_up": false,
+          "williams_r": -68.2,
+          "year_high": 78.71,
+          "year_low": 35.169,
+          "pct_from_year_high": -46.220302375809936,
+          "stage": 1,
+          "vol_5_vs_20": 1.1694576496368791,
+          "vcp_score": 0.47429951197498144,
+          "ma250": 52.476912,
+          "volume_vs_prev5": 1.6564367875447,
+          "high_250d_intraday": 84.7,
+          "drawdown_from_intraday_high_pct": -50.02361275088548
+        },
+        "candles_60d": [
+          {
+            "date": "2026-08-05",
+            "open": 54.01,
+            "close": 58.0,
+            "high": 59.45,
+            "low": 54.01
+          },
+          {
+            "date": "2026-08-06",
+            "open": 56.01,
+            "close": 60.96,
+            "high": 62.81,
+            "low": 56.01
+          },
+          {
+            "date": "2026-08-07",
+            "open": 60.94,
+            "close": 64.72,
+            "high": 65.78,
+            "low": 59.86
+          },
+          {
+            "date": "2026-08-10",
+            "open": 64.73,
+            "close": 63.2,
+            "high": 64.83,
+            "low": 62.0
+          },
+          {
+            "date": "2026-08-11",
+            "open": 62.49,
+            "close": 62.06,
+            "high": 64.3,
+            "low": 61.8
+          },
+          {
+            "date": "2026-08-12",
+            "open": 62.91,
+            "close": 62.86,
+            "high": 64.11,
+            "low": 61.82
+          },
+          {
+            "date": "2026-08-13",
+            "open": 63.82,
+            "close": 62.22,
+            "high": 64.61,
+            "low": 62.1
+          },
+          {
+            "date": "2026-08-14",
+            "open": 63.02,
+            "close": 62.96,
+            "high": 63.43,
+            "low": 61.21
+          },
+          {
+            "date": "2026-08-17",
+            "open": 63.41,
+            "close": 69.26,
+            "high": 69.26,
+            "low": 63.4
+          },
+          {
+            "date": "2026-08-18",
+            "open": 71.2,
+            "close": 70.66,
+            "high": 72.56,
+            "low": 69.28
+          },
+          {
+            "date": "2026-08-19",
+            "open": 69.0,
+            "close": 63.59,
+            "high": 69.89,
+            "low": 63.59
+          },
+          {
+            "date": "2026-08-20",
+            "open": 63.7,
+            "close": 63.15,
+            "high": 65.14,
+            "low": 61.45
+          },
+          {
+            "date": "2026-08-21",
+            "open": 63.82,
+            "close": 63.88,
+            "high": 65.92,
+            "low": 63.01
+          },
+          {
+            "date": "2026-08-24",
+            "open": 63.08,
+            "close": 61.24,
+            "high": 63.58,
+            "low": 59.57
+          },
+          {
+            "date": "2026-08-25",
+            "open": 60.0,
+            "close": 60.9,
+            "high": 62.06,
+            "low": 59.33
+          },
+          {
+            "date": "2026-08-26",
+            "open": 61.97,
+            "close": 61.25,
+            "high": 62.7,
+            "low": 60.39
+          },
+          {
+            "date": "2026-08-27",
+            "open": 61.88,
+            "close": 63.73,
+            "high": 63.87,
+            "low": 61.14
+          },
+          {
+            "date": "2026-08-28",
+            "open": 63.4,
+            "close": 63.75,
+            "high": 65.9,
+            "low": 63.24
+          },
+          {
+            "date": "2026-08-31",
+            "open": 61.42,
+            "close": 64.56,
+            "high": 64.62,
+            "low": 61.4
+          },
+          {
+            "date": "2026-09-01",
+            "open": 64.59,
+            "close": 61.38,
+            "high": 64.6,
+            "low": 61.3
+          },
+          {
+            "date": "2026-09-02",
+            "open": 60.12,
+            "close": 59.7,
+            "high": 60.79,
+            "low": 59.54
+          },
+          {
+            "date": "2026-09-03",
+            "open": 60.6,
+            "close": 59.53,
+            "high": 60.8,
+            "low": 58.85
+          },
+          {
+            "date": "2026-09-04",
+            "open": 59.97,
+            "close": 56.87,
+            "high": 60.66,
+            "low": 56.38
+          },
+          {
+            "date": "2026-09-07",
+            "open": 57.88,
+            "close": 59.15,
+            "high": 59.88,
+            "low": 57.65
+          },
+          {
+            "date": "2026-09-08",
+            "open": 59.15,
+            "close": 58.32,
+            "high": 60.04,
+            "low": 57.97
+          },
+          {
+            "date": "2026-09-09",
+            "open": 59.22,
+            "close": 58.35,
+            "high": 59.8,
+            "low": 57.87
+          },
+          {
+            "date": "2026-09-10",
+            "open": 57.65,
+            "close": 58.34,
+            "high": 59.23,
+            "low": 57.51
+          },
+          {
+            "date": "2026-09-11",
+            "open": 57.01,
+            "close": 58.0,
+            "high": 58.4,
+            "low": 56.22
+          },
+          {
+            "date": "2026-09-14",
+            "open": 57.3,
+            "close": 56.78,
+            "high": 57.88,
+            "low": 56.33
+          },
+          {
+            "date": "2026-09-15",
+            "open": 56.77,
+            "close": 57.31,
+            "high": 58.58,
+            "low": 56.45
+          },
+          {
+            "date": "2026-09-16",
+            "open": 57.38,
+            "close": 59.21,
+            "high": 59.75,
+            "low": 56.91
+          },
+          {
+            "date": "2026-09-17",
+            "open": 58.8,
+            "close": 58.31,
+            "high": 59.54,
+            "low": 58.17
+          },
+          {
+            "date": "2026-09-18",
+            "open": 59.7,
+            "close": 61.38,
+            "high": 62.23,
+            "low": 58.93
+          },
+          {
+            "date": "2026-09-21",
+            "open": 61.9,
+            "close": 61.18,
+            "high": 61.98,
+            "low": 60.7
+          },
+          {
+            "date": "2026-09-22",
+            "open": 64.5,
+            "close": 63.52,
+            "high": 66.07,
+            "low": 62.83
+          },
+          {
+            "date": "2026-09-23",
+            "open": 63.56,
+            "close": 62.8,
+            "high": 65.0,
+            "low": 62.7
+          },
+          {
+            "date": "2026-09-24",
+            "open": 62.49,
+            "close": 61.02,
+            "high": 62.8,
+            "low": 61.0
+          },
+          {
+            "date": "2026-09-28",
+            "open": 61.03,
+            "close": 58.9,
+            "high": 61.36,
+            "low": 58.03
+          },
+          {
+            "date": "2026-09-29",
+            "open": 58.91,
+            "close": 60.36,
+            "high": 61.8,
+            "low": 58.91
+          },
+          {
+            "date": "2026-09-30",
+            "open": 60.27,
+            "close": 56.9,
+            "high": 60.49,
+            "low": 56.78
+          },
+          {
+            "date": "2026-10-08",
+            "open": 57.71,
+            "close": 55.93,
+            "high": 58.13,
+            "low": 55.38
+          },
+          {
+            "date": "2026-10-09",
+            "open": 55.0,
+            "close": 55.55,
+            "high": 55.99,
+            "low": 52.9
+          },
+          {
+            "date": "2026-10-12",
+            "open": 54.78,
+            "close": 53.21,
+            "high": 55.1,
+            "low": 52.89
+          },
+          {
+            "date": "2026-10-13",
+            "open": 51.52,
+            "close": 53.82,
+            "high": 54.75,
+            "low": 51.2
+          },
+          {
+            "date": "2026-10-14",
+            "open": 53.61,
+            "close": 51.73,
+            "high": 53.98,
+            "low": 51.55
+          },
+          {
+            "date": "2026-10-15",
+            "open": 49.59,
+            "close": 49.75,
+            "high": 50.79,
+            "low": 48.91
+          },
+          {
+            "date": "2026-10-16",
+            "open": 50.74,
+            "close": 48.67,
+            "high": 51.16,
+            "low": 48.05
+          },
+          {
+            "date": "2026-10-19",
+            "open": 48.22,
+            "close": 47.65,
+            "high": 48.32,
+            "low": 46.53
+          },
+          {
+            "date": "2026-10-20",
+            "open": 47.65,
+            "close": 48.11,
+            "high": 48.99,
+            "low": 47.43
+          },
+          {
+            "date": "2026-10-21",
+            "open": 48.49,
+            "close": 47.67,
+            "high": 49.38,
+            "low": 47.45
+          },
+          {
+            "date": "2026-10-22",
+            "open": 47.74,
+            "close": 47.8,
+            "high": 49.19,
+            "low": 45.31
+          },
+          {
+            "date": "2026-10-23",
+            "open": 46.46,
+            "close": 48.32,
+            "high": 48.57,
+            "low": 44.49
+          },
+          {
+            "date": "2026-10-26",
+            "open": 47.34,
+            "close": 44.56,
+            "high": 47.48,
+            "low": 44.41
+          },
+          {
+            "date": "2026-10-27",
+            "open": 45.3,
+            "close": 42.75,
+            "high": 45.64,
+            "low": 42.71
+          },
+          {
+            "date": "2026-10-28",
+            "open": 43.65,
+            "close": 45.24,
+            "high": 45.66,
+            "low": 43.62
+          },
+          {
+            "date": "2026-10-29",
+            "open": 44.71,
+            "close": 42.27,
+            "high": 45.0,
+            "low": 42.23
+          },
+          {
+            "date": "2026-10-30",
+            "open": 40.45,
+            "close": 40.72,
+            "high": 43.25,
+            "low": 40.45
+          },
+          {
+            "date": "2026-11-02",
+            "open": 41.89,
+            "close": 41.12,
+            "high": 41.96,
+            "low": 40.38
+          },
+          {
+            "date": "2026-11-03",
+            "open": 40.3,
+            "close": 38.48,
+            "high": 40.62,
+            "low": 38.22
+          },
+          {
+            "date": "2026-11-04",
+            "open": 39.5,
+            "close": 42.33,
+            "high": 42.33,
+            "low": 39.5
+          }
+        ],
+        "ma20_60d": [
+          67.83,
+          67.27,
+          66.96,
+          66.44,
+          65.65,
+          64.85,
+          64.17,
+          63.9,
+          64.21,
+          64.28,
+          63.71,
+          63.38,
+          62.74,
+          61.97,
+          61.57,
+          61.52,
+          61.92,
+          62.27,
+          62.93,
+          63.22,
+          63.3,
+          63.23,
+          62.84,
+          62.63,
+          62.45,
+          62.22,
+          62.03,
+          61.78,
+          61.16,
+          60.49,
+          60.27,
+          60.03,
+          59.9,
+          59.9,
+          60.03,
+          60.11,
+          59.97,
+          59.73,
+          59.52,
+          59.3,
+          59.11,
+          58.91,
+          58.73,
+          58.46,
+          58.13,
+          57.7,
+          57.22,
+          56.7,
+          56.27,
+          55.78,
+          55.21,
+          54.71,
+          53.87,
+          52.95,
+          52.04,
+          51.01,
+          50.0,
+          49.11,
+          48.01,
+          47.28
+        ],
+        "ma60_60d": [
+          66.74,
+          66.74,
+          66.87,
+          66.97,
+          67.04,
+          67.11,
+          67.11,
+          67.13,
+          67.23,
+          67.24,
+          67.05,
+          66.91,
+          66.82,
+          66.74,
+          66.73,
+          66.69,
+          66.58,
+          66.46,
+          66.42,
+          66.4,
+          66.33,
+          66.29,
+          66.24,
+          66.27,
+          66.22,
+          66.14,
+          65.99,
+          65.82,
+          65.58,
+          65.4,
+          65.14,
+          64.82,
+          64.64,
+          64.45,
+          64.25,
+          64.06,
+          63.96,
+          63.86,
+          63.76,
+          63.57,
+          63.41,
+          63.14,
+          62.84,
+          62.51,
+          62.08,
+          61.59,
+          61.14,
+          60.79,
+          60.54,
+          60.18,
+          59.73,
+          59.37,
+          58.84,
+          58.27,
+          57.88,
+          57.55,
+          57.29,
+          57.03,
+          56.82,
+          56.6
+        ],
+        "close_60d": [
+          58.0,
+          60.96,
+          64.72,
+          63.2,
+          62.06,
+          62.86,
+          62.22,
+          62.96,
+          69.26,
+          70.66,
+          63.59,
+          63.15,
+          63.88,
+          61.24,
+          60.9,
+          61.25,
+          63.73,
+          63.75,
+          64.56,
+          61.38,
+          59.7,
+          59.53,
+          56.87,
+          59.15,
+          58.32,
+          58.35,
+          58.34,
+          58.0,
+          56.78,
+          57.31,
+          59.21,
+          58.31,
+          61.38,
+          61.18,
+          63.52,
+          62.8,
+          61.02,
+          58.9,
+          60.36,
+          56.9,
+          55.93,
+          55.55,
+          53.21,
+          53.82,
+          51.73,
+          49.75,
+          48.67,
+          47.65,
+          48.11,
+          47.67,
+          47.8,
+          48.32,
+          44.56,
+          42.75,
+          45.24,
+          42.27,
+          40.72,
+          41.12,
+          38.48,
+          42.33
+        ],
+        "kline_stats": {
+          "volatility": "66.9%",
+          "max_drawdown": "-51.1%",
+          "trailing_252_return": "+5.1%",
+          "ytd_return": "+12.52%"
+        },
+        "quote": {
+          "date": "2026-11-04",
+          "timestamp": "2026-11-04T16:14:54+08:00",
+          "close": 42.33,
+          "previous_close": 38.48,
+          "change_pct": 10.01,
+          "open": 39.5,
+          "high": 42.33,
+          "low": 39.5,
+          "volume_hands": 1026474,
+          "amount_yi": 41.96412085,
+          "turnover_pct": 6.76,
+          "quote_volume_ratio": 1.66,
+          "limit_up": 42.33
+        },
+        "methodology": {
+          "MA": "最近N个交易日qfq收盘价算术均值",
+          "RSI14": "最近14日涨幅均值/(涨幅均值+跌幅绝对值均值)×100；简单均值，非Wilder平滑",
+          "MACD": "EMA12-EMA26为DIF；DIF的EMA9为DEA；柱=2×(DIF-DEA)",
+          "stage": "技能算法：股价低于MA200且MA200高于60个交易日前→Stage1。该标签不证明底部成立，股价仍低于MA10/20/60。",
+          "year_high": "技能year_high为250日最高收盘78.71；盘中最高84.70另列，禁止混用",
+          "volume_ratio": "quote_volume_ratio来自腾讯1.66；volume_vs_prev5为当日量/此前5日均量=1.6564，不与5日均量/20日均量=1.1695混用"
+        },
+        "support": [
+          39.5,
+          38.22
+        ],
+        "resistance": [
+          43.359,
+          47.284,
+          56.599
+        ]
+      },
+      "source": "腾讯qt.gtimg.cn + 腾讯前复权640日K线；技能纯Python计算",
+      "fallback": true
+    },
+    "12_capital_flow": {
+      "ticker": "002156.SZ",
+      "data": {
+        "as_of": "2026-11-03",
+        "margin_balance_yi": 35.01491564,
+        "margin_balance": "35.0149亿元（2026-11-03）",
+        "margin_net_buy_yi": -1.16520178,
+        "margin_buy_yi": 1.71060614,
+        "margin_repay_yi": 2.87580792,
+        "margin_source_url": "https://data.10jqka.com.cn/market/rzrqgg/code/002156/client/on/",
+        "shareholders": [
+          {
+            "date": "2026-09-30",
+            "count": 463874,
+            "change_count": -97431,
+            "change_pct": -17.36,
+            "source_url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+          }
+        ],
+        "north_bound": null,
+        "north_bound_note": "个股北向实时净流量未核实；香港结算持股不等于当天北向净买入",
+        "main_flow_recent": null,
+        "main_flow_note": "未取得今日分单口径可复核完整明细，不把散户净流出自动反推为主力净流入",
+        "unlock": [
+          {
+            "date": "2027-03-16",
+            "shares": 76200794,
+            "status": "预计，最终以公告为准",
+            "source_url": "https://data.eastmoney.com/stockcalendar/002156.html"
+          }
+        ]
+      },
+      "source": "同花顺两融明细+公司2026三季报+东财日历",
+      "fallback": true
+    },
+    "16_lhb": {
+      "ticker": "002156.SZ",
+      "data": {
+        "status": "unverified",
+        "verified": false,
+        "as_of": "2026-11-04",
+        "lhb_count_30d": null,
+        "seat_record_count": null,
+        "board_dates": null,
+        "lhb_records": [],
+        "matched_youzi": [],
+        "inst_vs_youzi": {
+          "institutional_buy": null,
+          "institutional_sell": null,
+          "institutional_net": null,
+          "youzi_buy": null,
+          "youzi_sell": null,
+          "youzi_net": null
+        },
+        "historical_only": {
+          "latest_visible_date": "2026-08-17",
+          "source_url": "https://quote.cfi.cn/cfi_lhb_stock.aspx?client=pc&stockcode=002156",
+          "note": "搜索页可见旧上榜，不能代表近30天或11月4日情况"
+        },
+        "errors": [
+          "深交所公开交易信息网页及当天API均无法经web工具访问",
+          "精确代码+日期搜索未找到11月4日有效席位明细；这不等于当天未上榜"
+        ]
+      },
+      "source": "深交所访问失败；中财历史龙虎榜，仅保留历史上下文",
+      "fallback": true
+    },
+    "17_sentiment": {
+      "ticker": "002156.SZ",
+      "data": {
+        "as_of": "2026-11-04",
+        "heat": "收盘涨停，换手6.76%，成交41.96亿元；交易热度回升",
+        "limit_up_count_recent": 1,
+        "limit_up_count_basis": "仅确认2026-11-04，非近期涨停次数总量",
+        "retail_sentiment": null,
+        "xueqiu_rank": null,
+        "guba_rank": null,
+        "snippets": [
+          {
+            "title": "11月4日涨停交易事实",
+            "url": "https://qt.gtimg.cn/q=sz002156",
+            "body": "42.33元，+10.01%，成交额41.96亿元；只能说明当日交易强度，不能证明股吧态度或净买入机构身份"
+          }
+        ],
+        "note": "雪球股票页web仅返回空壳；未核实实时人气排名、发帖正负比例、粉丝增长。"
+      },
+      "source": "腾讯已收盘行情；社交情绪数据不可核验",
+      "fallback": true
+    },
+    "18_trap": {
+      "ticker": "002156.SZ",
+      "data": {
+        "trap_level": "🟡 信息不足 · 推广风险未排除",
+        "trap_score": null,
+        "signals_hit": "无法量化：8项未全面核验",
+        "signals_hit_count": null,
+        "evidence_count": 1,
+        "high_risk_kw": "未核验付费荐股投诉；单日涨停不等于操纵",
+        "recommendation": "无法据未检出结果认定安全；先核验信息来源，警惕保收益、收费群和陌生账户。",
+        "signals_review": [
+          {
+            "id": 1,
+            "name": "低质量账号集中推荐",
+            "status": "unknown",
+            "finding": "无账号级样本与跨时点数据"
+          },
+          {
+            "id": 2,
+            "name": "模板化荐股",
+            "status": "unknown",
+            "finding": "精确搜索未取得可归属于本轮的模板传播证据"
+          },
+          {
+            "id": 3,
+            "name": "付费社群或直播引流",
+            "status": "unverified_allegation",
+            "finding": "第三方投诉列表搜索摘要出现将通富微电等历史涨幅用作收费荐股宣传；原页访问超时，年份与真伪未核实，不证明上市公司涉事",
+            "url": "https://www.jianyisu.com/pc/index/complainlist/cid/5/ts_status/ts_end.html"
+          },
+          {
+            "id": 4,
+            "name": "基本面与热度脱节",
+            "status": "not_established",
+            "finding": "公司扣非增长有财报支撑，但表观PE受非经常损益扭曲；不能因此判安全",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+          },
+          {
+            "id": 5,
+            "name": "异常量价或操纵",
+            "status": "unknown",
+            "finding": "11月4日涨停，52周盘中高点回撤约50%；高波动本身不能证明操纵",
+            "url": "https://qt.gtimg.cn/q=sz002156"
+          },
+          {
+            "id": 6,
+            "name": "老师股神人设",
+            "status": "unverified_allegation",
+            "finding": "与第3项同一未核实投诉线索，不重复计数"
+          },
+          {
+            "id": 7,
+            "name": "跨平台联动推广",
+            "status": "unknown",
+            "finding": "未取得跨平台同源传播链"
+          },
+          {
+            "id": 8,
+            "name": "虚假研报或消息",
+            "status": "unknown",
+            "finding": "未取得可验证的公司专属造假证据；搜索出现无关公司辟谣已剔除"
+          }
+        ],
+        "coverage_note": "未建立8项可比样本，因此不输出0/8或绿色安全分。"
+      },
+      "source": "8项定向web检索；未全面核验，不以无证据判安全",
+      "fallback": true
+    },
+    "19_contests": {
+      "ticker": "002156.SZ",
+      "data": {
+        "status": "unverified",
+        "xueqiu_cubes": null,
+        "tgb_players": null,
+        "ths_simu": null,
+        "summary": {
+          "s_tier_holders": null,
+          "a_tier_holders": null,
+          "b_tier_holders": null,
+          "high_return_cubes": null
+        },
+        "historical_mentions": [
+          {
+            "name": "跑夫",
+            "date": "2026-08-04",
+            "url": "https://www.9db.com/detail/a53551a5-4848-4182-9329-2a95c05f7531/2026-08-04?h=1",
+            "note": "历史页面出现持仓；搜索排名第3与打开第10不一致，未验证完整交割与当前持仓，不计入当前高手持有"
+          },
+          {
+            "name": "阿易123",
+            "date": "2026-07-20",
+            "url": "https://www.tgb.cn/a/2tAoCkj4mg4-1",
+            "note": "自述重仓回撤的历史帖子，不等于实盘大赛排名或当前持仓"
+          }
+        ],
+        "note": "不能以历史晒单支持现在买入；当前实盘赛持仓无法确认。"
+      },
+      "source": "9点半/淘股吧历史页面，非当前有效持仓",
+      "fallback": true
+    },
+    "3_macro": {
+      "data": {
+        "summary": "LPR3%提供融资支撑，PMI49.3显示总需求偏弱。境外收入63.40%伴随进口和外币债务，不能把汇率变动直接当净利润利好。",
+        "evidence": [
+          {
+            "source": "中国银行/LPR",
+            "url": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+            "finding": "2026-10-20：1年LPR3.00%，5年以上3.50%；处于低位平台，不能假设后续必降息。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "国家统计局",
+            "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+            "finding": "2026-10制造业PMI49.3，新订单49.4；总需求偏弱，不代表AI封测订单同步收缩。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "国务院英文网/央行数据",
+            "url": "https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html",
+            "finding": "2026-09末M2同比7.2%，社融存量同比7.1%；未回归检验与公司收入的相关性。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "公司H1报告",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "finding": "H1境外收入占63.40%；高端原料以进口为主，美元收入与外币债务并存，汇率方向不能单看出口。",
+            "retrieved_at": "2026-11-04"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "8_materials",
+            "chain_id": "链1",
+            "causal_chain": "美元结算收入与进口材料、外币债务并存→人民币变动同时改变收入成本和汇兑损益→不能按出口比例推净利弹性。",
+            "estimated_impact": "进口采购占比及净结算敞口不足，不给伪精确EPS；使用下列利率条件测算。"
+          },
+          {
+            "link_to": "10_valuation",
+            "chain_id": "利率补充",
+            "causal_chain": "LPR低位平台→融资成本支持扩产；若浮息成本上升25bp→利息侵蚀归母利润与ROE。",
+            "estimated_impact": "每100亿元全额浮息债务，税率15%情景下年利润-2125万元；以Q3归母权益计ROE-0.0953个百分点。"
+          }
+        ]
+      },
+      "source": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html; https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html; https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html; https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "13_policy": {
+      "data": {
+        "summary": "政策支持先进封测，但VAT资格须逐年核验；BIS逐案许可也不等于全面放开，海外客户和设备合规仍是经营约束。",
+        "evidence": [
+          {
+            "source": "工信部电子信息司",
+            "url": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html",
+            "finding": "2026-09规划解读提出集成电路全链条攻关、电子材料高端化；属于产业方向，未承诺公司补贴。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "工信部等四部门/税务总局",
+            "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html",
+            "finding": "2026-09-29文件覆盖封测企业；11月30日后查询清单，未入选者当日停止优惠；公司2026资格未核实。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "BIS",
+            "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+            "finding": "2026-01-13允许AMD MI325X等对华出口许可逐案审查，要求客户筛查及美国第三方测试；不是全面放开。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "BIS",
+            "url": "https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+            "finding": "2025-01-15规则涉及先进芯片封装及Approved OSAT；仅作规则背景，未证实通富特定订单受限。",
+            "retrieved_at": "2026-11-04"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "7_industry",
+            "chain_id": "链2",
+            "causal_chain": "集成电路全链条攻关与材料高端化→认证、研发和资本门槛增强→具备量产经验的封测企业可能受益，但资格不自动等于订单。",
+            "estimated_impact": "正向产业期权，缺少公司新增补贴与订单金额，不计入盈利预测。"
+          },
+          {
+            "link_to": "15_events",
+            "chain_id": "链3",
+            "causal_chain": "VAT清单复核→2026资格确认或退出→税负、其他收益及现金流可能变动。",
+            "estimated_impact": "11月30日后可核验；公司入选未知，金额不量化。"
+          }
+        ]
+      },
+      "source": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html; https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html; https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf; https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "7_industry": {
+      "data": {
+        "summary": "先进封装有结构性增量，成熟封装仍受周期约束。AMD景气支持订单逻辑，但业务份额、量产阶段与回报率必须单独验证。",
+        "evidence": [
+          {
+            "source": "AMD 2026Q3财报",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "finding": "营收133.77亿美元同比+45%；数据中心85.46亿美元同比+97%；客户端及游戏合计同比-8%。Q4收入指引170亿美元±3%，为预测而非已实现。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "发行人财会专项说明",
+            "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+            "finding": "公司申报资料援引赛迪顾问：全球封装测试市场2024年743亿美元、2028年1010亿美元；按两点推算CAGR约8%，不能与先进封装子市场混用。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "2026半年报 p12-13",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "finding": "VISIONS平台覆盖2D+异构集成；多款先进封装产品已批量导入HPC和推理芯片。VFO仅首次ES交付、VCS验证完成；2nm仍攻坚，不得写全部成熟量产。",
+            "retrieved_at": "2026-11-04"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "15_events",
+            "chain_id": "3",
+            "causal_chain": "AMD数据中心需求增长→封测需求与产品复杂度上升→公司高端产能利用与收入可能增加；具体GPU订单份额未披露。",
+            "estimated_impact": "正向但不可把AMD营收增速直接套给通富营收。"
+          },
+          {
+            "link_to": "1_financials",
+            "chain_id": "6",
+            "causal_chain": "高端产线扩充→固定资产与折旧增加→仅收入增长不足以保证利润增长；需用分厂利润验证。",
+            "estimated_impact": "半年报苏州净利同比约-27.6%，槟城约+29.4%，提示结构性分化。"
+          }
+        ],
+        "lifecycle": "先进封装成长；传统封测成熟",
+        "growth": null,
+        "growth_note": "无可比行业统一增速，不用公司收入替代行业",
+        "scope": "AI先进封装需求与传统需求分化"
+      },
+      "source": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results; https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156; https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "15_events": {
+      "data": {
+        "summary": "业绩催化已兑现，后续应检验扣非增速和扩产回报。定增解禁不在60天窗口，未核得未来60天已公告的季报或重大会议日期。",
+        "evidence": [
+          {
+            "source": "2026三季报 p2-4",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+            "finding": "前三季归母30.606亿元、扣非13.778亿元；差额16.828亿元，主因金融资产公允价值变动，不能据表观增长年化主业。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "定增上市公告书",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "finding": "2026-09-16新增7620.0794万股，总股本15.93797706亿股；发行价55.38元，募资总额42.2亿元，锁定六个月。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "2026-067关联交易公告",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+            "finding": "10月29日董事会将向金海通采购设备备件年度额度由0.9亿增至3.8亿元，增量2.9亿元；前三季已发生1.500758亿元。额度不等于确认支出或新增销售。",
+            "retrieved_at": "2026-11-04"
+          },
+          {
+            "source": "AMD官方业绩公告",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "finding": "美东2026-11-03已发布2026Q3业绩；北京时间11月4日分析中属于已发生事件，不能列为未来60天待公布催化剂。",
+            "retrieved_at": "2026-11-04"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "10_valuation",
+            "chain_id": "3",
+            "causal_chain": "金融资产估值上涨→表观归母显著增加→TTM PE下降；若以该利润给成长倍数会高估经常盈利。",
+            "estimated_impact": "前三季非经常损益/归母约54.98%；应拆分主业估值与金融投资净值，避免双计。"
+          },
+          {
+            "link_to": "1_financials",
+            "chain_id": "6",
+            "causal_chain": "定增42.2亿元→资本开支资金缓解→股数增加约5.02%且新产线折旧与爬坡先行。",
+            "estimated_impact": "固定总利润下EPS较发行前约摊薄4.78%；55.38元是发行价，不是二级市场价格下限。"
+          }
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF; https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156; https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156; https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "8_materials": {
+      "data": {
+        "summary": "公司真实材料占比和合同顺价机制未披露，不能把金铜期货涨幅直接代入全部营业成本。15.89%毛利率下，采购涨价和利用率变化会显著影响利润。",
+        "evidence": [
+          {
+            "source": "company_statutory_filing",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+            "finding": "主要材料为框架/基板、键合丝、塑封料；高端材料以进口为主。年报成本表只按业务分类，未给材料/人工/折旧占比。",
+            "retrieved_at": "2026-11-04",
+            "page": "19、34"
+          },
+          {
+            "source": "company_statutory_filing",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+            "finding": "前三季收入248.85亿元、营业成本209.31亿元，据此计算综合毛利率15.89%；存货59.07亿元，较年初增40%。",
+            "retrieved_at": "2026-11-04",
+            "page": "3、8、9"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "1_financials",
+            "chain_id": "链 1",
+            "causal_chain": "高端材料进口依赖→采购价格及汇率变动→在售价和良率不变时压缩毛利；存货增长使采购成本传导存在时滞。",
+            "estimated_impact": "压力测试而非公司预测：若受影响材料占成本30%/50%，该材料篮子涨10%且不能顺价，综合毛利率分别减少2.52/4.21个百分点。"
+          }
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF; https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "9_futures": {
+      "data": {
+        "summary": "期货维度以外汇风险和材料成本传导为主，尚无公司金铜商品头寸证据。5亿美元是拟授权额度，不能计作已套保资产或利润。",
+        "evidence": [
+          {
+            "source": "company_statutory_filing",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF",
+            "finding": "董事会拟开展上限5亿美元外汇套保，工具可含远期、掉期、外汇期货及期权；这是额度授权方案，不是实际头寸。",
+            "retrieved_at": "2026-11-04",
+            "page": "1—3"
+          },
+          {
+            "source": "company_statutory_filing",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "finding": "半年报金融工具风险附注称未采取汇率规避措施，美元汇率±2%的披露税后敏感性为±1389.55万元；未见金铜商品套保头寸披露。",
+            "retrieved_at": "2026-11-04",
+            "page": "138"
+          }
+        ],
+        "associations": [
+          {
+            "link_to": "3_macro",
+            "chain_id": "链 4",
+            "causal_chain": "海外销售与进口采购→外币收支及资产负债敞口→汇兑损益；外汇套保授权只提供工具选择，不能视为风险已经锁定。",
+            "estimated_impact": "按半年报敏感性，美元汇率变化2%对应税后利润约1389.55万元；这不是金铜期货损益估计，也不可线性外推为全年预测。"
+          }
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF; https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "4_peers": {
+      "data": {
+        "peer_table": [
+          {
+            "name": "通富微电",
+            "code": "002156",
+            "price": 42.33,
+            "pe": 19.73,
+            "pb": 3.02,
+            "market_cap_yi": 674.65,
+            "quote_time": "20261104161454",
+            "is_self": true,
+            "currency": "CNY",
+            "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+          },
+          {
+            "name": "长电科技",
+            "code": "600584",
+            "price": 51.74,
+            "pe": 41.54,
+            "pb": 3.13,
+            "market_cap_yi": 925.84,
+            "quote_time": "20261104161450",
+            "is_self": false,
+            "currency": "CNY",
+            "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+          },
+          {
+            "name": "华天科技",
+            "code": "002185",
+            "price": 14.98,
+            "pe": 42.34,
+            "pb": 2.48,
+            "market_cap_yi": 537.03,
+            "quote_time": "20261104161451",
+            "is_self": false,
+            "currency": "CNY",
+            "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+          },
+          {
+            "name": "甬矽电子",
+            "code": "688362",
+            "price": 39.25,
+            "pe": 363.73,
+            "pb": 4.79,
+            "market_cap_yi": 178.23,
+            "quote_time": "20261104161437",
+            "is_self": false,
+            "currency": "CNY",
+            "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+          }
+        ],
+        "financial_comparison": [
+          {
+            "name": "通富微电",
+            "code": "002156",
+            "revenue_yi": 248.8517498736,
+            "recurring_profit_yi": 13.778421138299999,
+            "revenue_growth_pct": 23.71,
+            "recurring_growth_pct": 77.1,
+            "period": "2026-01/09",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+          },
+          {
+            "name": "长电科技",
+            "code": "600584",
+            "revenue_yi": 309.5232957885,
+            "recurring_profit_yi": 15.60885001,
+            "revenue_growth_pct": 7.96,
+            "recurring_growth_pct": 99.17,
+            "period": "2026-01/09",
+            "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12655352&stockid=600584"
+          },
+          {
+            "name": "华天科技",
+            "code": "002185",
+            "revenue_yi": 167.7210449179,
+            "recurring_profit_yi": 6.4320764819,
+            "revenue_growth_pct": 35.48,
+            "recurring_growth_pct": 481.32,
+            "period": "2026-01/09",
+            "source": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12683322&stockid=002185"
+          },
+          {
+            "name": "甬矽电子",
+            "code": "688362",
+            "revenue_yi": 37.8245096775,
+            "recurring_profit_yi": -0.4591978733,
+            "revenue_growth_pct": 19.32,
+            "recurring_growth_pct": null,
+            "period": "2026-01/09",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225632360.PDF"
+          }
+        ],
+        "global_peer_comparison": {
+          "status": "unavailable",
+          "reason": "未取得≥3家同周期、同币种可比全球财务，不生成全球估值分位"
+        },
+        "warning": "报表PE受非经常损益扭曲，不直接由同行PE生成买入结论"
+      },
+      "source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "5_chain": {
+      "data": {
+        "upstream": [
+          "封装基板、引线框架",
+          "键合丝、塑封料",
+          "进口设备及高端材料"
+        ],
+        "downstream": [
+          "CPU/GPU等芯片设计公司",
+          "通信、汽车及工业芯片客户"
+        ],
+        "main_customers": "2025客户1占52.29%，前五69.54%；问询回复确认2022至2025Q3 AMD收入超50%，匿名客户名单不逐名推定",
+        "customer_concentration_pct": 52.29,
+        "amd_ownership": "苏州、槟城通富超威均间接持85%",
+        "evidence": [
+          {
+            "key": "top1_customer_share",
+            "value": 52.29,
+            "unit": "%",
+            "period": 2025,
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+            "note": "客户匿名披露为客户1；问询回复证实报告期AMD占比均超50%，不把匿名名单逐名认定。"
+          },
+          {
+            "key": "top5_customer_share",
+            "value": 69.54,
+            "unit": "%",
+            "period": 2025,
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+            "note": ""
+          },
+          {
+            "key": "amd_dependence",
+            "value": "报告期AMD收入均超50%",
+            "unit": "text",
+            "period": "2022-2025Q3",
+            "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12051809&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "suzhou_equity",
+            "value": 85,
+            "unit": "%",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_equity",
+            "value": 85,
+            "unit": "%",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_revenue",
+            "value": 4266413569.21,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_net_income",
+            "value": 394680982.35,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_prior_revenue",
+            "value": 3934994409.92,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_prior_net_income",
+            "value": 545021254.49,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_revenue",
+            "value": 5395327358.9,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_net_income",
+            "value": 233485762.54,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_prior_revenue",
+            "value": 4369441086.52,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_prior_net_income",
+            "value": 180470214.69,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "shares_after_placement",
+            "value": 1593797706,
+            "unit": "shares",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "placement_new_shares",
+            "value": 76200794,
+            "unit": "shares",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "placement_price",
+            "value": 55.38,
+            "unit": "CNY/share",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "gross_proceeds",
+            "value": 4219999971.72,
+            "unit": "CNY",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "amd_q3_revenue",
+            "value": 13377,
+            "unit": "USD million",
+            "period": "2026Q3",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": ""
+          },
+          {
+            "key": "amd_q3_data_center_revenue",
+            "value": 8546,
+            "unit": "USD million",
+            "period": "2026Q3",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": ""
+          },
+          {
+            "key": "amd_q4_revenue_guidance",
+            "value": 17000,
+            "unit": "USD million",
+            "period": "2026Q4 guidance",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": "±3%；前瞻指引"
+          },
+          {
+            "key": "jinhaitong_plan_increase",
+            "value": 290000000,
+            "unit": "CNY",
+            "period": "2026-10-29",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "advanced_packaging_status",
+            "value": "多款先进封装产品批量导入HPC与推理芯片；VFO首次ES交付、VCS验证完成、2nm攻坚",
+            "unit": "text",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "industry_tam_2028",
+            "value": 1010,
+            "unit": "USD 100 million",
+            "period": "2028 forecast quoted by issuer",
+            "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+            "note": ""
+          }
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF; https://static.cninfo.com.cn/finalpage/2026-08-29/1225527099.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "6_research": {
+      "data": {
+        "summary": "卖方强调AI先进封装增长；应核查其盈利预测是否剔除金融资产公允价值变动",
+        "reports": [
+          {
+            "title": "2026三季报点评：26Q3收入及扣非利润创新高",
+            "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/846796920297/index.phtml",
+            "date": "2026-10-31"
+          }
+        ],
+        "consensus_status": "未取得同一时点有效一致预期，不展示目标价均值"
+      },
+      "source": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/846796920297/index.phtml",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "10_valuation": {
+      "data": {
+        "pe": 19.73,
+        "pb": 3.02,
+        "pe_quantile": null,
+        "pb_quantile": null,
+        "pe_recurring_ttm": 46.83741922201529,
+        "method": "报表PE与扣非TTM PE分列；缺历史分位，禁止由股价回撤推估值分位",
+        "period": "TTM至2026-09-30",
+        "status": "部分缺失，估值情景另列"
+      },
+      "source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362; https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF; https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "11_governance": {
+      "data": {
+        "period": "2026Q3",
+        "controller_holder": "南通华达微电子集团股份有限公司",
+        "controller_holder_pct": 17.9,
+        "controller_holder_shares": 285344715,
+        "controller": "石明达（H1披露）",
+        "director_chair": "石磊",
+        "national_ic_fund_pct": 4.66,
+        "shareholders": 463874,
+        "top10_pledge_mark_freeze": "Q3前十名表均列不适用0；不能外推全部股东实时无质押",
+        "total_shares": 1593797706,
+        "previous_total_shares": 1517596912,
+        "new_shares": 76200794,
+        "new_shares_vs_old_pct": 5.021,
+        "equity_financing_cash_cny": 4211919971.72
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF; https://static.cninfo.com.cn/finalpage/2026-08-29/1225527099.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "14_moat": {
+      "data": {
+        "summary": "先进封装工艺、认证与客户合作形成黏性；第一客户52.29%也压低议价独立性。2025ROE8.08%，尚未证明高资本回报。",
+        "scores": {
+          "brand": 2,
+          "switching_cost": 4,
+          "network": 1,
+          "cost": 2,
+          "intangibles": 4
+        },
+        "score_note": "agent主观1–5分，非市场统计",
+        "r_and_d_2025_yi": 15.9200922571,
+        "r_and_d_2025_revenue_pct": 5.7,
+        "r_and_d_2026_9m_yi": 12.7808001443,
+        "evidence": [
+          {
+            "key": "top1_customer_share",
+            "value": 52.29,
+            "unit": "%",
+            "period": 2025,
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+            "note": "客户匿名披露为客户1；问询回复证实报告期AMD占比均超50%，不把匿名名单逐名认定。"
+          },
+          {
+            "key": "top5_customer_share",
+            "value": 69.54,
+            "unit": "%",
+            "period": 2025,
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+            "note": ""
+          },
+          {
+            "key": "amd_dependence",
+            "value": "报告期AMD收入均超50%",
+            "unit": "text",
+            "period": "2022-2025Q3",
+            "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12051809&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "suzhou_equity",
+            "value": 85,
+            "unit": "%",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_equity",
+            "value": 85,
+            "unit": "%",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_revenue",
+            "value": 4266413569.21,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_net_income",
+            "value": 394680982.35,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_prior_revenue",
+            "value": 3934994409.92,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "suzhou_prior_net_income",
+            "value": 545021254.49,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_revenue",
+            "value": 5395327358.9,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_net_income",
+            "value": 233485762.54,
+            "unit": "CNY",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_prior_revenue",
+            "value": 4369441086.52,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "penang_prior_net_income",
+            "value": 180470214.69,
+            "unit": "CNY",
+            "period": "2025H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "shares_after_placement",
+            "value": 1593797706,
+            "unit": "shares",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "placement_new_shares",
+            "value": 76200794,
+            "unit": "shares",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "placement_price",
+            "value": 55.38,
+            "unit": "CNY/share",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "gross_proceeds",
+            "value": 4219999971.72,
+            "unit": "CNY",
+            "period": "2026-09-16",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "amd_q3_revenue",
+            "value": 13377,
+            "unit": "USD million",
+            "period": "2026Q3",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": ""
+          },
+          {
+            "key": "amd_q3_data_center_revenue",
+            "value": 8546,
+            "unit": "USD million",
+            "period": "2026Q3",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": ""
+          },
+          {
+            "key": "amd_q4_revenue_guidance",
+            "value": 17000,
+            "unit": "USD million",
+            "period": "2026Q4 guidance",
+            "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+            "note": "±3%；前瞻指引"
+          },
+          {
+            "key": "jinhaitong_plan_increase",
+            "value": 290000000,
+            "unit": "CNY",
+            "period": "2026-10-29",
+            "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+            "note": ""
+          },
+          {
+            "key": "advanced_packaging_status",
+            "value": "多款先进封装产品批量导入HPC与推理芯片；VFO首次ES交付、VCS验证完成、2nm攻坚",
+            "unit": "text",
+            "period": "2026H1",
+            "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+            "note": ""
+          },
+          {
+            "key": "industry_tam_2028",
+            "value": 1010,
+            "unit": "USD 100 million",
+            "period": "2028 forecast quoted by issuer",
+            "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+            "note": ""
+          }
+        ]
+      },
+      "source": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF; https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+      "fallback": true,
+      "fallback_reason": "公开资料人工核验"
+    },
+    "20_valuation_models": {
+      "data": {
+        "dcf": {
+          "method": "五年显式FCFF＋永续终值（研究者情景）",
+          "intrinsic_per_share": 26.14,
+          "current_price": 42.33,
+          "safety_margin_pct": -38.3,
+          "verdict": "基准现金流估值低于现价；对Capex回落高度敏感",
+          "enterprise_value_yi": 539.4815290394552,
+          "equity_value_yi": 416.5597456871552,
+          "net_debt_yi": 122.59433370369999,
+          "shares_yi": 15.93797706,
+          "tv_pct_of_ev": 78.64889057076961,
+          "base_fcf_yi": null,
+          "assumptions": {
+            "revenue_base_2026_yi": 340,
+            "tax_pct": 15,
+            "wacc_pct": 10.0,
+            "terminal_growth_pct": 2.5,
+            "da_pct": 9.0,
+            "nwc_share_incremental_revenue_pct": 2,
+            "net_debt_yi": 122.59433370369999,
+            "minority_book_deduction_yi": 16.6628775952,
+            "nonoperating_asset_addback_yi": 16.3354279466,
+            "financial_asset_haircut_pct": 50,
+            "shares_yi": 15.93797706
+          },
+          "projected_fcf_yi": [
+            13.63999999999999,
+            21.790000000000003,
+            32.05,
+            43.412499999999994,
+            50.0
+          ],
+          "year_labels": [
+            "2027",
+            "2028",
+            "2029",
+            "2030",
+            "2031"
+          ],
+          "pv_explicit_yi": 115.18529161569933,
+          "tv_pv_yi": 424.29623742375577,
+          "sensitivity_table": {
+            "wacc_axis": [
+              "9.0%",
+              "9.5%",
+              "10.0%",
+              "10.5%",
+              "11.0%"
+            ],
+            "g_axis": [
+              "1.5%",
+              "2.0%",
+              "2.5%",
+              "3.0%",
+              "3.5%"
+            ],
+            "values_per_share": [
+              [
+                27.34,
+                29.46,
+                31.9,
+                34.75,
+                38.11
+              ],
+              [
+                24.91,
+                26.73,
+                28.81,
+                31.21,
+                34.0
+              ],
+              [
+                22.78,
+                24.35,
+                26.14,
+                28.18,
+                30.53
+              ],
+              [
+                20.88,
+                22.25,
+                23.8,
+                25.56,
+                27.56
+              ],
+              [
+                19.19,
+                20.39,
+                21.75,
+                23.26,
+                24.99
+              ]
+            ]
+          },
+          "methodology_log": [
+            "EBIT×(1−15%)+折旧摊销−资本开支−增量营运资金",
+            "2027–2031收入380/440/500/550/600亿元；EBIT率8/8.5/9/9.5/10%",
+            "D&A占收入9%；Capex占收入12/11/10/9/9%；增量营运资本为增收2%",
+            "WACC10%、永续g2.5%均为假设；净债、少数股权和金融资产折价详见底稿"
+          ],
+          "limitations": [
+            "五年简化FCFF，年度期点近似；非完整审计三表预测。",
+            "2026全年收入340亿元是建模起点假设，非已披露结果。",
+            "现金代理CFO−Capex不是FCFF，历史负值未被正利润代理覆盖。",
+            "净债包括到期非流动负债，其中少量非融资科目未完全拆分；现金未扣限制使用部分，存在净债低估可能。",
+            "少数股东按账面值扣除；金融资产按50%账面折价加回，不是独立估值或全部可分配现金。",
+            "母公司及各子公司税率不同，15%为情景假设，不是集团实际税率。",
+            "终值资本开支等于折旧，隐含持续扩产可放缓；若继续高资本开支，估值更低。",
+            "2025年度净利12.187亿元/扣非8.406亿元取最终年报；发行预案旧假设不替代已披露结果。"
+          ]
+        },
+        "comps": {
+          "method": "2027扣非盈利×假设PE",
+          "verdict": "基准41.41元接近42.33元，缺乏基准安全边际",
+          "scenarios": {
+            "bear": {
+              "recurring_profit_2027_yi": 18,
+              "assumed_pe": 25,
+              "eps": 1.1293779588361386,
+              "price": 28.234448970903465,
+              "upside_pct": -33.29919921827672
+            },
+            "base": {
+              "recurring_profit_2027_yi": 22,
+              "assumed_pe": 30,
+              "eps": 1.3803508385775027,
+              "price": 41.41052515732508,
+              "upside_pct": -2.1721588534725167
+            },
+            "bull": {
+              "recurring_profit_2027_yi": 28,
+              "assumed_pe": 35,
+              "eps": 1.7568101581895488,
+              "price": 61.48835553663421,
+              "upside_pct": 45.25952170241958
+            }
+          },
+          "peer_table": [
+            {
+              "name": "通富微电",
+              "code": "002156",
+              "price": 42.33,
+              "pe": 19.73,
+              "pb": 3.02,
+              "market_cap_yi": 674.65,
+              "quote_time": "20261104161454",
+              "is_self": true,
+              "currency": "CNY",
+              "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+            },
+            {
+              "name": "长电科技",
+              "code": "600584",
+              "price": 51.74,
+              "pe": 41.54,
+              "pb": 3.13,
+              "market_cap_yi": 925.84,
+              "quote_time": "20261104161450",
+              "is_self": false,
+              "currency": "CNY",
+              "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+            },
+            {
+              "name": "华天科技",
+              "code": "002185",
+              "price": 14.98,
+              "pe": 42.34,
+              "pb": 2.48,
+              "market_cap_yi": 537.03,
+              "quote_time": "20261104161451",
+              "is_self": false,
+              "currency": "CNY",
+              "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+            },
+            {
+              "name": "甬矽电子",
+              "code": "688362",
+              "price": 39.25,
+              "pe": 363.73,
+              "pb": 4.79,
+              "market_cap_yi": 178.23,
+              "quote_time": "20261104161437",
+              "is_self": false,
+              "currency": "CNY",
+              "quote_source": "https://qt.gtimg.cn/q=sz002156,sh600584,sz002185,sh688362"
+            }
+          ],
+          "warning": "不同公司报表PE不可无调整比较，不用甬矽亏损扣非利润做PE中位数"
+        },
+        "three_statement": {
+          "status": "简化经营与现金流预测",
+          "rows": [
+            {
+              "year": 2027,
+              "revenue_yi": 380,
+              "ebit_margin_pct": 8.0,
+              "ebit_yi": 30.400000000000002,
+              "tax_yi": 4.5600000000000005,
+              "da_yi": 34.199999999999996,
+              "capex_yi": 45.6,
+              "delta_nwc_yi": 0.8,
+              "fcff_yi": 13.63999999999999,
+              "pv_yi": 12.39999999999999
+            },
+            {
+              "year": 2028,
+              "revenue_yi": 440,
+              "ebit_margin_pct": 8.5,
+              "ebit_yi": 37.400000000000006,
+              "tax_yi": 5.61,
+              "da_yi": 39.6,
+              "capex_yi": 48.4,
+              "delta_nwc_yi": 1.2,
+              "fcff_yi": 21.790000000000003,
+              "pv_yi": 18.008264462809915
+            },
+            {
+              "year": 2029,
+              "revenue_yi": 500,
+              "ebit_margin_pct": 9.0,
+              "ebit_yi": 45.0,
+              "tax_yi": 6.75,
+              "da_yi": 45.0,
+              "capex_yi": 50.0,
+              "delta_nwc_yi": 1.2,
+              "fcff_yi": 32.05,
+              "pv_yi": 24.079639368895556
+            },
+            {
+              "year": 2030,
+              "revenue_yi": 550,
+              "ebit_margin_pct": 9.5,
+              "ebit_yi": 52.25,
+              "tax_yi": 7.8374999999999995,
+              "da_yi": 49.5,
+              "capex_yi": 49.5,
+              "delta_nwc_yi": 1.0,
+              "fcff_yi": 43.412499999999994,
+              "pv_yi": 29.65132163103612
+            },
+            {
+              "year": 2031,
+              "revenue_yi": 600,
+              "ebit_margin_pct": 10.0,
+              "ebit_yi": 60.0,
+              "tax_yi": 9.0,
+              "da_yi": 54.0,
+              "capex_yi": 54.0,
+              "delta_nwc_yi": 1.0,
+              "fcff_yi": 50.0,
+              "pv_yi": 31.04606615295775
+            }
+          ],
+          "warning": "未伪造完整BS平衡；不是完整三表联动模型"
+        },
+        "lbo": {
+          "status": "不出收益率",
+          "reason": "缺乏已核验正常化EBITDA、维持性资本开支、债务合同和收购融资条件；净利/0.6无法替代EBITDA。默认21.7% IRR已剔除，不作决策依据。"
+        },
+        "merger": {
+          "status": "不适用",
+          "reason": "无已核实并购标的、对价与融资条款，不造增厚摊薄数字。"
+        },
+        "summary": {
+          "dcf_intrinsic": 26.14,
+          "dcf_safety_margin_pct": -38.3,
+          "dcf_verdict": "基准现金流估值低于现价；对Capex回落高度敏感",
+          "lbo_irr_pct": null,
+          "lbo_verdict": "证据不足，不给收益率",
+          "comps_verdict": "2027基准扣非盈利倍数情景41.41元"
+        },
+        "scenario_analysis": {
+          "ticker": "002156.SZ",
+          "date": "2026-11-04",
+          "price_reference": 42.33,
+          "unit": "亿元/元/亿股",
+          "status": "研究者假设情景；非一致预期、非目标价保证",
+          "fcff_formula": "EBIT×(1−15%)+折旧摊销−资本开支−增量营运资金",
+          "dcf_scenarios": {
+            "bear": {
+              "assumptions": {
+                "revenue_base_2026_yi": 340,
+                "tax_pct": 15,
+                "wacc_pct": 11.0,
+                "terminal_growth_pct": 2.0,
+                "da_pct": 9.0,
+                "nwc_share_incremental_revenue_pct": 2,
+                "net_debt_yi": 122.59433370369999,
+                "minority_book_deduction_yi": 16.6628775952,
+                "nonoperating_asset_addback_yi": 16.3354279466,
+                "financial_asset_haircut_pct": 50,
+                "shares_yi": 15.93797706
+              },
+              "rows": [
+                {
+                  "year": 2027,
+                  "revenue_yi": 360,
+                  "ebit_margin_pct": 7.000000000000001,
+                  "ebit_yi": 25.200000000000003,
+                  "tax_yi": 3.7800000000000002,
+                  "da_yi": 32.4,
+                  "capex_yi": 50.400000000000006,
+                  "delta_nwc_yi": 0.4,
+                  "fcff_yi": 3.0199999999999947,
+                  "pv_yi": 2.7207207207207156
+                },
+                {
+                  "year": 2028,
+                  "revenue_yi": 390,
+                  "ebit_margin_pct": 7.5,
+                  "ebit_yi": 29.25,
+                  "tax_yi": 4.3875,
+                  "da_yi": 35.1,
+                  "capex_yi": 50.7,
+                  "delta_nwc_yi": 0.6,
+                  "fcff_yi": 8.662500000000003,
+                  "pv_yi": 7.030679327976626
+                },
+                {
+                  "year": 2029,
+                  "revenue_yi": 420,
+                  "ebit_margin_pct": 8.0,
+                  "ebit_yi": 33.6,
+                  "tax_yi": 5.04,
+                  "da_yi": 37.8,
+                  "capex_yi": 50.4,
+                  "delta_nwc_yi": 0.6,
+                  "fcff_yi": 15.360000000000001,
+                  "pv_yi": 11.231099616782595
+                },
+                {
+                  "year": 2030,
+                  "revenue_yi": 450,
+                  "ebit_margin_pct": 8.5,
+                  "ebit_yi": 38.25,
+                  "tax_yi": 5.7375,
+                  "da_yi": 40.5,
+                  "capex_yi": 49.5,
+                  "delta_nwc_yi": 0.6,
+                  "fcff_yi": 22.912499999999987,
+                  "pv_yi": 15.093173445097307
+                },
+                {
+                  "year": 2031,
+                  "revenue_yi": 480,
+                  "ebit_margin_pct": 8.5,
+                  "ebit_yi": 40.800000000000004,
+                  "tax_yi": 6.12,
+                  "da_yi": 43.199999999999996,
+                  "capex_yi": 48.0,
+                  "delta_nwc_yi": 0.6,
+                  "fcff_yi": 29.279999999999994,
+                  "pv_yi": 17.37625488555459
+                }
+              ],
+              "explicit_pv_yi": 53.45192799613183,
+              "terminal_pv_yi": 196.93088870295202,
+              "terminal_share_pct": 78.65191841005142,
+              "enterprise_value_yi": 250.38281669908383,
+              "equity_value_yi": 127.46103334678384,
+              "price": 7.997315648463095,
+              "upside_pct": -81.10721557178574
+            },
+            "base": {
+              "assumptions": {
+                "revenue_base_2026_yi": 340,
+                "tax_pct": 15,
+                "wacc_pct": 10.0,
+                "terminal_growth_pct": 2.5,
+                "da_pct": 9.0,
+                "nwc_share_incremental_revenue_pct": 2,
+                "net_debt_yi": 122.59433370369999,
+                "minority_book_deduction_yi": 16.6628775952,
+                "nonoperating_asset_addback_yi": 16.3354279466,
+                "financial_asset_haircut_pct": 50,
+                "shares_yi": 15.93797706
+              },
+              "rows": [
+                {
+                  "year": 2027,
+                  "revenue_yi": 380,
+                  "ebit_margin_pct": 8.0,
+                  "ebit_yi": 30.400000000000002,
+                  "tax_yi": 4.5600000000000005,
+                  "da_yi": 34.199999999999996,
+                  "capex_yi": 45.6,
+                  "delta_nwc_yi": 0.8,
+                  "fcff_yi": 13.63999999999999,
+                  "pv_yi": 12.39999999999999
+                },
+                {
+                  "year": 2028,
+                  "revenue_yi": 440,
+                  "ebit_margin_pct": 8.5,
+                  "ebit_yi": 37.400000000000006,
+                  "tax_yi": 5.61,
+                  "da_yi": 39.6,
+                  "capex_yi": 48.4,
+                  "delta_nwc_yi": 1.2,
+                  "fcff_yi": 21.790000000000003,
+                  "pv_yi": 18.008264462809915
+                },
+                {
+                  "year": 2029,
+                  "revenue_yi": 500,
+                  "ebit_margin_pct": 9.0,
+                  "ebit_yi": 45.0,
+                  "tax_yi": 6.75,
+                  "da_yi": 45.0,
+                  "capex_yi": 50.0,
+                  "delta_nwc_yi": 1.2,
+                  "fcff_yi": 32.05,
+                  "pv_yi": 24.079639368895556
+                },
+                {
+                  "year": 2030,
+                  "revenue_yi": 550,
+                  "ebit_margin_pct": 9.5,
+                  "ebit_yi": 52.25,
+                  "tax_yi": 7.8374999999999995,
+                  "da_yi": 49.5,
+                  "capex_yi": 49.5,
+                  "delta_nwc_yi": 1.0,
+                  "fcff_yi": 43.412499999999994,
+                  "pv_yi": 29.65132163103612
+                },
+                {
+                  "year": 2031,
+                  "revenue_yi": 600,
+                  "ebit_margin_pct": 10.0,
+                  "ebit_yi": 60.0,
+                  "tax_yi": 9.0,
+                  "da_yi": 54.0,
+                  "capex_yi": 54.0,
+                  "delta_nwc_yi": 1.0,
+                  "fcff_yi": 50.0,
+                  "pv_yi": 31.04606615295775
+                }
+              ],
+              "explicit_pv_yi": 115.18529161569933,
+              "terminal_pv_yi": 424.29623742375577,
+              "terminal_share_pct": 78.64889057076961,
+              "enterprise_value_yi": 539.4815290394552,
+              "equity_value_yi": 416.5597456871552,
+              "price": 26.136299739858906,
+              "upside_pct": -38.25584753163499
+            },
+            "bull": {
+              "assumptions": {
+                "revenue_base_2026_yi": 340,
+                "tax_pct": 15,
+                "wacc_pct": 9.0,
+                "terminal_growth_pct": 3.0,
+                "da_pct": 8.0,
+                "nwc_share_incremental_revenue_pct": 2,
+                "net_debt_yi": 122.59433370369999,
+                "minority_book_deduction_yi": 16.6628775952,
+                "nonoperating_asset_addback_yi": 16.3354279466,
+                "financial_asset_haircut_pct": 50,
+                "shares_yi": 15.93797706
+              },
+              "rows": [
+                {
+                  "year": 2027,
+                  "revenue_yi": 420,
+                  "ebit_margin_pct": 9.0,
+                  "ebit_yi": 37.8,
+                  "tax_yi": 5.669999999999999,
+                  "da_yi": 33.6,
+                  "capex_yi": 46.2,
+                  "delta_nwc_yi": 1.6,
+                  "fcff_yi": 17.929999999999986,
+                  "pv_yi": 16.449541284403654
+                },
+                {
+                  "year": 2028,
+                  "revenue_yi": 520,
+                  "ebit_margin_pct": 10.0,
+                  "ebit_yi": 52.0,
+                  "tax_yi": 7.8,
+                  "da_yi": 41.6,
+                  "capex_yi": 52.0,
+                  "delta_nwc_yi": 2.0,
+                  "fcff_yi": 31.799999999999997,
+                  "pv_yi": 26.765423785876603
+                },
+                {
+                  "year": 2029,
+                  "revenue_yi": 620,
+                  "ebit_margin_pct": 11.0,
+                  "ebit_yi": 68.2,
+                  "tax_yi": 10.23,
+                  "da_yi": 49.6,
+                  "capex_yi": 55.8,
+                  "delta_nwc_yi": 2.0,
+                  "fcff_yi": 49.769999999999996,
+                  "pv_yi": 38.43157180263916
+                },
+                {
+                  "year": 2030,
+                  "revenue_yi": 720,
+                  "ebit_margin_pct": 11.5,
+                  "ebit_yi": 82.8,
+                  "tax_yi": 12.42,
+                  "da_yi": 57.6,
+                  "capex_yi": 57.6,
+                  "delta_nwc_yi": 2.0,
+                  "fcff_yi": 68.38,
+                  "pv_yi": 48.442115932638124
+                },
+                {
+                  "year": 2031,
+                  "revenue_yi": 820,
+                  "ebit_margin_pct": 12.0,
+                  "ebit_yi": 98.39999999999999,
+                  "tax_yi": 14.759999999999998,
+                  "da_yi": 65.6,
+                  "capex_yi": 65.6,
+                  "delta_nwc_yi": 2.0,
+                  "fcff_yi": 81.63999999999999,
+                  "pv_yi": 53.0603983773969
+                }
+              ],
+              "explicit_pv_yi": 183.14905118295445,
+              "terminal_pv_yi": 910.8701721453136,
+              "terminal_share_pct": 83.25906462358392,
+              "enterprise_value_yi": 1094.019223328268,
+              "equity_value_yi": 971.0974399759681,
+              "price": 60.9297802550588,
+              "upside_pct": 43.9399486299523
+            }
+          },
+          "pe_scenarios": {
+            "bear": {
+              "recurring_profit_2027_yi": 18,
+              "assumed_pe": 25,
+              "eps": 1.1293779588361386,
+              "price": 28.234448970903465,
+              "upside_pct": -33.29919921827672
+            },
+            "base": {
+              "recurring_profit_2027_yi": 22,
+              "assumed_pe": 30,
+              "eps": 1.3803508385775027,
+              "price": 41.41052515732508,
+              "upside_pct": -2.1721588534725167
+            },
+            "bull": {
+              "recurring_profit_2027_yi": 28,
+              "assumed_pe": 35,
+              "eps": 1.7568101581895488,
+              "price": 61.48835553663421,
+              "upside_pct": 45.25952170241958
+            }
+          },
+          "dcf_sensitivity": {
+            "g_axis_pct": [
+              1.5,
+              2,
+              2.5,
+              3,
+              3.5
+            ],
+            "rows": [
+              {
+                "wacc_pct": 9.0,
+                "prices": [
+                  27.34,
+                  29.46,
+                  31.9,
+                  34.75,
+                  38.11
+                ]
+              },
+              {
+                "wacc_pct": 9.5,
+                "prices": [
+                  24.91,
+                  26.73,
+                  28.81,
+                  31.21,
+                  34.0
+                ]
+              },
+              {
+                "wacc_pct": 10.0,
+                "prices": [
+                  22.78,
+                  24.35,
+                  26.14,
+                  28.18,
+                  30.53
+                ]
+              },
+              {
+                "wacc_pct": 10.5,
+                "prices": [
+                  20.88,
+                  22.25,
+                  23.8,
+                  25.56,
+                  27.56
+                ]
+              },
+              {
+                "wacc_pct": 11.0,
+                "prices": [
+                  19.19,
+                  20.39,
+                  21.75,
+                  23.26,
+                  24.99
+                ]
+              }
+            ]
+          },
+          "normalization": {
+            "recurring_ttm_yi": 14.404081420499999,
+            "formula": "2025扣非8.4057421779+2026九月13.7784211383−2025九月7.7800818957",
+            "pe_recurring_ttm": 46.83741922201529,
+            "pe_reported_ttm": 19.733398212081504,
+            "nonrecurring_share_pct": 54.98139767777824
+          },
+          "limitations": [
+            "五年简化FCFF，年度期点近似；非完整审计三表预测。",
+            "2026全年收入340亿元是建模起点假设，非已披露结果。",
+            "现金代理CFO−Capex不是FCFF，历史负值未被正利润代理覆盖。",
+            "净债包括到期非流动负债，其中少量非融资科目未完全拆分；现金未扣限制使用部分，存在净债低估可能。",
+            "少数股东按账面值扣除；金融资产按50%账面折价加回，不是独立估值或全部可分配现金。",
+            "母公司及各子公司税率不同，15%为情景假设，不是集团实际税率。",
+            "终值资本开支等于折旧，隐含持续扩产可放缓；若继续高资本开支，估值更低。",
+            "2025年度净利12.187亿元/扣非8.406亿元取最终年报；发行预案旧假设不替代已披露结果。"
+          ],
+          "lbo": {
+            "status": "不出收益率",
+            "reason": "缺乏已核验正常化EBITDA、维持性资本开支、债务合同和收购融资条件；净利/0.6无法替代EBITDA。默认21.7% IRR已剔除，不作决策依据。"
+          },
+          "merger": {
+            "status": "不适用",
+            "reason": "无已核实并购标的、对价与融资条款，不造增厚摊薄数字。"
+          },
+          "sotp": {
+            "method": "仅两家工厂的持股权益情景，不是集团目标市值；以2026H1净利机械乘2，不代表全年预测；20/25/30倍为分析师假设，非已核同行中位数。",
+            "attributable_annualized_profit_cny": 1067883466.313,
+            "equity_value_cny_by_assumed_pe": {
+              "20": 21357669326.26,
+              "25": 26697086657.825,
+              "30": 32036503989.39
+            },
+            "limitations": "未剔除内部交易、总部费用、工厂间债权和非经常项；不得与集团PE或DCF机械相加。亏损厦门及建设期实体亦须计入完整SOTP。"
+          }
+        }
+      },
+      "source": "compute:核验财报＋研究者显式假设",
+      "fallback": false
+    },
+    "21_research_workflow": {
+      "data": {
+        "initiating_coverage": {
+          "headline": {
+            "rating": "观望；空仓不追涨",
+            "target_price": null,
+            "upside_pct": null
+          },
+          "investment_thesis": [
+            "扣非净利增长77.10%，经营改善存在",
+            "55%利润来自非经常损益，报表PE有误导风险",
+            "现金流回报取决于先进封装扩产后利用率与资本开支下降"
+          ]
+        },
+        "catalyst_calendar": {
+          "next_60d": [
+            {
+              "date": "2026-11-30之后",
+              "event": "2026集成电路封测增值税加计抵减清单查询",
+              "impact": "资格若确认可支持税收优惠，入选未核实；不可预先算利润增厚",
+              "probability": "查询安排已披露，公司资格未知",
+              "source": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html"
+            },
+            {
+              "date": "未来60天，未定日",
+              "event": "扩产、利用率及客户进展公告",
+              "impact": "只有可核验订单、良率、资本开支披露才更新盈利假设；不虚设合同金额",
+              "probability": "观察项，非已安排事项",
+              "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+            }
+          ],
+          "note": "AMD11月3日财报已公布，非未来催化剂；定增锁定期跨出60天"
+        },
+        "thesis_tracker": {
+          "confirm": [
+            "扣非盈利继续增长",
+            "CFO覆盖资本开支",
+            "客户集中度下降或新增客户形成可核验收入"
+          ],
+          "invalidate": [
+            "增收但毛利/扣非盈利下滑",
+            "扩产支出持续超现金流",
+            "受限产品或客户导致业务缩量"
+          ]
+        },
+        "summary": {
+          "rec_rating": "观望",
+          "target_price": null,
+          "upside_pct": null,
+          "next_high_impact_event": "11月30日后税惠资格查询，入选未核实"
+        }
+      },
+      "source": "agent:核验原文与假设情景",
+      "fallback": false
+    },
+    "22_deep_methods": {
+      "data": {
+        "ic_memo": {
+          "sections": {
+            "I_exec_summary": {
+              "headline": "观望；先验证扩产回报"
+            },
+            "II_business": {
+              "headline": "高端封测与客户集中并存"
+            },
+            "III_financials": {
+              "headline": "扣非13.78亿，CFO−Capex=-22.24亿"
+            },
+            "IV_valuation": {
+              "headline": "DCF26.14元与前瞻PE41.41元分歧"
+            },
+            "V_catalysts": {
+              "items": [
+                {
+                  "date": "2026-11-30之后",
+                  "event": "2026集成电路封测增值税加计抵减清单查询",
+                  "impact": "资格若确认可支持税收优惠，入选未核实；不可预先算利润增厚",
+                  "probability": "查询安排已披露，公司资格未知",
+                  "source": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html"
+                },
+                {
+                  "date": "未来60天，未定日",
+                  "event": "扩产、利用率及客户进展公告",
+                  "impact": "只有可核验订单、良率、资本开支披露才更新盈利假设；不虚设合同金额",
+                  "probability": "观察项，非已安排事项",
+                  "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+                }
+              ]
+            },
+            "VI_risks": {
+              "headline": "客户、资本开支、投资公允价值、汇率与贸易限制"
+            },
+            "VII_dd": {
+              "items": [
+                "维持性/扩张性Capex拆分",
+                "高端封装产线良率/利用率",
+                "AMD合同及新客户收入",
+                "债务到期和受限现金",
+                "税惠资格及投资资产估值"
+              ]
+            },
+            "VIII_decision": {
+              "headline": "42.33元不构成明确低估买点"
+            }
+          }
+        },
+        "unit_economics": {
+          "gross_margin_pct": 15.889417,
+          "recurring_net_margin_pct": 5.5367989758153255,
+          "note": "制造业务使用毛利和现金回报，不套LTV/CAC"
+        },
+        "competitive_analysis": {
+          "porter": {
+            "supplier_power": 4,
+            "buyer_power": 4,
+            "entry_barrier": 4,
+            "substitute_risk": 2,
+            "competition": 4
+          },
+          "scale": "1–5研究者定性评分；供应商/客户/竞争分高表示约束更强",
+          "bcg_position": {
+            "category": "无法可靠划象限：缺同口径份额和细分行业增速"
+          },
+          "industry_attractiveness_pct": null
+        },
+        "sotp": {
+          "method": "仅两家工厂的持股权益情景，不是集团目标市值；以2026H1净利机械乘2，不代表全年预测；20/25/30倍为分析师假设，非已核同行中位数。",
+          "attributable_annualized_profit_cny": 1067883466.313,
+          "equity_value_cny_by_assumed_pe": {
+            "20": 21357669326.26,
+            "25": 26697086657.825,
+            "30": 32036503989.39
+          },
+          "limitations": "未剔除内部交易、总部费用、工厂间债权和非经常项；不得与集团PE或DCF机械相加。亏损厦门及建设期实体亦须计入完整SOTP。"
+        },
+        "portfolio_rebalance": {
+          "status": "未提供持仓，不虚设成本与仓位"
+        },
+        "summary": {
+          "ic_recommendation": "观望",
+          "bcg_position": "证据不足",
+          "industry_attractiveness": null
+        }
+      },
+      "source": "agent:投委会框架；非量化事实",
+      "fallback": false
+    }
+  },
+  "fund_managers": [],
+  "fund_holder_note": "仅Q3股东名单；未核实基金对该股权重及五年绩效，不能据此跟投",
+  "similar_stocks": [],
+  "qualitative_deep_dive": {
+    "3_macro": {
+      "evidence": [
+        {
+          "source": "中国银行/LPR",
+          "url": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+          "finding": "2026-10-20：1年LPR3.00%，5年以上3.50%；处于低位平台，不能假设后续必降息。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+          "finding": "2026-10制造业PMI49.3，新订单49.4；总需求偏弱，不代表AI封测订单同步收缩。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "国务院英文网/央行数据",
+          "url": "https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html",
+          "finding": "2026-09末M2同比7.2%，社融存量同比7.1%；未回归检验与公司收入的相关性。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司H1报告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "H1境外收入占63.40%；高端原料以进口为主，美元收入与外币债务并存，汇率方向不能单看出口。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "8_materials",
+          "chain_id": "链1",
+          "causal_chain": "美元结算收入与进口材料、外币债务并存→人民币变动同时改变收入成本和汇兑损益→不能按出口比例推净利弹性。",
+          "estimated_impact": "进口采购占比及净结算敞口不足，不给伪精确EPS；使用下列利率条件测算。"
+        },
+        {
+          "link_to": "10_valuation",
+          "chain_id": "利率补充",
+          "causal_chain": "LPR低位平台→融资成本支持扩产；若浮息成本上升25bp→利息侵蚀归母利润与ROE。",
+          "estimated_impact": "每100亿元全额浮息债务，税率15%情景下年利润-2125万元；以Q3归母权益计ROE-0.0953个百分点。"
+        }
+      ],
+      "conclusion": "LPR3%提供融资支撑，PMI49.3显示总需求偏弱。境外收入63.40%伴随进口和外币债务，不能把汇率变动直接当净利润利好。"
+    },
+    "13_policy": {
+      "evidence": [
+        {
+          "source": "工信部电子信息司",
+          "url": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html",
+          "finding": "2026-09规划解读提出集成电路全链条攻关、电子材料高端化；属于产业方向，未承诺公司补贴。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "工信部等四部门/税务总局",
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html",
+          "finding": "2026-09-29文件覆盖封测企业；11月30日后查询清单，未入选者当日停止优惠；公司2026资格未核实。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "BIS",
+          "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+          "finding": "2026-01-13允许AMD MI325X等对华出口许可逐案审查，要求客户筛查及美国第三方测试；不是全面放开。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "BIS",
+          "url": "https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+          "finding": "2025-01-15规则涉及先进芯片封装及Approved OSAT；仅作规则背景，未证实通富特定订单受限。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "7_industry",
+          "chain_id": "链2",
+          "causal_chain": "集成电路全链条攻关与材料高端化→认证、研发和资本门槛增强→具备量产经验的封测企业可能受益，但资格不自动等于订单。",
+          "estimated_impact": "正向产业期权，缺少公司新增补贴与订单金额，不计入盈利预测。"
+        },
+        {
+          "link_to": "15_events",
+          "chain_id": "链3",
+          "causal_chain": "VAT清单复核→2026资格确认或退出→税负、其他收益及现金流可能变动。",
+          "estimated_impact": "11月30日后可核验；公司入选未知，金额不量化。"
+        }
+      ],
+      "conclusion": "政策支持先进封测，但VAT资格须逐年核验；BIS逐案许可也不等于全面放开，海外客户和设备合规仍是经营约束。"
+    },
+    "7_industry": {
+      "evidence": [
+        {
+          "source": "AMD 2026Q3财报",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "finding": "营收133.77亿美元同比+45%；数据中心85.46亿美元同比+97%；客户端及游戏合计同比-8%。Q4收入指引170亿美元±3%，为预测而非已实现。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "发行人财会专项说明",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+          "finding": "公司申报资料援引赛迪顾问：全球封装测试市场2024年743亿美元、2028年1010亿美元；按两点推算CAGR约8%，不能与先进封装子市场混用。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "2026半年报 p12-13",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "VISIONS平台覆盖2D+异构集成；多款先进封装产品已批量导入HPC和推理芯片。VFO仅首次ES交付、VCS验证完成；2nm仍攻坚，不得写全部成熟量产。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "3",
+          "causal_chain": "AMD数据中心需求增长→封测需求与产品复杂度上升→公司高端产能利用与收入可能增加；具体GPU订单份额未披露。",
+          "estimated_impact": "正向但不可把AMD营收增速直接套给通富营收。"
+        },
+        {
+          "link_to": "1_financials",
+          "chain_id": "6",
+          "causal_chain": "高端产线扩充→固定资产与折旧增加→仅收入增长不足以保证利润增长；需用分厂利润验证。",
+          "estimated_impact": "半年报苏州净利同比约-27.6%，槟城约+29.4%，提示结构性分化。"
+        }
+      ],
+      "conclusion": "先进封装有结构性增量，成熟封装仍受周期约束。AMD景气支持订单逻辑，但业务份额、量产阶段与回报率必须单独验证。",
+      "questions": {
+        "lifecycle": "成熟封测叠加先进封装成长子赛道，不能全行业统一高增长。",
+        "tam": "申报资料转引全球封测2028年1010亿美元；未核得独立三年预测区间，不制造券商一致预期。",
+        "concentration": "未取得口径一致的三年CR4/CR8序列，不能推断集中度拐点。",
+        "porter": "分析师主观1-5分：客户议价5（大客户集中）；供应商4（高端设备材料）；新进入者威胁2（认证资本门槛）；替代威胁3（晶圆厂先进封装）；同行竞争4（全球龙头扩产）。非统计分。",
+        "substitution": "晶圆厂自有先进封装与异构集成路线竞争，不能把所有AI封装价值都归于独立OSAT。",
+        "position": "公司年报列全球前十大OSAT；未独立核实本期精确名次和份额，不写国内第二/全球第四。",
+        "ma": "已核历史苏州/槟城85%控股及京隆26%股权；近六个月未核得需建模的重大控股并购。"
+      }
+    },
+    "15_events": {
+      "evidence": [
+        {
+          "source": "2026三季报 p2-4",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "finding": "前三季归母30.606亿元、扣非13.778亿元；差额16.828亿元，主因金融资产公允价值变动，不能据表观增长年化主业。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "定增上市公告书",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "finding": "2026-09-16新增7620.0794万股，总股本15.93797706亿股；发行价55.38元，募资总额42.2亿元，锁定六个月。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "2026-067关联交易公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+          "finding": "10月29日董事会将向金海通采购设备备件年度额度由0.9亿增至3.8亿元，增量2.9亿元；前三季已发生1.500758亿元。额度不等于确认支出或新增销售。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "AMD官方业绩公告",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "finding": "美东2026-11-03已发布2026Q3业绩；北京时间11月4日分析中属于已发生事件，不能列为未来60天待公布催化剂。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "10_valuation",
+          "chain_id": "3",
+          "causal_chain": "金融资产估值上涨→表观归母显著增加→TTM PE下降；若以该利润给成长倍数会高估经常盈利。",
+          "estimated_impact": "前三季非经常损益/归母约54.98%；应拆分主业估值与金融投资净值，避免双计。"
+        },
+        {
+          "link_to": "1_financials",
+          "chain_id": "6",
+          "causal_chain": "定增42.2亿元→资本开支资金缓解→股数增加约5.02%且新产线折旧与爬坡先行。",
+          "estimated_impact": "固定总利润下EPS较发行前约摊薄4.78%；55.38元是发行价，不是二级市场价格下限。"
+        }
+      ],
+      "conclusion": "业绩催化已兑现，后续应检验扣非增速和扩产回报。定增解禁不在60天窗口，未核得未来60天已公告的季报或重大会议日期。",
+      "questions": {
+        "last30days": "已核10月30日三季报、董事会决议、关联交易额度增加；公告列表显示等4篇，未核全量，不声称完整分类计数。",
+        "monetization": "新增关联设备采购额度2.9亿元约为前三季收入1.17%；不是销售合同收入，不增厚当期EPS。",
+        "calendar": "未来60天2026-11-04至2027-01-03无核实的公司定期报告硬日期；定增锁定六个月，预计2027-03-16解禁，超窗口，以正式解禁公告为准。",
+        "sotp": "苏州与槟城均85%持股，可做历史利润情景，不能直接把子公司估值与集团净利估值相加；本文件提供H1子公司数据和透明倍数敏感性。",
+        "merger": "未核实窗口内重大收购对价/EPS影响，不制造并购催化。",
+        "litigation": "未核得足以量化的新增重大诉讼，不将未检出等同于不存在。"
+      }
+    },
+    "8_materials": {
+      "evidence": [
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "finding": "主要材料为框架/基板、键合丝、塑封料；高端材料以进口为主。年报成本表只按业务分类，未给材料/人工/折旧占比。",
+          "retrieved_at": "2026-11-04",
+          "page": "19、34"
+        },
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "finding": "前三季收入248.85亿元、营业成本209.31亿元，据此计算综合毛利率15.89%；存货59.07亿元，较年初增40%。",
+          "retrieved_at": "2026-11-04",
+          "page": "3、8、9"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "链 1",
+          "causal_chain": "高端材料进口依赖→采购价格及汇率变动→在售价和良率不变时压缩毛利；存货增长使采购成本传导存在时滞。",
+          "estimated_impact": "压力测试而非公司预测：若受影响材料占成本30%/50%，该材料篮子涨10%且不能顺价，综合毛利率分别减少2.52/4.21个百分点。"
+        }
+      ],
+      "conclusion": "公司真实材料占比和合同顺价机制未披露，不能把金铜期货涨幅直接代入全部营业成本。15.89%毛利率下，采购涨价和利用率变化会显著影响利润。",
+      "answers": {
+        "cost_mix": "已核验年报营业成本构成表，仅主营封测成本与其他业务成本；材料、人工、折旧份额未单列，不能引用雪球55%等为披露。",
+        "prices": "未取得可核验的公司采购篮子12个月价格及三年百分位；基板、塑封料与键合丝的规格价格不能用单一铜金连续合约替代。",
+        "pass_through": "缺少统一成本加成或固定价合同条款证据；敏感性一律设销售价格、销量、良率不变、无顺价，属于机械压力测试。",
+        "substitution": "2025年报研发项目披露PSPI材料国产化项目已完成，但不能据此推定基板或全部键合丝已国产替代。",
+        "vertical_integration": "已核验主体主营封测；南通金润代理采购部分辅材，不等同自有金铜矿、基板产能。"
+      }
+    },
+    "9_futures": {
+      "evidence": [
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF",
+          "finding": "董事会拟开展上限5亿美元外汇套保，工具可含远期、掉期、外汇期货及期权；这是额度授权方案，不是实际头寸。",
+          "retrieved_at": "2026-11-04",
+          "page": "1—3"
+        },
+        {
+          "source": "company_statutory_filing",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "半年报金融工具风险附注称未采取汇率规避措施，美元汇率±2%的披露税后敏感性为±1389.55万元；未见金铜商品套保头寸披露。",
+          "retrieved_at": "2026-11-04",
+          "page": "138"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "3_macro",
+          "chain_id": "链 4",
+          "causal_chain": "海外销售与进口采购→外币收支及资产负债敞口→汇兑损益；外汇套保授权只提供工具选择，不能视为风险已经锁定。",
+          "estimated_impact": "按半年报敏感性，美元汇率变化2%对应税后利润约1389.55万元；这不是金铜期货损益估计，也不可线性外推为全年预测。"
+        }
+      ],
+      "conclusion": "期货维度以外汇风险和材料成本传导为主，尚无公司金铜商品头寸证据。5亿美元是拟授权额度，不能计作已套保资产或利润。",
+      "answers": {
+        "lead_lag": "未完成对齐频率、复权和采购滞后的统计检验，不能声称金铜期货领先股价1—3个月或给出相关系数。",
+        "hedging": "董事会外汇方案额度≤5亿美元，12个月累计人民币金额≤最近一期经审计净资产30%；半年报明确尚未采取汇率规避措施。报告期后实际成交名义本金、方向和到期结构未核实。",
+        "term_structure": "未核实同一交易日各到期合约曲线，无法判断contango/backwardation；公司亦非可用单一金属曲线指导库存的纯金属贸易商。",
+        "positioning": "未取得相关商品异常持仓与公司订单/采购的可检验对应关系，不将市场投机持仓作为盈利预测。"
+      }
+    }
+  },
+  "source_research": {
+    "macro": {
+      "ticker": "002156.SZ",
+      "name": "通富微电",
+      "retrieved_at": "2026-11-04",
+      "dim_commentary": {
+        "3_macro": "LPR一年期3.00%、10月PMI49.3，融资环境宽松与总需求偏弱并存；公司境外收入63.40%且高端材料依赖进口，人民币变化不是单边利好。来源：https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html；https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+        "13_policy": "9月规划支持集成电路全链条攻关，封测VAT新清单11月30日后可查；尚未核实公司2026入选，不预填补贴收益。来源：https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html；https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html"
+      },
+      "facts": {
+        "macro": {
+          "lpr_date": "2026-10-20",
+          "lpr_1y_pct": 3.0,
+          "lpr_5y_pct": 3.5,
+          "pmi_date": "2026-10",
+          "manufacturing_pmi": 49.3,
+          "new_orders_pmi": 49.4,
+          "m2_date": "2026-09",
+          "m2_yoy_pct": 7.2,
+          "tsf_stock_yoy_pct": 7.1
+        },
+        "exposure": {
+          "period": "2026H1",
+          "overseas_revenue_pct": 63.4,
+          "overseas_revenue_cny": 10170489183.7,
+          "usd_assets_cny_10k": 563935.35,
+          "usd_liabilities_cny_10k": 731945.37,
+          "usd_net_assets_cny_10k": -168010.02,
+          "reported_usd_up_2pct_aftertax_profit_cny_10k": 1389.55,
+          "fx_sensitivity_warning": "报告表列+2%利润增加，与期末美元净负债直接重估方向不同；覆盖实体/口径未解释，不强行调和。"
+        },
+        "governance": {
+          "period": "2026Q3",
+          "controller_holder": "南通华达微电子集团股份有限公司",
+          "controller_holder_pct": 17.9,
+          "controller_holder_shares": 285344715,
+          "controller": "石明达（H1披露）",
+          "director_chair": "石磊",
+          "national_ic_fund_pct": 4.66,
+          "shareholders": 463874,
+          "top10_pledge_mark_freeze": "Q3前十名表均列不适用0；不能外推全部股东实时无质押",
+          "total_shares": 1593797706,
+          "previous_total_shares": 1517596912,
+          "new_shares": 76200794,
+          "new_shares_vs_old_pct": 5.021,
+          "equity_financing_cash_cny": 4211919971.72
+        },
+        "tax": {
+          "period": "2026H1",
+          "domestic_main_entities_income_tax_pct": 15,
+          "penang_income_tax_pct": 24,
+          "parent_hightech_renewal": "H1披露2026年续认中、暂执行15%；截至检索未核验续认证书",
+          "vat_qualification_query_after": "2026-11-30"
+        },
+        "balance_sheet": {
+          "period": "2026Q3",
+          "short_debt_cny": 2384091171.83,
+          "long_debt_cny": 11543342768.16,
+          "current_noncurrent_liabilities_cny": 8152562855.68,
+          "cash_cny": 10124824468.59,
+          "attributable_equity_cny": 22306032452.23
+        }
+      },
+      "sensitivity": {
+        "interest_formula": "Δ年度税后利润=-净浮动重定价负债×0.0025×(1-税率)；ΔROE百分点=Δ利润/平均归母权益×100。实际浮息比例、重定价日、利息资本化及少数权益均缺失。",
+        "interest_scenario": {
+          "description": "仅短期+长期借款全额浮息、全年重定价、税率15%、全部归母的示例；排除到期重分类避免假定全部同口径",
+          "debt_cny": 13927433939.99,
+          "tax_rate_assumption": 0.15,
+          "rate_change": 0.0025,
+          "annual_aftertax_profit_delta_cny": -29595797.122478746,
+          "roe_pp_using_end_equity": -0.13268068710049763,
+          "is_company_forecast": false
+        },
+        "fx_formula": "Δ税前汇兑≈各币种净货币资产×即期汇率变化率；出口收入折算、进口成本与境外报表折算另算，不能与期末敞口重复相加。"
+      },
+      "question_answers": {
+        "3_macro": {
+          "rates": "LPR自2025-05起本页列示3%/3.5%平台；低利率支持融资但未必继续降息。",
+          "fx": "H1境外63.40%；高端材料进口为主，进口金额比例未披露。未取到2026-11-04人民币现价，不给当前方向判断。",
+          "geopolitics": "AMD相关先进计算客户链面临许可、终端客户与封装尽调要求；未证实具体芯片订单受到禁令。",
+          "commodities": "美元原料、金属及基板涨价经采购价格和库存进入成本，与外币结算共同作用；材料敏感性由成本组补充。",
+          "demand": "PMI低于50与M2/社融增长并存；公司全球AI需求与中国总PMI口径不同，无统计证据支持固定相关系数。"
+        },
+        "13_policy": {
+          "strategy": "9月电子信息十五五规划明确集成电路全链条攻关。",
+          "recent_six_months": "9月规划与9月29日VAT清单通知已核验；不声称穷尽所有新规。",
+          "beneficiaries": "先进封测认证、研发投入和量产能力构成门槛；推断规模与技术成熟企业较易承接，但没有政府保证份额。",
+          "local_fiscal": "公司是全球半导体代工，不套用城投回款逻辑；政府支持兑现与客户付款须分开评估。",
+          "tax_qualification": "H1中国主要实体15%，槟城24%；母公司高企续认与VAT2026资格尚未核验。",
+          "overseas": "BIS2026-01对MI325X/H200逐案审查，2025封装尽调规则作背景；最新适用订单需按ECCN与终端用途另查。"
+        }
+      },
+      "sources": [
+        {
+          "title": "2026H1公司报告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "2026Q3公司报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "中行LPR",
+          "url": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "统计局2026-10PMI",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "国务院英文网央行金融数据",
+          "url": "https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "2026VAT清单通知",
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "电子信息十五五规划解读",
+          "url": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "BIS2026-01许可规则",
+          "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "BIS2025-01封装尽调背景",
+          "url": "https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "title": "2026税惠清单工作通知",
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5248840/content.html",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "gaps": {
+        "import_cost_ratio": "未找到公司披露的进口原材料金额占比。",
+        "spot_fx": "未抓取11月4日即期与年初汇率，故不判断人民币当期净影响。",
+        "floating_debt": "无足够浮息比例与重定价明细，25bp仅条件情景。",
+        "fx_reconciliation": "H1美元净负债与税后敏感性方向不一致，保留披露，不写确定净利弹性。",
+        "latest_bis": "已核验2026-01官方原文；不保证此后全部规则与订单适用性。",
+        "vat_2026_company": "11月30日前公司新年度资格尚未核实。",
+        "browser": "CUA iab不可用；Chrome打开统计局超时，使用web搜索与官方原文替代。",
+        "mx_api": "MX_APIKEY未设置。"
+      }
+    },
+    "industry": {
+      "ticker": "002156.SZ",
+      "name": "通富微电",
+      "retrieved_at": "2026-11-04",
+      "facts": [
+        {
+          "key": "top1_customer_share",
+          "value": 52.29,
+          "unit": "%",
+          "period": 2025,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "note": "客户匿名披露为客户1；问询回复证实报告期AMD占比均超50%，不把匿名名单逐名认定。"
+        },
+        {
+          "key": "top5_customer_share",
+          "value": 69.54,
+          "unit": "%",
+          "period": 2025,
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "note": ""
+        },
+        {
+          "key": "amd_dependence",
+          "value": "报告期AMD收入均超50%",
+          "unit": "text",
+          "period": "2022-2025Q3",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12051809&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "suzhou_equity",
+          "value": 85,
+          "unit": "%",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "penang_equity",
+          "value": 85,
+          "unit": "%",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "suzhou_revenue",
+          "value": 4266413569.21,
+          "unit": "CNY",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "suzhou_net_income",
+          "value": 394680982.35,
+          "unit": "CNY",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "suzhou_prior_revenue",
+          "value": 3934994409.92,
+          "unit": "CNY",
+          "period": "2025H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "suzhou_prior_net_income",
+          "value": 545021254.49,
+          "unit": "CNY",
+          "period": "2025H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "penang_revenue",
+          "value": 5395327358.9,
+          "unit": "CNY",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "penang_net_income",
+          "value": 233485762.54,
+          "unit": "CNY",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "penang_prior_revenue",
+          "value": 4369441086.52,
+          "unit": "CNY",
+          "period": "2025H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "penang_prior_net_income",
+          "value": 180470214.69,
+          "unit": "CNY",
+          "period": "2025H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "shares_after_placement",
+          "value": 1593797706,
+          "unit": "shares",
+          "period": "2026-09-16",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "placement_new_shares",
+          "value": 76200794,
+          "unit": "shares",
+          "period": "2026-09-16",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "placement_price",
+          "value": 55.38,
+          "unit": "CNY/share",
+          "period": "2026-09-16",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "gross_proceeds",
+          "value": 4219999971.72,
+          "unit": "CNY",
+          "period": "2026-09-16",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "amd_q3_revenue",
+          "value": 13377,
+          "unit": "USD million",
+          "period": "2026Q3",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "note": ""
+        },
+        {
+          "key": "amd_q3_data_center_revenue",
+          "value": 8546,
+          "unit": "USD million",
+          "period": "2026Q3",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "note": ""
+        },
+        {
+          "key": "amd_q4_revenue_guidance",
+          "value": 17000,
+          "unit": "USD million",
+          "period": "2026Q4 guidance",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "note": "±3%；前瞻指引"
+        },
+        {
+          "key": "jinhaitong_plan_increase",
+          "value": 290000000,
+          "unit": "CNY",
+          "period": "2026-10-29",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+          "note": ""
+        },
+        {
+          "key": "advanced_packaging_status",
+          "value": "多款先进封装产品批量导入HPC与推理芯片；VFO首次ES交付、VCS验证完成、2nm攻坚",
+          "unit": "text",
+          "period": "2026H1",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "note": ""
+        },
+        {
+          "key": "industry_tam_2028",
+          "value": 1010,
+          "unit": "USD 100 million",
+          "period": "2028 forecast quoted by issuer",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+          "note": ""
+        }
+      ],
+      "sotp_sensitivity": {
+        "method": "仅两家工厂的持股权益情景，不是集团目标市值；以2026H1净利机械乘2，不代表全年预测；20/25/30倍为分析师假设，非已核同行中位数。",
+        "attributable_annualized_profit_cny": 1067883466.313,
+        "equity_value_cny_by_assumed_pe": {
+          "20": 21357669326.26,
+          "25": 26697086657.825,
+          "30": 32036503989.39
+        },
+        "limitations": "未剔除内部交易、总部费用、工厂间债权和非经常项；不得与集团PE或DCF机械相加。亏损厦门及建设期实体亦须计入完整SOTP。"
+      },
+      "sources": [
+        {
+          "title": "2025年报",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "date": "2026-04-17",
+          "pages": "p15、20、189"
+        },
+        {
+          "title": "2026半年报",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "date": "2026-08-29",
+          "pages": "p12-13、18、27、135-136"
+        },
+        {
+          "title": "2026三季报",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "date": "2026-10-30",
+          "pages": "p2-4"
+        },
+        {
+          "title": "AMD 2026Q3结果",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "定增上市公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "date": "2026-09-12"
+        },
+        {
+          "title": "定增审核问询回复",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12051809&stockid=002156",
+          "date": "2026-04-01"
+        },
+        {
+          "title": "定增财会问题专项说明",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+          "date": "2026-06-02"
+        },
+        {
+          "title": "增加日常关联交易额度公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+          "date": "2026-10-30"
+        }
+      ],
+      "gaps": {
+        "industry_market_share": "未得到独立同口径2026市占率及CR4/CR8历史。",
+        "future_calendar": "未核得未来60天正式确定重大公司事件日历；禁止用预计2027年报日冒充公告。",
+        "browser": "CUA获取巨潮浏览器超时；已用web打开交易所/巨潮PDF原文逐段核实。",
+        "product_revenue": "先进封装、CPO、具体GPU型号营收及客户订单份额无分项数，不做定量盈利外推。",
+        "research": "可核券商摘要，但未获取足够同日同口径预测，不报告虚构一致预期。"
+      }
+    },
+    "cost": {
+      "ticker": "002156.SZ",
+      "name": "通富微电",
+      "retrieved_at": "2026-11-04",
+      "facts": {
+        "materials": [
+          "引线框架/基板",
+          "键合丝",
+          "塑封料"
+        ],
+        "cost_split_disclosed": false,
+        "gross_margin_2026_9m_pct": 15.889417,
+        "gross_margin_2026_h1_pct": 15.453623,
+        "revenue_2026_9m_cny": 24885174987.36,
+        "cogs_2026_9m_cny": 20931065688.58,
+        "inventory_2026_9m_cny": 5907495965.05,
+        "inventory_growth_vs_2025ye_pct": 40.0,
+        "fx_hedge_board_authorization_usd": 500000000,
+        "fx_hedge_authorization_is_actual_position": false,
+        "fx_usd_2pct_tax_profit_sensitivity_h1_cny": 13895500,
+        "commodity_hedge_actual_notional": null,
+        "sensitivity": {
+          "type": "illustrative_stress_test_not_disclosed_cost_mix",
+          "baseline_period": "2026-01-01/2026-09-30",
+          "formula": "margin_new = margin_base - (1-margin_base) * affected_material_share_of_cogs * material_price_change",
+          "assumptions": [
+            "受影响材料占成本30%或50%，仅压力参数，非公司真实占比估计",
+            "售价、销量、良率、产品结构不变",
+            "无采购锁价、成本转嫁、汇率或税项抵销",
+            "冲击为受影响材料篮子，不是全部铜金期货同幅变动"
+          ],
+          "scenarios": [
+            {
+              "assumed_affected_material_share_of_cogs": 0.3,
+              "material_price_change": -0.2,
+              "gross_margin_pct": 20.9361,
+              "margin_change_pp": 5.0466,
+              "gross_profit_change_cny": 1255863941.31
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.3,
+              "material_price_change": -0.1,
+              "gross_margin_pct": 18.4127,
+              "margin_change_pp": 2.5233,
+              "gross_profit_change_cny": 627931970.66
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.3,
+              "material_price_change": 0.1,
+              "gross_margin_pct": 13.3661,
+              "margin_change_pp": -2.5233,
+              "gross_profit_change_cny": -627931970.66
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.3,
+              "material_price_change": 0.2,
+              "gross_margin_pct": 10.8428,
+              "margin_change_pp": -5.0466,
+              "gross_profit_change_cny": -1255863941.31
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.3,
+              "material_price_change": 0.3,
+              "gross_margin_pct": 8.3195,
+              "margin_change_pp": -7.57,
+              "gross_profit_change_cny": -1883795911.97
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.5,
+              "material_price_change": -0.2,
+              "gross_margin_pct": 24.3005,
+              "margin_change_pp": 8.4111,
+              "gross_profit_change_cny": 2093106568.86
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.5,
+              "material_price_change": -0.1,
+              "gross_margin_pct": 20.0949,
+              "margin_change_pp": 4.2055,
+              "gross_profit_change_cny": 1046553284.43
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.5,
+              "material_price_change": 0.1,
+              "gross_margin_pct": 11.6839,
+              "margin_change_pp": -4.2055,
+              "gross_profit_change_cny": -1046553284.43
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.5,
+              "material_price_change": 0.2,
+              "gross_margin_pct": 7.4784,
+              "margin_change_pp": -8.4111,
+              "gross_profit_change_cny": -2093106568.86
+            },
+            {
+              "assumed_affected_material_share_of_cogs": 0.5,
+              "material_price_change": 0.3,
+              "gross_margin_pct": 3.2728,
+              "margin_change_pp": -12.6166,
+              "gross_profit_change_cny": -3139659853.29
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "title": "2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "date": "2026-04-17",
+          "pages": "19、20、21、34"
+        },
+        {
+          "title": "2026年半年度报告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "date": "2026-08-29",
+          "pages": "15、18、28、138"
+        },
+        {
+          "title": "2026年第三季度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "date": "2026-10-30",
+          "pages": "3、8、9"
+        },
+        {
+          "title": "关于2026年度开展外汇套期保值业务的公告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF",
+          "date": "2026-04-17",
+          "pages": "1—3"
+        }
+      ],
+      "gaps": {
+        "8_materials.cost_mix": "已检查年报/半年报，未单列材料、人工、折旧占营业成本份额。",
+        "8_materials.prices": "缺少公司采购篮子长期可比序列与合同锁价/顺价条款。",
+        "9_futures.positions": "未核实报告期后实际外汇衍生交易方向/本金，未见金铜商品头寸证据。",
+        "9_futures.curve": "Chrome访问技能上期所日报URL返回404；未取得同日完整远近月曲线。",
+        "mx_api": "环境未设置MX_APIKEY。"
+      },
+      "verification": {
+        "web_primary_filings_opened": true,
+        "chrome_fallback_attempted": true,
+        "chrome_result": "https://www.shfe.com.cn/data/dailydata/ 返回404",
+        "mx_apikey_available": false
+      }
+    },
+    "market": {
+      "ticker": "002156.SZ",
+      "retrieved_at": "2026-11-04T17:07:20+08:00",
+      "findings": [
+        "42.33元涨停仍低于MA10=43.359、MA20=47.284、MA60=56.599，反弹不等于趋势扭转。",
+        "RSI14=33.95且MACD水下未金叉；当前风险集中于反弹失败与上方套牢。",
+        "11月3日融资净偿还1.1652亿；时点滞后于11月4日涨停，不能声称当日融资追买。",
+        "9月30日股东户数较6月下降17.36%，属于季末数据，不说明11月4日筹码流向。"
+      ],
+      "gaps": {
+        "2_kline.chip_distribution": "筹码分布模型底稿未取得，拒绝推定主力成本区",
+        "12_capital_flow.north_bound": "未核实实时北向个股净流量",
+        "12_capital_flow.main_flow_recent": "未核实完整今日主力分单表",
+        "16_lhb": "今日及近30天官方席位明细未取得，不能确认游资身份与集中成交区",
+        "17_sentiment": "雪球/股吧实时排名与文本抽样缺失",
+        "18_trap": "缺少账号/跨平台传播样本，8项无法给出命中总数",
+        "19_contests": "当前实盘赛持仓和完整交割未核验"
+      },
+      "sources": [
+        {
+          "url": "https://qt.gtimg.cn/q=sz002156",
+          "finding": "20261104161454快照；42.33元涨停，成交41.96亿，换手6.76%"
+        },
+        {
+          "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002156,day,,,640,qfq",
+          "finding": "640日前复权K线，至2026-11-04"
+        },
+        {
+          "url": "https://data.10jqka.com.cn/market/rzrqgg/code/002156/client/on/",
+          "finding": "2026-11-03融资余额35.01亿、净偿还1.17亿，取页面精度外还用搜狐金额勾稽"
+        },
+        {
+          "url": "https://q.stock.sohu.com/app2/mpssTrade.up?code=002156&ed=&p=1&sd=",
+          "finding": "11月3日融资余额3501491564元，较11月2日3618011742元减少116520178元；不采用该页明显为0的偿还字段"
+        },
+        {
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "finding": "普通股股东463874户"
+        },
+        {
+          "url": "https://quote.cfi.cn/cfi_lhb_stock.aspx?client=pc&stockcode=002156",
+          "finding": "仅可见历史上榜，不作为本轮席位数据"
+        }
+      ]
+    }
+  },
+  "quality_notes": [
+    "数据采集失败后以4个并行工作流核验原文及腾讯脚本补充",
+    "实际为0–22共23个编号维度，技能沿用22维称谓",
+    "未将缺失值填0；缺失时间序列/全球同行/即时龙虎榜明确披露",
+    "报表PE19.73不代表持续盈利PE；扣非TTM约46.84",
+    "默认脚本将CFO当FCF，已在临时计算边界修正；官方技能源不改动"
+  ],
+  "_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [
+      {
+        "dim": "10_valuation",
+        "path": "pe_quantile",
+        "label": "PE 5 年分位"
+      },
+      {
+        "dim": "10_valuation",
+        "path": "pb_quantile",
+        "label": "PB 5 年分位"
+      },
+      {
+        "dim": "7_industry",
+        "path": "growth",
+        "label": "行业增速"
+      }
+    ],
+    "missing_enrichment": [],
+    "fallback_dims": [
+      {
+        "dim": "0_basic",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "1_financials",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "2_kline",
+        "reason": "unknown"
+      },
+      {
+        "dim": "12_capital_flow",
+        "reason": "unknown"
+      },
+      {
+        "dim": "16_lhb",
+        "reason": "unknown"
+      },
+      {
+        "dim": "17_sentiment",
+        "reason": "unknown"
+      },
+      {
+        "dim": "18_trap",
+        "reason": "unknown"
+      },
+      {
+        "dim": "19_contests",
+        "reason": "unknown"
+      },
+      {
+        "dim": "3_macro",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "13_policy",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "7_industry",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "15_events",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "8_materials",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "9_futures",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "4_peers",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "5_chain",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "6_research",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "10_valuation",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "11_governance",
+        "reason": "公开资料人工核验"
+      },
+      {
+        "dim": "14_moat",
+        "reason": "公开资料人工核验"
+      }
+    ],
+    "coverage_pct": 83.0,
+    "passed_checks": 15,
+    "total_checks": 18
+  }
+}

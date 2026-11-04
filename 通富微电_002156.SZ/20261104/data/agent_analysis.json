@@ -1,0 +1,1863 @@
+{
+  "agent_reviewed": true,
+  "analysis_input_hash": "e3b439a3dc8391bef84ac1453e867f078af93f889085dce2511b90af9e69d6da",
+  "dim_commentary": {
+    "0_basic": "42.33元为2026-11-04收盘快照，涨10.01%；总股本15.93798亿股，市值674.65亿元。报价时间16:14:54，不混用盘中价格。",
+    "1_financials": "前三季营收248.85亿、扣非13.78亿，同比增长23.71%/77.10%；归母30.61亿中约55%为非经常损益。CFO55.47亿减Capex77.71亿为−22.24亿现金代理，盈利增长尚未转为股东可分配现金。",
+    "2_kline": "收42.33元，MA10/20/60为43.36/47.28/56.60元；RSI14为33.95、MACD水下未金叉。单日涨停属于反弹证据，未完成中期趋势反转；Stage1仅算法标签。",
+    "4_peers": "2026前三季通富/长电扣非13.78/15.61亿，增速77.10%/99.17%；长电归母与扣非差异更小。通富营收增速23.71%领先长电7.96%，经营利润质量并非同方向全面领先。",
+    "5_chain": "2025第一客户占52.29%、前五69.54%；认证和长期合作提高黏性，也带来客户议价和集中风险。AMD强需求不能按比例映射通富收入，GPU需求也不能等同已确认2.5D订单。",
+    "6_research": "已找到三季报点评，但未取得同一时点完整券商样本及一致预期。保留卖方关于AI封装增长的逻辑，不把旧全年盈利预测或零散评级当作当前共识。",
+    "10_valuation": "报表TTM PE19.73倍；按2025扣非8.4057＋本期13.7784−同期7.7801亿重算，扣非TTM14.4041亿，对应46.84倍。未取得历史PE/PB分位，股价回撤不能代替低估证据。",
+    "11_governance": "Q3华达微持17.90%、大基金4.66%；9月新增7620.08万股，较原股本增5.02%。55.38元定增价低于或高于市价均不形成兑付承诺，42.2亿元募资也不是经营现金创造。",
+    "12_capital_flow": "11月3日融资余额35.0149亿、净偿还1.1652亿，为前一交易日数据；不能冒充11月4日资金净流入。9月末46.3874万股东为时点存量，也不是实时散户拥挤度。",
+    "14_moat": "2025研发15.92亿、占收入5.70%，工艺和客户认证形成壁垒；同年ROE8.08%，资本回报尚未显示高复利。先进封装业务不自动拥有技术独占或强网络效应。",
+    "16_lhb": "未核得11月4日完整官方龙虎榜与封单轨迹；无法确认席位成本、集中成交区或主导资金。旧榜单只作历史，不推导今日游资买点。",
+    "17_sentiment": "今日涨停和成交放量可核验；实时雪球热度排名、社交推介覆盖未核实。价格反应不等于订单验证，不能把热度缺失写成情绪低位。",
+    "18_trap": "推广风险标为🟡信息不足，未获得全面社交推广样本；没有检出报道不构成安全证明。财报、客户集中与估值风险已独立核验，不作欺诈指控。",
+    "19_contests": "未验证当前实盘比赛或组合持仓，不能用0个组合推断无人参与，也不使用历史战绩为股票背书；此维不参与投资决策加分。",
+    "20_valuation_models": "独立FCFF基准26.14元，2027扣非22亿×30倍得到41.41元；两者分歧反映扩产现金消耗。DCF悲观8.00/乐观60.93元，仅假设敏感性；默认利润代理LBO收益率已弃用。",
+    "21_research_workflow": "未来60天有11月30日后税惠清单查询安排，公司是否入选未确认。AMD11月3日业绩已公布，定增解禁不在窗口内；未编造新合同或财报发布日期。",
+    "22_deep_methods": "投委会框架结论为观望：扣非增长、客户依赖和负现金代理并存。完整三表、LBO和并购模型缺必要输入，明确降级；不以虚设持仓与成本给再平衡建议。",
+    "3_macro": "LPR3%提供融资支撑，PMI49.3显示总需求偏弱。境外收入63.40%伴随进口和外币债务，不能把汇率变动直接当净利润利好。 来源：https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html；https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html；https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+    "13_policy": "政策支持先进封测，但VAT资格须逐年核验；BIS逐案许可也不等于全面放开，海外客户和设备合规仍是经营约束。 来源：https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html；https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html；https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf；https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+    "7_industry": "先进封装有结构性增量，成熟封装仍受周期约束。AMD景气支持订单逻辑，但业务份额、量产阶段与回报率必须单独验证。 来源：https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results；https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+    "15_events": "业绩催化已兑现，后续应检验扣非增速和扩产回报。定增解禁不在60天窗口，未核得未来60天已公告的季报或重大会议日期。 来源：https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156；https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "8_materials": "公司真实材料占比和合同顺价机制未披露，不能把金铜期货涨幅直接代入全部营业成本。15.89%毛利率下，采购涨价和利用率变化会显著影响利润。 来源：https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF；https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+    "9_futures": "期货维度以外汇风险和材料成本传导为主，尚无公司金铜商品头寸证据。5亿美元是拟授权额度，不能计作已套保资产或利润。 来源：https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF；https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF"
+  },
+  "panel_insights": "66套方法模拟中，长期框架看多1、中性23、看空12、弃权28；两个做空框架单列，绝非66位真人投票。成长派承认扣非增长，价值派质疑46.84倍持续盈利PE，技术派受制于均线。规则中Marks100→45、Druck100→52为超过30分审查修正：回撤不是低估，行业标签不是趋势。量化缺样本外验证弃权，游资多因模型射程弃权，均不等于看空。",
+  "qualitative_deep_dive": {
+    "3_macro": {
+      "evidence": [
+        {
+          "source": "中国银行/LPR",
+          "url": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+          "finding": "2026-10-20：1年LPR3.00%，5年以上3.50%；处于低位平台，不能假设后续必降息。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+          "finding": "2026-10制造业PMI49.3，新订单49.4；总需求偏弱，不代表AI封测订单同步收缩。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "国务院英文网/央行数据",
+          "url": "https://english.www.gov.cn/archive/statistics/202610/14/content_WS6acf8766c6d00ca5f9a0db17.html",
+          "finding": "2026-09末M2同比7.2%，社融存量同比7.1%；未回归检验与公司收入的相关性。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司H1报告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "H1境外收入占63.40%；高端原料以进口为主，美元收入与外币债务并存，汇率方向不能单看出口。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "8_materials",
+          "chain_id": "链1",
+          "causal_chain": "美元结算收入与进口材料、外币债务并存→人民币变动同时改变收入成本和汇兑损益→不能按出口比例推净利弹性。",
+          "estimated_impact": "进口采购占比及净结算敞口不足，不给伪精确EPS；使用下列利率条件测算。"
+        },
+        {
+          "link_to": "10_valuation",
+          "chain_id": "利率补充",
+          "causal_chain": "LPR低位平台→融资成本支持扩产；若浮息成本上升25bp→利息侵蚀归母利润与ROE。",
+          "estimated_impact": "每100亿元全额浮息债务，税率15%情景下年利润-2125万元；以Q3归母权益计ROE-0.0953个百分点。"
+        }
+      ],
+      "conclusion": "LPR3%提供融资支撑，PMI49.3显示总需求偏弱。境外收入63.40%伴随进口和外币债务，不能把汇率变动直接当净利润利好。"
+    },
+    "13_policy": {
+      "evidence": [
+        {
+          "source": "工信部电子信息司",
+          "url": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html",
+          "finding": "2026-09规划解读提出集成电路全链条攻关、电子材料高端化；属于产业方向，未承诺公司补贴。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "工信部等四部门/税务总局",
+          "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html",
+          "finding": "2026-09-29文件覆盖封测企业；11月30日后查询清单，未入选者当日停止优惠；公司2026资格未核实。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "BIS",
+          "url": "https://media.bis.gov/sites/default/files/documents/DoC%20Revises%20License%20Review%20Policy%20for%20Semiconductors%20Exports.pdf",
+          "finding": "2026-01-13允许AMD MI325X等对华出口许可逐案审查，要求客户筛查及美国第三方测试；不是全面放开。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "BIS",
+          "url": "https://media.bis.gov/sites/default/files/documents/FDD%20press%20release.pdf",
+          "finding": "2025-01-15规则涉及先进芯片封装及Approved OSAT；仅作规则背景，未证实通富特定订单受限。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "7_industry",
+          "chain_id": "链2",
+          "causal_chain": "集成电路全链条攻关与材料高端化→认证、研发和资本门槛增强→具备量产经验的封测企业可能受益，但资格不自动等于订单。",
+          "estimated_impact": "正向产业期权，缺少公司新增补贴与订单金额，不计入盈利预测。"
+        },
+        {
+          "link_to": "15_events",
+          "chain_id": "链3",
+          "causal_chain": "VAT清单复核→2026资格确认或退出→税负、其他收益及现金流可能变动。",
+          "estimated_impact": "11月30日后可核验；公司入选未知，金额不量化。"
+        }
+      ],
+      "conclusion": "政策支持先进封测，但VAT资格须逐年核验；BIS逐案许可也不等于全面放开，海外客户和设备合规仍是经营约束。"
+    },
+    "7_industry": {
+      "evidence": [
+        {
+          "source": "AMD 2026Q3财报",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "finding": "营收133.77亿美元同比+45%；数据中心85.46亿美元同比+97%；客户端及游戏合计同比-8%。Q4收入指引170亿美元±3%，为预测而非已实现。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "发行人财会专项说明",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12365758&stockid=002156",
+          "finding": "公司申报资料援引赛迪顾问：全球封装测试市场2024年743亿美元、2028年1010亿美元；按两点推算CAGR约8%，不能与先进封装子市场混用。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "2026半年报 p12-13",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "VISIONS平台覆盖2D+异构集成；多款先进封装产品已批量导入HPC和推理芯片。VFO仅首次ES交付、VCS验证完成；2nm仍攻坚，不得写全部成熟量产。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "3",
+          "causal_chain": "AMD数据中心需求增长→封测需求与产品复杂度上升→公司高端产能利用与收入可能增加；具体GPU订单份额未披露。",
+          "estimated_impact": "正向但不可把AMD营收增速直接套给通富营收。"
+        },
+        {
+          "link_to": "1_financials",
+          "chain_id": "6",
+          "causal_chain": "高端产线扩充→固定资产与折旧增加→仅收入增长不足以保证利润增长；需用分厂利润验证。",
+          "estimated_impact": "半年报苏州净利同比约-27.6%，槟城约+29.4%，提示结构性分化。"
+        }
+      ],
+      "conclusion": "先进封装有结构性增量，成熟封装仍受周期约束。AMD景气支持订单逻辑，但业务份额、量产阶段与回报率必须单独验证。",
+      "questions": {
+        "lifecycle": "成熟封测叠加先进封装成长子赛道，不能全行业统一高增长。",
+        "tam": "申报资料转引全球封测2028年1010亿美元；未核得独立三年预测区间，不制造券商一致预期。",
+        "concentration": "未取得口径一致的三年CR4/CR8序列，不能推断集中度拐点。",
+        "porter": "分析师主观1-5分：客户议价5（大客户集中）；供应商4（高端设备材料）；新进入者威胁2（认证资本门槛）；替代威胁3（晶圆厂先进封装）；同行竞争4（全球龙头扩产）。非统计分。",
+        "substitution": "晶圆厂自有先进封装与异构集成路线竞争，不能把所有AI封装价值都归于独立OSAT。",
+        "position": "公司年报列全球前十大OSAT；未独立核实本期精确名次和份额，不写国内第二/全球第四。",
+        "ma": "已核历史苏州/槟城85%控股及京隆26%股权；近六个月未核得需建模的重大控股并购。"
+      }
+    },
+    "15_events": {
+      "evidence": [
+        {
+          "source": "2026三季报 p2-4",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "finding": "前三季归母30.606亿元、扣非13.778亿元；差额16.828亿元，主因金融资产公允价值变动，不能据表观增长年化主业。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "定增上市公告书",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12598041&stockid=002156",
+          "finding": "2026-09-16新增7620.0794万股，总股本15.93797706亿股；发行价55.38元，募资总额42.2亿元，锁定六个月。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "2026-067关联交易公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12676618&stockid=002156",
+          "finding": "10月29日董事会将向金海通采购设备备件年度额度由0.9亿增至3.8亿元，增量2.9亿元；前三季已发生1.500758亿元。额度不等于确认支出或新增销售。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "AMD官方业绩公告",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+          "finding": "美东2026-11-03已发布2026Q3业绩；北京时间11月4日分析中属于已发生事件，不能列为未来60天待公布催化剂。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "10_valuation",
+          "chain_id": "3",
+          "causal_chain": "金融资产估值上涨→表观归母显著增加→TTM PE下降；若以该利润给成长倍数会高估经常盈利。",
+          "estimated_impact": "前三季非经常损益/归母约54.98%；应拆分主业估值与金融投资净值，避免双计。"
+        },
+        {
+          "link_to": "1_financials",
+          "chain_id": "6",
+          "causal_chain": "定增42.2亿元→资本开支资金缓解→股数增加约5.02%且新产线折旧与爬坡先行。",
+          "estimated_impact": "固定总利润下EPS较发行前约摊薄4.78%；55.38元是发行价，不是二级市场价格下限。"
+        }
+      ],
+      "conclusion": "业绩催化已兑现，后续应检验扣非增速和扩产回报。定增解禁不在60天窗口，未核得未来60天已公告的季报或重大会议日期。",
+      "questions": {
+        "last30days": "已核10月30日三季报、董事会决议、关联交易额度增加；公告列表显示等4篇，未核全量，不声称完整分类计数。",
+        "monetization": "新增关联设备采购额度2.9亿元约为前三季收入1.17%；不是销售合同收入，不增厚当期EPS。",
+        "calendar": "未来60天2026-11-04至2027-01-03无核实的公司定期报告硬日期；定增锁定六个月，预计2027-03-16解禁，超窗口，以正式解禁公告为准。",
+        "sotp": "苏州与槟城均85%持股，可做历史利润情景，不能直接把子公司估值与集团净利估值相加；本文件提供H1子公司数据和透明倍数敏感性。",
+        "merger": "未核实窗口内重大收购对价/EPS影响，不制造并购催化。",
+        "litigation": "未核得足以量化的新增重大诉讼，不将未检出等同于不存在。"
+      }
+    },
+    "8_materials": {
+      "evidence": [
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF",
+          "finding": "主要材料为框架/基板、键合丝、塑封料；高端材料以进口为主。年报成本表只按业务分类，未给材料/人工/折旧占比。",
+          "retrieved_at": "2026-11-04",
+          "page": "19、34"
+        },
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF",
+          "finding": "前三季收入248.85亿元、营业成本209.31亿元，据此计算综合毛利率15.89%；存货59.07亿元，较年初增40%。",
+          "retrieved_at": "2026-11-04",
+          "page": "3、8、9"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "链 1",
+          "causal_chain": "高端材料进口依赖→采购价格及汇率变动→在售价和良率不变时压缩毛利；存货增长使采购成本传导存在时滞。",
+          "estimated_impact": "压力测试而非公司预测：若受影响材料占成本30%/50%，该材料篮子涨10%且不能顺价，综合毛利率分别减少2.52/4.21个百分点。"
+        }
+      ],
+      "conclusion": "公司真实材料占比和合同顺价机制未披露，不能把金铜期货涨幅直接代入全部营业成本。15.89%毛利率下，采购涨价和利用率变化会显著影响利润。",
+      "answers": {
+        "cost_mix": "已核验年报营业成本构成表，仅主营封测成本与其他业务成本；材料、人工、折旧份额未单列，不能引用雪球55%等为披露。",
+        "prices": "未取得可核验的公司采购篮子12个月价格及三年百分位；基板、塑封料与键合丝的规格价格不能用单一铜金连续合约替代。",
+        "pass_through": "缺少统一成本加成或固定价合同条款证据；敏感性一律设销售价格、销量、良率不变、无顺价，属于机械压力测试。",
+        "substitution": "2025年报研发项目披露PSPI材料国产化项目已完成，但不能据此推定基板或全部键合丝已国产替代。",
+        "vertical_integration": "已核验主体主营封测；南通金润代理采购部分辅材，不等同自有金铜矿、基板产能。"
+      }
+    },
+    "9_futures": {
+      "evidence": [
+        {
+          "source": "company_statutory_filing",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112775.PDF",
+          "finding": "董事会拟开展上限5亿美元外汇套保，工具可含远期、掉期、外汇期货及期权；这是额度授权方案，不是实际头寸。",
+          "retrieved_at": "2026-11-04",
+          "page": "1—3"
+        },
+        {
+          "source": "company_statutory_filing",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-29/072fbc43-caef-4b31-bf0e-ee19d9fa0459.PDF",
+          "finding": "半年报金融工具风险附注称未采取汇率规避措施，美元汇率±2%的披露税后敏感性为±1389.55万元；未见金铜商品套保头寸披露。",
+          "retrieved_at": "2026-11-04",
+          "page": "138"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "3_macro",
+          "chain_id": "链 4",
+          "causal_chain": "海外销售与进口采购→外币收支及资产负债敞口→汇兑损益；外汇套保授权只提供工具选择，不能视为风险已经锁定。",
+          "estimated_impact": "按半年报敏感性，美元汇率变化2%对应税后利润约1389.55万元；这不是金铜期货损益估计，也不可线性外推为全年预测。"
+        }
+      ],
+      "conclusion": "期货维度以外汇风险和材料成本传导为主，尚无公司金铜商品头寸证据。5亿美元是拟授权额度，不能计作已套保资产或利润。",
+      "answers": {
+        "lead_lag": "未完成对齐频率、复权和采购滞后的统计检验，不能声称金铜期货领先股价1—3个月或给出相关系数。",
+        "hedging": "董事会外汇方案额度≤5亿美元，12个月累计人民币金额≤最近一期经审计净资产30%；半年报明确尚未采取汇率规避措施。报告期后实际成交名义本金、方向和到期结构未核实。",
+        "term_structure": "未核实同一交易日各到期合约曲线，无法判断contango/backwardation；公司亦非可用单一金属曲线指导库存的纯金属贸易商。",
+        "positioning": "未取得相关商品异常持仓与公司订单/采购的可检验对应关系，不将市场投机持仓作为盈利预测。"
+      }
+    }
+  },
+  "per_investor_override": {
+    "buffett": {
+      "id": "buffett",
+      "investor_id": "buffett",
+      "signal": "bearish",
+      "score": 18,
+      "confidence": 83,
+      "headline": "2025 ROE8.08%，现金代理−22.24亿，不满足所有者盈余标准",
+      "reasoning": "Mr. Market的涨停报价不能代替owner earnings。2023—2025年ROE为1.22%、4.75%、8.08%，没有长期15%以上的证据；前三季CFO55.47亿却支付资本开支77.71亿，持续再投入削弱可分配现金。扣非TTM PE46.84倍，超过本框架25倍筛选线。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 18,
+      "comment": "2025 ROE8.08%，现金代理−22.24亿，不满足所有者盈余标准。Mr. Market的涨停报价不能代替owner earnings。2023—2025年ROE为1.22%、4.75%、8.08%，没有长期15%以上的证据；前三季CFO55.47亿却支付资本开支77.71亿，持续再投入削弱可分配现金。扣非TTM PE46.84倍，超过本框架25倍筛选线。"
+    },
+    "graham": {
+      "id": "graham",
+      "investor_id": "graham",
+      "signal": "bearish",
+      "score": 12,
+      "confidence": 86,
+      "headline": "扣非PE46.84、PB3.02，防守型门槛均未通过",
+      "reasoning": "defensive investor先检验margin of safety：即使报表PE19.73也高于15倍，PB3.02高于1.5倍；剔除非经常收益后PE更高。流动比率约0.99，历史底稿仅覆盖三年，不能把资料不足写成仅盈利三年，更不能认定具备长期防守记录。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 12,
+      "comment": "扣非PE46.84、PB3.02，防守型门槛均未通过。defensive investor先检验margin of safety：即使报表PE19.73也高于15倍，PB3.02高于1.5倍；剔除非经常收益后PE更高。流动比率约0.99，历史底稿仅覆盖三年，不能把资料不足写成仅盈利三年，更不能认定具备长期防守记录。"
+    },
+    "fisher": {
+      "id": "fisher",
+      "investor_id": "fisher",
+      "signal": "neutral",
+      "score": 55,
+      "confidence": 69,
+      "headline": "研发占比5.70%，客户黏性与52.29%第一客户依赖并存",
+      "reasoning": "以scuttlebutt框架检验15个问题：2025研发15.92亿、占营收5.70%，先进封装工艺和客户认证支持多年产品升级。第一客户占52.29%、2026前三季毛利率15.89%，尚缺同口径资料证明毛利领先和独立定价权；增发股数较原股本增加5.02%，也需验证每股回报。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 50,
+      "score_delta": 5,
+      "comment": "研发占比5.70%，客户黏性与52.29%第一客户依赖并存。以scuttlebutt框架检验15个问题：2025研发15.92亿、占营收5.70%，先进封装工艺和客户认证支持多年产品升级。第一客户占52.29%、2026前三季毛利率15.89%，尚缺同口径资料证明毛利领先和独立定价权；增发股数较原股本增加5.02%，也需验证每股回报。"
+    },
+    "munger": {
+      "id": "munger",
+      "investor_id": "munger",
+      "signal": "bearish",
+      "score": 20,
+      "confidence": 79,
+      "headline": "负债率60.97%，低资本损耗的复利条件不足",
+      "reasoning": "invert, always invert：先问扩产不能变现时会怎样。2026前三季现金代理−22.24亿、2025 ROE8.08%，不符合长期20%以上回报和低再投入偏好；55%的前三季归母利润来自非经常损益。技术和客户复杂性使它暂归too hard，不能据此指控财务造假。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 20,
+      "comment": "负债率60.97%，低资本损耗的复利条件不足。invert, always invert：先问扩产不能变现时会怎样。2026前三季现金代理−22.24亿、2025 ROE8.08%，不符合长期20%以上回报和低再投入偏好；55%的前三季归母利润来自非经常损益。技术和客户复杂性使它暂归too hard，不能据此指控财务造假。"
+    },
+    "templeton": {
+      "id": "templeton",
+      "investor_id": "templeton",
+      "signal": "bearish",
+      "score": 35,
+      "confidence": 70,
+      "headline": "股价较盘中高点约跌50%，扣非46.84倍仍非深度价值",
+      "reasoning": "规则骨架以报表PE与含363.73倍异常同行的均值比较，得到便宜87%的错误强信号。改用扣非46.84倍后，相对廉价尚未成立；缺少五年估值分位，价格大跌不等于估值处于悲观极点。保留逆向研究线索，撤销100分看多。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 100,
+      "score_delta": -65,
+      "comment": "股价较盘中高点约跌50%，扣非46.84倍仍非深度价值。规则骨架以报表PE与含363.73倍异常同行的均值比较，得到便宜87%的错误强信号。改用扣非46.84倍后，相对廉价尚未成立；缺少五年估值分位，价格大跌不等于估值处于悲观极点。保留逆向研究线索，撤销100分看多。"
+    },
+    "klarman": {
+      "id": "klarman",
+      "investor_id": "klarman",
+      "signal": "bearish",
+      "score": 22,
+      "confidence": 77,
+      "headline": "现金代理−22.24亿，未证实30%安全边际",
+      "reasoning": "下行保护优先于催化剂：资产负债率60.97%，扩产现金支出77.71亿高于CFO55.47亿。负现金代理不适合默认恒增DCF，缺少可信内在值就不能声称30%折价；11月30日VAT资格核验只能列事件，不能代替本金保护。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 22,
+      "comment": "现金代理−22.24亿，未证实30%安全边际。下行保护优先于催化剂：资产负债率60.97%，扩产现金支出77.71亿高于CFO55.47亿。负现金代理不适合默认恒增DCF，缺少可信内在值就不能声称30%折价；11月30日VAT资格核验只能列事件，不能代替本金保护。"
+    },
+    "lynch": {
+      "id": "lynch",
+      "investor_id": "lynch",
+      "signal": "neutral",
+      "score": 46,
+      "confidence": 75,
+      "headline": "扣非PE46.84超过40线，77.1%增长不能机械变成便宜PEG",
+      "reasoning": "tenbagger要靠多年经营兑现，do your homework不能省略。前三季扣非增77.10%支持盈利修复，但低基数单期增速并非长期EPS增长预测；骨架用报表PE除23.71%营收增长构造PEG，口径不成立。按周期成长看待，等持续每股盈利与估值匹配。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 78,
+      "score_delta": -32,
+      "comment": "扣非PE46.84超过40线，77.1%增长不能机械变成便宜PEG。tenbagger要靠多年经营兑现，do your homework不能省略。前三季扣非增77.10%支持盈利修复，但低基数单期增速并非长期EPS增长预测；骨架用报表PE除23.71%营收增长构造PEG，口径不成立。按周期成长看待，等持续每股盈利与估值匹配。"
+    },
+    "oneill": {
+      "id": "oneill",
+      "investor_id": "oneill",
+      "signal": "neutral",
+      "score": 42,
+      "confidence": 76,
+      "headline": "Q3扣非+76.30%，42.33仍低于MA20的47.28",
+      "reasoning": "盈利增长满足CANSLIM的部分条件，但价格仍低于MA10/20/60，算法Stage1不证明上升趋势。Q3扣非同比76.30%比前三季报表255.68%更适合检查主营动量；最新基金经理数据缺失不能解释为没有机构持有。等待有效突破和市场趋势配合。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 41,
+      "score_delta": 1,
+      "comment": "Q3扣非+76.30%，42.33仍低于MA20的47.28。盈利增长满足CANSLIM的部分条件，但价格仍低于MA10/20/60，算法Stage1不证明上升趋势。Q3扣非同比76.30%比前三季报表255.68%更适合检查主营动量；最新基金经理数据缺失不能解释为没有机构持有。等待有效突破和市场趋势配合。"
+    },
+    "thiel": {
+      "id": "thiel",
+      "investor_id": "thiel",
+      "signal": "bearish",
+      "score": 28,
+      "confidence": 67,
+      "headline": "第一客户52.29%，客户认证未形成软件式网络效应",
+      "reasoning": "按垄断与规模规则，封装技术、认证和合作关系具有壁垒，但不能把半导体三个字等同平台网络效应。2025第一客户占52.29%、ROE8.08%，尚未显示能独立攫取垄断利润；拒绝用缺失的护城河总分当零分事实。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 28,
+      "comment": "第一客户52.29%，客户认证未形成软件式网络效应。按垄断与规模规则，封装技术、认证和合作关系具有壁垒，但不能把半导体三个字等同平台网络效应。2025第一客户占52.29%、ROE8.08%，尚未显示能独立攫取垄断利润；拒绝用缺失的护城河总分当零分事实。"
+    },
+    "wood": {
+      "id": "wood",
+      "investor_id": "wood",
+      "signal": "neutral",
+      "score": 58,
+      "confidence": 65,
+      "headline": "营收+23.71%、研发占比5.70%，低于本框架30%与15%阈值",
+      "reasoning": "AI基础设施可以进入创新研究范围，但Wright's Law需要学习曲线、量产成本和未来渗透率证据。现有营收增23.71%、2025研发占比5.70%，尚不足以证明五年营收CAGR超过30%和平台式颠覆；不把先进封装代工直接标为必须重仓。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 75,
+      "score_delta": -17,
+      "comment": "营收+23.71%、研发占比5.70%，低于本框架30%与15%阈值。AI基础设施可以进入创新研究范围，但Wright's Law需要学习曲线、量产成本和未来渗透率证据。现有营收增23.71%、2025研发占比5.70%，尚不足以证明五年营收CAGR超过30%和平台式颠覆；不把先进封装代工直接标为必须重仓。"
+    },
+    "andreessen": {
+      "id": "andreessen",
+      "investor_id": "andreessen",
+      "signal": "neutral",
+      "score": 52,
+      "confidence": 63,
+      "headline": "AI算力链有真实营收，46.84倍不是零边际成本平台价格",
+      "reasoning": "软件需求增长会拉动封装，但founder mode与网络效应不能从行业标签自动推导。前三季营收248.85亿、扣非增77.10%说明需求真实；资本开支77.71亿和15.89%毛利率显示这是资本密集的制造节点。撤销仅匹配半导体关键词得到的100分。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 100,
+      "score_delta": -48,
+      "comment": "AI算力链有真实营收，46.84倍不是零边际成本平台价格。软件需求增长会拉动封装，但founder mode与网络效应不能从行业标签自动推导。前三季营收248.85亿、扣非增77.10%说明需求真实；资本开支77.71亿和15.89%毛利率显示这是资本密集的制造节点。撤销仅匹配半导体关键词得到的100分。"
+    },
+    "gurley": {
+      "id": "gurley",
+      "investor_id": "gurley",
+      "signal": "bearish",
+      "score": 25,
+      "confidence": 71,
+      "headline": "毛利率15.89%，资本开支77.71亿，偏离平台型单位经济",
+      "reasoning": "All revenue is not created equal；封测服务不能用SaaS毛利标准直接判经营亏损，也不能宣称拥有marketplace网络效应。现金代理−22.24亿显示扩产消耗现金，原规则因为FCF率高于−20%就称现金健康，证据不足。缺少订单回报率和价格传导细项，保守处理。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 23,
+      "score_delta": 2,
+      "comment": "毛利率15.89%，资本开支77.71亿，偏离平台型单位经济。All revenue is not created equal；封测服务不能用SaaS毛利标准直接判经营亏损，也不能宣称拥有marketplace网络效应。现金代理−22.24亿显示扩产消耗现金，原规则因为FCF率高于−20%就称现金健康，证据不足。缺少订单回报率和价格传导细项，保守处理。"
+    },
+    "naval": {
+      "id": "naval",
+      "investor_id": "naval",
+      "signal": "bearish",
+      "score": 38,
+      "confidence": 68,
+      "headline": "真实技术知识存在，2025 ROE8.08%仍未形成轻资产复利",
+      "reasoning": "specific knowledge可体现为工艺经验和认证，但permissionless leverage并不等于每轮都需新增设备的封测产能。2025 ROE8.08%、前三季资本开支77.71亿不支持低资本消耗的十年复利判断；报表255.68%的单期增长更不能冒充三年增长记录。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 40,
+      "score_delta": -2,
+      "comment": "真实技术知识存在，2025 ROE8.08%仍未形成轻资产复利。specific knowledge可体现为工艺经验和认证，但permissionless leverage并不等于每轮都需新增设备的封测产能。2025 ROE8.08%、前三季资本开支77.71亿不支持低资本消耗的十年复利判断；报表255.68%的单期增长更不能冒充三年增长记录。"
+    },
+    "gerstner": {
+      "id": "gerstner",
+      "investor_id": "gerstner",
+      "signal": "bullish",
+      "score": 66,
+      "confidence": 61,
+      "headline": "扣非+77.10%支持AI资本开支弹性，46.84倍要求继续兑现",
+      "reasoning": "以AI基础设施增长框架看，前三季营收增23.71%、Q3扣非增76.30%，经营改善与算力需求方向相符，可给条件性偏多。不能把行业排名默认1当已验证事实，也不能把Rule of 40的SaaS标准硬套制造；若新增产线回报不足，现金代理−22.24亿会使此判断失效。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 100,
+      "score_delta": -34,
+      "comment": "扣非+77.10%支持AI资本开支弹性，46.84倍要求继续兑现。以AI基础设施增长框架看，前三季营收增23.71%、Q3扣非增76.30%，经营改善与算力需求方向相符，可给条件性偏多。不能把行业排名默认1当已验证事实，也不能把Rule of 40的SaaS标准硬套制造；若新增产线回报不足，现金代理−22.24亿会使此判断失效。"
+    },
+    "chamath": {
+      "id": "chamath",
+      "investor_id": "chamath",
+      "signal": "neutral",
+      "score": 52,
+      "confidence": 64,
+      "headline": "248.85亿营收证实经营规模，非经常损益占55%要拆开看",
+      "reasoning": "真实封测营收使它不同于无收入叙事，但资本密集制造并非自动具备指数增长。前三季扣非13.78亿、报表30.61亿必须分列，Transparency要求披露扩产利用率与每股回报；增发股数增加5.02%也应计入稀释，不以AI标签直接下结论。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 50,
+      "score_delta": 2,
+      "comment": "248.85亿营收证实经营规模，非经常损益占55%要拆开看。真实封测营收使它不同于无收入叙事，但资本密集制造并非自动具备指数增长。前三季扣非13.78亿、报表30.61亿必须分列，Transparency要求披露扩产利用率与每股回报；增发股数增加5.02%也应计入稀释，不以AI标签直接下结论。"
+    },
+    "duan": {
+      "id": "duan",
+      "investor_id": "duan",
+      "signal": "bearish",
+      "score": 22,
+      "confidence": 84,
+      "headline": "扣非PE46.84超过40线，−22.24亿现金代理不符生意偏好",
+      "reasoning": "本分是先看生意，再看价格。2025 ROE8.08%，前三季扩产后现金代理−22.24亿，尚未证明稳定、可分配的长期收益；报表PE19.73把非经常收益混进分母，扣非46.84倍已越过本框架40倍筛选线。列入不为清单，不等于否认公司技术。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 37,
+      "score_delta": -15,
+      "comment": "扣非PE46.84超过40线，−22.24亿现金代理不符生意偏好。本分是先看生意，再看价格。2025 ROE8.08%，前三季扩产后现金代理−22.24亿，尚未证明稳定、可分配的长期收益；报表PE19.73把非经常收益混进分母，扣非46.84倍已越过本框架40倍筛选线。列入不为清单，不等于否认公司技术。"
+    },
+    "zhangkun": {
+      "id": "zhangkun",
+      "investor_id": "zhangkun",
+      "signal": "bearish",
+      "score": 20,
+      "confidence": 82,
+      "headline": "三年ROE1.22%→4.75%→8.08%，长期15%复利证据不足",
+      "reasoning": "长期复利依赖持续高回报，而非一个财报期的利润跳升。2026前三季17.61%报表ROE含较大非经常损益，不能替代持续15%以上记录；扣非TTM PE46.84倍、现金代理−22.24亿，对需要耐心持有的质量框架不够稳健。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 27,
+      "score_delta": -7,
+      "comment": "三年ROE1.22%→4.75%→8.08%，长期15%复利证据不足。长期复利依赖持续高回报，而非一个财报期的利润跳升。2026前三季17.61%报表ROE含较大非经常损益，不能替代持续15%以上记录；扣非TTM PE46.84倍、现金代理−22.24亿，对需要耐心持有的质量框架不够稳健。"
+    },
+    "zhushaoxing": {
+      "id": "zhushaoxing",
+      "investor_id": "zhushaoxing",
+      "signal": "neutral",
+      "score": 55,
+      "confidence": 66,
+      "headline": "营收+23.71%、扣非+77.10%，66.9%波动抬高持有成本",
+      "reasoning": "规则支持先进封装成长，也提示年化波动66.9%不适合简单低换手持有。仅有2023—2025三年营收记录，不能制造三年CAGR已达标结论；经营改善可进入研究池，但需确认扩产资本回报与利润可持续性。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 60,
+      "score_delta": -5,
+      "comment": "营收+23.71%、扣非+77.10%，66.9%波动抬高持有成本。规则支持先进封装成长，也提示年化波动66.9%不适合简单低换手持有。仅有2023—2025三年营收记录，不能制造三年CAGR已达标结论；经营改善可进入研究池，但需确认扩产资本回报与利润可持续性。"
+    },
+    "xiezhiyu": {
+      "id": "xiezhiyu",
+      "investor_id": "xiezhiyu",
+      "signal": "neutral",
+      "score": 62,
+      "confidence": 71,
+      "headline": "营收+23.71%有成长，扣非46.84倍接近增长定价上沿",
+      "reasoning": "规则的成长估值平衡支持研究，但用报表PE19.73除营收增长得到便宜PEG会掩盖非经常损益。扣非TTM PE46.84倍对应盈利改善已被部分计价；CFO55.47亿较强，却不足覆盖77.71亿资本支出。保留成长判断，撤销100分无条件看多。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 100,
+      "score_delta": -38,
+      "comment": "营收+23.71%有成长，扣非46.84倍接近增长定价上沿。规则的成长估值平衡支持研究，但用报表PE19.73除营收增长得到便宜PEG会掩盖非经常损益。扣非TTM PE46.84倍对应盈利改善已被部分计价；CFO55.47亿较强，却不足覆盖77.71亿资本支出。保留成长判断，撤销100分无条件看多。"
+    },
+    "fengliu": {
+      "id": "fengliu",
+      "investor_id": "fengliu",
+      "signal": "neutral",
+      "score": 44,
+      "confidence": 63,
+      "headline": "较盘中高点回撤约50%提供预期差，现金代理仍−22.24亿",
+      "reasoning": "原规则因字段未映射漏掉回撤，直接给0分；真实最大回撤约51%应计入赔率研究。缺少有效一致目标价和估值分位，不能把跌幅当安全边际；负现金代理又未通过正现金条件，因此只给中性，等待经营与价格出现更清楚的错配。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 0,
+      "score_delta": 44,
+      "comment": "较盘中高点回撤约50%提供预期差，现金代理仍−22.24亿。原规则因字段未映射漏掉回撤，直接给0分；真实最大回撤约51%应计入赔率研究。缺少有效一致目标价和估值分位，不能把跌幅当安全边际；负现金代理又未通过正现金条件，因此只给中性，等待经营与价格出现更清楚的错配。"
+    },
+    "dengxiaofeng": {
+      "id": "dengxiaofeng",
+      "investor_id": "dengxiaofeng",
+      "signal": "neutral",
+      "score": 58,
+      "confidence": 70,
+      "headline": "先进封装扩产带来周期机会，扣非PE46.84高于35倍纪律",
+      "reasoning": "资本周期改善可支持经营利润继续修复，前三季扣非增77.10%是有效证据。但规则用报表PE19.73通过35倍价格筛选会误判；扣非46.84倍、2025 ROE8.08%与现金代理−22.24亿说明资本回报尚需兑现。维持研究，降低骨架100分。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 100,
+      "score_delta": -42,
+      "comment": "先进封装扩产带来周期机会，扣非PE46.84高于35倍纪律。资本周期改善可支持经营利润继续修复，前三季扣非增77.10%是有效证据。但规则用报表PE19.73通过35倍价格筛选会误判；扣非46.84倍、2025 ROE8.08%与现金代理−22.24亿说明资本回报尚需兑现。维持研究，降低骨架100分。"
+    },
+    "zhang_lei": {
+      "id": "zhang_lei",
+      "investor_id": "zhang_lei",
+      "signal": "neutral",
+      "score": 54,
+      "confidence": 67,
+      "headline": "先进封装有长跑道，2025 ROE8.08%仍不是已验证复利机器",
+      "reasoning": "做时间的朋友需要工艺升级、客户黏性与资本回报共同成立。前三季营收248.85亿显示规模，但第一客户52.29%集中、2025 ROE8.08%及现金代理−22.24亿，使长期竞争优势尚未转成持续高回报；不因行业标签排除周期约束。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": 66,
+      "score_delta": -12,
+      "comment": "先进封装有长跑道，2025 ROE8.08%仍不是已验证复利机器。做时间的朋友需要工艺升级、客户黏性与资本回报共同成立。前三季营收248.85亿显示规模，但第一客户52.29%集中、2025 ROE8.08%及现金代理−22.24亿，使长期竞争优势尚未转成持续高回报；不因行业标签排除周期约束。"
+    },
+    "simons": {
+      "id": "simons",
+      "investor_id": "simons",
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "缺少已验证模型，保留弃权",
+      "reasoning": "该投资者对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验，不对此股票发表意见。 已有42.33元行情和46.84倍扣非PE，也不足以替代样本外检验或恢复适用性。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": null,
+      "score_delta": null,
+      "comment": "对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验。对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验"
+    },
+    "thorp": {
+      "id": "thorp",
+      "investor_id": "thorp",
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "缺少已验证模型，保留弃权",
+      "reasoning": "该投资者不看A市场，不对此股票发表意见。 已有42.33元行情和46.84倍扣非PE，也不足以替代样本外检验或恢复适用性。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": null,
+      "score_delta": null,
+      "comment": "缺少已验证模型，保留弃权。该投资者不看A市场，不对此股票发表意见。 已有42.33元行情和46.84倍扣非PE，也不足以替代样本外检验或恢复适用性。"
+    },
+    "shaw": {
+      "id": "shaw",
+      "investor_id": "shaw",
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "缺少已验证模型，保留弃权",
+      "reasoning": "该投资者对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验，不对此股票发表意见。 已有42.33元行情和46.84倍扣非PE，也不足以替代样本外检验或恢复适用性。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": null,
+      "score_delta": null,
+      "comment": "对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验。对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验"
+    },
+    "asness": {
+      "id": "asness",
+      "investor_id": "asness",
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "缺少已验证模型，保留弃权",
+      "reasoning": "该投资者对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验，不对此股票发表意见。 已有42.33元行情和46.84倍扣非PE，也不足以替代样本外检验或恢复适用性。",
+      "assessment_kind": "模拟投资框架，不代表真人观点或背书",
+      "rule_score": null,
+      "score_delta": null,
+      "comment": "对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验。对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验"
+    },
+    "zhang_mz": {
+      "investor_id": "zhang_mz",
+      "signal": "neutral",
+      "score": 40,
+      "headline": "674.65亿元适配大票，42.33元仍低于三条均线",
+      "reasoning": "本方法模拟：300—1500亿元偏好下，674.65亿元具备大票承载空间；顺势条件尚未满足。42.33元低于MA10/20/60的43.36/47.28/56.60元，MACD水下未金叉；止损第一，先确认趋势和接力。封板时间、L2资金及龙虎榜未核实，不能断言强封或龙头。",
+      "confidence": 55,
+      "comment": "674.65亿元适配大票，42.33元仍低于三条均线。本方法模拟：300—1500亿元偏好下，674.65亿元具备大票承载空间；顺势条件尚未满足。42.33元低于MA10/20/60的43.36/47.28/56.60元，MACD水下未金叉；止损第一，先确认趋势和接力。封板时间、L2资金及龙虎榜未核实，不能断言强封或龙头。",
+      "abstention_category": null,
+      "skip_reason": null
+    },
+    "sun_ge": {
+      "investor_id": "sun_ge",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，孙哥视角弃权",
+      "reasoning": "本规则按675亿元市值判为策略射程外，保留弃权。42.33元涨停不等于已核实板块领涨或席位介入，缺少封单资料不改判看空。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，孙哥视角弃权。本规则按675亿元市值判为策略射程外，保留弃权。42.33元涨停不等于已核实板块领涨或席位介入，缺少封单资料不改判看空。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 孙哥 射程"
+    },
+    "zhao_lg": {
+      "investor_id": "zhao_lg",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，赵老哥视角弃权",
+      "reasoning": "龙头战法先核封板时间、封单占比和接力身份；这些资料均未核实。674.65亿元超过本规则常用500亿元射程，保留策略弃权；不把一次涨停写成强封龙头。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，赵老哥视角弃权。龙头战法先核封板时间、封单占比和接力身份；这些资料均未核实。674.65亿元超过本规则常用500亿元射程，保留策略弃权；不把一次涨停写成强封龙头。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 赵老哥 射程"
+    },
+    "fs_wyj": {
+      "investor_id": "fs_wyj",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，佛山无影脚视角弃权",
+      "reasoning": "本方法偏小盘快速进出，674.65亿元超出规则射程，保留弃权。未核实即时盘口、封单和可成交性，不凭42.33元涨停推断可复制的快进快出机会。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，佛山无影脚视角弃权。本方法偏小盘快速进出，674.65亿元超出规则射程，保留弃权。未核实即时盘口、封单和可成交性，不凭42.33元涨停推断可复制的快进快出机会。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 佛山无影脚 射程"
+    },
+    "yangjia": {
+      "investor_id": "yangjia",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，炒股养家视角弃权",
+      "reasoning": "本规则将674.65亿元判为策略射程外，保留弃权。情绪周期和资金接力缺少可核数据，单日涨停尚不足以确认市场合力，也不能因此假称已见情绪拐点。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，炒股养家视角弃权。本规则将674.65亿元判为策略射程外，保留弃权。情绪周期和资金接力缺少可核数据，单日涨停尚不足以确认市场合力，也不能因此假称已见情绪拐点。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 炒股养家 射程"
+    },
+    "chen_xq": {
+      "investor_id": "chen_xq",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，陈小群视角弃权",
+      "reasoning": "本规则下674.65亿元超出策略射程，保留弃权。42.33元涨停尚缺板块位次、首封时间和真实席位证据，不据此认定题材核心或连板空间。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，陈小群视角弃权。本规则下674.65亿元超出策略射程，保留弃权。42.33元涨停尚缺板块位次、首封时间和真实席位证据，不据此认定题材核心或连板空间。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 陈小群 射程"
+    },
+    "hu_jl": {
+      "investor_id": "hu_jl",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，呼家楼视角弃权",
+      "reasoning": "674.65亿元触发本规则的市值射程限制，保留弃权。龙虎榜及大单未核实，不能将今日涨停解读为某机构或某游资已在集中建仓。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，呼家楼视角弃权。674.65亿元触发本规则的市值射程限制，保留弃权。龙虎榜及大单未核实，不能将今日涨停解读为某机构或某游资已在集中建仓。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 呼家楼 射程"
+    },
+    "fang_xx": {
+      "investor_id": "fang_xx",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，方新侠视角弃权",
+      "reasoning": "本规则按674.65亿元市值保留策略弃权。42.33元仍低于MA20的47.28元，且大单资金未核实，不把题材反弹认作有证据的大资金趋势进攻。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，方新侠视角弃权。本规则按674.65亿元市值保留策略弃权。42.33元仍低于MA20的47.28元，且大单资金未核实，不把题材反弹认作有证据的大资金趋势进攻。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 方新侠 射程"
+    },
+    "zuoshou": {
+      "investor_id": "zuoshou",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，作手新一视角弃权",
+      "reasoning": "674.65亿元超出本规则射程，保留弃权。涨停后的接力身份、板块相对强度及席位均未核实，不能用一次反弹替代趋势确认。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，作手新一视角弃权。674.65亿元超出本规则射程，保留弃权。涨停后的接力身份、板块相对强度及席位均未核实，不能用一次反弹替代趋势确认。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 作手新一 射程"
+    },
+    "xiao_ey": {
+      "investor_id": "xiao_ey",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，小鳄鱼视角弃权",
+      "reasoning": "674.65亿元触发本规则射程弃权，不能因财报增长便强行改成短线买入。今日42.33元仍低于MA10的43.36元，价格确认与盘口证据都应独立核验。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，小鳄鱼视角弃权。674.65亿元触发本规则射程弃权，不能因财报增长便强行改成短线买入。今日42.33元仍低于MA10的43.36元，价格确认与盘口证据都应独立核验。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 小鳄鱼 射程"
+    },
+    "jiao_yy": {
+      "investor_id": "jiao_yy",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，交易猿视角弃权",
+      "reasoning": "本规则按674.65亿元判为策略射程外，保留弃权。未核实资金分歧及板块相对位次，不把涨停与所谓行业第一混作交易龙头证据。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，交易猿视角弃权。本规则按674.65亿元判为策略射程外，保留弃权。未核实资金分歧及板块相对位次，不把涨停与所谓行业第一混作交易龙头证据。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 交易猿 射程"
+    },
+    "mao_lb": {
+      "investor_id": "mao_lb",
+      "signal": "skip",
+      "score": null,
+      "headline": "674.65亿元超本规则射程，毛老板视角弃权",
+      "reasoning": "674.65亿元超出本规则射程，保留弃权。先进封装逻辑可以研究，但42.33元仍在MA60的56.60元之下；缺少资金回流证据，不补写趋势已反转。",
+      "confidence": 0,
+      "comment": "674.65亿元超本规则射程，毛老板视角弃权。674.65亿元超出本规则射程，保留弃权。先进封装逻辑可以研究，但42.33元仍在MA60的56.60元之下；缺少资金回流证据，不补写趋势已反转。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 毛老板 射程"
+    },
+    "xiao_xian": {
+      "investor_id": "xiao_xian",
+      "name": "消闲派",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/xiao_xian.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。满仓加速所需的龙头地位与持续承接未核实，不能以10.01%涨停代替确认。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。满仓加速所需的龙头地位与持续承接未核实，不能以10.01%涨停代替确认。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 消闲派 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "xiao_xian",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "lasa": {
+      "investor_id": "lasa",
+      "name": "拉萨天团",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/lasa.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。未获当前有效席位榜，不能宣称拉萨席位已接盘，更不能把散户身份当反向指标证据。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。未获当前有效席位榜，不能宣称拉萨席位已接盘，更不能把散户身份当反向指标证据。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 拉萨天团 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "1-2 天，打首板 / 二板为主",
+      "position_sizing": "单票 5-15%，封板率高时加仓；封板力度弱就跑",
+      "what_would_change_my_mind": "封板时间推后 · 开板即砸 · 情绪周期从亢奋转分歧",
+      "id": "lasa",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "chengdu": {
+      "investor_id": "chengdu",
+      "name": "成都帮",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/chengdu.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。股价距250日最高收盘回撤46.22%说明曾大跌，不足以证明底部点火成功。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。股价距250日最高收盘回撤46.22%说明曾大跌，不足以证明底部点火成功。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 成都帮 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "chengdu",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "sunan": {
+      "investor_id": "sunan",
+      "name": "苏南帮",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/sunan.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型50亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。674.65亿市值与低价小盘假设差距大；没有席位联动证据。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超50亿上限；本次弃权。按技能模型50亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。674.65亿市值与低价小盘假设差距大；没有席位联动证据。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超50亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 苏南帮 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "sunan",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "ningbo_st": {
+      "investor_id": "ningbo_st",
+      "name": "宁波桑田路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/ningbo_st.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。只确认11月4日涨停；未确认连板链与接力席位，不臆造二板条件。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。只确认11月4日涨停；未确认连板链与接力席位，不臆造二板条件。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 宁波桑田路 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "ningbo_st",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "liuyi_zl": {
+      "investor_id": "liuyi_zl",
+      "name": "六一中路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/liuyi_zl.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。先进封装题材有业务依据，但题材领先地位和接力承接仍缺证据。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。先进封装题材有业务依据，但题材领先地位和接力承接仍缺证据。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 六一中路 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "liuyi_zl",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "liu_sh": {
+      "investor_id": "liu_sh",
+      "name": "流沙河",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/liu_sh.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。42.33元涨停收盘已高于此前一日38.48元；不能把收盘追价称作低吸。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。42.33元涨停收盘已高于此前一日38.48元；不能把收盘追价称作低吸。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 流沙河 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "liu_sh",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "gu_bl": {
+      "investor_id": "gu_bl",
+      "name": "古北路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/gu_bl.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。单日成交41.96亿元说明流动性，不能推出主力锁仓与板块总龙地位。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。单日成交41.96亿元说明流动性，不能推出主力锁仓与板块总龙地位。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 古北路 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "gu_bl",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "bj_cj": {
+      "investor_id": "bj_cj",
+      "name": "北京炒家",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/bj_cj.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型20—80亿区间保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。674.65亿超出首板小盘假设；封板时刻和排单成交可得性未核实，不给虚拟成交点。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超20—80亿区间；本次弃权。按技能模型20—80亿区间保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。674.65亿超出首板小盘假设；封板时刻和排单成交可得性未核实，不给虚拟成交点。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超20—80亿区间；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 北京炒家 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "bj_cj",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "wang_zr": {
+      "investor_id": "wang_zr",
+      "name": "瑞鹤仙",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/wang_zr.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。MA10/20/60分别43.359/47.284/56.599元，42.33元未越过中期阻力；一日涨停不等于趋势强势。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。MA10/20/60分别43.359/47.284/56.599元，42.33元未越过中期阻力；一日涨停不等于趋势强势。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 瑞鹤仙 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "wang_zr",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "xin_dd": {
+      "investor_id": "xin_dd",
+      "name": "鑫多多",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/xin_dd.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型范围外",
+      "reasoning": "按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。扣非增长77.10%是持续盈利改善，不能不加区分贴作困境撬板；当前席位未核实。未知龙虎榜和舆情不按零值扣分。",
+      "comment": "市值674.65亿元超默认500亿上限；本次弃权。按技能模型默认500亿上限保留策略范围外弃权；该阈值是模型设定，不能视为对真实游资资金能力的断言。扣非增长77.10%是持续盈利改善，不能不加区分贴作困境撬板；当前席位未核实。未知龙虎榜和舆情不按零值扣分。",
+      "headline": "市值674.65亿元超默认500亿上限；本次弃权",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "市值 675 亿不在 鑫多多 射程",
+      "required_evidence": [
+        "经核实的实际席位参与记录可重新检查模型范围"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "id": "xin_dd",
+      "rule_score_before_review": null,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "ghzw": {
+      "investor_id": "ghzw",
+      "name": "股海贼王",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/ghzw.svg",
+      "signal": "neutral",
+      "confidence": 33,
+      "score": 42,
+      "verdict": "等待确认",
+      "reasoning": "复盘三问先问为什么涨、在板块什么地位、在大盘什么地位。先进封装业务与当日10.01%涨停可核实，但板块领涨地位、封板承接和龙虎榜未核实；MA20为47.284元，MACD仍在水下。保留规则42分的观望：等盘面给答案，不把回撤46.22%直接当低位买入优势。",
+      "comment": "42.33元涨停，仍低于47.284元MA20；主线地位未确认。复盘三问先问为什么涨、在板块什么地位、在大盘什么地位。先进封装业务与当日10.01%涨停可核实，但板块领涨地位、封板承接和龙虎榜未核实；MA20为47.284元，MACD仍在水下。保留规则42分的观望：等盘面给答案，不把回撤46.22%直接当低位买入优势。",
+      "headline": "42.33元涨停，仍低于47.284元MA20；主线地位未确认",
+      "abstention_category": null,
+      "skip_reason": null,
+      "required_evidence": [
+        "当日及近30天有效龙虎榜席位",
+        "板块与全市场相对强度",
+        "可核实的盘口承接与次日反馈"
+      ],
+      "pass": [
+        {
+          "name": "时代情绪载体（格局票判定）",
+          "msg": "半导体封装测试 · 时代性题材 · 能看三五倍的票为什么恐高 为什么不格局",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "盘口强度（Stage 2 + 量能配合）",
+          "msg": "盘口不强 · 弱转强没确认 · 等盘面给答案",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 7,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "超短接力 T+1 到 T+5（持仓中位 1 天）· 时代级格局票可拿数月看三五倍",
+      "position_sizing": "同时 3-5 只 · 第一重仓常打五成 · 闲钱逆回购 · 高位票绝不满仓搞",
+      "what_would_change_my_mind": "持续站回MA10/20且板块相对强度改善、成交承接有可核实证据；反弹失败则下调。",
+      "id": "ghzw",
+      "rule_score_before_review": 42,
+      "agent_reviewed": true,
+      "simulation_note": "方法框架模拟；不代表本人真实观点、持仓或交易。"
+    },
+    "soros": {
+      "signal": "neutral",
+      "score": 38,
+      "confidence": 60,
+      "headline": "涨10.01%，但反身性上升循环尚未确认",
+      "reasoning": "Reflexivity需要价格与经营相互验证。42.33仍低于MA20 47.28，I may be wrong；单日涨停不能证明持续资金正反馈。",
+      "comment": "涨10.01%，但反身性上升循环尚未确认。Reflexivity需要价格与经营相互验证。42.33仍低于MA20 47.28，I may be wrong；单日涨停不能证明持续资金正反馈。"
+    },
+    "dalio": {
+      "signal": "bearish",
+      "score": 30,
+      "confidence": 60,
+      "headline": "负债率60.97%，现金代理−22.24亿",
+      "reasoning": "Economic machine的低利率平台可减融资压力，但不能消除扩产和外汇风险。LPR一年3%，以principles看仍需分散；此公司不宜替代all weather资产组合。",
+      "comment": "负债率60.97%，现金代理−22.24亿。Economic machine的低利率平台可减融资压力，但不能消除扩产和外汇风险。LPR一年3%，以principles看仍需分散；此公司不宜替代all weather资产组合。"
+    },
+    "marks": {
+      "signal": "neutral",
+      "score": 45,
+      "confidence": 60,
+      "headline": "盘中高点回撤50%，扣非PE仍46.84倍",
+      "reasoning": "跌得多只说明价格路径，不能证明安全边际。规则因大回撤给高分，审查后降至45；周期改善真实，资本开支77.71亿仍高于CFO55.47亿。",
+      "comment": "盘中高点回撤50%，扣非PE仍46.84倍。跌得多只说明价格路径，不能证明安全边际。规则因大回撤给高分，审查后降至45；周期改善真实，资本开支77.71亿仍高于CFO55.47亿。"
+    },
+    "druck": {
+      "signal": "neutral",
+      "score": 52,
+      "confidence": 60,
+      "headline": "先进封装成长，收盘仍低于MA60 56.60",
+      "reasoning": "规则把行业成长标签等同可交易趋势，缺少资金面验证。前三季收入增长23.71%，但技术趋势与流动性尚未同步，先等待趋势确认。",
+      "comment": "先进封装成长，收盘仍低于MA60 56.60。规则把行业成长标签等同可交易趋势，缺少资金面验证。前三季收入增长23.71%，但技术趋势与流动性尚未同步，先等待趋势确认。"
+    },
+    "robertson": {
+      "signal": "neutral",
+      "score": 48,
+      "confidence": 60,
+      "headline": "通富扣非增77.1%，长电增99.2%",
+      "reasoning": "同周期比较显示收入增长与持续利润质量存在分歧。不能把同行表中排第一当行业排名，也不在无借券成本和对冲比例时构造多空交易。",
+      "comment": "通富扣非增77.1%，长电增99.2%。同周期比较显示收入增长与持续利润质量存在分歧。不能把同行表中排第一当行业排名，也不在无借券成本和对冲比例时构造多空交易。"
+    },
+    "burry": {
+      "signal": "neutral",
+      "score": 50,
+      "confidence": 60,
+      "headline": "非经常损益约55%，尚不足构成做空案",
+      "reasoning": "做空框架只识别估值与利润质量风险，报表PE19.73不能当正常化低估。扣非增长77.10%削弱纯粹财务衰退论；没有欺诈证据、借券条件与时间催化，不给做空操作结论。",
+      "comment": "非经常损益约55%，尚不足构成做空案。做空框架只识别估值与利润质量风险，报表PE19.73不能当正常化低估。扣非增长77.10%削弱纯粹财务衰退论；没有欺诈证据、借券条件与时间催化，不给做空操作结论。"
+    },
+    "chanos": {
+      "signal": "neutral",
+      "score": 50,
+      "confidence": 60,
+      "headline": "利润增长255.68%不等于主营同幅增长",
+      "reasoning": "税前公允价值变动19.77亿需要剥离，不能仅因未列黑名单给100分。扣非与现金流事实不能证明造假；扩产回报及会计投资波动需持续核验。",
+      "comment": "利润增长255.68%不等于主营同幅增长。税前公允价值变动19.77亿需要剥离，不能仅因未列黑名单给100分。扣非与现金流事实不能证明造假；扩产回报及会计投资波动需持续核验。"
+    },
+    "livermore": {
+      "signal": "bearish",
+      "score": 27,
+      "confidence": 60,
+      "headline": "42.33低于MA10/20/60，趋势未转多",
+      "reasoning": "趋势跟随框架保留偏空骨架。今日10.01%上涨不弥补中期均线压制，等价格与量能共同确认；不预先猜最低点。",
+      "comment": "42.33低于MA10/20/60，趋势未转多。趋势跟随框架保留偏空骨架。今日10.01%上涨不弥补中期均线压制，等价格与量能共同确认；不预先猜最低点。"
+    },
+    "minervini": {
+      "signal": "neutral",
+      "score": 42,
+      "confidence": 60,
+      "headline": "未达Stage2，距年内盘中高约−50%",
+      "reasoning": "SEPA趋势模板未通过，MA20 47.28与MA60 56.60均在价格上方。扣非盈利增长不能替代趋势条件；不将MA排列方向缺失误写多头堆叠。",
+      "comment": "未达Stage2，距年内盘中高约−50%。SEPA趋势模板未通过，MA20 47.28与MA60 56.60均在价格上方。扣非盈利增长不能替代趋势条件；不将MA排列方向缺失误写多头堆叠。"
+    },
+    "darvas": {
+      "signal": "neutral",
+      "score": 37,
+      "confidence": 60,
+      "headline": "42.33仍在MA20 47.28下方",
+      "reasoning": "箱体法需要上沿突破、成交确认及可执行止损。当前只有反弹，没有已确认向上箱体；不把算法Stage1当成筑底完成。",
+      "comment": "42.33仍在MA20 47.28下方。箱体法需要上沿突破、成交确认及可执行止损。当前只有反弹，没有已确认向上箱体；不把算法Stage1当成筑底完成。"
+    },
+    "gann": {
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "缺经验证周期模型，保留弃权",
+      "reasoning": "没有预定义角度尺度、样本外测试与交易成本验证。42.33元不能凭空推算神秘时间窗或买点。",
+      "comment": "对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验。对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验",
+      "abstention_category": "missing_model",
+      "skip_reason": "缺经验证周期模型，保留弃权"
+    },
+    "jensen_huang": {
+      "signal": "neutral",
+      "score": 48,
+      "confidence": 60,
+      "headline": "AI封装需求增加，2025ROE仅8.08%",
+      "reasoning": "技术生态框架承认封装在算力链中的作用，先进封装能力仍须订单、良率和回报共同验证。与AMD合作不构成对其他AI客户的供应关系证据。",
+      "comment": "AI封装需求增加，2025ROE仅8.08%。技术生态框架承认封装在算力链中的作用，先进封装能力仍须订单、良率和回报共同验证。与AMD合作不构成对其他AI客户的供应关系证据。"
+    },
+    "musk": {
+      "signal": "neutral",
+      "score": 37,
+      "confidence": 60,
+      "headline": "毛利率15.89%，制造成本约束仍强",
+      "reasoning": "第一性原理框架应拆解材料、折旧与良率，缺真实材料占比不能宣称制造成本指数下降。资本开支77.71亿需要持续利用率兑现。",
+      "comment": "毛利率15.89%，制造成本约束仍强。第一性原理框架应拆解材料、折旧与良率，缺真实材料占比不能宣称制造成本指数下降。资本开支77.71亿需要持续利用率兑现。"
+    },
+    "altman": {
+      "signal": "neutral",
+      "score": 58,
+      "confidence": 60,
+      "headline": "扣非增77.1%，但采购与扩产消耗现金",
+      "reasoning": "算力供给链方向受需求支持，但行业受益不等同股价低估。674.65亿市值对应扣非TTM46.84倍，独立现金回报仍需验证，不作任何真实商业合作暗示。",
+      "comment": "扣非增77.1%，但采购与扩产消耗现金。算力供给链方向受需求支持，但行业受益不等同股价低估。674.65亿市值对应扣非TTM46.84倍，独立现金回报仍需验证，不作任何真实商业合作暗示。"
+    },
+    "saylor": {
+      "signal": "skip",
+      "score": null,
+      "confidence": 0,
+      "headline": "数字资产财库框架不适配本股",
+      "reasoning": "封测经营数据不能映射数字资产财库策略。缺比特币持仓不是公司经营缺点，保留方法不适配弃权，不记看空票。",
+      "comment": "数字资产财库框架不适配本股。封测经营数据不能映射数字资产财库策略。缺比特币持仓不是公司经营缺点，保留方法不适配弃权，不记看空票。",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "数字资产财库框架不适配本股"
+    },
+    "serenity": {
+      "signal": "neutral",
+      "score": 50,
+      "confidence": 60,
+      "headline": "674.65亿市值，尚无独占瓶颈证据",
+      "reasoning": "公司处于先进封装制造环节；上下游文字包含基板不代表公司自制基板。客户1占52.29%，关键性与议价权须区分；没有独供份额或产能缺口证据，不把AI关键词命中当卡位买入信号。",
+      "comment": "674.65亿市值，尚无独占瓶颈证据。公司处于先进封装制造环节；上下游文字包含基板不代表公司自制基板。客户1占52.29%，关键性与议价权须区分；没有独供份额或产能缺口证据，不把AI关键词命中当卡位买入信号。"
+    }
+  },
+  "great_divide_override": {
+    "punchline": "扣非增长77%，现金代理却少22亿元：报表PE20倍，持续盈利PE47倍。",
+    "bull_say_rounds": [
+      "林奇框架：前三季扣非13.78亿、同比+77.10%，Q3扣非6.30亿，经营改善有证据。",
+      "成长框架：2027扣非22亿元若兑现、给30倍PE，情景价41.41元；28亿×35倍才到61.49元。",
+      "产业框架：先进封装需求扩张可改善利用率，但600亿2031收入是模型假设，不是合同。"
+    ],
+    "bear_say_rounds": [
+      "格雷厄姆框架：674.65亿市值对14.40亿扣非TTM利润，PE46.84倍，报表19.73倍容易误导。",
+      "现金流框架：前三季CFO55.47亿、Capex77.71亿，净现金代理−22.24亿，扩产不能当免费增长。",
+      "价值框架：10%折现率、2.5%永续增速的基准FCFF为26.14元；15%折价观察价22.22元。"
+    ]
+  },
+  "narrative_override": {
+    "core_conclusion": "通富微电经营改善成立，42.33元缺乏明确安全边际：前三季扣非增长77.10%，但约55%归母利润为非经常损益，扣非TTM PE46.84倍。基准DCF26.14元低于前瞻盈利估值41.41元；空仓不追涨，先验证扩产现金回报及趋势修复。",
+    "risks": [
+      "客户集中：2025第一客户占52.29%，前五69.54%；客户需求、议价或产品限制会集中传导。",
+      "扩产与偿债：前三季Capex77.71亿、CFO55.47亿，现金代理−22.24亿；一年内到期非流动负债81.53亿。",
+      "利润波动：非经常损益16.83亿占归母55%，金融资产估值变动若回撤会压低报表盈利。",
+      "技术与利用率：在建工程61.73亿、较年初+98.08%；转固后折旧压力需真实高端订单和良率覆盖。",
+      "跨境与税率：H1境外收入63.40%；出口管制、汇率及税惠资格双向影响，套保授权不等于实际头寸。"
+    ],
+    "buy_zones": {
+      "value": {
+        "price": 22.22,
+        "rationale": "基准FCFF26.14×0.85；15%安全折价，仅模型参考，非可执行买单。"
+      },
+      "growth": {
+        "price": 35.2,
+        "rationale": "2027扣非22亿÷15.93798亿股×30倍×0.85≈35.20；假设需兑现。"
+      },
+      "technical": {
+        "price": 47.284,
+        "rationale": "MA20约47.28是趋势修复观察门槛，站回后仍需回踩与量能确认；高于现价不代表应追买。"
+      },
+      "youzi": {
+        "price": null,
+        "rationale": "今日龙虎榜、封单轨迹与集中成本未核实，无法给有证据的游资买点。"
+      }
+    }
+  },
+  "detected_style_override": "growth_tech",
+  "style_override_reason": "半导体先进封装，成长需求与重资产周期并存，非稳定现金流白马",
+  "adjusted_dcf": {
+    "method": "五年显式FCFF＋永续终值（研究者情景）",
+    "intrinsic_per_share": 26.14,
+    "current_price": 42.33,
+    "safety_margin_pct": -38.3,
+    "verdict": "基准现金流估值低于现价；对Capex回落高度敏感",
+    "enterprise_value_yi": 539.4815290394552,
+    "equity_value_yi": 416.5597456871552,
+    "net_debt_yi": 122.59433370369999,
+    "shares_yi": 15.93797706,
+    "tv_pct_of_ev": 78.64889057076961,
+    "base_fcf_yi": null,
+    "assumptions": {
+      "revenue_base_2026_yi": 340,
+      "tax_pct": 15,
+      "wacc_pct": 10.0,
+      "terminal_growth_pct": 2.5,
+      "da_pct": 9.0,
+      "nwc_share_incremental_revenue_pct": 2,
+      "net_debt_yi": 122.59433370369999,
+      "minority_book_deduction_yi": 16.6628775952,
+      "nonoperating_asset_addback_yi": 16.3354279466,
+      "financial_asset_haircut_pct": 50,
+      "shares_yi": 15.93797706
+    },
+    "projected_fcf_yi": [
+      13.63999999999999,
+      21.790000000000003,
+      32.05,
+      43.412499999999994,
+      50.0
+    ],
+    "year_labels": [
+      "2027",
+      "2028",
+      "2029",
+      "2030",
+      "2031"
+    ],
+    "pv_explicit_yi": 115.18529161569933,
+    "tv_pv_yi": 424.29623742375577,
+    "sensitivity_table": {
+      "wacc_axis": [
+        "9.0%",
+        "9.5%",
+        "10.0%",
+        "10.5%",
+        "11.0%"
+      ],
+      "g_axis": [
+        "1.5%",
+        "2.0%",
+        "2.5%",
+        "3.0%",
+        "3.5%"
+      ],
+      "values_per_share": [
+        [
+          27.34,
+          29.46,
+          31.9,
+          34.75,
+          38.11
+        ],
+        [
+          24.91,
+          26.73,
+          28.81,
+          31.21,
+          34.0
+        ],
+        [
+          22.78,
+          24.35,
+          26.14,
+          28.18,
+          30.53
+        ],
+        [
+          20.88,
+          22.25,
+          23.8,
+          25.56,
+          27.56
+        ],
+        [
+          19.19,
+          20.39,
+          21.75,
+          23.26,
+          24.99
+        ]
+      ]
+    },
+    "methodology_log": [
+      "EBIT×(1−15%)+折旧摊销−资本开支−增量营运资金",
+      "2027–2031收入380/440/500/550/600亿元；EBIT率8/8.5/9/9.5/10%",
+      "D&A占收入9%；Capex占收入12/11/10/9/9%；增量营运资本为增收2%",
+      "WACC10%、永续g2.5%均为假设；净债、少数股权和金融资产折价详见底稿"
+    ],
+    "limitations": [
+      "五年简化FCFF，年度期点近似；非完整审计三表预测。",
+      "2026全年收入340亿元是建模起点假设，非已披露结果。",
+      "现金代理CFO−Capex不是FCFF，历史负值未被正利润代理覆盖。",
+      "净债包括到期非流动负债，其中少量非融资科目未完全拆分；现金未扣限制使用部分，存在净债低估可能。",
+      "少数股东按账面值扣除；金融资产按50%账面折价加回，不是独立估值或全部可分配现金。",
+      "母公司及各子公司税率不同，15%为情景假设，不是集团实际税率。",
+      "终值资本开支等于折旧，隐含持续扩产可放缓；若继续高资本开支，估值更低。",
+      "2025年度净利12.187亿元/扣非8.406亿元取最终年报；发行预案旧假设不替代已披露结果。"
+    ]
+  },
+  "valuation_scenarios": {
+    "ticker": "002156.SZ",
+    "date": "2026-11-04",
+    "price_reference": 42.33,
+    "unit": "亿元/元/亿股",
+    "status": "研究者假设情景；非一致预期、非目标价保证",
+    "fcff_formula": "EBIT×(1−15%)+折旧摊销−资本开支−增量营运资金",
+    "dcf_scenarios": {
+      "bear": {
+        "assumptions": {
+          "revenue_base_2026_yi": 340,
+          "tax_pct": 15,
+          "wacc_pct": 11.0,
+          "terminal_growth_pct": 2.0,
+          "da_pct": 9.0,
+          "nwc_share_incremental_revenue_pct": 2,
+          "net_debt_yi": 122.59433370369999,
+          "minority_book_deduction_yi": 16.6628775952,
+          "nonoperating_asset_addback_yi": 16.3354279466,
+          "financial_asset_haircut_pct": 50,
+          "shares_yi": 15.93797706
+        },
+        "rows": [
+          {
+            "year": 2027,
+            "revenue_yi": 360,
+            "ebit_margin_pct": 7.000000000000001,
+            "ebit_yi": 25.200000000000003,
+            "tax_yi": 3.7800000000000002,
+            "da_yi": 32.4,
+            "capex_yi": 50.400000000000006,
+            "delta_nwc_yi": 0.4,
+            "fcff_yi": 3.0199999999999947,
+            "pv_yi": 2.7207207207207156
+          },
+          {
+            "year": 2028,
+            "revenue_yi": 390,
+            "ebit_margin_pct": 7.5,
+            "ebit_yi": 29.25,
+            "tax_yi": 4.3875,
+            "da_yi": 35.1,
+            "capex_yi": 50.7,
+            "delta_nwc_yi": 0.6,
+            "fcff_yi": 8.662500000000003,
+            "pv_yi": 7.030679327976626
+          },
+          {
+            "year": 2029,
+            "revenue_yi": 420,
+            "ebit_margin_pct": 8.0,
+            "ebit_yi": 33.6,
+            "tax_yi": 5.04,
+            "da_yi": 37.8,
+            "capex_yi": 50.4,
+            "delta_nwc_yi": 0.6,
+            "fcff_yi": 15.360000000000001,
+            "pv_yi": 11.231099616782595
+          },
+          {
+            "year": 2030,
+            "revenue_yi": 450,
+            "ebit_margin_pct": 8.5,
+            "ebit_yi": 38.25,
+            "tax_yi": 5.7375,
+            "da_yi": 40.5,
+            "capex_yi": 49.5,
+            "delta_nwc_yi": 0.6,
+            "fcff_yi": 22.912499999999987,
+            "pv_yi": 15.093173445097307
+          },
+          {
+            "year": 2031,
+            "revenue_yi": 480,
+            "ebit_margin_pct": 8.5,
+            "ebit_yi": 40.800000000000004,
+            "tax_yi": 6.12,
+            "da_yi": 43.199999999999996,
+            "capex_yi": 48.0,
+            "delta_nwc_yi": 0.6,
+            "fcff_yi": 29.279999999999994,
+            "pv_yi": 17.37625488555459
+          }
+        ],
+        "explicit_pv_yi": 53.45192799613183,
+        "terminal_pv_yi": 196.93088870295202,
+        "terminal_share_pct": 78.65191841005142,
+        "enterprise_value_yi": 250.38281669908383,
+        "equity_value_yi": 127.46103334678384,
+        "price": 7.997315648463095,
+        "upside_pct": -81.10721557178574
+      },
+      "base": {
+        "assumptions": {
+          "revenue_base_2026_yi": 340,
+          "tax_pct": 15,
+          "wacc_pct": 10.0,
+          "terminal_growth_pct": 2.5,
+          "da_pct": 9.0,
+          "nwc_share_incremental_revenue_pct": 2,
+          "net_debt_yi": 122.59433370369999,
+          "minority_book_deduction_yi": 16.6628775952,
+          "nonoperating_asset_addback_yi": 16.3354279466,
+          "financial_asset_haircut_pct": 50,
+          "shares_yi": 15.93797706
+        },
+        "rows": [
+          {
+            "year": 2027,
+            "revenue_yi": 380,
+            "ebit_margin_pct": 8.0,
+            "ebit_yi": 30.400000000000002,
+            "tax_yi": 4.5600000000000005,
+            "da_yi": 34.199999999999996,
+            "capex_yi": 45.6,
+            "delta_nwc_yi": 0.8,
+            "fcff_yi": 13.63999999999999,
+            "pv_yi": 12.39999999999999
+          },
+          {
+            "year": 2028,
+            "revenue_yi": 440,
+            "ebit_margin_pct": 8.5,
+            "ebit_yi": 37.400000000000006,
+            "tax_yi": 5.61,
+            "da_yi": 39.6,
+            "capex_yi": 48.4,
+            "delta_nwc_yi": 1.2,
+            "fcff_yi": 21.790000000000003,
+            "pv_yi": 18.008264462809915
+          },
+          {
+            "year": 2029,
+            "revenue_yi": 500,
+            "ebit_margin_pct": 9.0,
+            "ebit_yi": 45.0,
+            "tax_yi": 6.75,
+            "da_yi": 45.0,
+            "capex_yi": 50.0,
+            "delta_nwc_yi": 1.2,
+            "fcff_yi": 32.05,
+            "pv_yi": 24.079639368895556
+          },
+          {
+            "year": 2030,
+            "revenue_yi": 550,
+            "ebit_margin_pct": 9.5,
+            "ebit_yi": 52.25,
+            "tax_yi": 7.8374999999999995,
+            "da_yi": 49.5,
+            "capex_yi": 49.5,
+            "delta_nwc_yi": 1.0,
+            "fcff_yi": 43.412499999999994,
+            "pv_yi": 29.65132163103612
+          },
+          {
+            "year": 2031,
+            "revenue_yi": 600,
+            "ebit_margin_pct": 10.0,
+            "ebit_yi": 60.0,
+            "tax_yi": 9.0,
+            "da_yi": 54.0,
+            "capex_yi": 54.0,
+            "delta_nwc_yi": 1.0,
+            "fcff_yi": 50.0,
+            "pv_yi": 31.04606615295775
+          }
+        ],
+        "explicit_pv_yi": 115.18529161569933,
+        "terminal_pv_yi": 424.29623742375577,
+        "terminal_share_pct": 78.64889057076961,
+        "enterprise_value_yi": 539.4815290394552,
+        "equity_value_yi": 416.5597456871552,
+        "price": 26.136299739858906,
+        "upside_pct": -38.25584753163499
+      },
+      "bull": {
+        "assumptions": {
+          "revenue_base_2026_yi": 340,
+          "tax_pct": 15,
+          "wacc_pct": 9.0,
+          "terminal_growth_pct": 3.0,
+          "da_pct": 8.0,
+          "nwc_share_incremental_revenue_pct": 2,
+          "net_debt_yi": 122.59433370369999,
+          "minority_book_deduction_yi": 16.6628775952,
+          "nonoperating_asset_addback_yi": 16.3354279466,
+          "financial_asset_haircut_pct": 50,
+          "shares_yi": 15.93797706
+        },
+        "rows": [
+          {
+            "year": 2027,
+            "revenue_yi": 420,
+            "ebit_margin_pct": 9.0,
+            "ebit_yi": 37.8,
+            "tax_yi": 5.669999999999999,
+            "da_yi": 33.6,
+            "capex_yi": 46.2,
+            "delta_nwc_yi": 1.6,
+            "fcff_yi": 17.929999999999986,
+            "pv_yi": 16.449541284403654
+          },
+          {
+            "year": 2028,
+            "revenue_yi": 520,
+            "ebit_margin_pct": 10.0,
+            "ebit_yi": 52.0,
+            "tax_yi": 7.8,
+            "da_yi": 41.6,
+            "capex_yi": 52.0,
+            "delta_nwc_yi": 2.0,
+            "fcff_yi": 31.799999999999997,
+            "pv_yi": 26.765423785876603
+          },
+          {
+            "year": 2029,
+            "revenue_yi": 620,
+            "ebit_margin_pct": 11.0,
+            "ebit_yi": 68.2,
+            "tax_yi": 10.23,
+            "da_yi": 49.6,
+            "capex_yi": 55.8,
+            "delta_nwc_yi": 2.0,
+            "fcff_yi": 49.769999999999996,
+            "pv_yi": 38.43157180263916
+          },
+          {
+            "year": 2030,
+            "revenue_yi": 720,
+            "ebit_margin_pct": 11.5,
+            "ebit_yi": 82.8,
+            "tax_yi": 12.42,
+            "da_yi": 57.6,
+            "capex_yi": 57.6,
+            "delta_nwc_yi": 2.0,
+            "fcff_yi": 68.38,
+            "pv_yi": 48.442115932638124
+          },
+          {
+            "year": 2031,
+            "revenue_yi": 820,
+            "ebit_margin_pct": 12.0,
+            "ebit_yi": 98.39999999999999,
+            "tax_yi": 14.759999999999998,
+            "da_yi": 65.6,
+            "capex_yi": 65.6,
+            "delta_nwc_yi": 2.0,
+            "fcff_yi": 81.63999999999999,
+            "pv_yi": 53.0603983773969
+          }
+        ],
+        "explicit_pv_yi": 183.14905118295445,
+        "terminal_pv_yi": 910.8701721453136,
+        "terminal_share_pct": 83.25906462358392,
+        "enterprise_value_yi": 1094.019223328268,
+        "equity_value_yi": 971.0974399759681,
+        "price": 60.9297802550588,
+        "upside_pct": 43.9399486299523
+      }
+    },
+    "pe_scenarios": {
+      "bear": {
+        "recurring_profit_2027_yi": 18,
+        "assumed_pe": 25,
+        "eps": 1.1293779588361386,
+        "price": 28.234448970903465,
+        "upside_pct": -33.29919921827672
+      },
+      "base": {
+        "recurring_profit_2027_yi": 22,
+        "assumed_pe": 30,
+        "eps": 1.3803508385775027,
+        "price": 41.41052515732508,
+        "upside_pct": -2.1721588534725167
+      },
+      "bull": {
+        "recurring_profit_2027_yi": 28,
+        "assumed_pe": 35,
+        "eps": 1.7568101581895488,
+        "price": 61.48835553663421,
+        "upside_pct": 45.25952170241958
+      }
+    },
+    "dcf_sensitivity": {
+      "g_axis_pct": [
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5
+      ],
+      "rows": [
+        {
+          "wacc_pct": 9.0,
+          "prices": [
+            27.34,
+            29.46,
+            31.9,
+            34.75,
+            38.11
+          ]
+        },
+        {
+          "wacc_pct": 9.5,
+          "prices": [
+            24.91,
+            26.73,
+            28.81,
+            31.21,
+            34.0
+          ]
+        },
+        {
+          "wacc_pct": 10.0,
+          "prices": [
+            22.78,
+            24.35,
+            26.14,
+            28.18,
+            30.53
+          ]
+        },
+        {
+          "wacc_pct": 10.5,
+          "prices": [
+            20.88,
+            22.25,
+            23.8,
+            25.56,
+            27.56
+          ]
+        },
+        {
+          "wacc_pct": 11.0,
+          "prices": [
+            19.19,
+            20.39,
+            21.75,
+            23.26,
+            24.99
+          ]
+        }
+      ]
+    },
+    "normalization": {
+      "recurring_ttm_yi": 14.404081420499999,
+      "formula": "2025扣非8.4057421779+2026九月13.7784211383−2025九月7.7800818957",
+      "pe_recurring_ttm": 46.83741922201529,
+      "pe_reported_ttm": 19.733398212081504,
+      "nonrecurring_share_pct": 54.98139767777824
+    },
+    "limitations": [
+      "五年简化FCFF，年度期点近似；非完整审计三表预测。",
+      "2026全年收入340亿元是建模起点假设，非已披露结果。",
+      "现金代理CFO−Capex不是FCFF，历史负值未被正利润代理覆盖。",
+      "净债包括到期非流动负债，其中少量非融资科目未完全拆分；现金未扣限制使用部分，存在净债低估可能。",
+      "少数股东按账面值扣除；金融资产按50%账面折价加回，不是独立估值或全部可分配现金。",
+      "母公司及各子公司税率不同，15%为情景假设，不是集团实际税率。",
+      "终值资本开支等于折旧，隐含持续扩产可放缓；若继续高资本开支，估值更低。",
+      "2025年度净利12.187亿元/扣非8.406亿元取最终年报；发行预案旧假设不替代已披露结果。"
+    ],
+    "lbo": {
+      "status": "不出收益率",
+      "reason": "缺乏已核验正常化EBITDA、维持性资本开支、债务合同和收购融资条件；净利/0.6无法替代EBITDA。默认21.7% IRR已剔除，不作决策依据。"
+    },
+    "merger": {
+      "status": "不适用",
+      "reason": "无已核实并购标的、对价与融资条款，不造增厚摊薄数字。"
+    },
+    "sotp": {
+      "method": "仅两家工厂的持股权益情景，不是集团目标市值；以2026H1净利机械乘2，不代表全年预测；20/25/30倍为分析师假设，非已核同行中位数。",
+      "attributable_annualized_profit_cny": 1067883466.313,
+      "equity_value_cny_by_assumed_pe": {
+        "20": 21357669326.26,
+        "25": 26697086657.825,
+        "30": 32036503989.39
+      },
+      "limitations": "未剔除内部交易、总部费用、工厂间债权和非经常项；不得与集团PE或DCF机械相加。亏损厦门及建设期实体亦须计入完整SOTP。"
+    }
+  },
+  "catalysts": [
+    {
+      "date": "2026-11-30之后",
+      "event": "2026集成电路封测增值税加计抵减清单查询",
+      "impact": "资格若确认可支持税收优惠，入选未核实；不可预先算利润增厚",
+      "probability": "查询安排已披露，公司资格未知",
+      "source": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5252806/content.html"
+    },
+    {
+      "date": "未来60天，未定日",
+      "event": "扩产、利用率及客户进展公告",
+      "impact": "只有可核验订单、良率、资本开支披露才更新盈利假设；不虚设合同金额",
+      "probability": "观察项，非已安排事项",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225640437.PDF"
+    }
+  ],
+  "model_limitations": [
+    "五年简化FCFF，年度期点近似；非完整审计三表预测。",
+    "2026全年收入340亿元是建模起点假设，非已披露结果。",
+    "现金代理CFO−Capex不是FCFF，历史负值未被正利润代理覆盖。",
+    "净债包括到期非流动负债，其中少量非融资科目未完全拆分；现金未扣限制使用部分，存在净债低估可能。",
+    "少数股东按账面值扣除；金融资产按50%账面折价加回，不是独立估值或全部可分配现金。",
+    "母公司及各子公司税率不同，15%为情景假设，不是集团实际税率。",
+    "终值资本开支等于折旧，隐含持续扩产可放缓；若继续高资本开支，估值更低。",
+    "2025年度净利12.187亿元/扣非8.406亿元取最终年报；发行预案旧假设不替代已披露结果。"
+  ],
+  "data_gap_acknowledged": {
+    "10_valuation.pe_quantile": "已搜索及浏览器兜底；未得完整同口径历史PE序列，空缺保留。",
+    "10_valuation.pb_quantile": "已搜索及浏览器兜底；未得完整同口径历史PB序列，空缺保留。",
+    "7_industry.growth": "未核实同口径封测细分市场增速；不拿公司或全球半导体增速替代。",
+    "16_lhb": "未核实今日官方完整席位及封单，游资参考价保持null。",
+    "17_sentiment": "实时社交排名和推介全覆盖未取得，不能认定无推广风险。",
+    "19_contests": "当前实盘组合持仓未经验证；不给决策权重。",
+    "global_peers": "未取得至少3家同周期全球同行财务与币种标准化，未给全球估值中位数。",
+    "fund_managers": "仅股东名单，不编造基金经理五年收益和跟投权重。"
+  },
+  "review_acknowledged": {
+    "valuation": "DCF用自设FCFF；LBO与并购输入不足不出收益率。",
+    "integrity": "关键字段检查83%，缺历史分位和行业增速；未达技能90%目标，明确降级。",
+    "buy_zones.youzi": "保留null是真实缺证据；不以0或当前价凑schema数值。",
+    "browser": "主动FORCE浏览器兜底已触发，受限DNS跳过10维；原文用web与获准直接下载核验。",
+    "persona": "subagent完成三组，C/D/H/I因配额中断由主agent读档补审；66项均有审查记录。"
+  },
+  "method_notice": "所有评委均为方法模拟，非真实本人观点/当前持仓/推荐；分数不是收益概率。"
+}
