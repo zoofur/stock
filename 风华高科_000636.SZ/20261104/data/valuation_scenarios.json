@@ -1,0 +1,677 @@
+{
+  "ticker": "000636.SZ",
+  "date": "2026-11-04",
+  "price_reference": 33.1,
+  "unit": "亿元、元、亿股",
+  "fcff_formula": "EBIT×(1−税率)+折旧摊销−资本开支−增量营运资金",
+  "dcf_scenarios": {
+    "bear": {
+      "method": "研究者五年FCFF情景；年度期点近似",
+      "rows": [
+        {
+          "year": 2027,
+          "revenue_yi": 82,
+          "ebit_margin_pct": 11.5,
+          "ebit_yi": 9.43,
+          "tax_yi": 1.4144999999999999,
+          "da_yi": 5.74,
+          "capex_yi": 6.970000000000001,
+          "delta_nwc_yi": 0.24,
+          "fcff_yi": 6.545499999999999,
+          "pv_yi": 5.8704035874439455
+        },
+        {
+          "year": 2028,
+          "revenue_yi": 85,
+          "ebit_margin_pct": 11.5,
+          "ebit_yi": 9.775,
+          "tax_yi": 1.46625,
+          "da_yi": 5.95,
+          "capex_yi": 7.2250000000000005,
+          "delta_nwc_yi": 0.36,
+          "fcff_yi": 6.673749999999998,
+          "pv_yi": 5.368095075308169
+        },
+        {
+          "year": 2029,
+          "revenue_yi": 88,
+          "ebit_margin_pct": 11.5,
+          "ebit_yi": 10.120000000000001,
+          "tax_yi": 1.518,
+          "da_yi": 6.16,
+          "capex_yi": 7.48,
+          "delta_nwc_yi": 0.36,
+          "fcff_yi": 6.922,
+          "pv_yi": 4.993522289914475
+        },
+        {
+          "year": 2030,
+          "revenue_yi": 90,
+          "ebit_margin_pct": 11.5,
+          "ebit_yi": 10.35,
+          "tax_yi": 1.5525,
+          "da_yi": 6.300000000000001,
+          "capex_yi": 7.65,
+          "delta_nwc_yi": 0.24,
+          "fcff_yi": 7.2075,
+          "pv_yi": 4.663212232209331
+        },
+        {
+          "year": 2031,
+          "revenue_yi": 92,
+          "ebit_margin_pct": 11.5,
+          "ebit_yi": 10.58,
+          "tax_yi": 1.587,
+          "da_yi": 6.44,
+          "capex_yi": 7.82,
+          "delta_nwc_yi": 0.24,
+          "fcff_yi": 7.372999999999999,
+          "pv_yi": 4.278286822935052
+        }
+      ],
+      "terminal_fcff_yi": 7.5615950000000005,
+      "price": 8.717032419056537,
+      "upside_pct": -73.66455462520685,
+      "enterprise_value_yi": 69.05073721772766,
+      "equity_value_yi": 100.02711182979769,
+      "explicit_pv_yi": 25.17352000781097,
+      "terminal_pv_yi": 43.877217209916694,
+      "terminal_share_pct": 63.54344497664817,
+      "assumptions": {
+        "base_revenue_2026_yi": 80,
+        "revenue_path": [
+          82,
+          85,
+          88,
+          90,
+          92
+        ],
+        "ebit_margin_path_pct": [
+          11.5,
+          11.5,
+          11.5,
+          11.5,
+          11.5
+        ],
+        "capex_pct_path": [
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5
+        ],
+        "wacc_pct": 11.5,
+        "terminal_growth_pct": 1.5,
+        "tax_pct": 15,
+        "da_pct": 7,
+        "nwc_incremental_revenue_pct": 12,
+        "cash_equivalents_yi": 33.0535008359,
+        "operating_cash_reserved_yi": 8,
+        "deposit_yi": 10.6712945643,
+        "deposit_haircut_pct": 10,
+        "debt_yi": 2.2354890974,
+        "minority_book_yi": 1.445802234299984,
+        "equity_bridge_yi": 30.976374612070025,
+        "shares_yi": 11.47490419
+      }
+    },
+    "base": {
+      "method": "研究者五年FCFF情景；年度期点近似",
+      "rows": [
+        {
+          "year": 2027,
+          "revenue_yi": 95,
+          "ebit_margin_pct": 15.0,
+          "ebit_yi": 14.25,
+          "tax_yi": 2.1374999999999997,
+          "da_yi": 6.65,
+          "capex_yi": 7.6000000000000005,
+          "delta_nwc_yi": 1.7999999999999998,
+          "fcff_yi": 9.362499999999997,
+          "pv_yi": 8.47285067873303
+        },
+        {
+          "year": 2028,
+          "revenue_yi": 108,
+          "ebit_margin_pct": 16.0,
+          "ebit_yi": 17.28,
+          "tax_yi": 2.592,
+          "da_yi": 7.5600000000000005,
+          "capex_yi": 8.64,
+          "delta_nwc_yi": 1.56,
+          "fcff_yi": 12.048,
+          "pv_yi": 9.867119837841157
+        },
+        {
+          "year": 2029,
+          "revenue_yi": 119,
+          "ebit_margin_pct": 16.5,
+          "ebit_yi": 19.635,
+          "tax_yi": 2.94525,
+          "da_yi": 8.33,
+          "capex_yi": 8.924999999999999,
+          "delta_nwc_yi": 1.3199999999999998,
+          "fcff_yi": 14.774750000000004,
+          "pv_yi": 10.950483798151565
+        },
+        {
+          "year": 2030,
+          "revenue_yi": 129,
+          "ebit_margin_pct": 17.0,
+          "ebit_yi": 21.930000000000003,
+          "tax_yi": 3.2895000000000003,
+          "da_yi": 9.030000000000001,
+          "capex_yi": 9.674999999999999,
+          "delta_nwc_yi": 1.2,
+          "fcff_yi": 16.795500000000008,
+          "pv_yi": 11.26532758671784
+        },
+        {
+          "year": 2031,
+          "revenue_yi": 138,
+          "ebit_margin_pct": 17.0,
+          "ebit_yi": 23.46,
+          "tax_yi": 3.519,
+          "da_yi": 9.66,
+          "capex_yi": 10.35,
+          "delta_nwc_yi": 1.08,
+          "fcff_yi": 18.171,
+          "pv_yi": 11.029794938245
+        }
+      ],
+      "terminal_fcff_yi": 19.318275000000003,
+      "price": 19.968736280589418,
+      "upside_pct": -39.671491599427746,
+      "enterprise_value_yi": 198.1629610030705,
+      "equity_value_yi": 229.13933561514054,
+      "explicit_pv_yi": 51.585576839688585,
+      "terminal_pv_yi": 146.5773841633819,
+      "terminal_share_pct": 73.96810353530734,
+      "assumptions": {
+        "base_revenue_2026_yi": 80,
+        "revenue_path": [
+          95,
+          108,
+          119,
+          129,
+          138
+        ],
+        "ebit_margin_path_pct": [
+          15.0,
+          16.0,
+          16.5,
+          17.0,
+          17.0
+        ],
+        "capex_pct_path": [
+          8.0,
+          8.0,
+          7.5,
+          7.5,
+          7.5
+        ],
+        "wacc_pct": 10.5,
+        "terminal_growth_pct": 2.5,
+        "tax_pct": 15,
+        "da_pct": 7,
+        "nwc_incremental_revenue_pct": 12,
+        "cash_equivalents_yi": 33.0535008359,
+        "operating_cash_reserved_yi": 8,
+        "deposit_yi": 10.6712945643,
+        "deposit_haircut_pct": 10,
+        "debt_yi": 2.2354890974,
+        "minority_book_yi": 1.445802234299984,
+        "equity_bridge_yi": 30.976374612070025,
+        "shares_yi": 11.47490419
+      }
+    },
+    "bull": {
+      "method": "研究者五年FCFF情景；年度期点近似",
+      "rows": [
+        {
+          "year": 2027,
+          "revenue_yi": 105,
+          "ebit_margin_pct": 17.0,
+          "ebit_yi": 17.85,
+          "tax_yi": 2.6775,
+          "da_yi": 7.3500000000000005,
+          "capex_yi": 8.4,
+          "delta_nwc_yi": 3.0,
+          "fcff_yi": 11.1225,
+          "pv_yi": 10.157534246575343
+        },
+        {
+          "year": 2028,
+          "revenue_yi": 125,
+          "ebit_margin_pct": 19.0,
+          "ebit_yi": 23.75,
+          "tax_yi": 3.5625,
+          "da_yi": 8.75,
+          "capex_yi": 10.0,
+          "delta_nwc_yi": 2.4,
+          "fcff_yi": 16.5375,
+          "pv_yi": 13.792456370801277
+        },
+        {
+          "year": 2029,
+          "revenue_yi": 145,
+          "ebit_margin_pct": 20.0,
+          "ebit_yi": 29.0,
+          "tax_yi": 4.35,
+          "da_yi": 10.15,
+          "capex_yi": 11.6,
+          "delta_nwc_yi": 2.4,
+          "fcff_yi": 20.799999999999997,
+          "pv_yi": 15.842400108383341
+        },
+        {
+          "year": 2030,
+          "revenue_yi": 165,
+          "ebit_margin_pct": 21.0,
+          "ebit_yi": 34.65,
+          "tax_yi": 5.1975,
+          "da_yi": 11.55,
+          "capex_yi": 13.200000000000001,
+          "delta_nwc_yi": 2.4,
+          "fcff_yi": 25.402499999999996,
+          "pv_yi": 17.66932599021812
+        },
+        {
+          "year": 2031,
+          "revenue_yi": 180,
+          "ebit_margin_pct": 21.0,
+          "ebit_yi": 37.8,
+          "tax_yi": 5.669999999999999,
+          "da_yi": 12.600000000000001,
+          "capex_yi": 14.4,
+          "delta_nwc_yi": 1.7999999999999998,
+          "fcff_yi": 28.529999999999998,
+          "pv_yi": 18.123045290491504
+        }
+      ],
+      "terminal_fcff_yi": 30.5919,
+      "price": 35.340392399981205,
+      "upside_pct": 6.768557099641104,
+      "enterprise_value_yi": 374.55124221471846,
+      "equity_value_yi": 405.52761682678846,
+      "explicit_pv_yi": 75.58476200646959,
+      "terminal_pv_yi": 298.96648020824887,
+      "terminal_share_pct": 79.81991420999233,
+      "assumptions": {
+        "base_revenue_2026_yi": 80,
+        "revenue_path": [
+          105,
+          125,
+          145,
+          165,
+          180
+        ],
+        "ebit_margin_path_pct": [
+          17.0,
+          19.0,
+          20.0,
+          21.0,
+          21.0
+        ],
+        "capex_pct_path": [
+          8.0,
+          8.0,
+          8.0,
+          8.0,
+          8.0
+        ],
+        "wacc_pct": 9.5,
+        "terminal_growth_pct": 3.0,
+        "tax_pct": 15,
+        "da_pct": 7,
+        "nwc_incremental_revenue_pct": 12,
+        "cash_equivalents_yi": 33.0535008359,
+        "operating_cash_reserved_yi": 8,
+        "deposit_yi": 10.6712945643,
+        "deposit_haircut_pct": 10,
+        "debt_yi": 2.2354890974,
+        "minority_book_yi": 1.445802234299984,
+        "equity_bridge_yi": 30.976374612070025,
+        "shares_yi": 11.47490419
+      }
+    }
+  },
+  "pe_scenarios": {
+    "bear": {
+      "net_profit_2027_yi": 9,
+      "assumed_pe": 22,
+      "price": 17.2550460310205,
+      "upside_pct": -47.8699515679139,
+      "status": "研究者假设，不是一致预期或保证目标价"
+    },
+    "base": {
+      "net_profit_2027_yi": 13,
+      "assumed_pe": 30,
+      "price": 33.987211879282796,
+      "upside_pct": 2.680398426836228,
+      "status": "研究者假设，不是一致预期或保证目标价"
+    },
+    "bull": {
+      "net_profit_2027_yi": 18,
+      "assumed_pe": 35,
+      "price": 54.90241918961068,
+      "upside_pct": 65.86833592027396,
+      "status": "研究者假设，不是一致预期或保证目标价"
+    }
+  },
+  "dcf_sensitivity": {
+    "g_axis_pct": [
+      1.5,
+      2,
+      2.5,
+      3,
+      3.5
+    ],
+    "rows": [
+      {
+        "wacc_pct": 8.5,
+        "prices": [
+          23.43,
+          24.67,
+          26.12,
+          27.83,
+          29.88
+        ]
+      },
+      {
+        "wacc_pct": 9.5,
+        "prices": [
+          20.67,
+          21.57,
+          22.6,
+          23.79,
+          25.17
+        ]
+      },
+      {
+        "wacc_pct": 10.5,
+        "prices": [
+          18.53,
+          19.21,
+          19.97,
+          20.83,
+          21.81
+        ]
+      },
+      {
+        "wacc_pct": 11.5,
+        "prices": [
+          16.83,
+          17.35,
+          17.92,
+          18.57,
+          19.3
+        ]
+      },
+      {
+        "wacc_pct": 12.5,
+        "prices": [
+          15.43,
+          15.84,
+          16.29,
+          16.79,
+          17.35
+        ]
+      }
+    ]
+  },
+  "lbo": {
+    "method": "Quick LBO Test",
+    "entry_ebitda_yi": 20.9,
+    "entry_multiple": 16.691050434302873,
+    "entry_ev_yi": 348.84,
+    "entry_debt_yi": 62.7,
+    "entry_equity_yi": 286.14,
+    "leverage_turns": 3,
+    "ebitda_path": [
+      20.9,
+      22.572,
+      24.377760000000002,
+      26.327980800000002,
+      28.434219264000003
+    ],
+    "debt_schedule": [
+      62.699999999999996,
+      58.0184,
+      52.5549728,
+      46.2300656576,
+      38.9569351352192,
+      30.6411496684984
+    ],
+    "exit_ebitda_yi": 28.434219264000003,
+    "exit_multiple": 12,
+    "exit_ev_yi": 341.210631168,
+    "exit_equity_yi": 324.3089887844309,
+    "moic": 1.13,
+    "irr_pct": 2.5,
+    "pass_pe_test": false,
+    "verdict": "低于假设20%收购回报门槛",
+    "methodology_log": [
+      "调整入场EV 348.84亿；首个预测年度2027 EBITDA20.90亿。",
+      "融资3倍EBITDA，2027–31共5年，后续EBITDA年增8%。",
+      "每年假设50%EBITDA转为付息前现金，扣6%利息，70%可用现金偿债。",
+      "其余现金留存并计入退出价值；不把现金凭空消失。",
+      "2031退出12倍EBITDA，股权现金IRR 2.54%；未计交易费。"
+    ],
+    "assumption_note": "假设2027 EBITDA20.9亿、3倍融资、8%增长、5年后12倍退出；非真实收购报价，未计交易费、控制权溢价与融资约束。",
+    "entry_price_reference": 33.1,
+    "yearly_cash_path": [
+      {
+        "year": 2027,
+        "ebitda_yi": 20.9,
+        "cash_after_interest_yi": 6.688,
+        "debt_paydown_yi": 4.6815999999999995,
+        "debt_end_yi": 58.0184,
+        "retained_cash_cumulative_yi": 2.0064
+      },
+      {
+        "year": 2028,
+        "ebitda_yi": 22.572,
+        "cash_after_interest_yi": 7.804895999999999,
+        "debt_paydown_yi": 5.463427199999999,
+        "debt_end_yi": 52.5549728,
+        "retained_cash_cumulative_yi": 4.3478688000000005
+      },
+      {
+        "year": 2029,
+        "ebitda_yi": 24.377760000000002,
+        "cash_after_interest_yi": 9.035581632000001,
+        "debt_paydown_yi": 6.324907142400001,
+        "debt_end_yi": 46.2300656576,
+        "retained_cash_cumulative_yi": 7.058543289600001
+      },
+      {
+        "year": 2030,
+        "ebitda_yi": 26.327980800000002,
+        "cash_after_interest_yi": 10.390186460544001,
+        "debt_paydown_yi": 7.2731305223808,
+        "debt_end_yi": 38.9569351352192,
+        "retained_cash_cumulative_yi": 10.175599227763202
+      },
+      {
+        "year": 2031,
+        "ebitda_yi": 28.434219264000003,
+        "cash_after_interest_yi": 11.87969352388685,
+        "debt_paydown_yi": 8.315785466720795,
+        "debt_end_yi": 30.6411496684984,
+        "retained_cash_cumulative_yi": 13.739507284929257
+      }
+    ],
+    "retained_cash_at_exit_yi": 13.739507284929257
+  },
+  "three_statement": {
+    "method": "简化利润/现金/留存权益联动；非完整资产负债表预测",
+    "years": [
+      "Y1",
+      "Y2",
+      "Y3",
+      "Y4",
+      "Y5"
+    ],
+    "income_statement": {
+      "revenue": [
+        95.0,
+        108.0,
+        119.0,
+        129.0,
+        138.0
+      ],
+      "cogs": [
+        68.4,
+        77.76,
+        85.68,
+        92.88,
+        99.36
+      ],
+      "gross_profit": [
+        26.6,
+        30.24,
+        33.32,
+        36.12,
+        38.64
+      ],
+      "opex": [
+        11.4,
+        12.96,
+        14.28,
+        15.48,
+        16.56
+      ],
+      "ebit": [
+        15.2,
+        17.28,
+        19.04,
+        20.64,
+        22.08
+      ],
+      "tax": [
+        2.28,
+        2.59,
+        2.86,
+        3.1,
+        3.31
+      ],
+      "net_income": [
+        12.92,
+        14.69,
+        16.18,
+        17.54,
+        18.77
+      ]
+    },
+    "cash_flow": {
+      "net_income": [
+        12.92,
+        14.69,
+        16.18,
+        17.54,
+        18.77
+      ],
+      "dep_amort": [
+        6.65,
+        7.56,
+        8.33,
+        9.03,
+        9.66
+      ],
+      "nwc_change": [
+        1.8,
+        1.56,
+        1.32,
+        1.2,
+        1.08
+      ],
+      "ocf": [
+        17.77,
+        20.69,
+        23.19,
+        25.37,
+        27.35
+      ],
+      "capex": [
+        7.6,
+        8.64,
+        9.52,
+        10.32,
+        11.04
+      ],
+      "fcf": [
+        10.17,
+        12.05,
+        13.67,
+        15.05,
+        16.31
+      ]
+    },
+    "balance_sheet": {
+      "equity_rollforward": [
+        141.41,
+        156.1,
+        172.28,
+        189.82,
+        208.59
+      ]
+    },
+    "assumptions": {
+      "revenue_growth_y1": 0.1875,
+      "revenue_growth_y2": 0.13684210526315788,
+      "revenue_growth_y3": 0.10185185185185186,
+      "revenue_growth_y4": 0.08403361344537807,
+      "revenue_growth_y5": 0.06976744186046502,
+      "gross_margin": 0.28,
+      "opex_pct_revenue": 0.12,
+      "tax_rate": 0.15,
+      "capex_pct_revenue": 0.08,
+      "dep_pct_revenue": 0.07,
+      "nwc_pct_revenue": 0.12
+    },
+    "growth_path": [
+      "19%",
+      "14%",
+      "10%",
+      "8%",
+      "7%"
+    ],
+    "methodology_log": [
+      "Step 1 · 基期营收 80.0 亿 · 5 年增速路径 ['19%', '14%', '10%', '8%', '7%']",
+      "Step 2 · 毛利率假设 28% · 运营费率 12%",
+      "Step 3 · Y5 营收 138.0 亿 · 净利 18.8 亿",
+      "Step 4 · 5 年累计 FCF 67.2 亿"
+    ],
+    "limitation": "净利率13.6%固定，供内部算术核对；与DCF逐年变化的EBIT率分属不同假设，不把两者混用。"
+  },
+  "historical_normalization": {
+    "net_profit_ttm_yi": 6.9661402059,
+    "recurring_ttm_yi": 6.821029042,
+    "pe_reported_ttm": 54.523641135920656,
+    "pe_recurring_ttm": 55.683581810059685,
+    "formula": "2025全年 + 2026前三季 − 2025前三季",
+    "q3_runrate_profit_yi": 14.058772912,
+    "q3_runrate_pe": 27.01653487587111,
+    "runrate_note": "单季×4压力参照，非2027预测；不能当已实现TTM"
+  },
+  "reverse_pe": {
+    "profit_needed_at_30x_yi": 12.660644289633334,
+    "profit_needed_at_25x_yi": 15.19277314756,
+    "q3_profit_annualized_yi": 14.058772912,
+    "note": "单季年化非年度预测；能否维持该水平是当前价核心假设。"
+  },
+  "limitations": [
+    "所有2026全年及2027–31数值均为研究者情景，不是公告数字或一致预期。",
+    "以2026年末作为近似估值基点，未作两个月stub与年中折现。",
+    "WACC8.5–12.5%为情景轴，不声称已测得beta或真实资本成本。",
+    "税率15%为模型假设，母公司2026复审期间暂按15%，长期续期与集团有效税率不保证。",
+    "长期Capex恢复至收入7.5–8.5%，避免将2026前三季1.07亿低现金投资永续化。",
+    "现金等价物扣8亿运营储备；其他债权投资10.67亿按90%加回，未逐笔确认支取与抵押。",
+    "其他权益工具投资8.37亿和长期股权投资6.72亿未加回，避免缺乏穿透估值造成重复计价；DCF含部分经营投资收益归属的不确定性。",
+    "少数股东按Q3账面权益扣除，非市值估价。",
+    "Comps仅作产品结构与质量比较；未取得≥3家可比全球年度财务与FX，不生成全球分位。",
+    "无已核实并购交易条件，不构造并购增厚摊薄。",
+    "LBO仅检验价格与融资假设敏感性，非收购可行性结论。"
+  ]
+}

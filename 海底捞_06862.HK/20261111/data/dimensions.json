@@ -1,0 +1,128 @@
+{
+  "ticker": "06862.HK",
+  "fundamental_score": 62.7,
+  "dimensions": {
+    "1_financials": {
+      "score": 7,
+      "weight": 5,
+      "label": "ROE 39.6% · 营收增速 +1.1% · 负债率 54%",
+      "reasons_pass": [
+        "ROE 最新 39.6%"
+      ],
+      "reasons_fail": [
+        "营收增速 1.1% 停滞"
+      ]
+    },
+    "2_kline": {
+      "score": 2,
+      "weight": 4,
+      "label": "Stage 4 下跌 · 均线均线交错 · YTD -21.6%",
+      "reasons_pass": [],
+      "reasons_fail": [
+        "最大回撤 -48.7%"
+      ]
+    },
+    "3_macro": {
+      "score": 6,
+      "weight": 3,
+      "label": "宏观环境中性"
+    },
+    "4_peers": {
+      "score": 7,
+      "weight": 4,
+      "label": "同业 2 家对比",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "5_chain": {
+      "score": 5,
+      "weight": 4,
+      "label": "产业链数据不完整",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 3,
+      "label": "研报数据稀少",
+      "reasons_pass": [],
+      "reasons_fail": [
+        "缺乏覆盖"
+      ]
+    },
+    "7_industry": {
+      "score": 7,
+      "weight": 4,
+      "label": "行业处于成长期"
+    },
+    "8_materials": {
+      "score": 6,
+      "weight": 3,
+      "label": "原材料成本关注中"
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 2,
+      "label": "无强关联期货品种"
+    },
+    "10_valuation": {
+      "score": 9,
+      "weight": 5,
+      "label": "PE 11.86 · 历史分位 3.85 · 行业均值 —",
+      "reasons_pass": [
+        "PE 在 5 年中位数以下"
+      ],
+      "reasons_fail": []
+    },
+    "11_governance": {
+      "score": 8,
+      "weight": 4,
+      "label": "质押记录 0 · 内部交易 有"
+    },
+    "12_capital_flow": {
+      "score": 6,
+      "weight": 4,
+      "label": "主力 5日 — · 12 个月解禁 0 次",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 3,
+      "label": "政策环境中性"
+    },
+    "14_moat": {
+      "score": 6,
+      "weight": 3,
+      "label": "护城河需定性评估"
+    },
+    "15_events": {
+      "score": 5,
+      "weight": 4,
+      "label": "近期新闻 0 条 · 公告 20 份"
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "市场不适用",
+      "reasons_pass": [],
+      "data_status": "not_applicable"
+    },
+    "17_sentiment": {
+      "score": 6,
+      "weight": 3,
+      "label": "雪球热度上榜 0 次"
+    },
+    "18_trap": {
+      "score": 9,
+      "weight": 5,
+      "label": "🟢 未发现推广痕迹"
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 4,
+      "label": "雪球 0 个组合持有 · 0 个收益 >50%",
+      "reasons_pass": []
+    }
+  }
+}

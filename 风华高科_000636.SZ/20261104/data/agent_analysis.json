@@ -1,0 +1,1680 @@
+{
+  "agent_reviewed": true,
+  "analysis_input_hash": "5fb45e8380581c1fdec5a25f7c962d949219469dfc05e3ec4a6b4b41720608ad",
+  "method_notice": "66种公开方法的研究者模拟，非真人观点、持仓或投票；分数不是胜率。做空方法独立统计。",
+  "dim_commentary": {
+    "0_basic": "风华高科是MLCC、电阻、电感及材料制造商；33.10元对应约379.82亿元市值。AI收入未单列，不能将行业关键词当作特定客户订单。",
+    "1_financials": "前三季营收57.99亿、归母6.42亿、扣非6.36亿，经营现金流6.23亿；增长有回款支撑。但是2025ROE仅2.29%，2026前三季5.05%不能直接当全年ROE。",
+    "2_kline": "33.10元较昨收涨9.57%，量比约1.41；仍低于MA20的39.26与MA60的50.30，RSI约31.75且MACD水下死叉。一次放量反弹不足以确认趋势反转。",
+    "4_peers": "三环2026前三季ROE15.91%，高于风华5.05%；同期毛利率约48.47%对22.80%。两者产品组合不同，不能由同行高PE反证风华便宜；全球对比保留各自原币与期间，不排估值分位。",
+    "5_chain": "上游包括电子陶瓷粉体和金属浆料，下游覆盖汽车、工业与算力等。2025经销收入54.01%，终端认证并不等于公司直供指定客户，分产品和客户收入缺口限制议价权判断。",
+    "6_research": "卖方叙事强调Q3高增与AI需求，但本次未取得统一时点一致预期，不能判断超预期幅度或引用目标价平均数；研究者2027净利13亿只是假设。",
+    "10_valuation": "TTM归母6.97亿对应PE54.52倍，扣非6.82亿对应55.68倍。1212交易日PE分位44.2%、PB分位82.3%；低谷利润会扭曲PE历史分布，44.2%不构成安全边际。",
+    "11_governance": "Q3控股股东持23.78%，质押7853.40万股约总股本6.84%；拟减持不超过685.56万股、0.60%，窗口11月4日开始。按33.10折上限约2.27亿元，未核实实际卖出。",
+    "12_capital_flow": "11月3日融资余额21.86亿元，近5日融资净偿还约5.05亿元；11月4日新浪估算资金净流入约7.27亿元。两者日期、定义不同，不能把当日流入当作杠杆资金已回补。",
+    "14_moat": "公司交流记录给出H1 MLCC约总收入40%、高端约MLCC收入40%，乘积约16%。材料配方、薄层工艺和认证形成壁垒，但高端含车规/中高压，不能全部视为AI；持续高ROE尚未证明。",
+    "16_lhb": "龙虎榜接口返回数据为空且success=false，不能区分未上榜与接口失败。缺席位、封板和逐笔证据，因此不输出游资成本、席位持仓或数值买点。",
+    "17_sentiment": "今日涨9.57%表明反弹资金活跃，但公司曾澄清英伟达认证传闻；高端MLCC约16%的推算不等于AI占比。没有核验的客户故事不能计入盈利。",
+    "18_trap": "本次标橙色题材与交易风险：认证传闻曾被澄清，减持窗口开启且股价波动大。没有证据认定公司或推广者诈骗；带单、处罚库及全部舆情未穷尽，不以未找到等同无风险。",
+    "19_contests": "未取得可复核当期实盘持仓、成本和完整收益记录；不生成跟单名单。该维度不评分，0权重不是看空或中性结论。",
+    "20_valuation_models": "FCFF基准19.97元，乐观35.34元；2027利润13亿元×30倍PE为33.99元。PE押近端盈利延续，DCF还扣长期再投资；现价入场LBO假设IRR约2.5%，原默认8倍入场21.7%不可沿用。",
+    "21_research_workflow": "未来60天已核事件是减持窗口及11月11日治理会议；没有确认的经营性大合同或业绩发布日期，不编催化剂。核验重点是高端收入、售价、良率、现金流和维持性投资。",
+    "22_deep_methods": "DD核心是资本回报：2025ROE2.29%，2026前三季5.05%，尚不足以支持长期高定价权假设。未核细分份额，不给BCG象限；未提供用户仓位，不推个人再平衡比例。",
+    "3_macro": "10月PMI49.3与电子元件产量同比13.1%呈分化，不能用总量复苏解释公司增长；增长须来自产品结构和客户订单。[统计局](https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html) [工信部](https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_a6c6b6fe6e4d4b408c44c54c1b25c4ed.html)",
+    "13_policy": "十五五规划支持元器件和材料高端化，但未承诺公司补助或订单；估值不预支未公告收益。[工信部](https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html)",
+    "8_materials": "2025年原材料占营业成本54.93%；H1采购结算收紧已压低现金流。沿用历史占比作零顺价情景，材料全篮子涨10%可使前三季毛利率从22.80%降至18.56%，不是镍价单项预测。 https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+    "9_futures": "2025年报与2026半年报均明确报告期无衍生品投资；银铜镍期货只能作为成本预警，未核验当前曲线、持仓与时滞，不推算套保收益。 https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+    "7_industry": "被动元件处成熟周期、其中高容高可靠产品在扩张；公司H1高端MLCC约占总营收16%（40%×40%的粗算），并非AI收入40%。短期量价改善成立，长期须承受日韩扩产与技术迭代竞争。来源：https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636；https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c",
+    "15_events": "业绩改善已在10月24日披露；11月4日起的0.60%减持是未来卖盘上限，非已成交。11月11日会议偏治理事项。未核到未来60天确定的经营类大利好，不编订单或定期报告日期。来源：https://www.fhcomp.com/uploads/touzi/1225621037.PDF；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636；https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12658642&stockid=000636"
+  },
+  "panel_insights": "64位多头方法中0看多、13中性、33看空、18弃权；另2种做空方法均未形成明确做空逻辑。没有买入投票，所以辩论的建设性方代表盈利延续假设，不冒称评委看多。规则曾仅凭现金/低负债给芒格、卡拉曼100分，已纠正；量化及江恩因无验证模型弃权，不计为看空。",
+  "per_investor_override": {
+    "buffett": {
+      "investor_id": "buffett",
+      "signal": "bearish",
+      "score": 22,
+      "headline": "2025 ROE 2.29%，离持续15%的门槛很远",
+      "reasoning": "按owner earnings看，TTM经营现金流减资本开支仅是5.89亿元现金代理，维护性支出仍须正常化。Mr. Market报54.52倍PE，低负债不能替代持续资本回报与margin of safety。",
+      "rule_score": 41,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "按owner earnings看，TTM经营现金流减资本开支仅是5.89亿元现金代理，维护性支出仍须正常化。Mr. Market报54.52倍PE，低负债不能替代持续资本回报与margin of safety。",
+      "confidence": 55
+    },
+    "graham": {
+      "investor_id": "graham",
+      "signal": "bearish",
+      "score": 10,
+      "headline": "PE54.52×PB2.96≈161.2，超22.5筛选线",
+      "reasoning": "以defensive investor的margin of safety筛选，PE15和PB1.5两项价格条件均未满足。资产负债表有现金并不意味着33.10元已低于intrinsic value；未核验的二十年分红不能判作失败或通过。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "以defensive investor的margin of safety筛选，PE15和PB1.5两项价格条件均未满足。资产负债表有现金并不意味着33.10元已低于intrinsic value；未核验的二十年分红不能判作失败或通过。",
+      "confidence": 55
+    },
+    "fisher": {
+      "investor_id": "fisher",
+      "signal": "neutral",
+      "score": 45,
+      "headline": "H1研发1.45亿元，22.80%毛利仍待升级兑现",
+      "reasoning": "scuttlebutt应追问高容产品良率、客户复购和研发变现，现有公告只证明产品与材料研发在推进。高端MLCC粗算占总收入16%，支持多年升级路径，但不足证明公司已获得持续领先的盈利能力。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636"
+      ],
+      "comment": "scuttlebutt应追问高容产品良率、客户复购和研发变现，现有公告只证明产品与材料研发在推进。高端MLCC粗算占总收入16%，支持多年升级路径，但不足证明公司已获得持续领先的盈利能力。",
+      "confidence": 55
+    },
+    "munger": {
+      "investor_id": "munger",
+      "signal": "bearish",
+      "score": 24,
+      "headline": "2025 ROE2.29%，不满足长期20%的质量条件",
+      "reasoning": "Invert, always invert：先问33.10元若遇涨价退潮会损失多少，不能只因负债率25.72%便给满分。固定资产和维护投入决定这是制造业资本配置问题，放进too hard桶比把现金误认护城河更合适。",
+      "rule_score": 100,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "Invert, always invert：先问33.10元若遇涨价退潮会损失多少，不能只因负债率25.72%便给满分。固定资产和维护投入决定这是制造业资本配置问题，放进too hard桶比把现金误认护城河更合适。",
+      "confidence": 55
+    },
+    "templeton": {
+      "investor_id": "templeton",
+      "signal": "bearish",
+      "score": 25,
+      "headline": "54.52倍PE高于三家同行42.25倍均值",
+      "reasoning": "保留规则引擎的相对估值警示：三家不同产品同行的PE中位数34.90倍，均值42.25倍。深跌不能自动定义为悲观极点；产品结构不同也不允许将中位数机械当目标价。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF"
+      ],
+      "comment": "保留规则引擎的相对估值警示：三家不同产品同行的PE中位数34.90倍，均值42.25倍。深跌不能自动定义为悲观极点；产品结构不同也不允许将中位数机械当目标价。",
+      "confidence": 55
+    },
+    "klarman": {
+      "investor_id": "klarman",
+      "signal": "bearish",
+      "score": 30,
+      "headline": "379.82亿元市值，现金不能锁住股价下限",
+      "reasoning": "低负债与正现金流只能降低融资风险，不能证明当前权益估值下行有限。TTM扣非PE55.68倍，安全边际还依赖未来利润，因而将只靠两项财务条件产生的100分降为30分。",
+      "rule_score": 100,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "低负债与正现金流只能降低融资风险，不能证明当前权益估值下行有限。TTM扣非PE55.68倍，安全边际还依赖未来利润，因而将只靠两项财务条件产生的100分降为30分。",
+      "confidence": 55
+    },
+    "lynch": {
+      "investor_id": "lynch",
+      "signal": "neutral",
+      "score": 43,
+      "headline": "PE54.52高于40；180.9%不能当长期PEG分母",
+      "reasoning": "先按cyclical研究，再寻找tenbagger：利润恢复速度远高于销售，不是可稳定外推的fast grower。Do your homework，必须拆出销量、提价、结构和低基数，不能拿9M收入41.15%或利润180.9%直接计算长期PEG。",
+      "rule_score": 42,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "先按cyclical研究，再寻找tenbagger：利润恢复速度远高于销售，不是可稳定外推的fast grower。Do your homework，必须拆出销量、提价、结构和低基数，不能拿9M收入41.15%或利润180.9%直接计算长期PEG。",
+      "confidence": 55
+    },
+    "oneill": {
+      "investor_id": "oneill",
+      "signal": "bearish",
+      "score": 28,
+      "headline": "Q3利润增470.17%，33.10元仍低于MA20的39.26元",
+      "reasoning": "CAN SLIM的季度盈利条件出现强信号，但今日涨9.57%尚未修复短中期均线。趋势、接近高点和机构增持证据不足，不能把单日反弹当成已完成突破。",
+      "rule_score": 25,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,320,qfq"
+      ],
+      "comment": "CAN SLIM的季度盈利条件出现强信号，但今日涨9.57%尚未修复短中期均线。趋势、接近高点和机构增持证据不足，不能把单日反弹当成已完成突破。",
+      "confidence": 55
+    },
+    "thiel": {
+      "investor_id": "thiel",
+      "signal": "bearish",
+      "score": 20,
+      "headline": "约16%高端MLCC收入，不等于网络效应",
+      "reasoning": "保留规则对网络效应不足的判断，材料工艺和认证壁垒可以创造价值，但不等于平台垄断。高端份额还是公司内部收入结构，不能用来证明全球垄断地位。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF"
+      ],
+      "comment": "保留规则对网络效应不足的判断，材料工艺和认证壁垒可以创造价值，但不等于平台垄断。高端份额还是公司内部收入结构，不能用来证明全球垄断地位。",
+      "confidence": 55
+    },
+    "wood": {
+      "investor_id": "wood",
+      "signal": "bearish",
+      "score": 20,
+      "headline": "H1研发率约4.14%，低于方法中15%的创新筛选",
+      "reasoning": "Wright's Law与exponential disruption要求可验证的学习曲线和五年渗透路径，当前没有对应量化证据。AI算力是下游应用，高端MLCC约占总收入16%仍包含车规及高压，不能把整家公司标成AI原生平台。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636"
+      ],
+      "comment": "Wright's Law与exponential disruption要求可验证的学习曲线和五年渗透路径，当前没有对应量化证据。AI算力是下游应用，高端MLCC约占总收入16%仍包含车规及高压，不能把整家公司标成AI原生平台。",
+      "confidence": 55
+    },
+    "andreessen": {
+      "investor_id": "andreessen",
+      "signal": "skip",
+      "score": null,
+      "headline": "高端MLCC约16%，软件/AI原生模型不适用",
+      "reasoning": "公司制造MLCC、电阻、电感及材料，主营不属于软件或AI原生商业模式。该方法不适用不等于公司价值为零，因此不把缺少软件平台指标作为看空票。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636"
+      ],
+      "comment": "公司制造MLCC、电阻、电感及材料，主营不属于软件或AI原生商业模式。该方法不适用不等于公司价值为零，因此不把缺少软件平台指标作为看空票。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "高端MLCC约16%，软件/AI原生模型不适用"
+    },
+    "gurley": {
+      "investor_id": "gurley",
+      "signal": "skip",
+      "score": null,
+      "headline": "22.80%制造业毛利率不能套SaaS单位经济",
+      "reasoning": "该股不是marketplace或SaaS，制造业毛利率不应按软件平台阈值判定单位经济失效。缺少适用模型时弃权，不将方法边界当经营劣势。",
+      "rule_score": 23,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF"
+      ],
+      "comment": "该股不是marketplace或SaaS，制造业毛利率不应按软件平台阈值判定单位经济失效。缺少适用模型时弃权，不将方法边界当经营劣势。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "22.80%制造业毛利率不能套SaaS单位经济"
+    },
+    "naval": {
+      "investor_id": "naval",
+      "signal": "neutral",
+      "score": 40,
+      "headline": "2025 ROE2.29%，未证明十年复利曲线",
+      "reasoning": "工艺与材料知识具有专长价值，但固定资产制造仍需持续投入，资本杠杆不同于复制代码。9M利润增长180.9%只是同比恢复，不能写成三年复利记录；真实需求成立，长期可复制性尚未证实。",
+      "rule_score": 40,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF"
+      ],
+      "comment": "工艺与材料知识具有专长价值，但固定资产制造仍需持续投入，资本杠杆不同于复制代码。9M利润增长180.9%只是同比恢复，不能写成三年复利记录；真实需求成立，长期可复制性尚未证实。",
+      "confidence": 55
+    },
+    "gerstner": {
+      "investor_id": "gerstner",
+      "signal": "skip",
+      "score": null,
+      "headline": "高端MLCC约16%，AI专属收入未披露",
+      "reasoning": "公司有AI算力下游应用，但未披露AI专属收入或利润，不能确认AI平台估值所需的经济敞口。按该方法暂不评分，等待可核验的分业务数据。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF"
+      ],
+      "comment": "公司有AI算力下游应用，但未披露AI专属收入或利润，不能确认AI平台估值所需的经济敞口。按该方法暂不评分，等待可核验的分业务数据。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "高端MLCC约16%，AI专属收入未披露"
+    },
+    "chamath": {
+      "investor_id": "chamath",
+      "signal": "neutral",
+      "score": 40,
+      "headline": "9M毛利率22.80%，制造升级尚非平台颠覆",
+      "reasoning": "已有盈利说明并非只有融资故事，但应以制造业利润与资本回报检验增长。高端产品占比约16%仍不足以把成熟元件整体重估成颠覆平台。",
+      "rule_score": 50,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636"
+      ],
+      "comment": "已有盈利说明并非只有融资故事，但应以制造业利润与资本回报检验增长。高端产品占比约16%仍不足以把成熟元件整体重估成颠覆平台。",
+      "confidence": 55
+    },
+    "duan": {
+      "investor_id": "duan",
+      "signal": "bearish",
+      "score": 20,
+      "headline": "PE54.52高于40，2025 ROE仅2.29%",
+      "reasoning": "本分是先看十年生意，不能把一季涨价当成长期定价权。现金能支持转型，但54.52倍PE要求盈利继续兑现，当前不满足这套方法对稳定性和价格的要求。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "本分是先看十年生意，不能把一季涨价当成长期定价权。现金能支持转型，但54.52倍PE要求盈利继续兑现，当前不满足这套方法对稳定性和价格的要求。",
+      "confidence": 55
+    },
+    "zhangkun": {
+      "investor_id": "zhangkun",
+      "signal": "bearish",
+      "score": 18,
+      "headline": "2025 ROE2.29%，距长期15%复利条件远",
+      "reasoning": "长期复利需要高资本回报与低损耗，目前三年年度ROE均低于3%。9M经营现金流约为归母利润0.97倍，改善可见，但不足抵消周期性及55.68倍扣非PE的要求。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "长期复利需要高资本回报与低损耗，目前三年年度ROE均低于3%。9M经营现金流约为归母利润0.97倍，改善可见，但不足抵消周期性及55.68倍扣非PE的要求。",
+      "confidence": 55
+    },
+    "zhushaoxing": {
+      "investor_id": "zhushaoxing",
+      "signal": "bearish",
+      "score": 28,
+      "headline": "9M收入增41.15%，仍不足消除大幅回撤",
+      "reasoning": "保留规则对波动和行业成熟度的警示，同时区分通用元件成熟与高端升级的增长。需要更长时期的盈利质量与产业竞争证据，当前不据单季恢复给高分。",
+      "rule_score": 0,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,320,qfq"
+      ],
+      "comment": "保留规则对波动和行业成熟度的警示，同时区分通用元件成熟与高端升级的增长。需要更长时期的盈利质量与产业竞争证据，当前不据单季恢复给高分。",
+      "confidence": 55
+    },
+    "xiezhiyu": {
+      "investor_id": "xiezhiyu",
+      "signal": "neutral",
+      "score": 45,
+      "headline": "41.15%是收入增速，不能证明54.52倍PE便宜",
+      "reasoning": "增长与估值平衡必须基于正常化盈利，规则用收入增速代替盈利持续性会误给100分。Q3利润3.51亿元说明改善，但不把单季乘四或低基数同比作未来三年增长，降为中性45分。",
+      "rule_score": 100,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "增长与估值平衡必须基于正常化盈利，规则用收入增速代替盈利持续性会误给100分。Q3利润3.51亿元说明改善，但不把单季乘四或低基数同比作未来三年增长，降为中性45分。",
+      "confidence": 55
+    },
+    "fengliu": {
+      "investor_id": "fengliu",
+      "signal": "skip",
+      "score": null,
+      "headline": "TTM PE54.52，但逆向框架缺有效规则证据",
+      "reasoning": "没有足以核验该投资方法的完整评分规则与预期差数据，保留骨架弃权。股价回撤本身不证明市场预期已错，不强行补出买入结论。",
+      "rule_score": null,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "comment": "没有足以核验该投资方法的完整评分规则与预期差数据，保留骨架弃权。股价回撤本身不证明市场预期已错，不强行补出买入结论。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "TTM PE54.52，但逆向框架缺有效规则证据"
+    },
+    "dengxiaofeng": {
+      "investor_id": "dengxiaofeng",
+      "signal": "neutral",
+      "score": 48,
+      "headline": "PE54.52高于35，产能周期改善仍须价格纪律",
+      "reasoning": "高端转型、项目达产和Q3利润改善支持研究产能周期，但当前估值已要求恢复延续。现有市场价格不是明确左侧，先核验量价结构及后续现金回报。",
+      "rule_score": 50,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "高端转型、项目达产和Q3利润改善支持研究产能周期，但当前估值已要求恢复延续。现有市场价格不是明确左侧，先核验量价结构及后续现金回报。",
+      "confidence": 55
+    },
+    "zhang_lei": {
+      "investor_id": "zhang_lei",
+      "signal": "bearish",
+      "score": 30,
+      "headline": "高端MLCC约16%，长期复利仍待资本回报证明",
+      "reasoning": "尊重材料工艺和客户认证的长期价值，但不能因为下游包含AI就假定全部业务有十年高速跑道。2025 ROE2.29%与当前54.52倍PE之间的差距，需要高端收入和盈利持续提升填补。",
+      "rule_score": 25,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://qt.gtimg.cn/q=sz000636,sz300408,sz002138,sz300285"
+      ],
+      "comment": "尊重材料工艺和客户认证的长期价值，但不能因为下游包含AI就假定全部业务有十年高速跑道。2025 ROE2.29%与当前54.52倍PE之间的差距，需要高端收入和盈利持续提升填补。",
+      "confidence": 55
+    },
+    "soros": {
+      "investor_id": "soros",
+      "name": "索罗斯",
+      "group": "C",
+      "mandate": "long",
+      "signal": "neutral",
+      "score": 44,
+      "headline": "反身性尚未反转：33.10元仍低于MA20的39.26元",
+      "reasoning": "按reflexivity框架，前三季净利增长180.9%与价格弱势形成认知分歧，但单日上涨9.57%不能证明反身性循环已转正。I may be wrong：当日估算流入7.27亿与此前5日融资净偿还5.05亿并存，资金持续性尚未证实，不把低利率平台当新增刺激。",
+      "rule_score": 0,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "按reflexivity框架，前三季净利增长180.9%与价格弱势形成认知分歧，但单日上涨9.57%不能证明反身性循环已转正。I may be wrong：当日估算流入7.27亿与此前5日融资净偿还5.05亿并存，资金持续性尚未证实，不把低利率平台当新增刺激。",
+      "confidence": 55
+    },
+    "dalio": {
+      "investor_id": "dalio",
+      "name": "达里奥",
+      "group": "C",
+      "mandate": "long",
+      "signal": "neutral",
+      "score": 48,
+      "headline": "低利率平台与PMI49.3并存，负债率25.72%并不等于低股价风险",
+      "reasoning": "从economic machine看，电子行业产量增长与总制造业收缩并存，不能用一个宏观象限解释全部业务。按all weather原则，负债率25.72%降低偿债压力，但0.3%股息与高波动不支持把它当防守资产。",
+      "rule_score": 60,
+      "rule_signal": "neutral",
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+        "https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_a6c6b6fe6e4d4b408c44c54c1b25c4ed.html",
+        "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+        "https://qt.gtimg.cn/q=sz000636"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "从economic machine看，电子行业产量增长与总制造业收缩并存，不能用一个宏观象限解释全部业务。按all weather原则，负债率25.72%降低偿债压力，但0.3%股息与高波动不支持把它当防守资产。",
+      "confidence": 55
+    },
+    "marks": {
+      "investor_id": "marks",
+      "name": "霍华德·马克斯",
+      "group": "C",
+      "mandate": "long",
+      "signal": "neutral",
+      "score": 45,
+      "headline": "回撤62.32%只是价格历史，54.52倍PE仍须检验周期利润",
+      "reasoning": "原规则只因大幅回撤便给100分，遗漏估值和盈利质量。PE五年44.2%分位受低谷利润高PE扭曲，PB82.3%分位也不构成安全边际；前三季净利6.42亿改善，不把Q3乘4直接当持续盈利。",
+      "rule_score": 100,
+      "rule_signal": "bullish",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "原规则只因大幅回撤便给100分，遗漏估值和盈利质量。PE五年44.2%分位受低谷利润高PE扭曲，PB82.3%分位也不构成安全边际；前三季净利6.42亿改善，不把Q3乘4直接当持续盈利。",
+      "confidence": 55
+    },
+    "druck": {
+      "investor_id": "druck",
+      "name": "德鲁肯米勒",
+      "group": "C",
+      "mandate": "long",
+      "signal": "neutral",
+      "score": 52,
+      "headline": "电子产量增长13.1%有主题，33.10元弱于MA60的50.30元",
+      "reasoning": "规则的“无明确主题”低估了电子行业与公司盈利改善，主题存在不代表股价已经确认。LPR处于3.00%平台、并非新降息拐点，加上未获完整未来12至18个月订单，当前不足以形成高确信押注。",
+      "rule_score": 0,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_a6c6b6fe6e4d4b408c44c54c1b25c4ed.html",
+        "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "规则的“无明确主题”低估了电子行业与公司盈利改善，主题存在不代表股价已经确认。LPR处于3.00%平台、并非新降息拐点，加上未获完整未来12至18个月订单，当前不足以形成高确信押注。",
+      "confidence": 55
+    },
+    "robertson": {
+      "investor_id": "robertson",
+      "name": "罗伯逊",
+      "group": "C",
+      "mandate": "long",
+      "signal": "bearish",
+      "score": 30,
+      "headline": "前三季ROE5.05%，仍未跨过12%质量门槛",
+      "reasoning": "前三季净利率11.07%与ROE5.05%尚不能支持同行最强的判断，且没有统一口径行业排名。增长改善可承认，但以54.52倍TTM PE买入仍需证明高端产品能持续提升资本回报。",
+      "rule_score": 0,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://qt.gtimg.cn/q=sz000636"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "前三季净利率11.07%与ROE5.05%尚不能支持同行最强的判断，且没有统一口径行业排名。增长改善可承认，但以54.52倍TTM PE买入仍需证明高端产品能持续提升资本回报。",
+      "confidence": 55
+    },
+    "burry": {
+      "investor_id": "burry",
+      "name": "迈克尔·伯利",
+      "group": "C",
+      "mandate": "short",
+      "signal": "neutral",
+      "score": 52,
+      "headline": "54.52倍PE有估值压力，现金／净利0.97不足以构成做空证据",
+      "reasoning": "本项是做空框架模拟：价格贵与财务造假是两类判断，前三季经营现金流6.23亿元接近归母净利6.42亿元。没有核实到可执行的做空催化和盈利失真证据，因此不建立明确做空论点；规则100分也不能解读为建议做多。",
+      "rule_score": 100,
+      "rule_signal": "bullish",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": false,
+      "comment": "本项是做空框架模拟：价格贵与财务造假是两类判断，前三季经营现金流6.23亿元接近归母净利6.42亿元。没有核实到可执行的做空催化和盈利失真证据，因此不建立明确做空论点；规则100分也不能解读为建议做多。",
+      "confidence": 55
+    },
+    "chanos": {
+      "investor_id": "chanos",
+      "name": "吉姆·查诺斯",
+      "group": "C",
+      "mandate": "short",
+      "signal": "neutral",
+      "score": 64,
+      "headline": "经营现金／归母净利0.97，暂未见现金与利润严重背离",
+      "reasoning": "本项仅检验做空论据：前三季现金转化尚可，不能因应收增长便定性为虚假收入。三季报未经审计，表外风险与所有关联交易也未完成专项核验；当前结论是缺少明确做空证据，不是审计背书或买入意见。",
+      "rule_score": 100,
+      "rule_signal": "bullish",
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": false,
+      "comment": "本项仅检验做空论据：前三季现金转化尚可，不能因应收增长便定性为虚假收入。三季报未经审计，表外风险与所有关联交易也未完成专项核验；当前结论是缺少明确做空证据，不是审计背书或买入意见。",
+      "confidence": 55
+    },
+    "livermore": {
+      "investor_id": "livermore",
+      "name": "利弗莫尔",
+      "group": "D",
+      "mandate": "long",
+      "signal": "bearish",
+      "score": 15,
+      "headline": "33.10元低于MA20的39.26元，主升趋势未确认",
+      "reasoning": "规则中的Stage3与非多头排列符合当前数据，单日大涨9.57%仍处于回撤后的反弹。趋势交易需要价格和量能持续验证，当前MACD仍在水下，不以盈利新闻替代趋势确认。",
+      "rule_score": 0,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "规则中的Stage3与非多头排列符合当前数据，单日大涨9.57%仍处于回撤后的反弹。趋势交易需要价格和量能持续验证，当前MACD仍在水下，不以盈利新闻替代趋势确认。",
+      "confidence": 55
+    },
+    "minervini": {
+      "investor_id": "minervini",
+      "name": "米内尔维尼",
+      "group": "D",
+      "mandate": "long",
+      "signal": "bearish",
+      "score": 14,
+      "headline": "距60日高点−51.23%，33.10元低于MA60的50.30元",
+      "reasoning": "不满足Stage2和均线堆叠条件，RSI31.75只能描述弱势，不能补齐趋势模板。未看到经过验证的VCP结构与突破，因此保留规则低分；等待结构改变，不用超跌代替买点。",
+      "rule_score": 14,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://qt.gtimg.cn/q=sz000636"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "不满足Stage2和均线堆叠条件，RSI31.75只能描述弱势，不能补齐趋势模板。未看到经过验证的VCP结构与突破，因此保留规则低分；等待结构改变，不用超跌代替买点。",
+      "confidence": 55
+    },
+    "darvas": {
+      "investor_id": "darvas",
+      "name": "达瓦斯",
+      "group": "D",
+      "mandate": "long",
+      "signal": "bearish",
+      "score": 12,
+      "headline": "33.10元低于MA20的39.26元，尚无上升箱体突破",
+      "reasoning": "价格处于短均线下方，现有数据不支持在上升箱体上沿放量突破。近20日量比1.41说明成交活跃，但方向和持续性未确认，不能用一日反弹构造箱体交易。",
+      "rule_score": 0,
+      "rule_signal": "bearish",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://qt.gtimg.cn/q=sz000636"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "价格处于短均线下方，现有数据不支持在上升箱体上沿放量突破。近20日量比1.41说明成交活跃，但方向和持续性未确认，不能用一日反弹构造箱体交易。",
+      "confidence": 55
+    },
+    "gann": {
+      "investor_id": "gann",
+      "name": "江恩",
+      "group": "D",
+      "mandate": "long",
+      "signal": "skip",
+      "score": null,
+      "headline": "0项经样本外验证的角度／周期模型，停止评分",
+      "reasoning": "已读取日线数据，但没有预定义高低点锚点、角度尺度或周期规则。缺少样本外及交易成本检验，保留原规则弃权，不生成预测价或神秘日期。",
+      "rule_score": null,
+      "rule_signal": "skip",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "已读取日线数据，但没有预定义高低点锚点、角度尺度或周期规则。缺少样本外及交易成本检验，保留原规则弃权，不生成预测价或神秘日期。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "0项经样本外验证的角度／周期模型，停止评分"
+    },
+    "simons": {
+      "investor_id": "simons",
+      "name": "西蒙斯",
+      "group": "G",
+      "mandate": "long",
+      "signal": "skip",
+      "score": null,
+      "headline": "0套经成本验证的统计策略，不由RSI31.75推导胜率",
+      "reasoning": "没有预定义统计信号、样本外回测及交易成本证据，不能模拟一个已盈利策略的判断。股价和财务特征仅是输入，保留弃权，不把单票超跌写成量化买入。",
+      "rule_score": null,
+      "rule_signal": "skip",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "没有预定义统计信号、样本外回测及交易成本证据，不能模拟一个已盈利策略的判断。股价和财务特征仅是输入，保留弃权，不把单票超跌写成量化买入。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "0套经成本验证的统计策略，不由RSI31.75推导胜率"
+    },
+    "thorp": {
+      "investor_id": "thorp",
+      "name": "索普",
+      "group": "G",
+      "mandate": "long",
+      "signal": "skip",
+      "score": null,
+      "headline": "0套适用A股的已验证组合模型，保留弃权",
+      "reasoning": "当前规则框架未适配此市场，也没有赔率分布、组合风险和交易成本检验。保留框架弃权，不据此声称真人从不投资A股，不给凯利仓位。",
+      "rule_score": null,
+      "rule_signal": "skip",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "当前规则框架未适配此市场，也没有赔率分布、组合风险和交易成本检验。保留框架弃权，不据此声称真人从不投资A股，不给凯利仓位。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "0套适用A股的已验证组合模型，保留弃权"
+    },
+    "shaw": {
+      "investor_id": "shaw",
+      "name": "大卫·肖",
+      "group": "G",
+      "mandate": "long",
+      "signal": "skip",
+      "score": null,
+      "headline": "0组同口径横截面回测，54.52倍PE不形成套利结论",
+      "reasoning": "缺少横截面因子标准化、协方差与组合样本外检验，单票盈利增长无法建立统计套利。保留规则弃权，既不编造机构持仓，也不估算未经验证的超额收益。",
+      "rule_score": null,
+      "rule_signal": "skip",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "simulated": true,
+      "persona_read": true,
+      "comment": "缺少横截面因子标准化、协方差与组合样本外检验，单票盈利增长无法建立统计套利。保留规则弃权，既不编造机构持仓，也不估算未经验证的超额收益。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "0组同口径横截面回测，54.52倍PE不形成套利结论"
+    },
+    "asness": {
+      "investor_id": "asness",
+      "name": "克利夫·阿斯尼斯",
+      "group": "G",
+      "mandate": "long",
+      "signal": "skip",
+      "score": null,
+      "headline": "0套多因子样本外结果，价值／质量／动量尚未联合验证",
+      "reasoning": "54.52倍PE、低历史ROE与弱动量可以描述因子方向，但没有同行标准化样本和组合验证。保留弃权，不能把定性因子印象包装成可执行的量化信号。",
+      "rule_score": null,
+      "rule_signal": "skip",
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://www.fhcomp.com/uploads/touzi/1225129320.PDF"
+      ],
+      "simulated": true,
+      "persona_read": false,
+      "comment": "54.52倍PE、低历史ROE与弱动量可以描述因子方向，但没有同行标准化样本和组合验证。保留弃权，不能把定性因子印象包装成可执行的量化信号。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "0套多因子样本外结果，价值／质量／动量尚未联合验证"
+    },
+    "zhang_mz": {
+      "investor_id": "zhang_mz",
+      "name": "章盟主",
+      "group": "F",
+      "signal": "bearish",
+      "score": 29,
+      "headline": "380亿在偏好市值内，换手9.03%低于15–40%",
+      "reasoning": "顺势先看承接，380亿元市值和Q3利润3.51亿元可承载趋势交易，但33.10仍低于MA20的39.26元。换手9.03%未达档案15–40%偏好，L2、板块联动与席位未知；换手定生死，反弹不能直接当主升。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/zhang_mz.yaml",
+      "simulation": true,
+      "comment": "顺势先看承接，380亿元市值和Q3利润3.51亿元可承载趋势交易，但33.10仍低于MA20的39.26元。换手9.03%未达档案15–40%偏好，L2、板块联动与席位未知；换手定生死，反弹不能直接当主升。"
+    },
+    "sun_ge": {
+      "investor_id": "sun_ge",
+      "name": "孙哥",
+      "group": "F",
+      "signal": "bearish",
+      "score": 23,
+      "headline": "涨9.57%，33.10元仍未回到MA20",
+      "reasoning": "按规则优先检查趋势，33.10低于MA20的39.26元，不满足Stage2顺势条件。20日量比1.41只证明当日放量，未核到板块龙头排序，不把反抽写成确定接力。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/sun_ge.yaml",
+      "simulation": true,
+      "comment": "按规则优先检查趋势，33.10低于MA20的39.26元，不满足Stage2顺势条件。20日量比1.41只证明当日放量，未核到板块龙头排序，不把反抽写成确定接力。"
+    },
+    "zhao_lg": {
+      "investor_id": "zhao_lg",
+      "name": "赵老哥",
+      "group": "F",
+      "signal": "bearish",
+      "score": 20,
+      "headline": "380亿低于500亿偏好，但9.57%未封板",
+      "reasoning": "龙头战法先验板，收33.10元、涨9.57%仍未封板，无法谈早盘封板或强封单。换手9.03%低于档案10–30%偏好，席位和L2缺失；不给打板买点。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/zhao_lg.yaml",
+      "simulation": true,
+      "comment": "龙头战法先验板，收33.10元、涨9.57%仍未封板，无法谈早盘封板或强封单。换手9.03%低于档案10–30%偏好，席位和L2缺失；不给打板买点。"
+    },
+    "fs_wyj": {
+      "investor_id": "fs_wyj",
+      "name": "佛山无影脚",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "380亿超模型80亿射程，跳过",
+      "reasoning": "该规则模型偏小市值快进快出，当前379.82亿元超过80亿元射程。龙虎榜接口失败，无法补足席位依据；不据此推断本人真实持仓。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/fs_wyj.yaml",
+      "simulation": true,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "380亿超模型80亿射程，跳过",
+      "comment": "该规则模型偏小市值快进快出，当前379.82亿元超过80亿元射程。龙虎榜接口失败，无法补足席位依据；不据此推断本人真实持仓。"
+    },
+    "yangjia": {
+      "investor_id": "yangjia",
+      "name": "炒股养家",
+      "group": "F",
+      "signal": "bearish",
+      "score": 24,
+      "headline": "量比1.41，情绪拐点仍无板块证据",
+      "reasoning": "规则要求趋势与情绪共同支持，33.10元低于20日线，趋势修复尚未成立。今日放量反弹不等于全市场情绪共振，缺连板梯队及席位数据，不重仓判断转折。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/yangjia.yaml",
+      "simulation": true,
+      "comment": "规则要求趋势与情绪共同支持，33.10元低于20日线，趋势修复尚未成立。今日放量反弹不等于全市场情绪共振，缺连板梯队及席位数据，不重仓判断转折。"
+    },
+    "chen_xq": {
+      "investor_id": "chen_xq",
+      "name": "陈小群",
+      "group": "F",
+      "signal": "bearish",
+      "score": 22,
+      "headline": "9.57%反弹未成板，主线地位未证实",
+      "reasoning": "主线接力需要板块地位与分歧转强同时验证；今日没有封板证据，MA20仍在39.26元。主营量价改善是产业线索，不能替代板块排名和资金合力。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/chen_xq.yaml",
+      "simulation": true,
+      "comment": "主线接力需要板块地位与分歧转强同时验证；今日没有封板证据，MA20仍在39.26元。主营量价改善是产业线索，不能替代板块排名和资金合力。"
+    },
+    "hu_jl": {
+      "investor_id": "hu_jl",
+      "name": "呼家楼",
+      "group": "F",
+      "signal": "bearish",
+      "score": 25,
+      "headline": "380亿可容纳交易，33.10低于39.26",
+      "reasoning": "市值与成交承载力不构成主要障碍，20日量比1.41说明交易活跃。规则中的Stage2条件仍失败，龙虎榜未知而非无人参与；先等趋势恢复与资金证据。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/hu_jl.yaml",
+      "simulation": true,
+      "comment": "市值与成交承载力不构成主要障碍，20日量比1.41说明交易活跃。规则中的Stage2条件仍失败，龙虎榜未知而非无人参与；先等趋势恢复与资金证据。"
+    },
+    "fang_xx": {
+      "investor_id": "fang_xx",
+      "name": "方新侠",
+      "group": "F",
+      "signal": "bearish",
+      "score": 28,
+      "headline": "Q3盈利3.51亿，但价格低于MA60约34%",
+      "reasoning": "产业逻辑可由三季报量价提升验证，支持继续跟踪景气变化。规则的趋势门槛仍未通过，33.10相对MA60的50.30元约低34%，不能以盈利兑现替代股价转强。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/fang_xx.yaml",
+      "simulation": true,
+      "comment": "产业逻辑可由三季报量价提升验证，支持继续跟踪景气变化。规则的趋势门槛仍未通过，33.10相对MA60的50.30元约低34%，不能以盈利兑现替代股价转强。"
+    },
+    "zuoshou": {
+      "investor_id": "zuoshou",
+      "name": "作手新一",
+      "group": "F",
+      "signal": "bearish",
+      "score": 21,
+      "headline": "33.10未越MA20，未证实龙一地位",
+      "reasoning": "规则看趋势与龙头，当前既未站回39.26元20日线，也缺行业排名一致证据。单日涨9.57%只能确认反弹，缺封板和席位，接力依据不足。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/zuoshou.yaml",
+      "simulation": true,
+      "comment": "规则看趋势与龙头，当前既未站回39.26元20日线，也缺行业排名一致证据。单日涨9.57%只能确认反弹，缺封板和席位，接力依据不足。"
+    },
+    "xiao_ey": {
+      "investor_id": "xiao_ey",
+      "name": "小鳄鱼",
+      "group": "F",
+      "signal": "bearish",
+      "score": 27,
+      "headline": "九个月ROE5.05%，未达10%规则",
+      "reasoning": "三季报盈利大幅改善，但九个月ROE5.05%不能与全年阈值直接等同，也不能宣称已经达标。33.10低于MA20，基本面辅助筛选与趋势条件均不足，暂不形成多头交易结论。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/xiao_ey.yaml",
+      "simulation": true,
+      "comment": "三季报盈利大幅改善，但九个月ROE5.05%不能与全年阈值直接等同，也不能宣称已经达标。33.10低于MA20，基本面辅助筛选与趋势条件均不足，暂不形成多头交易结论。"
+    },
+    "jiao_yy": {
+      "investor_id": "jiao_yy",
+      "name": "交易猿",
+      "group": "F",
+      "signal": "bearish",
+      "score": 22,
+      "headline": "380亿有流动性，仍未越39.26压力",
+      "reasoning": "该模型要求行业领先和Stage2，当前行业精确排名未核验，不能自动称龙一。20日均线39.26元仍在上方，今日涨9.57%不能单独完成趋势确认。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/jiao_yy.yaml",
+      "simulation": true,
+      "comment": "该模型要求行业领先和Stage2，当前行业精确排名未核验，不能自动称龙一。20日均线39.26元仍在上方，今日涨9.57%不能单独完成趋势确认。"
+    },
+    "mao_lb": {
+      "investor_id": "mao_lb",
+      "name": "毛老板",
+      "group": "F",
+      "signal": "bearish",
+      "score": 26,
+      "headline": "今日量比1.41，大资金持续承接未知",
+      "reasoning": "量能较近20日均值提高约41%，有短线交易活跃度。规则趋势门槛尚未通过，且今日开始0.60%减持窗口；未取得资金持续承接证据，不预判大资金锁仓。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/mao_lb.yaml",
+      "simulation": true,
+      "comment": "量能较近20日均值提高约41%，有短线交易活跃度。规则趋势门槛尚未通过，且今日开始0.60%减持窗口；未取得资金持续承接证据，不预判大资金锁仓。"
+    },
+    "xiao_xian": {
+      "investor_id": "xiao_xian",
+      "name": "消闲派",
+      "group": "F",
+      "signal": "bearish",
+      "score": 23,
+      "headline": "33.10低于MA10的35.30元",
+      "reasoning": "规则强调领先地位及趋势，当前价格仍低于10日线35.30元和20日线39.26元。缺板块龙头排序与分时确认，短线反弹尚不能证明主线切换成功。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/xiao_xian.yaml",
+      "simulation": true,
+      "comment": "规则强调领先地位及趋势，当前价格仍低于10日线35.30元和20日线39.26元。缺板块龙头排序与分时确认，短线反弹尚不能证明主线切换成功。"
+    },
+    "lasa": {
+      "investor_id": "lasa",
+      "name": "拉萨天团",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "33.10元反弹，席位资料缺失而跳过",
+      "reasoning": "该模型主要依赖龙虎榜及情绪数据，接口失败不能解释为未上榜。今日9.57%涨幅无法识别具体交易群体，缺依据不评分。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/lasa.yaml",
+      "simulation": true,
+      "abstention_category": "missing_data",
+      "skip_reason": "33.10元反弹，席位资料缺失而跳过",
+      "comment": "该模型主要依赖龙虎榜及情绪数据，接口失败不能解释为未上榜。今日9.57%涨幅无法识别具体交易群体，缺依据不评分。"
+    },
+    "chengdu": {
+      "investor_id": "chengdu",
+      "name": "成都帮",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "380亿超过150亿小票模型范围",
+      "reasoning": "小市值短线模型的150亿元上限与当前379.82亿元不匹配。另缺龙虎榜明细，保持跳过，既不编席位动向，也不将缺数据判为卖出。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/chengdu.yaml",
+      "simulation": true,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "380亿超过150亿小票模型范围",
+      "comment": "小市值短线模型的150亿元上限与当前379.82亿元不匹配。另缺龙虎榜明细，保持跳过，既不编席位动向，也不将缺数据判为卖出。"
+    },
+    "sunan": {
+      "investor_id": "sunan",
+      "name": "苏南帮",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "380亿超50亿射程，跳过",
+      "reasoning": "该模型以小市值和龙虎榜交易为依据，当前市值约380亿元超过50亿元范围。缺席位不能推测集中接力，策略不适用不等于公司投资价值为零。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/sunan.yaml",
+      "simulation": true,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "380亿超50亿射程，跳过",
+      "comment": "该模型以小市值和龙虎榜交易为依据，当前市值约380亿元超过50亿元范围。缺席位不能推测集中接力，策略不适用不等于公司投资价值为零。"
+    },
+    "ningbo_st": {
+      "investor_id": "ningbo_st",
+      "name": "宁波桑田路",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "量比1.41可见，龙虎席位不可见",
+      "reasoning": "该模型核心依赖龙虎榜热度，接口失败后无可靠席位记录，无法判断其偏好的接力结构。股价33.10元和量比1.41不能替代买卖席位证据，故跳过。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/ningbo_st.yaml",
+      "simulation": true,
+      "abstention_category": "missing_data",
+      "skip_reason": "量比1.41可见，龙虎席位不可见",
+      "comment": "该模型核心依赖龙虎榜热度，接口失败后无可靠席位记录，无法判断其偏好的接力结构。股价33.10元和量比1.41不能替代买卖席位证据，故跳过。"
+    },
+    "liuyi_zl": {
+      "investor_id": "liuyi_zl",
+      "name": "六一中路",
+      "group": "F",
+      "signal": "bearish",
+      "score": 24,
+      "headline": "涨9.57%未封板，缺领涨排名",
+      "reasoning": "规则要求顺势且行业领先，今日强反弹尚未站回39.26元20日线。缺板块横向涨幅与成交排序，不把单股强势写成核心龙头已确认。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/liuyi_zl.yaml",
+      "simulation": true,
+      "comment": "规则要求顺势且行业领先，今日强反弹尚未站回39.26元20日线。缺板块横向涨幅与成交排序，不把单股强势写成核心龙头已确认。"
+    },
+    "liu_sh": {
+      "investor_id": "liu_sh",
+      "name": "流沙河",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "33.10元价格已知，接力席位仍未知",
+      "reasoning": "该模型没有独立于龙虎榜和情绪的充分评分信息，接口失败使接力判断缺关键证据。今日上涨9.57%并不揭示席位身份，保持跳过。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/liu_sh.yaml",
+      "simulation": true,
+      "abstention_category": "missing_data",
+      "skip_reason": "33.10元价格已知，接力席位仍未知",
+      "comment": "该模型没有独立于龙虎榜和情绪的充分评分信息，接口失败使接力判断缺关键证据。今日上涨9.57%并不揭示席位身份，保持跳过。"
+    },
+    "gu_bl": {
+      "investor_id": "gu_bl",
+      "name": "古北路",
+      "group": "F",
+      "signal": "bearish",
+      "score": 25,
+      "headline": "380亿达流动性门槛，MA20尚在39.26",
+      "reasoning": "规则的市值门槛可满足，但这只解决成交承载，不证明主流资金选择它。价格33.10低于20日线且行业前三排名未核验，趋势与龙头条件都不足。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/gu_bl.yaml",
+      "simulation": true,
+      "comment": "规则的市值门槛可满足，但这只解决成交承载，不证明主流资金选择它。价格33.10低于20日线且行业前三排名未核验，趋势与龙头条件都不足。"
+    },
+    "bj_cj": {
+      "investor_id": "bj_cj",
+      "name": "北京炒家",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "380亿超80亿首板模型射程",
+      "reasoning": "该模型偏好20–80亿元标的及首板席位确认，当前市值379.82亿元超范围。今日涨9.57%未封板，不能用接近涨停替代首板成立。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/bj_cj.yaml",
+      "simulation": true,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "380亿超80亿首板模型射程",
+      "comment": "该模型偏好20–80亿元标的及首板席位确认，当前市值379.82亿元超范围。今日涨9.57%未封板，不能用接近涨停替代首板成立。"
+    },
+    "wang_zr": {
+      "investor_id": "wang_zr",
+      "name": "瑞鹤仙",
+      "group": "F",
+      "signal": "bearish",
+      "score": 26,
+      "headline": "量比1.41，短线均线仍为空头",
+      "reasoning": "按趋势规则，MA5小于MA10小于MA20的排列仍未改变。33.10元反弹改善短期承接，但没有持续性样本，也没有席位，不能认定新主升开始。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/wang_zr.yaml",
+      "simulation": true,
+      "comment": "按趋势规则，MA5小于MA10小于MA20的排列仍未改变。33.10元反弹改善短期承接，但没有持续性样本，也没有席位，不能认定新主升开始。"
+    },
+    "xin_dd": {
+      "investor_id": "xin_dd",
+      "name": "鑫多多",
+      "group": "F",
+      "signal": "skip",
+      "score": null,
+      "headline": "380亿超200亿模型范围，跳过",
+      "reasoning": "该模型的市值射程上限200亿元，当前379.82亿元不适配。策略还需龙虎榜辅助，缺明细时不能编造机构或游资净买入。",
+      "rule_score": null,
+      "confidence": 0,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": "/private/tmp/fenghua-20261104.qDAul6/uzi/skills/deep-analysis/personas/xin_dd.yaml",
+      "simulation": true,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "380亿超200亿模型范围，跳过",
+      "comment": "该模型的市值射程上限200亿元，当前379.82亿元不适配。策略还需龙虎榜辅助，缺明细时不能编造机构或游资净买入。"
+    },
+    "ghzw": {
+      "investor_id": "ghzw",
+      "name": "股海贼王",
+      "group": "F",
+      "signal": "bearish",
+      "score": 28,
+      "headline": "涨9.57%却未成板，复盘三问不完整",
+      "reasoning": "复盘三问要回答为何涨停、板块地位、大盘地位；今日未封板且缺主线横向数据，弱转强快速板未确认。量比1.41支持反弹活跃，但33.10低于MA20，不据此把低位反抽当时代情绪载体。",
+      "rule_score": 0,
+      "confidence": 52,
+      "source_urls": [
+        "https://qt.gtimg.cn/q=sz000636",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000636,day,,,640,qfq",
+        "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF"
+      ],
+      "persona_file": null,
+      "simulation": true,
+      "comment": "复盘三问要回答为何涨停、板块地位、大盘地位；今日未封板且缺主线横向数据，弱转强快速板未确认。量比1.41支持反弹活跃，但33.10低于MA20，不据此把低位反抽当时代情绪载体。"
+    },
+    "jensen_huang": {
+      "investor_id": "jensen_huang",
+      "signal": "neutral",
+      "score": 44,
+      "headline": "高端MLCC约总收入16%，AI收入仍未单列",
+      "reasoning": "从AI factory供应链看，高容高可靠元件有需求，但16%包含车规、中高压等，不等于AI收入。未取得英伟达客户认证或分产品份额，不能把通用元件包装成加速计算独占瓶颈。",
+      "rule_score": 44,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c"
+      ],
+      "comment": "从AI factory供应链看，高容高可靠元件有需求，但16%包含车规、中高压等，不等于AI收入。未取得英伟达客户认证或分产品份额，不能把通用元件包装成加速计算独占瓶颈。",
+      "confidence": 55
+    },
+    "musk": {
+      "investor_id": "musk",
+      "signal": "neutral",
+      "score": 42,
+      "headline": "前三季毛利22.80%，制造升级要靠良率和成本",
+      "reasoning": "按第一性原理审视量产，材料、薄层化与良率是真约束，利润增长180.9%只能证明本期改善。Production is hard：缺少高端单位成本、利用率及替代良率证据，不宣称成本曲线已经胜出。",
+      "rule_score": 42,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c"
+      ],
+      "comment": "按第一性原理审视量产，材料、薄层化与良率是真约束，利润增长180.9%只能证明本期改善。Production is hard：缺少高端单位成本、利用率及替代良率证据，不宣称成本曲线已经胜出。",
+      "confidence": 55
+    },
+    "altman": {
+      "investor_id": "altman",
+      "signal": "neutral",
+      "score": 44,
+      "headline": "Q3利润3.51亿元，尚无AI收入拆分证明scaling占比",
+      "reasoning": "从scaling laws看，AI硬件扩张可能增加高容元件需求，但传导必须经过认证、交付与现金回款。33.10元的价格已要求持续盈利，不能把下游算力资本开支直接换算本公司订单。",
+      "rule_score": 44,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c"
+      ],
+      "comment": "从scaling laws看，AI硬件扩张可能增加高容元件需求，但传导必须经过认证、交付与现金回款。33.10元的价格已要求持续盈利，不能把下游算力资本开支直接换算本公司订单。",
+      "confidence": 55
+    },
+    "saylor": {
+      "investor_id": "saylor",
+      "signal": "skip",
+      "score": null,
+      "headline": "主营元件，数字资产框架不适用",
+      "reasoning": "数字资产财库框架与MLCC、电阻、电感经营不匹配。本次不以未见BTC披露作为公司看空依据，弃权不计入多空。",
+      "rule_score": null,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c"
+      ],
+      "comment": "数字资产财库框架与MLCC、电阻、电感经营不匹配。本次不以未见BTC披露作为公司看空依据，弃权不计入多空。",
+      "confidence": 55,
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "主营元件，数字资产框架不适用"
+    },
+    "serenity": {
+      "investor_id": "serenity",
+      "signal": "bearish",
+      "score": 30,
+      "headline": "380亿元市值，缺独占份额和缺货证据",
+      "reasoning": "按bottleneck框架，材料与认证壁垒不自动等于不可替代的卡点。全球头部扩产、AI占比未披露、缺单一产品份额，33.10元不能靠供应链关键词认定grossly mispriced。",
+      "rule_score": 30,
+      "source_urls": [
+        "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+        "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+        "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c"
+      ],
+      "comment": "按bottleneck框架，材料与认证壁垒不自动等于不可替代的卡点。全球头部扩产、AI占比未披露、缺单一产品份额，33.10元不能靠供应链关键词认定grossly mispriced。",
+      "confidence": 55
+    }
+  },
+  "qualitative_deep_dive": {
+    "3_macro": {
+      "evidence": [
+        {
+          "source": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+          "finding": "2026年10月制造业PMI49.3、新订单49.4、新出口订单48.7；总需求回落，不能把AI需求等同全面复苏。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "中国银行转列全国银行间同业拆借中心LPR",
+          "url": "https://www.boc.cn/fimarkets/lilv/fd32/201310/t20131031_2591219.html",
+          "finding": "2026-10-20：1年期3.00%、5年以上3.50%；表内自2025-05-20以来未变，当前属于低利率平台。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "辽宁省政府转载央行金融数据",
+          "url": "https://www.ln.gov.cn/web/ywdt/rdgz/2026101508275940586/index.shtml",
+          "finding": "2026年9月末M2余额359.63万亿元、同比7.2%；社融存量468.17万亿元、同比7.1%。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "工业和信息化部",
+          "url": "https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_a6c6b6fe6e4d4b408c44c54c1b25c4ed.html",
+          "finding": "2026年1-8月电子信息制造业增加值同比15.7%，电子元件产量6.2万亿只、同比13.1%；行业强于总量经济。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2026半年报",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518982.PDF",
+          "finding": "上半年境外收入1.48亿元、占4.23%，地区口径不等于终端需求或外币敞口；公司披露原材料上涨和结算收紧拖累经营现金流。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "7_industry",
+          "chain_id": "宏观分化",
+          "causal_chain": "总PMI跌至49.3，但电子元件产量增长13.1% → 通用制造需求偏弱与电子结构景气共存 → 公司要靠产品升级而非押注全面复苏。",
+          "estimated_impact": "方向性推断；缺少订单与宏观指标回归，不给伪精确营收弹性。"
+        },
+        {
+          "link_to": "8_materials",
+          "chain_id": "链1",
+          "causal_chain": "原料涨价与上游结算收紧 → 材料采购现金支出提前 → 利润上升不保证经营现金流同步增长。",
+          "estimated_impact": "半年报已说明传导；不能由低利率平台推导金属必然回落。"
+        },
+        {
+          "link_to": "1_financials",
+          "chain_id": "汇率→财报",
+          "causal_chain": "美元净货币资产约3.46亿元 → 人民币升值产生折算损失 → 抵消部分经营改善；境外收入仅4.23%不能说明汇率风险小。",
+          "estimated_impact": "静态1%人民币升值情景：税前损失约346万元。"
+        }
+      ],
+      "conclusion": "电子行业景气强于制造业总量，但低利率平台没有新增降息催化；进口成本和终端需求比直接出口汇兑更关键。",
+      "question_answers": {
+        "利率周期": "低利率平台。每+25bp若全部作用于2026H1借款1.777亿元，税率15%仅作情景，年净利润约减少37.8万元；按半年末净资产约128亿元计ROE减少约0.003个百分点。未纳入存款收益、租赁及到期重定价，非盈利预测。",
+        "汇率敞口": "半年报境外收入占4.23%，不等于最终出口或外币敞口。p140-141外币货币性项目：美元现金3.1037亿元+美元应收0.7228亿元−美元应付0.3505亿元−美元其他应付0.0125亿元，静态美元净货币资产约3.4635亿元。人民币对美元升值1%，其他不变，税前折算损失约346万元；按15%税率情景税后约294万元，不含交易、采购、时点变化及其他币种。进口采购比例未披露。",
+        "地缘政策": "已读公司半年报和工信部材料，未发现可据此确认公司具体产品/目的地被新增关税或实体清单命中。不得据“国产替代”直接确认海外限制受益。",
+        "大宗商品": "引用半年报经营现金流说明，原料及结算压力已实际发生；铜镍银市场价格与公司采购价不同，具体弹性由8_materials情景模型给出。",
+        "需求指标": "M2+7.2%、社融存量+7.1%提供融资环境；PMI与新订单低于50表明总量偏弱；电子元件产量+13.1%显示结构分化。没有公司订单与宏观序列，未验证历史相关系数。"
+      }
+    },
+    "13_policy": {
+      "evidence": [
+        {
+          "source": "工信部电子信息司官方解读",
+          "url": "https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html",
+          "finding": "2026-09-16发布“十五五”规划解读，重点任务含电子元器件和电子材料高端化；2030年电子信息制造业营收目标超过30万亿元，属于行业目标。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "工信部电子信息司",
+          "url": "https://wap.miit.gov.cn/gyhxxhb/jgsj/dzxxsnew/gzdt/art/2026/art_97c736f26b82474f83b8310b3a64fd79.html",
+          "finding": "2026-09-10电子元器件产业座谈会部署十五五基础研究和政策供给；未公布公司补助额度。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "工信部、市场监管总局",
+          "url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_e8e780ef457343699aaa9943a8a158b9.html",
+          "finding": "工信部联电子〔2025〕181号为2025-2026稳增长行动方案，2025-08-22成文；仍处执行期，但不属于近六个月新政策。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2026半年报税收附注",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225518982.PDF",
+          "finding": "半年报p93-94明确母公司2026已申请高新复审，复审期间暂按15%缴税；国华、吉华优惠期2024-2026。母公司2026实际享受15%已有披露，最终续期结果尚未核验。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "7_industry",
+          "chain_id": "链2",
+          "causal_chain": "电子元器件与材料高端化政策 → 更多研发/整机适配需求 → 具备量产与验证能力的厂商更易参与，但公司份额提升须由客户认证和高端收入验证。",
+          "estimated_impact": "不把30万亿元行业目标按比例分配给公司；基准模型不额外计入未公告补贴。"
+        },
+        {
+          "link_to": "20_valuation_models",
+          "chain_id": "税率情景",
+          "causal_chain": "母公司2026复审期间按15%缴税已披露，最终复审结果未核验 → 现金税基准可参考当前口径，终值另做优惠丧失压力情景。",
+          "estimated_impact": "仅作压力情景：其他不变，税率由15%升至25%使受影响税前利润的税后额减少11.8%；不能据此直接下调集团净利11.8%。"
+        }
+      ],
+      "conclusion": "政策方向支持高端元器件和材料，但没有公司专属收入承诺；研发落地与税率续期比政策口号更能改变估值。",
+      "question_answers": {
+        "战略对齐": "公司MLCC、电阻、电感及材料研发与元器件/材料高端化相符；不等同公司被认定为国家专精特新“小巨人”。",
+        "近六个月政策": "2026-09-16规划解读重点涉及高端电子元器件及材料；2026-09-10座谈会是政策工作动态，不是补贴法规。2025稳增长方案是存量政策。原文短引：电子元器件和电子材料高端化发展。",
+        "受益者": "推断：量产良率、材料自供与客户认证更利于已有能力的厂商；政策也可能吸引新增产能，不能只计需求利好而忽略竞争。",
+        "地方财政": "制造业公司不适用城投付款模型；政府补助须按实际披露计入，不能将广东国企背景等同财政兜底。",
+        "资质与税率": "半年报p93-94列明母公司2026已申请高新复审，复审期间暂按15%缴纳；国华、吉华2024-2026为15%。同时披露本公司及国华、吉华适用2023-2027先进制造业进项税额加计5%抵减。最终续期结果本次未核验，不能误写2026母公司已无优惠。",
+        "海外监管": "未确认公司命中新增海外实体清单或指定关税；必须核对HS编码、产品原产地、最终销售目的地后再量化。"
+      }
+    },
+    "7_industry": {
+      "evidence": [
+        {
+          "source": "公司2026-09-15投资者活动记录",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636",
+          "finding": "H1 MLCC约占总营收40%，高端产品约占MLCC营收40%；祥和项目全面达产，利用率较高但无精确比例；未单列AI收入。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        },
+        {
+          "source": "村田2026-10-30产能公告",
+          "url": "https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c",
+          "finding": "FY2026–2030计划投资约1万亿日元扩MLCC，FY2030 MLCC销售目标至少FY2025两倍。需求增长与未来供给扩张同时存在。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        },
+        {
+          "source": "公司2026H1报告",
+          "url": "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+          "finding": "高端技术和规模与国际先进同行仍有差距；不存在已验证的2026全球份额或行业CR4时间序列。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "industry-demand-to-capex",
+          "causal_chain": "AI/汽车电子需求增长→龙头扩产→短期订单与中期供给同时上升→不能把当前涨价外推为永续增长",
+          "estimated_impact": "方向性判断；村田计划不代表风华订单，未赋定量收入贡献。"
+        }
+      ],
+      "conclusion": "被动元件处成熟周期、其中高容高可靠产品在扩张；公司H1高端MLCC约占总营收16%（40%×40%的粗算），并非AI收入40%。短期量价改善成立，长期须承受日韩扩产与技术迭代竞争。来源：https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636；https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c",
+      "answers": {
+        "lifecycle": "传统容阻感成熟周期；高容、高压、车规产品结构升级，不能将全行业视作纯AI成长。",
+        "tam_growth": "未核到可比口径的2026–2029全球TAM及券商分歧区间，不填默认TAM。村田FY30销售翻倍为公司目标，不能用作行业预测。",
+        "concentration": "缺2024–2026一致口径CR4/CR8与风华份额序列，不能宣称集中度已上升。",
+        "porter": {
+          "scale": "1低压力，5高压力；分析师定性判断",
+          "supplier_power": {
+            "score": 3,
+            "why": "金属原料外部价格冲击，材料自制可缓释"
+          },
+          "buyer_power": {
+            "score": 4,
+            "why": "高端认证严格且国际替代供应商强"
+          },
+          "substitution": {
+            "score": 2,
+            "why": "元件功能刚需，但嵌入式和更小尺寸路线会改变单颗价值"
+          },
+          "entry": {
+            "score": 2,
+            "why": "材料、薄层工艺、良率、客户认证形成壁垒"
+          },
+          "rivalry": {
+            "score": 5,
+            "why": "日韩技术领先并继续扩产；成熟产品价格竞争"
+          }
+        },
+        "disruption": "AI提升高容需求，不等于公司取得AI大客户；超薄小尺寸、嵌入式电容是产品路线挑战，并非整个MLCC功能消失。",
+        "position": "国内重要综合被动元件厂商、全球高端追赶者；未核验2026份额/精确排名，不沿用2021旧份额。",
+        "m_and_a": "H1披露四平吉华60%股权已于8月完成出售退出合并；本股是小型资产处置方，不据此编行业整合浪潮。"
+      }
+    },
+    "15_events": {
+      "evidence": [
+        {
+          "source": "2026Q3公司报告",
+          "url": "https://www.fhcomp.com/uploads/touzi/1225621037.PDF",
+          "finding": "Q3归母3.5147亿元、同比470.17%；前三季度归母6.4177亿元。增长为销量及单价上升，非AI收入单列证据。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        },
+        {
+          "source": "控股股东减持预披露",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636",
+          "finding": "拟于2026-11-04至2027-02-03竞价减持不超过6855575股、0.60%；是否实施及价格不确定。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        },
+        {
+          "source": "第二次临时股东会通知",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12658642&stockid=000636",
+          "finding": "11月11日15:00召开，11月5日登记；议题为薪酬及独董补选，不直接增加订单利润。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        },
+        {
+          "source": "2026H1公司报告",
+          "url": "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+          "finding": "其他诉讼合计9218.25万元，部分未结；不是无诉讼，不能自定败诉概率。",
+          "retrieved_at": "2026-11-04T18:10:00+08:00"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "10_valuation",
+          "chain_id": "earnings-to-valuation",
+          "causal_chain": "Q3盈利释放→TTM盈利基数抬升→PE下降；若后续不能维持高毛利，低远期PE会反向失效",
+          "estimated_impact": "Q3净利年化为情景、不是预测；增长不能证明现价低估。"
+        },
+        {
+          "link_to": "12_capital_flow",
+          "chain_id": "holder-sales-to-supply",
+          "causal_chain": "大股东减持窗口开始→潜在流通卖盘增加→与11/04反弹并存；价格上涨不能否定后续供给压力",
+          "estimated_impact": "按33.10元快照，最大6855575股对应约2.27亿元名义市值；非已卖金额。"
+        }
+      ],
+      "conclusion": "业绩改善已在10月24日披露；11月4日起的0.60%减持是未来卖盘上限，非已成交。11月11日会议偏治理事项。未核到未来60天确定的经营类大利好，不编订单或定期报告日期。来源：https://www.fhcomp.com/uploads/touzi/1225621037.PDF；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636；https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12658642&stockid=000636",
+      "answers": {
+        "last_30d_count": {
+          "window": "2026-10-06至2026-11-04",
+          "scope": "新浪公司公告列表首页可见14份（10/24为13份，10/13为1份）；不是全交易所穷尽审计",
+          "contract": 0,
+          "research_progress": 0,
+          "shareholder_change": 1,
+          "litigation": 0,
+          "m_and_a": 0,
+          "earnings_forecast": 0,
+          "other": 13,
+          "note": "其他含1份三季报与12份治理/制度/会议文件；0表示该列表未见，非证明不存在。"
+        },
+        "monetization": "减持上限按33.10元折约2.27亿元，影响供求不进公司营收；股东会无可量化新增利润。Q3归母3.51亿元是已实现历史业绩。",
+        "calendar": [
+          {
+            "date": "2026-11-04至2027-02-03",
+            "event": "控股股东减持实施窗口",
+            "probability": "计划实施未定，不伪造概率",
+            "impact": "可能增加卖盘，不改变控制权"
+          },
+          {
+            "date": "2026-11-05",
+            "event": "临时股东会股权登记日",
+            "impact": "治理程序，经营影响低"
+          },
+          {
+            "date": "2026-11-11",
+            "event": "第二次临时股东会",
+            "impact": "薪酬及独董选举，经营影响低"
+          },
+          {
+            "date": null,
+            "event": "后续MLCC价格/高端占比/产能公告",
+            "impact": "观察项，无确定披露日，不列为已定事件"
+          }
+        ],
+        "sotp": "国华等核心子公司独立收入利润披露不足，不能给独立上市市值。对子公司按任意PS再加整体PE会重复计价。",
+        "m_and_a": "四平吉华60%退出已完成，交易对价/EPS影响未核到一致数据，不虚构增厚；无据推演待宣布并购。",
+        "lawsuits": "H1其他诉讼9218.25万元，公司称无重大不利影响，部分未判；无法据公开总额判断败诉概率或最终损失。"
+      }
+    },
+    "8_materials": {
+      "evidence": [
+        {
+          "source": "公司2025年报P20",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF",
+          "finding": "2025营业成本中原材料26.006亿元、占54.93%；人工13.54%，制造费用31.54%。这不是银/镍单一金属占比。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2026半年报P12/P19",
+          "url": "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+          "finding": "上半年CFO同比下降55.64%，公司解释为金属涨价和供应商结算收紧；报告期不存在衍生品投资。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2026-05-26异动公告P2",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-05-26/2332e8e6-a640-4e23-bf32-df3181696d8c.PDF",
+          "finding": "核心材料涉及银铜镍锡与陶瓷粉体，贵金属波动影响较大。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "chain1",
+          "causal_chain": "金属原料涨价及结算收紧→采购现金支出增加→H1经营现金流下降；Q3销售回款改善才扭转累计现金流。",
+          "estimated_impact": "H1 CFO1.611亿元，Q3单季4.618亿元；9M累计6.229亿元。原料占比仅按历史口径作压力情景。"
+        }
+      ],
+      "conclusion": "原料成本压力已有现金流证据；三季报的盈利扩张并不证明公司具有永久顺价权。原料54.93%是2025制造业整体占比，不能直接当成当前金属敞口。",
+      "answers": {
+        "cost_mix": "2025原材料54.93%、人工13.54%、制造费用31.54%；2026精确构成与银铜镍各自权重未披露。",
+        "price_history": "未取得同一时间戳、可复核的12个月材料现货/期货曲线，不给3年百分位；宏观金属价格也不等同超细粉体和浆料采购价。",
+        "pass_through": "收入和成本同比变动显示盈利改善，但无逐合同成本加成/锁价条款；不能宣称100%顺价。",
+        "substitution": "2026半年报称自研高端瓷粉、铜浆、镍浆、银浆，核心材料自产率提升，未给具体比例及长期采购锁价条款。",
+        "integration": "内部材料研发和配套有助加工与供应保障；矿业参股或材料自产不等于基础金属成本免疫。"
+      },
+      "sensitivity": {
+        "method": "毛利率情景=22.7994%-(1-22.7994%)*54.93%*材料价格变化。沿用2025原料成本比重、2026前三季综合毛利率，假设销量/售价/品类/人工/制造费用不变、全部原料同比变动且无顺价；仅压力情景，不是预测。",
+        "baseline_gross_margin_pct": 22.79943319376494,
+        "materials_cost_share_assumed": 0.5493,
+        "rows": [
+          {
+            "material_change_pct": -20.0,
+            "gross_margin_pct": 31.28
+          },
+          {
+            "material_change_pct": -10.0,
+            "gross_margin_pct": 27.04
+          },
+          {
+            "material_change_pct": 10.0,
+            "gross_margin_pct": 18.56
+          },
+          {
+            "material_change_pct": 20.0,
+            "gross_margin_pct": 14.32
+          },
+          {
+            "material_change_pct": 30.0,
+            "gross_margin_pct": 10.08
+          }
+        ]
+      }
+    },
+    "9_futures": {
+      "evidence": [
+        {
+          "source": "公司2026半年报P19",
+          "url": "https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+          "finding": "截至2026上半年报告期不存在衍生品投资；这可以确认该期没有披露衍生品投资，不能外推至11月。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2025年报P28",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF",
+          "finding": "2025年度报告明确报告期不存在衍生品投资。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "公司2026-05-26异动公告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-05-26/2332e8e6-a640-4e23-bf32-df3181696d8c.PDF",
+          "finding": "公司提示银铜镍锡及陶瓷粉体价格上行风险；因此金属期货仅为间接成本观察指标。",
+          "retrieved_at": "2026-11-04"
+        },
+        {
+          "source": "上期所铜品种页",
+          "url": "https://www.shfe.com.cn/products/cu/",
+          "finding": "工具返回2024年旧快照，已拒绝作为2026年11月曲线或持仓依据。",
+          "retrieved_at": "2026-11-04"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "8_materials",
+          "chain_id": "chain4",
+          "causal_chain": "银铜镍期货波动→上游粉体/浆料报价与结算条件→库存和现金占用→成本确认；没有已验证套保头寸，不能计算期货损益对冲。",
+          "estimated_impact": "报告期无衍生品投资；当前名义本金、多空方向及期现传导时滞无法量化，不能采用通用1-3个月假设。"
+        }
+      ],
+      "conclusion": "截至半年报，公司明确不存在报告期衍生品投资；期货用于监测成本风险。未取得当前曲线及最新头寸，不能据此预测库存策略或套保收益。",
+      "answers": {
+        "lead_lag": "未做同频样本回归，时滞和相关系数均不输出。",
+        "hedge_exposure": "2025及2026H1明确无报告期衍生品投资；2026Q3资产负债表衍生项目空白但未单独披露套保本金，不把空白改为11月0敞口。",
+        "curve": "当前contango/backwardation未核验；上期所品种页返回旧快照，拒绝作当前结论。",
+        "positions": "未取得截至2026-11-04同合约持仓异常数据，不给方向判断。"
+      }
+    }
+  },
+  "detected_style_override": "cyclical",
+  "style_override_reason": "被动元件周期复苏兼高端升级，180.9%低基数增长不能当稳定高成长。",
+  "great_divide_override": {
+    "punchline": "盈利PE情景给33.99元，现金流基准只给19.97元：33.10元需要Q3利润延续，也需要再投资换来回报。",
+    "bull_say_rounds": [
+      "建设性假设方：Q3归母3.51亿、扣非3.49亿，前三季现金回款6.23亿；增长不是只靠非经常损益。",
+      "建设性假设方：2027净利若达到13亿，给30倍PE，对应33.99元；这个条件与Q3利润年化14.06亿并不矛盾。",
+      "建设性假设方：高端MLCC约总收入16%仍有升级空间；但只有客户和分产品数据验证后，才可提高长期假设。"
+    ],
+    "bear_say_rounds": [
+      "审慎方：TTM归母6.97亿，33.10元对应54.52倍PE；2025ROE仅2.29%，增长尚未变成长期高资本回报。",
+      "审慎方：长期Capex恢复到收入7.5–8.5%后，DCF基准19.97元，乐观情景35.34元；不能把低现金投资永续化。",
+      "审慎方：今日涨9.57%仍低MA20的39.26元，且0.60%拟减持窗口开启；未取得席位和AI收入拆分，不追题材。"
+    ]
+  },
+  "narrative_override": {
+    "core_conclusion": "观望，空仓不追当日急涨。风华高科利润与现金流同步复苏，但33.10元已要求Q3盈利延续；TTM PE54.52倍、DCF基准19.97元，高端MLCC约总收入16%并非AI收入占比。",
+    "risks": [
+      "再投资正常化：TTM现金Capex仅2.01亿，历史年折旧6.52亿；长期投资回升将压低可分配现金。",
+      "原料顺价：沿用2025材料权重作零顺价情景，材料篮子涨10%使毛利约降4.24个百分点，非金属单项预测。",
+      "股东供给：2026-11-04至2027-02-03拟减持≤0.60%，33.10元折最多约2.27亿元；执行进度未知。",
+      "技术与竞争：AI收入未单列，国际龙头扩产，公司高端技术/良率差距尚需数据验证。",
+      "趋势与估值：33.10低于MA20的39.26；即便PE历史44.2%分位，也受低谷利润高PE影响。"
+    ],
+    "buy_zones": {
+      "value": {
+        "price": 16.97,
+        "rationale": "DCF基准19.97×85%≈16.97元，仅模型安全边际观察价；须重验盈利。"
+      },
+      "growth": {
+        "price": 33.99,
+        "rationale": "2027假设净利13亿÷11.4749亿股×30倍=33.99元；当前附近无安全边际。"
+      },
+      "technical": {
+        "price": 39.26,
+        "rationale": "20日均线确认线，须持续收复并回踩；高于现价不是追涨买单。"
+      },
+      "youzi": {
+        "price": null,
+        "rationale": "未核席位成本、封板与板块地位，不编数值价位。"
+      }
+    }
+  },
+  "data_gap_acknowledged": {
+    "4_peers": "已取三家原币经营摘要但不同期间且无FX标准化，不出全球分位。",
+    "6_research": "未取得统一时点一致预期，不能做超预期比较。",
+    "8_materials": "缺当前材料采购权重/12月完整序列，用2025权重显式敏感性。",
+    "9_futures": "2025及H1无衍生品投资；11月套保、曲线、时滞未知。",
+    "14_moat": "AI单列收入/客户、分产品份额/良率/利用率未披露。",
+    "16_lhb": "接口success=false/code9201；不据此认定未上榜。",
+    "19_contests": "未取得可核当期个人实盘成本，不造持仓。",
+    "fund_managers": "Q3名单不能推经理内部权重和真实最新持仓。"
+  },
+  "review_acknowledged": {
+    "buy_zones.youzi.price": "缺证据保留null，禁止为满足schema编造价格。",
+    "100pct_coverage": "只代表18项机械检查；不包含全部经营缺口。",
+    "style": "自动风格标签仅模板方法，不替代周期性判断。"
+  }
+}

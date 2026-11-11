@@ -6,6 +6,8 @@
 
 | 公司 | 历史深度报告 | 财报更新 | 补充 |
 |---|---|---|---|
+| 海底捞 06862.HK | [2026-11-11](海底捞_06862.HK/20261111/full-report-standalone.html) | — | — |
+| 风华高科 000636.SZ | [2026-11-04](风华高科_000636.SZ/20261104/full-report-standalone.html) | — | — |
 | 通富微电 002156.SZ | [2026-11-04](通富微电_002156.SZ/20261104/full-report-standalone.html) | — | — |
 | 兆易创新 603986.SH | [2026-10-09](兆易创新_603986.SH/20261009/full-report-standalone.html) | [2026-10-29 三季报](兆易创新_603986.SH/20261029/full-report-standalone.html) | — |
 | 常青科技 603125.SH | [2026-10-28](常青科技_603125.SH/20261028/full-report-standalone.html) | — | — |

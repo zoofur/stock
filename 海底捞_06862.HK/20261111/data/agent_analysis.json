@@ -1,0 +1,226 @@
+{
+  "agent_reviewed": true,
+  "analysis_input_hash": "d3ca01e92eb07fdb5ee8e98a9187ee81fb6f154a6bab9521079fae8e7714cddd",
+  "dim_commentary": {
+    "0_basic": "06862.HK为海底捞，近端收盘10.08港元，按55.74亿股计市值561.86亿港元。",
+    "1_financials": "半年收入增长7.9%，归母仅增长0.5%；TTM扣租赁现金支出后自由现金流26.21亿元。",
+    "2_kline": "收于10.08港元，站在20日均线9.53上方，仍低于120日均线10.95。",
+    "3_macro": "前三季全国餐饮收入增2.4%，节日客流与存量同店经营需分别跟踪。https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html",
+    "4_peers": "九毛九与呷哺呷哺半年收入分别降13.2%和23.1%；特海国际是海外独立主体，盈利用美元。",
+    "5_chain": "颐海供调味品、蜀海供食材及物流，集团加盟扩张使采购定价和质量控制更重要。",
+    "6_research": "海通国际研报摘要的2027年归母利润预测为44.48亿元，与审计披露分开看。",
+    "7_industry": "太二内地三季同店日销增10.4%，怂火锅降26.8%，品牌经营差异显著。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200769.pdf",
+    "8_materials": "原料及耗材占收入41.6%，公司解释为低毛利业务和促销占比变化。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+    "9_futures": "生猪远月较近月贵约34%，食材期货敞口未核验；中报披露的是外汇远期。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+    "10_valuation": "TTM市盈率11.86倍，市净率4.93倍；历史股息率7.55%高于自由现金流收益率5.45%。 百度抽样五年PE/PB分位约3.85%/3.06%，按供应商同口径计算。",
+    "11_governance": "控股股东关联实体减持2.59亿股，张勇另有短期关联借款并在11月2日提前还清。",
+    "12_capital_flow": "三方转引11月6日港股通持股约9.72%，连续净买卖和分席位趋势未核验。",
+    "13_policy": "连锁总部日常食安管理覆盖直营和加盟，规模扩张仍需配套食安审核。https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20259/869be67e736d4879851d2e8487f82a75.pdf",
+    "14_moat": "规模可摊薄采购和品控成本；同店翻台3.9次持平，促销和客单下行反映转换成本低。",
+    "15_events": "续签协议在11月27日前拟寄发通函，采购及装修上限待独立股东表决。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+    "16_lhb": "港股缺少与A股龙虎榜可直接比照的公开数据，对应游资战法弃权。",
+    "17_sentiment": "检索未取得可复算的发帖及情绪样本，情绪强弱维持未评估。",
+    "18_trap": "推广筛查命中0条但返回证据0条，无法由此评定推广风险。公司披露由港交所核实。",
+    "19_contests": "未获得可核验的公开模拟盘持仓样本，不据此推断机构或游资持仓。",
+    "20_valuation_models": "统一人民币经营数据及港元股价后，DCF基准8.89港元，相对估值11.01港元，LBO基准IRR约8.2%。",
+    "21_research_workflow": "近期公司公告焦点为11月27日前的关联交易通函，年度业绩日期待公告。",
+    "22_deep_methods": "观察现金转化。上半年租赁调整后的现金流10.53亿元，低于同期实付股息18.04亿元。"
+  },
+  "qualitative_deep_dive": {
+    "3_macro": {
+      "evidence": [
+        {
+          "source": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html",
+          "finding": "前三季度全国餐饮收入同比增长2.4%。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "税务总局",
+          "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5252805/content.html",
+          "finding": "国庆餐饮增值税发票销售增长9%。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "macro-to-stores",
+          "causal_chain": "节日增量延续才会改善同店客流，固定租赁与人工随收入摊薄。",
+          "estimated_impact": "需看同店日销是否从−1.4%转正。"
+        }
+      ],
+      "conclusion": "全国餐饮需求温和增长，假期数据受时点与口径影响。"
+    },
+    "7_industry": {
+      "evidence": [
+        {
+          "source": "海底捞",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+          "finding": "同店日均销售下降1.4%，整体翻台3.9次。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "九毛九",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200769.pdf",
+          "finding": "三季度太二内地同店日销增长10.4%，怂火锅下降26.8%。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "industry-to-approval",
+          "causal_chain": "火锅同店分化提高筛店价值，新店及装修成本需核查关联交易预算。",
+          "estimated_impact": "评估15.7亿元拟议装修年度上限与实际支出。"
+        }
+      ],
+      "conclusion": "存量火锅竞争激烈，细分品牌经营趋势分化。"
+    },
+    "8_materials": {
+      "evidence": [
+        {
+          "source": "海底捞",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+          "finding": "食材及耗材占收入41.6%，同比升1.8个百分点。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "农业农村部",
+          "url": "https://scs.moa.gov.cn/jcyj/202611/t20261109_6489303.htm",
+          "finding": "11月9日猪肉14.69、牛肉73.65、羊肉67.48元/公斤。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "海底捞续约公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+          "finding": "采购协议参考市场报价、历史采购及成本议价。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "materials-to-margin",
+          "causal_chain": "供应商报价上升，若促销限制菜单顺价，利润率承担采购压力。",
+          "estimated_impact": "四分之一成本篮子涨10%，利润率下降约1.04个百分点。"
+        }
+      ],
+      "conclusion": "品类与渠道组合影响成本率，观察供应商报价及促销。"
+    },
+    "9_futures": {
+      "evidence": [
+        {
+          "source": "钢之家转引期货行情",
+          "url": "https://news.steelhome.com/2026/11/10/n4791284.html",
+          "finding": "11月10日LH2701收9400、LH2709收12595元/吨。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "海底捞中报附注21",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+          "finding": "期末卖出人民币买美元远期名义额人民币20亿元，商品敞口未核验。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "8_materials",
+          "chain_id": "futures-to-inputs",
+          "causal_chain": "生猪期限价差反映远期供需；分割、加工、冷链造成门店采购基差。",
+          "estimated_impact": "无法按活猪涨跌推算门店食材成本。"
+        }
+      ],
+      "conclusion": "生猪期货只作供需代理。"
+    },
+    "13_policy": {
+      "evidence": [
+        {
+          "source": "市场监管总局第104号令",
+          "url": "https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20259/869be67e736d4879851d2e8487f82a75.pdf",
+          "finding": "连锁总部管理责任涵盖直营与加盟。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "市场监管总局第123号令",
+          "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_d04d512f5ad8470eb61a652c0061dc3a.html",
+          "finding": "网络餐饮规则自2026年6月起施行。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "5_chain",
+          "chain_id": "policy-to-franchise",
+          "causal_chain": "加盟扩大收费基础，同时增加供应商、门店审核与食安管理支出。",
+          "estimated_impact": "新增利润取决于管理成本、加盟收费和事故概率。"
+        }
+      ],
+      "conclusion": "加盟减轻门店资本投入，总部品控责任持续。"
+    },
+    "15_events": {
+      "evidence": [
+        {
+          "source": "海底捞还款公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1102/2026110203379.pdf",
+          "finding": "11月2日张勇已悉数偿还借款本金和利息。",
+          "retrieved_at": "2026-11-11"
+        },
+        {
+          "source": "海底捞续约公告",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+          "finding": "公告预计11月27日前寄发独立股东审批所需通函。",
+          "retrieved_at": "2026-11-11"
+        }
+      ],
+      "associations": [],
+      "conclusion": "剩余观察焦点是关联采购及装修框架的定价与实付。"
+    }
+  },
+  "panel_insights": "66种投资方法模拟为18中性、14谨慎、34弃权。近期5年估值分位约4%，现金流仍不足覆盖历史派息。24个A股游资视角因港股口径弃权。",
+  "great_divide_override": {
+    "punchline": "利润估值约11港元，现金流基准只值8.89港元。",
+    "bull_say_rounds": [
+      "约11.9倍市盈率和7.55%历史派息，定价已反映相当压力。",
+      "外卖收入增长121.2%，加盟达99家，新增渠道扩大覆盖。",
+      "同店日销若转正、核心利润率回到11.6%，相对估值约11.01港元。"
+    ],
+    "bear_say_rounds": [
+      "租赁调整现金流收益率约5.45%，低于7.55%历史股息率。",
+      "直营收入降4%，同店日销降1.4%；增收的同时利润率下降。",
+      "现价需要五年现金流每年增7.1%，上半年实际同比降20.5%。"
+    ]
+  },
+  "narrative_override": {
+    "core_conclusion": "10.08港元高于基准现金流估值8.89港元。观察直营同店日销、利润率和租赁调整后的现金转化。",
+    "risks": [
+      "上半年同店日销同比下降1.4%。",
+      "原材料及耗材率同比上升1.8个百分点。",
+      "上半年现金流代理值仅覆盖同期实付股息58%。",
+      "部分主要关联采购及装修框架待独立股东批准。"
+    ],
+    "buy_zones": {
+      "value": {
+        "price": 7.55,
+        "rationale": "DCF基准8.89港元留15%安全边际。"
+      },
+      "growth": {
+        "price": 11.01,
+        "rationale": "同行倍数估值参考，要求经营改善，属于情景价值。"
+      },
+      "technical": {
+        "price": 10.09,
+        "rationale": "60日均线参考，需观察量价延续。"
+      },
+      "youzi": {
+        "price": null,
+        "rationale": "港股缺乏A股口径龙虎榜，相关区间不适用。"
+      }
+    }
+  },
+  "data_gap_acknowledged": {},
+  "review_acknowledged": {
+    "panel": "港股与科技主题范围造成弃权，保留样本差异。",
+    "debate": "多方为条件情景，评委未产生偏多票。"
+  }
+}

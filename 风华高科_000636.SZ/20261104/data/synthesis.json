@@ -1,0 +1,397 @@
+{
+  "ticker": "000636.SZ",
+  "name": "风华高科",
+  "overall_score": 35.1,
+  "verdict_label": "谨慎 · 6 派看空",
+  "verdict_detail": "基本面 46.0 · 共识 18.7",
+  "fundamental_score": 46.0,
+  "panel_consensus": 18.7,
+  "consensus_valid": true,
+  "school_lock": null,
+  "school_scores": {
+    "A": {
+      "group": "A",
+      "label": "经典价值派",
+      "desc": "巴菲特 / 格雷厄姆 / 费雪 / 芒格 一脉",
+      "n_members": 6,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 11.5,
+      "avg_score": 26.0,
+      "vote_consensus": 10.0,
+      "score_mean": 26.0,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 1,
+      "bearish": 5,
+      "skip": 0,
+      "dominant_signal": "bearish"
+    },
+    "B": {
+      "group": "B",
+      "label": "成长派",
+      "desc": "彼得·林奇 / 欧奈尔 / 蒂尔 / 伍德 一脉",
+      "n_members": 9,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 25.5,
+      "avg_score": 31.8,
+      "vote_consensus": 30.0,
+      "score_mean": 31.8,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 3,
+      "bearish": 3,
+      "skip": 3,
+      "dominant_signal": "neutral"
+    },
+    "C": {
+      "group": "C",
+      "label": "宏观派",
+      "desc": "索罗斯 / 达利欧 / 马克斯 一脉",
+      "n_members": 5,
+      "n_active": 5,
+      "short_excluded": 2,
+      "consensus": 43.9,
+      "avg_score": 43.8,
+      "vote_consensus": 48.0,
+      "score_mean": 43.8,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 4,
+      "bearish": 1,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "D": {
+      "group": "D",
+      "label": "技术派",
+      "desc": "利弗莫尔 / Minervini / 达瓦斯 一脉",
+      "n_members": 4,
+      "n_active": 3,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 13.7,
+      "vote_consensus": 0.0,
+      "score_mean": 13.7,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 3,
+      "skip": 1,
+      "dominant_signal": "bearish"
+    },
+    "E": {
+      "group": "E",
+      "label": "中式价投",
+      "desc": "段永平 / 张坤 / 朱少醒 / 冯柳 一脉",
+      "n_members": 7,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 20.7,
+      "avg_score": 31.5,
+      "vote_consensus": 20.0,
+      "score_mean": 31.5,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 2,
+      "bearish": 4,
+      "skip": 1,
+      "dominant_signal": "bearish"
+    },
+    "F": {
+      "group": "F",
+      "label": "A 股游资",
+      "desc": "龙虎榜顶流 23 位·章盟主/孙哥/赵老哥为代表",
+      "n_members": 24,
+      "n_active": 16,
+      "short_excluded": 0,
+      "consensus": 5.8,
+      "avg_score": 24.6,
+      "vote_consensus": 0.0,
+      "score_mean": 24.6,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 16,
+      "skip": 8,
+      "dominant_signal": "bearish"
+    },
+    "G": {
+      "group": "G",
+      "label": "量化派",
+      "desc": "Simons / Thorp / Shaw 一脉",
+      "n_members": 4,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 4,
+      "dominant_signal": "skip"
+    },
+    "H": {
+      "group": "H",
+      "label": "科技领袖派",
+      "desc": "黄仁勋 / 马斯克 / Altman / Saylor 一脉",
+      "n_members": 4,
+      "n_active": 3,
+      "short_excluded": 0,
+      "consensus": 48.9,
+      "avg_score": 43.3,
+      "vote_consensus": 60.0,
+      "score_mean": 43.3,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 3,
+      "bearish": 0,
+      "skip": 1,
+      "dominant_signal": "neutral"
+    },
+    "I": {
+      "group": "I",
+      "label": "AI 卡位/瓶颈猎手",
+      "desc": "Serenity · AI 供应链卡脖子/瓶颈点",
+      "n_members": 1,
+      "n_active": 1,
+      "short_excluded": 0,
+      "consensus": 10.4,
+      "avg_score": 30.0,
+      "vote_consensus": 0.0,
+      "score_mean": 30.0,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 1,
+      "skip": 0,
+      "dominant_signal": "bearish"
+    }
+  },
+  "short_consensus": {
+    "total": 2,
+    "active": 2,
+    "skip": 0,
+    "short_candidates": 0,
+    "no_short_thesis": 2,
+    "avg_score": 58.0,
+    "top_short_candidates": [
+      {
+        "id": "burry",
+        "name": "迈克尔·伯利",
+        "score": 52,
+        "headline": "54.52倍PE有估值压力，现金／净利0.97不足以构成做空证据"
+      },
+      {
+        "id": "chanos",
+        "name": "吉姆·查诺斯",
+        "score": 64,
+        "headline": "经营现金／归母净利0.97，暂未见现金与利润严重背离"
+      }
+    ]
+  },
+  "dim_commentary": {
+    "0_basic": "风华高科是MLCC、电阻、电感及材料制造商；33.10元对应约379.82亿元市值。AI收入未单列，不能将行业关键词当作特定客户订单。",
+    "1_financials": "前三季营收57.99亿、归母6.42亿、扣非6.36亿，经营现金流6.23亿；增长有回款支撑。但是2025ROE仅2.29%，2026前三季5.05%不能直接当全年ROE。",
+    "2_kline": "33.10元较昨收涨9.57%，量比约1.41；仍低于MA20的39.26与MA60的50.30，RSI约31.75且MACD水下死叉。一次放量反弹不足以确认趋势反转。",
+    "3_macro": "10月PMI49.3与电子元件产量同比13.1%呈分化，不能用总量复苏解释公司增长；增长须来自产品结构和客户订单。[统计局](https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html) [工信部](https://www.miit.gov.cn/jgsj/yxj/xxfb/art/2026/art_a6c6b6fe6e4d4b408c44c54c1b25c4ed.html)",
+    "4_peers": "三环2026前三季ROE15.91%，高于风华5.05%；同期毛利率约48.47%对22.80%。两者产品组合不同，不能由同行高PE反证风华便宜；全球对比保留各自原币与期间，不排估值分位。",
+    "5_chain": "上游包括电子陶瓷粉体和金属浆料，下游覆盖汽车、工业与算力等。2025经销收入54.01%，终端认证并不等于公司直供指定客户，分产品和客户收入缺口限制议价权判断。",
+    "6_research": "卖方叙事强调Q3高增与AI需求，但本次未取得统一时点一致预期，不能判断超预期幅度或引用目标价平均数；研究者2027净利13亿只是假设。",
+    "7_industry": "被动元件处成熟周期、其中高容高可靠产品在扩张；公司H1高端MLCC约占总营收16%（40%×40%的粗算），并非AI收入40%。短期量价改善成立，长期须承受日韩扩产与技术迭代竞争。来源：https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12605234&stockid=000636；https://corporate.murata.com/en-sg/newsroom/news/company/general/2026/1030c",
+    "8_materials": "2025年原材料占营业成本54.93%；H1采购结算收紧已压低现金流。沿用历史占比作零顺价情景，材料全篮子涨10%可使前三季毛利率从22.80%降至18.56%，不是镍价单项预测。 https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+    "9_futures": "2025年报与2026半年报均明确报告期无衍生品投资；银铜镍期货只能作为成本预警，未核验当前曲线、持仓与时滞，不推算套保收益。 https://static.cninfo.com.cn/finalpage/2026-04-21/1225129320.PDF https://www.fhcomp.com/uploads/touzi/1225518982.PDF",
+    "10_valuation": "TTM归母6.97亿对应PE54.52倍，扣非6.82亿对应55.68倍。1212交易日PE分位44.2%、PB分位82.3%；低谷利润会扭曲PE历史分布，44.2%不构成安全边际。",
+    "11_governance": "Q3控股股东持23.78%，质押7853.40万股约总股本6.84%；拟减持不超过685.56万股、0.60%，窗口11月4日开始。按33.10折上限约2.27亿元，未核实实际卖出。",
+    "12_capital_flow": "11月3日融资余额21.86亿元，近5日融资净偿还约5.05亿元；11月4日新浪估算资金净流入约7.27亿元。两者日期、定义不同，不能把当日流入当作杠杆资金已回补。",
+    "13_policy": "十五五规划支持元器件和材料高端化，但未承诺公司补助或订单；估值不预支未公告收益。[工信部](https://nmca.miit.gov.cn/zwgk/zcwj/zcjd/art/2026/art_b39c514e3c0345f0aad01630dea29587.html)",
+    "14_moat": "公司交流记录给出H1 MLCC约总收入40%、高端约MLCC收入40%，乘积约16%。材料配方、薄层工艺和认证形成壁垒，但高端含车规/中高压，不能全部视为AI；持续高ROE尚未证明。",
+    "15_events": "业绩改善已在10月24日披露；11月4日起的0.60%减持是未来卖盘上限，非已成交。11月11日会议偏治理事项。未核到未来60天确定的经营类大利好，不编订单或定期报告日期。来源：https://www.fhcomp.com/uploads/touzi/1225621037.PDF；https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12638694&stockid=000636；https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12658642&stockid=000636",
+    "16_lhb": "龙虎榜接口返回数据为空且success=false，不能区分未上榜与接口失败。缺席位、封板和逐笔证据，因此不输出游资成本、席位持仓或数值买点。",
+    "17_sentiment": "今日涨9.57%表明反弹资金活跃，但公司曾澄清英伟达认证传闻；高端MLCC约16%的推算不等于AI占比。没有核验的客户故事不能计入盈利。",
+    "18_trap": "本次标橙色题材与交易风险：认证传闻曾被澄清，减持窗口开启且股价波动大。没有证据认定公司或推广者诈骗；带单、处罚库及全部舆情未穷尽，不以未找到等同无风险。",
+    "19_contests": "未取得可复核当期实盘持仓、成本和完整收益记录；不生成跟单名单。该维度不评分，0权重不是看空或中性结论。"
+  },
+  "institutional_modeling": {
+    "dcf_intrinsic": 19.97,
+    "dcf_safety_margin_pct": -39.7,
+    "dcf_verdict": "现金流情景承压",
+    "lbo_irr_pct": 2.5,
+    "lbo_verdict": "低于假设20%收购回报门槛",
+    "comps_verdict": null,
+    "initiating_rating": null,
+    "target_price": null,
+    "upside_pct": null,
+    "ic_recommendation": null,
+    "bcg_position": null,
+    "industry_attractiveness": null
+  },
+  "detected_style": "balanced",
+  "style_label_cn": "中性兜底",
+  "style_explanation": "无明显风格倾向 · 全派系等权",
+  "style_diagnostics": {
+    "active_weight": 48.0,
+    "bullish_weight": 0.0,
+    "neutral_weight": 9.0,
+    "active_count": 48,
+    "bullish_count": 0,
+    "neutral_count": 15,
+    "bearish_count": 33,
+    "raw_consensus_old": 0.0,
+    "raw_fund_old": 46.0
+  },
+  "quant_signal": {
+    "count": 0,
+    "quant_funds": [],
+    "active_funds_total": 0,
+    "quant_funds_total": 0,
+    "is_quant_factor_style": null,
+    "evidence_status": "unavailable",
+    "verified_funds_total": 0,
+    "unavailable_funds_total": 0,
+    "report_periods": [],
+    "counts_by_period": {},
+    "unavailable_reasons": {},
+    "publication_date_verified": false,
+    "scope": "scanned_funds_only"
+  },
+  "agent_reviewed": true,
+  "panel_insights": "64位多头方法中0看多、13中性、33看空、18弃权；另2种做空方法均未形成明确做空逻辑。没有买入投票，所以辩论的建设性方代表盈利延续假设，不冒称评委看多。规则曾仅凭现金/低负债给芒格、卡拉曼100分，已纠正；量化及江恩因无验证模型弃权，不计为看空。",
+  "claude_narrative_stub": {
+    "_note": "以下字段已由 agent 覆盖",
+    "needs_rewrite": []
+  },
+  "debate": {
+    "bull": {
+      "investor_id": "chanos",
+      "name": "吉姆·查诺斯",
+      "group": "C"
+    },
+    "bear": {
+      "investor_id": "graham",
+      "name": "格雷厄姆",
+      "group": "A"
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "bull_say": "建设性假设方：Q3归母3.51亿、扣非3.49亿，前三季现金回款6.23亿；增长不是只靠非经常损益。",
+        "bear_say": "审慎方：TTM归母6.97亿，33.10元对应54.52倍PE；2025ROE仅2.29%，增长尚未变成长期高资本回报。"
+      },
+      {
+        "round": 2,
+        "bull_say": "建设性假设方：2027净利若达到13亿，给30倍PE，对应33.99元；这个条件与Q3利润年化14.06亿并不矛盾。",
+        "bear_say": "审慎方：长期Capex恢复到收入7.5–8.5%后，DCF基准19.97元，乐观情景35.34元；不能把低现金投资永续化。"
+      },
+      {
+        "round": 3,
+        "bull_say": "建设性假设方：高端MLCC约总收入16%仍有升级空间；但只有客户和分产品数据验证后，才可提高长期假设。",
+        "bear_say": "审慎方：今日涨9.57%仍低MA20的39.26元，且0.60%拟减持窗口开启；未取得席位和AI收入拆分，不追题材。"
+      }
+    ],
+    "punchline": "盈利PE情景给33.99元，现金流基准只给19.97元：33.10元需要Q3利润延续，也需要再投资换来回报。",
+    "bull_name": "建设性假设方（非看多投票）"
+  },
+  "great_divide": {
+    "bull_avatar": "druck",
+    "bear_avatar": "graham",
+    "bull_score": 52,
+    "bear_score": 10,
+    "bull_signal": "neutral",
+    "bear_signal": "bearish",
+    "punchline": "盈利PE情景给33.99元，现金流基准只给19.97元：33.10元需要Q3利润延续，也需要再投资换来回报。",
+    "bull_role": "建设性假设方，非看多投票"
+  },
+  "risks": [
+    "再投资正常化：TTM现金Capex仅2.01亿，历史年折旧6.52亿；长期投资回升将压低可分配现金。",
+    "原料顺价：沿用2025材料权重作零顺价情景，材料篮子涨10%使毛利约降4.24个百分点，非金属单项预测。",
+    "股东供给：2026-11-04至2027-02-03拟减持≤0.60%，33.10元折最多约2.27亿元；执行进度未知。",
+    "技术与竞争：AI收入未单列，国际龙头扩产，公司高端技术/良率差距尚需数据验证。",
+    "趋势与估值：33.10低于MA20的39.26；即便PE历史44.2%分位，也受低谷利润高PE影响。"
+  ],
+  "buy_zones": {
+    "value": {
+      "price": 16.97,
+      "rationale": "DCF基准19.97×85%≈16.97元，仅模型安全边际观察价；须重验盈利。"
+    },
+    "growth": {
+      "price": 33.99,
+      "rationale": "2027假设净利13亿÷11.4749亿股×30倍=33.99元；当前附近无安全边际。"
+    },
+    "technical": {
+      "price": 39.26,
+      "rationale": "20日均线确认线，须持续收复并回踩；高于现价不是追涨买单。"
+    },
+    "youzi": {
+      "price": null,
+      "rationale": "未核席位成本、封板与板块地位，不编数值价位。"
+    }
+  },
+  "friendly": {
+    "scenarios": {
+      "entry_price": 33.1,
+      "cases": [
+        {
+          "name": "PE悲观",
+          "probability": "未估计",
+          "return": -47.9
+        },
+        {
+          "name": "PE基准",
+          "probability": "未估计",
+          "return": 2.7
+        },
+        {
+          "name": "PE乐观",
+          "probability": "未估计",
+          "return": 65.9
+        }
+      ]
+    },
+    "exit_triggers": [
+      "高端收入或盈利延续被经营数据证伪→重估论点",
+      "回款、票据或存货周转恶化→重估现金质量",
+      "Capex恢复后现金回报不足→下修估值假设"
+    ],
+    "similar_stocks": []
+  },
+  "fund_managers": [],
+  "dashboard": {
+    "core_conclusion": "观望，空仓不追当日急涨。风华高科利润与现金流同步复苏，但33.10元已要求Q3盈利延续；TTM PE54.52倍、DCF基准19.97元，高端MLCC约总收入16%并非AI收入占比。",
+    "data_perspective": {
+      "trend": "Stage 3 高位回撤／筑底未确认（研究者分类）",
+      "price": "¥33.1",
+      "volume": "20日量比1.41，换手9.03%",
+      "chips": "MA5(32.63)<MA10(35.30)<MA20(39.26)<MA60(50.30)：空头排列"
+    },
+    "intelligence": {
+      "news": "已采集 2 项催化剂事件",
+      "risks": [
+        "再投资正常化：TTM现金Capex仅2.01亿，历史年折旧6.52亿；长期投资回升将压低可分配现金。",
+        "原料顺价：沿用2025材料权重作零顺价情景，材料篮子涨10%使毛利约降4.24个百分点，非金属单项预测。",
+        "股东供给：2026-11-04至2027-02-03拟减持≤0.60%，33.10元折最多约2.27亿元；执行进度未知。"
+      ],
+      "catalysts": [
+        "11/04起≤0.60%拟减持窗口，供给风险",
+        "11/11治理会议，未估盈利增量"
+      ]
+    },
+    "battle_plan": {
+      "entry": "空仓不追当日急涨，参考条件而非自动买价",
+      "position": "未提供风险预算，不给个人仓位",
+      "stop": "盈利、回款、再投资回报或趋势证据恶化时重估",
+      "target": "DCF基准19.97／盈利PE情景33.99元，均为假设"
+    }
+  },
+  "method_notice": "66种公开方法的研究者模拟，非真人观点、持仓或投票；分数不是胜率。做空方法独立统计。",
+  "research_style": "周期复苏与高端升级；自动模板使用balanced分组，不等于稳定成长",
+  "risk_screen": {
+    "level": "orange",
+    "label": "题材与交易风险；非诈骗认定",
+    "scope": "不以未找到推广证据等同安全"
+  }
+}

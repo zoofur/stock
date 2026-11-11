@@ -1,0 +1,168 @@
+{
+  "ticker": "000636.SZ",
+  "method": "研究者主观方法分，非胜率或收益预测；缺失项权重0",
+  "dimensions": {
+    "0_basic": {
+      "score": 5,
+      "weight": 0,
+      "label": "主营被动元件；AI收入尚未单列",
+      "status": "not_scored",
+      "score_note": "权重0仅保留模板布局，不代表中性。"
+    },
+    "1_financials": {
+      "score": 7,
+      "weight": 5,
+      "label": "前三季营收+41.15%、扣非+174.14%；ROE5.05%为九个月口径",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "2_kline": {
+      "score": 2,
+      "weight": 4,
+      "label": "涨9.57%仍低于MA20/60，MACD水下死叉",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "3_macro": {
+      "score": 5,
+      "weight": 2,
+      "label": "PMI49.3，电子元件产量+13.1%，需求分化",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "4_peers": {
+      "score": 5,
+      "weight": 3,
+      "label": "三环ROE15.91%高于风华5.05%，业务组合不同",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "5_chain": {
+      "score": 6,
+      "weight": 3,
+      "label": "材料与认证形成黏性，分产品客户敞口未知",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 1,
+      "label": "卖方强调高容MLCC；未取得可比一致预期",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "7_industry": {
+      "score": 7,
+      "weight": 4,
+      "label": "高端升级，村田扩产验证需求也增加供给",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "8_materials": {
+      "score": 4,
+      "weight": 3,
+      "label": "材料历史占成本54.93%，顺价滞后影响现金",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 0,
+      "label": "当前曲线及持仓未核，不评分；非中性判断",
+      "status": "not_scored",
+      "score_note": "权重0仅保留模板布局，不代表中性。"
+    },
+    "10_valuation": {
+      "score": 3,
+      "weight": 5,
+      "label": "TTM PE54.52、扣非55.68；PB五年82.3%分位",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "11_governance": {
+      "score": 4,
+      "weight": 3,
+      "label": "控股股东质押6.84%总股本；拟减持≤0.60%",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "12_capital_flow": {
+      "score": 5,
+      "weight": 2,
+      "label": "11/03融资余额21.86亿，5日净偿还5.05亿",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 2,
+      "label": "高端元件政策支持；不预支未公告补贴",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "14_moat": {
+      "score": 5,
+      "weight": 4,
+      "label": "高端MLCC约总收入16%，良率差距仍需弥补",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "15_events": {
+      "score": 4,
+      "weight": 3,
+      "label": "减持窗口启动，11/11会议偏治理",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "接口未能确认席位，不评分；非净买0",
+      "status": "not_scored",
+      "score_note": "权重0仅保留模板布局，不代表中性。"
+    },
+    "17_sentiment": {
+      "score": 3,
+      "weight": 2,
+      "label": "涨9.57%与认证澄清并存，题材误读风险",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "18_trap": {
+      "score": 3,
+      "weight": 3,
+      "label": "橙色题材/交易风险；不认定诈骗",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "无可核当期实盘成本，不评分或跟单",
+      "status": "not_scored",
+      "score_note": "权重0仅保留模板布局，不代表中性。"
+    },
+    "20_valuation_models": {
+      "score": 4,
+      "weight": 4,
+      "label": "DCF基准19.97，盈利PE情景33.99，假设分歧",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "21_research_workflow": {
+      "score": 5,
+      "weight": 1,
+      "label": "无已核未来60天经营大利好，不造日历",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    },
+    "22_deep_methods": {
+      "score": 5,
+      "weight": 1,
+      "label": "资本回报和再投资仍是尽调核心",
+      "status": "scored",
+      "score_note": "研究者证据权衡，非统计评级。"
+    }
+  },
+  "fundamental_score": 46.0
+}

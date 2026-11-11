@@ -1,0 +1,2594 @@
+{
+  "ticker": "06862.HK",
+  "market": "H",
+  "fetched_at": "2026-11-11T10:05:37",
+  "_profile_depth": "deep",
+  "dimensions": {
+    "0_basic": {
+      "ticker": "06862.HK",
+      "data": {
+        "name": "海底捞",
+        "code": "06862",
+        "industry": "餐饮 / 连锁火锅",
+        "currency": "HKD",
+        "price": 10.08,
+        "change_pct": 0,
+        "quote_date": "2026-11-10",
+        "market_cap": 561.8592,
+        "market_cap_yi": 561.8592,
+        "market_cap_cny_yi": 481.18745606399995,
+        "shares_outstanding_yi": 55.74,
+        "pe_ttm": 11.86,
+        "pb": 4.93,
+        "dividend_yield_ttm": 7.549603174603174,
+        "listed_date": "2018-09-26",
+        "main_business": "中国内地及港澳台的餐厅经营、外卖、食材销售及加盟业务"
+      },
+      "source": "人工核验：https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk06862%2Cday%2C%2C%2C300%2Cqfq · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500323.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "7_industry": {
+      "ticker": "06862.HK",
+      "data": {
+        "growth": 2.4,
+        "industry": "餐饮",
+        "basis": "2026年前三季全国餐饮收入同比",
+        "lifecycle": "成熟，客流及客单分化"
+      },
+      "source": "人工核验：https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "5_chain": {
+      "ticker": "06862.HK",
+      "data": {
+        "upstream": "颐海调味品、蜀海加工食材及物流、扎鲁特旗海底捞供应牛羊肉",
+        "downstream": "直营顾客、外卖平台和加盟商",
+        "products": [
+          "火锅",
+          "一人食外卖",
+          "调味品及食材"
+        ],
+        "exposure": "食材供应框架按报价、历史采购价及原料成本定价"
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "6_research": {
+      "ticker": "06862.HK",
+      "data": {
+        "summary": "海通国际研究摘要给出2027年归母净利44.48亿元，同行2027E平均11.82倍",
+        "reports": [
+          {
+            "institution": "海通国际",
+            "url": "https://reportify.cn/reports/1304897161271578624",
+            "source_type": "第三方转述"
+          }
+        ]
+      },
+      "source": "人工核验：https://reportify.cn/reports/1304897161271578624",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "8_materials": {
+      "ticker": "06862.HK",
+      "data": {
+        "core_material": [
+          "食材",
+          "调味品",
+          "耗材"
+        ],
+        "cost_share": 41.6,
+        "prior_share": 39.8,
+        "materials_yi": 92.89237,
+        "sensitivity": "四分之一成本篮子上涨10%，核心利润率降约1.04个百分点",
+        "price_trend": "11月9日猪肉14.69、牛肉73.65、羊肉67.48元/公斤，全国批发价"
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://scs.moa.gov.cn/jcyj/202611/t20261109_6489303.htm · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "9_futures": {
+      "ticker": "06862.HK",
+      "data": {
+        "linked_contract": "大商所生猪LH（猪肉采购代理）",
+        "contract_trend": "11月10日LH2701收9400、LH2709收12595元/吨",
+        "note": "公司食材期货敞口及基差未披露；中报披露外汇远期名义额20亿元人民币"
+      },
+      "source": "人工核验：https://news.steelhome.com/2026/11/10/n4791284.html · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "12_capital_flow": {
+      "ticker": "06862.HK",
+      "data": {
+        "southbound_pct": 9.72,
+        "southbound_date": "2026-11-06",
+        "note": "港股通持有占比为三方转载CCASS；未核验逐日净买卖"
+      },
+      "source": "人工核验：https://aureliandataservices.com/stock/r_hk06862?tab=overview",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "11_governance": {
+      "ticker": "06862.HK",
+      "data": {
+        "controller": "张勇、舒萍",
+        "insider_trades_1y": [
+          {
+            "date": "2026-09-08",
+            "shares": 259000000,
+            "price": 10.62,
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900516.pdf"
+          }
+        ],
+        "note": "11月2日关联贷款已还本息；独立股东待审议2027–2029年度主要关联协议上限"
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900516.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1102/2026110203379.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601271.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "1_financials": {
+      "ticker": "06862.HK",
+      "data": {
+        "roe_history": [
+          2.97,
+          -45.88,
+          17.9,
+          47.43,
+          42.88,
+          39.61
+        ],
+        "financial_years": [
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "revenue_history": [
+          286.14,
+          390.97,
+          310.39,
+          414.53,
+          427.55,
+          432.25
+        ],
+        "net_profit_history": [
+          3.09,
+          -41.63,
+          13.74,
+          44.99,
+          47.08,
+          40.5
+        ],
+        "revenue_ttm": 448.58967,
+        "net_profit_ttm": 40.5817,
+        "revenue_growth_yoy": 7.89,
+        "net_profit_growth_yoy": 0.47,
+        "revenue_growth_period": "2026H1",
+        "net_profit_growth_period": "2026H1",
+        "revenue_growth_basis": "interim",
+        "net_profit_growth_basis": "interim",
+        "currency": "CNY",
+        "operating_cash_flow_yi": 53.19035,
+        "lease_adjusted_fcf_yi": 26.2081,
+        "eps": 0.33,
+        "financial_health": {
+          "equity": 97.6518,
+          "cash": 59.28694,
+          "total_debt": 25.61779,
+          "current_ratio": 1.2223,
+          "debt_ratio": 53.78
+        },
+        "interim_revenue_yi": 223.36906,
+        "interim_core_operating_profit_yi": 25.1349,
+        "net_profit_interim_yi": 17.66871,
+        "cash_dividend_hkd": 0.761
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401134.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "2_kline": {
+      "ticker": "06862.HK",
+      "data": {
+        "kline_count": 300,
+        "indicators": {
+          "last_close": 10.08,
+          "ma5": 10.078,
+          "ma10": 9.7345,
+          "ma20": 9.526000000000002,
+          "ma60": 10.089583333333335,
+          "ma120": 10.948374999999993,
+          "ma200": 12.842275000000004,
+          "above_ma20": true,
+          "above_ma200": false,
+          "ma_bull_alignment": false,
+          "macd_dif": 0.10962955263187091,
+          "macd_dea": -0.020710096286893628,
+          "macd_hist": 0.2606792978375291,
+          "macd_golden_cross": false,
+          "rsi_14": 67.68149882903981,
+          "kdj_k": 81.0,
+          "kdj_d": 75.4,
+          "kdj_j": 92.2,
+          "obv": -880788567.0,
+          "obv_trend_up": true,
+          "williams_r": -19.0,
+          "year_high": 17.68,
+          "year_low": 9.075,
+          "pct_from_year_high": -42.98642533936651,
+          "stage": 4,
+          "vol_5_vs_20": 1.1261088806425281,
+          "vcp_score": 0.6072110294605988
+        },
+        "stage": "Stage 4 下跌",
+        "ma_align": "均线交错",
+        "macd": "水上",
+        "rsi": 67.68,
+        "candles_60d": [
+          {
+            "date": "2026-08-17",
+            "open": 11.53,
+            "close": 11.25,
+            "high": 11.62,
+            "low": 11.23
+          },
+          {
+            "date": "2026-08-18",
+            "open": 11.24,
+            "close": 11.51,
+            "high": 11.55,
+            "low": 11.16
+          },
+          {
+            "date": "2026-08-19",
+            "open": 11.42,
+            "close": 11.48,
+            "high": 11.53,
+            "low": 11.34
+          },
+          {
+            "date": "2026-08-20",
+            "open": 11.48,
+            "close": 11.43,
+            "high": 11.72,
+            "low": 11.4
+          },
+          {
+            "date": "2026-08-21",
+            "open": 11.58,
+            "close": 11.48,
+            "high": 11.69,
+            "low": 11.32
+          },
+          {
+            "date": "2026-08-24",
+            "open": 11.41,
+            "close": 11.21,
+            "high": 11.51,
+            "low": 11.14
+          },
+          {
+            "date": "2026-08-25",
+            "open": 11.35,
+            "close": 11.41,
+            "high": 11.6,
+            "low": 11.2
+          },
+          {
+            "date": "2026-08-26",
+            "open": 11.82,
+            "close": 12.25,
+            "high": 12.29,
+            "low": 11.75
+          },
+          {
+            "date": "2026-08-27",
+            "open": 12.39,
+            "close": 12.4,
+            "high": 12.53,
+            "low": 12.2
+          },
+          {
+            "date": "2026-08-28",
+            "open": 12.42,
+            "close": 12.16,
+            "high": 12.42,
+            "low": 11.99
+          },
+          {
+            "date": "2026-08-31",
+            "open": 12.16,
+            "close": 11.74,
+            "high": 12.28,
+            "low": 11.68
+          },
+          {
+            "date": "2026-09-01",
+            "open": 11.74,
+            "close": 11.52,
+            "high": 11.74,
+            "low": 11.5
+          },
+          {
+            "date": "2026-09-02",
+            "open": 11.51,
+            "close": 11.53,
+            "high": 11.64,
+            "low": 11.37
+          },
+          {
+            "date": "2026-09-03",
+            "open": 11.61,
+            "close": 11.37,
+            "high": 11.64,
+            "low": 11.35
+          },
+          {
+            "date": "2026-09-04",
+            "open": 11.4,
+            "close": 11.57,
+            "high": 11.75,
+            "low": 11.4
+          },
+          {
+            "date": "2026-09-07",
+            "open": 11.3,
+            "close": 11.28,
+            "high": 11.35,
+            "low": 11.13
+          },
+          {
+            "date": "2026-09-08",
+            "open": 11.28,
+            "close": 11.38,
+            "high": 11.46,
+            "low": 11.23
+          },
+          {
+            "date": "2026-09-09",
+            "open": 10.88,
+            "close": 10.34,
+            "high": 10.88,
+            "low": 10.0
+          },
+          {
+            "date": "2026-09-10",
+            "open": 10.4,
+            "close": 9.91,
+            "high": 10.49,
+            "low": 9.86
+          },
+          {
+            "date": "2026-09-11",
+            "open": 9.91,
+            "close": 10.06,
+            "high": 10.12,
+            "low": 9.88
+          },
+          {
+            "date": "2026-09-14",
+            "open": 10.06,
+            "close": 9.96,
+            "high": 10.07,
+            "low": 9.77
+          },
+          {
+            "date": "2026-09-15",
+            "open": 10.12,
+            "close": 9.65,
+            "high": 10.12,
+            "low": 9.6
+          },
+          {
+            "date": "2026-09-16",
+            "open": 9.74,
+            "close": 9.52,
+            "high": 9.74,
+            "low": 9.5
+          },
+          {
+            "date": "2026-09-17",
+            "open": 9.5,
+            "close": 9.5,
+            "high": 9.59,
+            "low": 9.35
+          },
+          {
+            "date": "2026-09-18",
+            "open": 9.53,
+            "close": 9.51,
+            "high": 9.6,
+            "low": 9.43
+          },
+          {
+            "date": "2026-09-21",
+            "open": 9.51,
+            "close": 9.65,
+            "high": 9.66,
+            "low": 9.4
+          },
+          {
+            "date": "2026-09-22",
+            "open": 9.61,
+            "close": 9.38,
+            "high": 9.65,
+            "low": 9.36
+          },
+          {
+            "date": "2026-09-23",
+            "open": 9.38,
+            "close": 9.28,
+            "high": 9.43,
+            "low": 9.22
+          },
+          {
+            "date": "2026-09-24",
+            "open": 9.28,
+            "close": 9.27,
+            "high": 9.36,
+            "low": 9.18
+          },
+          {
+            "date": "2026-09-25",
+            "open": 9.27,
+            "close": 9.08,
+            "high": 9.32,
+            "low": 8.95
+          },
+          {
+            "date": "2026-09-28",
+            "open": 9.12,
+            "close": 9.15,
+            "high": 9.27,
+            "low": 9.1
+          },
+          {
+            "date": "2026-09-29",
+            "open": 9.16,
+            "close": 9.1,
+            "high": 9.16,
+            "low": 9.06
+          },
+          {
+            "date": "2026-09-30",
+            "open": 9.06,
+            "close": 9.32,
+            "high": 9.32,
+            "low": 9.02
+          },
+          {
+            "date": "2026-10-02",
+            "open": 9.28,
+            "close": 9.2,
+            "high": 9.28,
+            "low": 8.98
+          },
+          {
+            "date": "2026-10-05",
+            "open": 9.3,
+            "close": 9.18,
+            "high": 9.3,
+            "low": 9.04
+          },
+          {
+            "date": "2026-10-06",
+            "open": 9.25,
+            "close": 9.22,
+            "high": 9.3,
+            "low": 9.16
+          },
+          {
+            "date": "2026-10-07",
+            "open": 9.23,
+            "close": 9.21,
+            "high": 9.34,
+            "low": 9.16
+          },
+          {
+            "date": "2026-10-08",
+            "open": 9.2,
+            "close": 9.23,
+            "high": 9.35,
+            "low": 9.18
+          },
+          {
+            "date": "2026-10-09",
+            "open": 9.28,
+            "close": 9.57,
+            "high": 9.57,
+            "low": 9.23
+          },
+          {
+            "date": "2026-10-12",
+            "open": 9.69,
+            "close": 9.59,
+            "high": 9.7,
+            "low": 9.56
+          },
+          {
+            "date": "2026-10-13",
+            "open": 9.36,
+            "close": 9.3,
+            "high": 9.36,
+            "low": 8.93
+          },
+          {
+            "date": "2026-10-14",
+            "open": 9.27,
+            "close": 9.47,
+            "high": 9.54,
+            "low": 9.16
+          },
+          {
+            "date": "2026-10-15",
+            "open": 9.42,
+            "close": 9.35,
+            "high": 9.47,
+            "low": 9.19
+          },
+          {
+            "date": "2026-10-16",
+            "open": 9.45,
+            "close": 9.37,
+            "high": 9.55,
+            "low": 9.27
+          },
+          {
+            "date": "2026-10-20",
+            "open": 9.45,
+            "close": 9.53,
+            "high": 9.6,
+            "low": 9.35
+          },
+          {
+            "date": "2026-10-21",
+            "open": 9.59,
+            "close": 9.32,
+            "high": 9.6,
+            "low": 9.28
+          },
+          {
+            "date": "2026-10-22",
+            "open": 9.32,
+            "close": 9.12,
+            "high": 9.32,
+            "low": 9.07
+          },
+          {
+            "date": "2026-10-23",
+            "open": 9.12,
+            "close": 9.23,
+            "high": 9.29,
+            "low": 9.07
+          },
+          {
+            "date": "2026-10-26",
+            "open": 9.23,
+            "close": 9.28,
+            "high": 9.37,
+            "low": 9.1
+          },
+          {
+            "date": "2026-10-27",
+            "open": 9.36,
+            "close": 9.21,
+            "high": 9.36,
+            "low": 9.13
+          },
+          {
+            "date": "2026-10-28",
+            "open": 9.24,
+            "close": 9.19,
+            "high": 9.26,
+            "low": 9.06
+          },
+          {
+            "date": "2026-10-29",
+            "open": 9.19,
+            "close": 9.07,
+            "high": 9.19,
+            "low": 9.05
+          },
+          {
+            "date": "2026-10-30",
+            "open": 9.06,
+            "close": 9.43,
+            "high": 9.52,
+            "low": 9.02
+          },
+          {
+            "date": "2026-11-02",
+            "open": 9.4,
+            "close": 9.34,
+            "high": 9.57,
+            "low": 9.29
+          },
+          {
+            "date": "2026-11-03",
+            "open": 9.53,
+            "close": 9.94,
+            "high": 9.96,
+            "low": 9.43
+          },
+          {
+            "date": "2026-11-04",
+            "open": 9.91,
+            "close": 9.85,
+            "high": 10.04,
+            "low": 9.76
+          },
+          {
+            "date": "2026-11-05",
+            "open": 10.08,
+            "close": 10.19,
+            "high": 10.27,
+            "low": 10.02
+          },
+          {
+            "date": "2026-11-06",
+            "open": 10.1,
+            "close": 10.19,
+            "high": 10.33,
+            "low": 10.03
+          },
+          {
+            "date": "2026-11-09",
+            "open": 10.16,
+            "close": 10.08,
+            "high": 10.25,
+            "low": 10.04
+          },
+          {
+            "date": "2026-11-10",
+            "open": 10.08,
+            "close": 10.08,
+            "high": 10.1,
+            "low": 9.93
+          }
+        ],
+        "ma20_60d": [
+          11.55,
+          11.54,
+          11.55,
+          11.55,
+          11.56,
+          11.55,
+          11.54,
+          11.55,
+          11.58,
+          11.59,
+          11.59,
+          11.59,
+          11.59,
+          11.6,
+          11.61,
+          11.6,
+          11.58,
+          11.52,
+          11.43,
+          11.36,
+          11.3,
+          11.21,
+          11.11,
+          11.01,
+          10.91,
+          10.84,
+          10.73,
+          10.59,
+          10.43,
+          10.27,
+          10.15,
+          10.02,
+          9.91,
+          9.81,
+          9.69,
+          9.58,
+          9.47,
+          9.42,
+          9.4,
+          9.38,
+          9.35,
+          9.34,
+          9.33,
+          9.32,
+          9.32,
+          9.31,
+          9.29,
+          9.29,
+          9.29,
+          9.3,
+          9.3,
+          9.3,
+          9.3,
+          9.31,
+          9.35,
+          9.38,
+          9.43,
+          9.48,
+          9.5,
+          9.53
+        ],
+        "ma60_60d": [
+          11.76,
+          11.72,
+          11.7,
+          11.68,
+          11.66,
+          11.64,
+          11.62,
+          11.6,
+          11.6,
+          11.58,
+          11.57,
+          11.55,
+          11.54,
+          11.52,
+          11.51,
+          11.49,
+          11.47,
+          11.43,
+          11.4,
+          11.37,
+          11.34,
+          11.31,
+          11.28,
+          11.26,
+          11.23,
+          11.21,
+          11.18,
+          11.16,
+          11.13,
+          11.09,
+          11.06,
+          11.03,
+          11.0,
+          10.97,
+          10.94,
+          10.91,
+          10.88,
+          10.85,
+          10.81,
+          10.77,
+          10.73,
+          10.7,
+          10.66,
+          10.63,
+          10.6,
+          10.56,
+          10.52,
+          10.48,
+          10.43,
+          10.39,
+          10.35,
+          10.3,
+          10.27,
+          10.24,
+          10.21,
+          10.19,
+          10.16,
+          10.14,
+          10.11,
+          10.09
+        ],
+        "close_60d": [
+          11.25,
+          11.51,
+          11.48,
+          11.43,
+          11.48,
+          11.21,
+          11.41,
+          12.25,
+          12.4,
+          12.16,
+          11.74,
+          11.52,
+          11.53,
+          11.37,
+          11.57,
+          11.28,
+          11.38,
+          10.34,
+          9.91,
+          10.06,
+          9.96,
+          9.65,
+          9.52,
+          9.5,
+          9.51,
+          9.65,
+          9.38,
+          9.28,
+          9.27,
+          9.08,
+          9.15,
+          9.1,
+          9.32,
+          9.2,
+          9.18,
+          9.22,
+          9.21,
+          9.23,
+          9.57,
+          9.59,
+          9.3,
+          9.47,
+          9.35,
+          9.37,
+          9.53,
+          9.32,
+          9.12,
+          9.23,
+          9.28,
+          9.21,
+          9.19,
+          9.07,
+          9.43,
+          9.34,
+          9.94,
+          9.85,
+          10.19,
+          10.19,
+          10.08,
+          10.08
+        ],
+        "kline_stats": {
+          "ytd_return": "-21.6%",
+          "volatility": "38.0%",
+          "max_drawdown": "-48.7%"
+        }
+      },
+      "source": "人工核验：https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk06862%2Cday%2C%2C%2C300%2Cqfq",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "16_lhb": {
+      "ticker": "06862.HK",
+      "data": {
+        "_note": "lhb only A-share",
+        "status": "not_applicable",
+        "verified": false,
+        "lhb_count_30d": null
+      },
+      "source": "skip",
+      "fallback": false
+    },
+    "13_policy": {
+      "ticker": "06862.HK",
+      "data": {
+        "policy_dir": "连锁餐饮和网络餐饮食品安全责任",
+        "snippets": [
+          "连锁总部须检查直营和加盟门店并记录整改，合同不能免除责任"
+        ]
+      },
+      "source": "人工核验：https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20259/869be67e736d4879851d2e8487f82a75.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "10_valuation": {
+      "ticker": "06862.HK",
+      "data": {
+        "pe": 11.86,
+        "pb": 4.93,
+        "price": 10.08,
+        "currency": "HKD",
+        "historic_dividend_yield": 7.55,
+        "lease_adjusted_fcf_yield": 5.45,
+        "pe_quantile": 3.85,
+        "pe_historical_basis": {
+          "last": 12.03,
+          "count": 364,
+          "period": "2021-11-10 至 2026-11-10",
+          "source": "https://gushitong.baidu.com/stock/hk-06862",
+          "sampling": "百度股市通抽样序列；剔除非正值，以供应商期末值对同口径历史样本排名"
+        },
+        "pb_quantile": 3.06,
+        "pb_historical_basis": {
+          "last": 5.0,
+          "count": 457,
+          "period": "2021-11-10 至 2026-11-10",
+          "source": "https://gushitong.baidu.com/stock/hk-06862",
+          "sampling": "百度股市通抽样序列；剔除非正值，以供应商期末值对同口径历史样本排名"
+        }
+      },
+      "source": "人工核验：https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk06862%2Cday%2C%2C%2C300%2Cqfq · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500323.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401134.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2 · 百度股市通五年估值抽样",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "19_contests": {
+      "ticker": "06862.HK",
+      "data": {
+        "xueqiu_cubes": [],
+        "xueqiu_meta": {
+          "http_status": 200,
+          "source": "http",
+          "login_required": true,
+          "hint": "set UZI_XQ_LOGIN=1 + run `python -m lib.xueqiu_browser login` (one-time)"
+        },
+        "tgb_mentions": [],
+        "ths_simu": [
+          {
+            "note": "ths simu endpoint requires login or blocked"
+          }
+        ],
+        "dpswang": [],
+        "summary": {
+          "xueqiu_cubes_total": 0,
+          "high_return_cubes": 0,
+          "s_tier_holders": 0,
+          "a_tier_holders": 0,
+          "b_tier_holders": 0,
+          "tgb_mentions_count": 0,
+          "ths_evidence_count": 0,
+          "xueqiu_login_required": true,
+          "xueqiu_source": "http"
+        },
+        "fallback_queries": [
+          "淘股吧 实盘 6862 持仓",
+          "挑战者杯 6862",
+          "雪球 实盘组合 6862 50%",
+          "全国期货实盘大赛 6862"
+        ],
+        "_note": "⚠️ XueQiu cubes 接口 2026 起需登录。当前未启用 Playwright 登录，0 cube 收录。如需启用：export UZI_XQ_LOGIN=1 然后 python -m lib.xueqiu_browser login 一次性登录。或 --skip-login-sources 接受跳过（其他维度不影响）。"
+      },
+      "source": "xueqiu + taoguba + 10jqka + dpswang",
+      "fallback": true
+    },
+    "4_peers": {
+      "ticker": "06862.HK",
+      "data": {
+        "industry": "餐饮",
+        "peer_table": [
+          {
+            "ticker": "09922.HK",
+            "name": "九毛九",
+            "period": "2026H1",
+            "currency": "CNY",
+            "revenue_growth": -13.2,
+            "revenue_yi": 23.91,
+            "net_profit_yi": 0.758,
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082802450.pdf"
+          },
+          {
+            "ticker": "00520.HK",
+            "name": "呷哺呷哺",
+            "period": "2026H1",
+            "currency": "CNY",
+            "revenue_growth": -23.1,
+            "revenue_yi": 14.93,
+            "net_profit_yi": -0.36,
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082701671.pdf"
+          },
+          {
+            "ticker": "09658.HK",
+            "name": "特海国际",
+            "period": "2026H1",
+            "currency": "USD",
+            "revenue_growth": 12.1,
+            "revenue_yi": 4.4475,
+            "net_profit_yi": 0.0219,
+            "url": "https://ir.superhiinternational.com/node/7761/html"
+          }
+        ]
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082802450.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082701671.pdf · https://ir.superhiinternational.com/node/7761/html",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "15_events": {
+      "ticker": "06862.HK",
+      "data": {
+        "_issuer_identity_version": 2,
+        "event_timeline": [
+          "2026-11-05T12:00 · 截至2026年10月31日止月份之股份發行人的證券變動月報表",
+          "2026-11-02T18:48 · 自願性公告 - 我們的控股股東、執行董事、董事會主席兼首席執行官悉數償還貸款",
+          "2026-10-26T22:40 · 重續持續關連交易",
+          "2026-10-12T19:02 · 關連交易 - 向我們的控股股東、執行董事、董事會主席兼首席執行官提供財務資助",
+          "2026-10-07T12:00 · 截至2026年9月30日止月份之股份發行人的證券變動月報表",
+          "2026-09-22T16:31 · 2026中期報告",
+          "2026-09-09T17:17 · 自願性公告 - 控股股東減持股份",
+          "2026-09-04T18:01 · 截至2026年8月31日止月份之股份發行人的證券變動月報表",
+          "2026-08-25T18:39 · 2026年6月30日止六個月的中期股息",
+          "2026-08-25T18:31 · 截至2026年6月30日止六個月的中期業績及中期股息及暫停辦理過戶登記手續公告",
+          "2026-08-12T16:39 · 董事會會議日期",
+          "2026-08-05T17:02 · 截至2026年7月31日止月份之股份發行人的證券變動月報表",
+          "2026-07-07T18:06 · 截至2026年6月30日止月份之股份發行人的證券變動月報表",
+          "2026-06-04T17:09 · 截至2026年5月31日止月份之股份發行人的證券變動月報表",
+          "2026-05-22T18:20 · 自願公告 - 控股股東、執行董事、董事會主席兼首席執行官增持本公司股份",
+          "2026-05-19T19:43 · 經修訂及經重列組織章程細則",
+          "2026-05-19T18:39 · 於2026年5月19日舉行的股東週年大會的投票表決結果",
+          "2026-05-06T17:57 · 截至2026年4月30日止月份之股份發行人的證券變動月報表",
+          "2026-04-24T20:40 · 2025年度環境、社會及管治報告",
+          "2026-04-24T16:51 · 股東週年大會適用的代表委任表格"
+        ],
+        "recent_notices": [
+          {
+            "date": "2026-11-05T12:00",
+            "title": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500324_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-11-02T18:48",
+            "title": "自願性公告 - 我們的控股股東、執行董事、董事會主席兼首席執行官悉數償還貸款",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1102/2026110203380_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-10-26T22:40",
+            "title": "重續持續關連交易",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601272_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-10-12T19:02",
+            "title": "關連交易 - 向我們的控股股東、執行董事、董事會主席兼首席執行官提供財務資助",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200894_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-10-07T12:00",
+            "title": "截至2026年9月30日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1007/2026100700404_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-09-22T16:31",
+            "title": "2026中期報告",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200357_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-09-09T17:17",
+            "title": "自願性公告 - 控股股東減持股份",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0909/2026090900517_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-09-04T18:01",
+            "title": "截至2026年8月31日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0904/2026090401558_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-08-25T18:39",
+            "title": "2026年6月30日止六個月的中期股息",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0825/2026082501144_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-08-25T18:31",
+            "title": "截至2026年6月30日止六個月的中期業績及中期股息及暫停辦理過戶登記手續公告",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0825/2026082501120_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-08-12T16:39",
+            "title": "董事會會議日期",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200419_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-08-05T17:02",
+            "title": "截至2026年7月31日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501011_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-07-07T18:06",
+            "title": "截至2026年6月30日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0707/2026070701269_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-06-04T17:09",
+            "title": "截至2026年5月31日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0604/2026060401404_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-05-22T18:20",
+            "title": "自願公告 - 控股股東、執行董事、董事會主席兼首席執行官增持本公司股份",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0522/2026052201151_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-05-19T19:43",
+            "title": "經修訂及經重列組織章程細則",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0519/2026051901092_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-05-19T18:39",
+            "title": "於2026年5月19日舉行的股東週年大會的投票表決結果",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0519/2026051900860_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-05-06T17:57",
+            "title": "截至2026年4月30日止月份之股份發行人的證券變動月報表",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0506/2026050601853_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-04-24T20:40",
+            "title": "2025年度環境、社會及管治報告",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042403014_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-04-24T16:51",
+            "title": "股東週年大會適用的代表委任表格",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401181_c.pdf",
+            "source": "hkexnews",
+            "stock_code": "06862",
+            "issuer_name": "海底撈",
+            "issuer_verified": true
+          }
+        ],
+        "recent_news": [],
+        "disclosures_count": 20,
+        "news_count": 0,
+        "catalyst": [],
+        "catalysts": [],
+        "warnings": [],
+        "_note": "仅包含公司归属已核验的公告及新闻；缺失公告不代表没有风险。"
+      },
+      "source": "hkexnews + company-matched web_search",
+      "fallback": false
+    },
+    "17_sentiment": {
+      "ticker": "06862.HK",
+      "data": {
+        "xueqiu_heat": "热度 0",
+        "thermometer_value": 0,
+        "guba_volume": "0 条结果",
+        "big_v_mentions": "—",
+        "sentiment_data_available": false,
+        "positive_pct": "—",
+        "sentiment_label": "数据缺失（未抓到有效舆情，非真实负面）",
+        "platform_snippets": {
+          "xueqiu": [],
+          "guba": [],
+          "zhihu": [],
+          "weibo": [],
+          "xiaohongshu": [],
+          "big_v": []
+        },
+        "platform_hits": {
+          "xueqiu": 0,
+          "guba": 0,
+          "zhihu": 0,
+          "weibo": 0,
+          "xiaohongshu": 0,
+          "big_v": 0
+        },
+        "total_mentions": 0,
+        "hot_trend_mentions": {
+          "stock_name": "海底捞",
+          "keywords_used": [
+            "海底捞",
+            "海底"
+          ],
+          "platforms_checked": 6,
+          "platforms_ok": 6,
+          "mentions": {
+            "weibo": [],
+            "zhihu": [],
+            "baidu": [],
+            "douyin": [],
+            "toutiao": [],
+            "bilibili": []
+          },
+          "total_hits": 0,
+          "by_platform_count": {
+            "weibo": 0,
+            "zhihu": 0,
+            "baidu": 0,
+            "douyin": 0,
+            "toutiao": 0,
+            "bilibili": 0
+          }
+        },
+        "hot_trend_hit_count": 0,
+        "news_multi_source": {
+          "stock_name": "海底捞",
+          "stock_code": "6862",
+          "sources": {
+            "jin10": [],
+            "em_kuaixun": [],
+            "em_stock_ann": [],
+            "ths_news_today": []
+          },
+          "total_hits": 0,
+          "sources_ok": 0
+        },
+        "news_sources_ok": 0,
+        "news_total_hits": 0
+      },
+      "source": "web_search:ddgs + hottrend (6 热榜) + news_providers (v2.13.7 · 4 新闻源)",
+      "fallback": false
+    },
+    "18_trap": {
+      "ticker": "06862.HK",
+      "data": {
+        "trap_level": "⚪ 未评估",
+        "trap_score": null,
+        "signals_hit_count": 0,
+        "signals_hit_detail": [],
+        "recommendation": "公开推广样本不足。",
+        "evidence_count": 0,
+        "high_risk_kw": "未发现",
+        "snippets": {
+          "signal_1": [],
+          "signal_2": [],
+          "signal_3": [],
+          "signal_4": [],
+          "signal_5": [],
+          "signal_6": [],
+          "signal_7": [],
+          "signal_8": []
+        }
+      },
+      "source": "web_search:ddgs + 8-signal keyword scan",
+      "fallback": false
+    },
+    "3_macro": {
+      "ticker": "06862.HK",
+      "data": {
+        "rate_cycle": "10月LPR持平",
+        "fx_cny_per_hkd": 0.85642,
+        "catering_yoy": 2.4,
+        "demand": "前三季餐饮收入+2.4%；9月+2.1%；同店日销−1.4%"
+      },
+      "source": "人工核验：https://www.stats.gov.cn/sj/zxfb/202610/t20261019_1965614.html · https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2 · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "14_moat": {
+      "ticker": "06862.HK",
+      "data": {
+        "scores": {
+          "intangible": 7,
+          "switching": 2,
+          "network": 2,
+          "scale": 7,
+          "cost": 5
+        },
+        "note": "研究员主观10分制。直营规模有采购和品控效率，消费者转换成本低；同店翻台3.9持平"
+      },
+      "source": "人工核验：https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200356.pdf · https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0424/2026042401134.pdf",
+      "fallback": true,
+      "fallback_reason": "港交所原件或公开数据复核"
+    },
+    "20_valuation_models": {
+      "data": {
+        "dcf": {
+          "method": "五年租赁调整现金流折现",
+          "wacc_breakdown": {
+            "wacc": 0.095,
+            "cost_of_equity": null,
+            "after_tax_kd": null
+          },
+          "base_fcf_yi": 26.21,
+          "projected_fcf_yi": [
+            27.256,
+            28.347,
+            29.481,
+            30.66,
+            31.886
+          ],
+          "pv_fcf_yi": [
+            24.892,
+            23.641,
+            22.454,
+            21.326,
+            20.255
+          ],
+          "year_labels": [
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5"
+          ],
+          "pv_explicit_yi": 112.57,
+          "terminal_value_yi": 466.9,
+          "tv_pv_yi": 296.59,
+          "tv_pct_of_ev": 72.5,
+          "enterprise_value_yi": 409.16,
+          "net_debt_yi": -15,
+          "equity_value_yi": 424.16,
+          "shares_yi": 55.74,
+          "currency": "CNY",
+          "price_currency": "HKD",
+          "intrinsic_per_share": 8.89,
+          "current_price": 10.08,
+          "safety_margin_pct": -11.8,
+          "verdict": "观察 · 基准价值低于收盘价",
+          "assumptions": {
+            "stage1_growth": 0.04,
+            "stage1_years": 5,
+            "stage2_growth": 0.04,
+            "stage2_years": 0,
+            "terminal_g": 0.025
+          },
+          "sensitivity_table": {
+            "wacc_axis": [
+              "7.5%",
+              "8.5%",
+              "9.5%",
+              "10.5%",
+              "11.5%"
+            ],
+            "g_axis": [
+              "1.5%",
+              "2.0%",
+              "2.5%",
+              "3.0%",
+              "3.5%"
+            ],
+            "values_per_share": [
+              [
+                10.67,
+                11.43,
+                12.34,
+                13.45,
+                14.84
+              ],
+              [
+                9.18,
+                9.71,
+                10.32,
+                11.06,
+                11.93
+              ],
+              [
+                8.06,
+                8.44,
+                8.89,
+                9.4,
+                9.99
+              ],
+              [
+                7.18,
+                7.48,
+                7.81,
+                8.18,
+                8.61
+              ],
+              [
+                6.49,
+                6.71,
+                6.97,
+                7.25,
+                7.57
+              ]
+            ],
+            "center_cell": 8.89
+          },
+          "methodology_log": [
+            "TTM自由现金流26.21亿元人民币，已扣现金资本开支及租赁偿付。",
+            "五年增速4%，折现率9.5%为情景假设，永续增速2.5%。",
+            "企业价值加可分配净现金15亿元人民币，按55.74亿股与0.85642汇率折算。",
+            "压力/基准/乐观情景分别为5.51/8.89/13.17港元。",
+            "现价反推五年现金流增速约7.1%。"
+          ]
+        },
+        "comps": {
+          "method": "研报同行2027E PE平均",
+          "peer_stats": {},
+          "target_percentile": {},
+          "implied_price": {
+            "2027E 同行平均 PE": 11.01
+          },
+          "current_price": 10.08,
+          "valuation_verdict": "沿用海通国际预测，属于相对估值情景",
+          "peer_count": 7,
+          "methodology_log": [
+            "44.48亿元人民币 × 11.82 ÷ 55.74亿股 ÷ 0.85642。",
+            "均值及盈利预测沿用研报快照，行业与市场范围不同。",
+            "研报摘要 https://reportify.cn/reports/1304897161271578624"
+          ]
+        },
+        "lbo": {
+          "method": "以租赁调整现金流作入场及退出基数",
+          "entry_ebitda_yi": 26.21,
+          "entry_ev_yi": 466.19,
+          "leverage_turns": 3.56,
+          "entry_debt_yi": 93.24,
+          "entry_equity_yi": 372.95,
+          "exit_multiple": 16,
+          "exit_ev_yi": 510.18,
+          "ebitda_path": [
+            27.26,
+            28.35,
+            29.48,
+            30.66,
+            31.89
+          ],
+          "debt_schedule": [
+            93.24,
+            70.64,
+            45.83,
+            18.64,
+            0.0,
+            0.0
+          ],
+          "irr_pct": 8.24,
+          "moic": 1.48,
+          "verdict": "基准低于15%假设门槛",
+          "methodology_log": [
+            "入场企业价值按现价市值减15亿元可分配净现金。",
+            "融资20%，利率5%，五年现金流增长4%。",
+            "退出EV为第五年自由现金流16倍。未计溢价及交易费。"
+          ]
+        },
+        "three_statement": {
+          "method": "3-Statement Projection (5-year, linked)",
+          "years": [
+            "Y1",
+            "Y2",
+            "Y3",
+            "Y4",
+            "Y5"
+          ],
+          "income_statement": {
+            "revenue": [
+              502.42,
+              552.66,
+              596.88,
+              632.69,
+              664.32
+            ],
+            "cogs": [
+              326.57,
+              359.23,
+              387.97,
+              411.25,
+              431.81
+            ],
+            "gross_profit": [
+              175.85,
+              193.43,
+              208.91,
+              221.44,
+              232.51
+            ],
+            "opex": [
+              90.44,
+              99.48,
+              107.44,
+              113.88,
+              119.58
+            ],
+            "ebit": [
+              85.41,
+              93.95,
+              101.47,
+              107.56,
+              112.93
+            ],
+            "tax": [
+              21.35,
+              23.49,
+              25.37,
+              26.89,
+              28.23
+            ],
+            "net_income": [
+              64.06,
+              70.46,
+              76.1,
+              80.67,
+              84.7
+            ]
+          },
+          "cash_flow": {
+            "net_income": [
+              64.06,
+              70.46,
+              76.1,
+              80.67,
+              84.7
+            ],
+            "dep_amort": [
+              20.1,
+              22.11,
+              23.88,
+              25.31,
+              26.57
+            ],
+            "nwc_change": [
+              5.38,
+              5.02,
+              4.42,
+              3.58,
+              3.16
+            ],
+            "ocf": [
+              78.78,
+              87.55,
+              95.56,
+              102.4,
+              108.11
+            ],
+            "capex": [
+              25.12,
+              27.63,
+              29.84,
+              31.63,
+              33.22
+            ],
+            "fcf": [
+              53.66,
+              59.92,
+              65.72,
+              70.77,
+              74.89
+            ]
+          },
+          "balance_sheet": {
+            "equity_rollforward": [
+              161.71,
+              232.17,
+              308.27,
+              388.94,
+              473.64
+            ]
+          },
+          "assumptions": {
+            "revenue_growth_y1": 0.12,
+            "revenue_growth_y2": 0.1,
+            "revenue_growth_y3": 0.08,
+            "revenue_growth_y4": 0.06,
+            "revenue_growth_y5": 0.05,
+            "gross_margin": 0.35,
+            "opex_pct_revenue": 0.18,
+            "tax_rate": 0.25,
+            "capex_pct_revenue": 0.05,
+            "dep_pct_revenue": 0.04,
+            "nwc_pct_revenue": 0.1,
+            "revenue_growth": 0.04,
+            "terminal_margin": 0.09
+          },
+          "growth_path": [
+            "12%",
+            "10%",
+            "8%",
+            "6%",
+            "5%"
+          ],
+          "methodology_log": [
+            "示意预测；金额为人民币亿元，按收入与利润率假设推演。",
+            "Step 1 · 基期营收 448.6 亿 · 5 年增速路径 ['12%', '10%', '8%', '6%', '5%']",
+            "Step 2 · 毛利率假设 35% · 运营费率 18%",
+            "Step 3 · Y5 营收 664.3 亿 · 净利 84.7 亿",
+            "Step 4 · 5 年累计 FCF 325.0 亿"
+          ]
+        },
+        "summary": {
+          "dcf_intrinsic": 8.89,
+          "dcf_safety_margin_pct": -11.8,
+          "dcf_verdict": "观察 · 基准价值低于收盘价",
+          "lbo_irr_pct": 8.24,
+          "lbo_verdict": "基准低于15%假设门槛",
+          "comps_verdict": "沿用海通国际预测，属于相对估值情景"
+        }
+      },
+      "source": "逐项重算：港交所现金流量表、已发行股数及11月10日汇率",
+      "fallback": false
+    },
+    "21_research_workflow": {
+      "data": {
+        "initiating_coverage": {
+          "method": "Initiating Coverage (JPM/GS/MS style)",
+          "company": {
+            "name": "海底捞",
+            "code": "06862",
+            "industry": "餐饮 / 连锁火锅"
+          },
+          "headline": {
+            "rating": "观察",
+            "target_price": 8.89,
+            "current_price": 10.08,
+            "upside_pct": -11.8,
+            "report_date": "2026-11-11"
+          },
+          "executive_summary": "以10.08港元收盘价为锚，基准DCF 8.89港元。跟踪直营同店、核心利润率及现金转化。",
+          "investment_thesis": [
+            {
+              "pillar": "盈利质量优秀",
+              "evidence": "过去 5 年有 4 年 ROE > 15%，体现真实回报能力",
+              "weight": "High"
+            },
+            {
+              "pillar": "自由现金流健康",
+              "evidence": "持续正 FCF 支撑分红与再投资",
+              "weight": "Medium"
+            }
+          ],
+          "key_risks": [
+            {
+              "risk": "ROE 波动大",
+              "severity": "Medium",
+              "detail": "5 年 ROE 最低点 -45.9%"
+            },
+            {
+              "risk": "宏观 / 行业需求下行",
+              "severity": "Medium",
+              "detail": "景气周期风险"
+            }
+          ],
+          "valuation_bridge": [
+            {
+              "method": "DCF",
+              "value": 8.89,
+              "rationale": "WACC 9.5% + 终值 g 2.5%"
+            },
+            {
+              "method": "Comps (2027E 同行平均 PE)",
+              "value": 11.01,
+              "rationale": "同行中位数估值法"
+            },
+            {
+              "method": "Blended",
+              "value": 9.95,
+              "rationale": "平均 2 种估值方法"
+            }
+          ],
+          "financial_snapshot": {
+            "revenue_history_yi": [
+              390.97,
+              310.39,
+              414.53,
+              427.55,
+              432.25
+            ],
+            "net_profit_history_yi": [
+              -41.63,
+              13.74,
+              44.99,
+              47.08,
+              40.5
+            ],
+            "roe_history": [
+              -45.88,
+              17.9,
+              47.43,
+              42.88,
+              39.61
+            ]
+          },
+          "coverage_universe_pos": {
+            "analyst_count": 0.0,
+            "ratings": {},
+            "consensus": "—"
+          },
+          "methodology_log": [
+            "Task 1 · 公司研究 — 业务/管理层/行业扫描 ✓",
+            "Task 2 · 财务模型 — 5 年历史 + 3 年预测 ✓",
+            "Task 3 · 估值分析 — 3 种方法混合 ✓",
+            "Task 4 · 综合评级 — 持有 (Neutral)，目标价 ¥9.95"
+          ]
+        },
+        "earnings_analysis": {
+          "method": "Post-Earnings Analysis",
+          "headline": "双超预期：营收 +5.3% / 净利 +5.3%",
+          "latest": {
+            "revenue_yi": 432.25,
+            "net_profit_yi": 40.5,
+            "revenue_yoy_pct": 1.1,
+            "net_profit_yoy_pct": -14.0
+          },
+          "consensus": {
+            "rev": 410.6375,
+            "ni": 38.475
+          },
+          "beat_miss": {
+            "revenue_vs_consensus_pct": 5.3,
+            "revenue_tag": "🟢 大幅超预期",
+            "net_profit_vs_consensus_pct": 5.3,
+            "net_profit_tag": "🟢 大幅超预期"
+          },
+          "thesis_impact": "💪 强化看多",
+          "methodology_log": [
+            "Step 1 · 最新季度营收 432.2 亿 vs 共识 410.6 → 🟢 大幅超预期",
+            "Step 2 · 最新季度净利 40.5 亿 vs 共识 38.5 → 🟢 大幅超预期",
+            "Step 3 · 同比：营收 +1.1% · 净利 -14.0%",
+            "Step 4 · 结论：双超预期：营收 +5.3% / 净利 +5.3%"
+          ]
+        },
+        "catalyst_calendar": {
+          "method": "Catalyst Calendar",
+          "generated_at": "2026-11-11",
+          "events": [
+            {
+              "date": "2026-08-25",
+              "event": "T18:39 · 2026年6月30日止六個月的中期股息",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-08-25",
+              "event": "T18:31 · 截至2026年6月30日止六個月的中期業績及中期股息及暫停辦理過戶登記手續公告",
+              "category": "past",
+              "impact": "medium"
+            },
+            {
+              "date": "2026-09-04",
+              "event": "T18:01 · 截至2026年8月31日止月份之股份發行人的證券變動月報表",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-09-09",
+              "event": "T17:17 · 自願性公告 - 控股股東減持股份",
+              "category": "past",
+              "impact": "medium"
+            },
+            {
+              "date": "2026-09-22",
+              "event": "T16:31 · 2026中期報告",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-10-07",
+              "event": "T12:00 · 截至2026年9月30日止月份之股份發行人的證券變動月報表",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-10-12",
+              "event": "T19:02 · 關連交易 - 向我們的控股股東、執行董事、董事會主席兼首席執行官提供財務資助",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-10-26",
+              "event": "T22:40 · 重續持續關連交易",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-11-02",
+              "event": "T18:48 · 自願性公告 - 我們的控股股東、執行董事、董事會主席兼首席執行官悉數償還貸款",
+              "category": "past",
+              "impact": "medium"
+            },
+            {
+              "date": "2026-11-05",
+              "event": "T12:00 · 截至2026年10月31日止月份之股份發行人的證券變動月報表",
+              "category": "past",
+              "impact": "low"
+            },
+            {
+              "date": "2026-12-11",
+              "event": "股东大会 / 投资者关系活动",
+              "category": "corporate",
+              "impact": "medium"
+            },
+            {
+              "date": "2026-12-23",
+              "event": "美联储 FOMC 会议 (参考)",
+              "category": "macro",
+              "impact": "low"
+            },
+            {
+              "date": "2027-01-10",
+              "event": "行业展会 / 新品发布窗口",
+              "category": "industry",
+              "impact": "medium"
+            },
+            {
+              "date": "2027-03-31",
+              "event": "季报披露（预计 2027 Q1）",
+              "category": "earnings",
+              "impact": "high",
+              "expectation": "关注营收/净利超预期与否"
+            }
+          ],
+          "high_impact_count": 1,
+          "past_event_count": 10,
+          "forward_event_count": 0,
+          "next_30d": [
+            {
+              "date": "2026-11-27",
+              "event": "公司预计在此日前寄发关联交易通函",
+              "impact": "high",
+              "source": "港交所10月26日公告"
+            }
+          ],
+          "methodology_log": [
+            "Step 1 · 从 15_events 提取 10 条历史事件",
+            "Step 2 · 预排 0 个未来节点（季报/股东会/展会/FOMC）",
+            "Step 3 · 共 14 个节点，其中 1 个高影响"
+          ],
+          "next_60d": [],
+          "next_90d": []
+        },
+        "thesis_tracker": {
+          "method": "Thesis Tracker",
+          "direction": "long",
+          "pillars": [
+            {
+              "pillar": "营收增速 > 15%",
+              "original_target": "维持 15%+",
+              "current_status": "11.7%",
+              "trend": "concerning",
+              "verdict": "⚠️"
+            },
+            {
+              "pillar": "ROE > 15%",
+              "original_target": "15%+",
+              "current_status": "0.0%",
+              "trend": "concerning",
+              "verdict": "⚠️"
+            },
+            {
+              "pillar": "技术面处于 Stage 2",
+              "original_target": "Stage 2 上升",
+              "current_status": "Stage 4 下跌",
+              "trend": "watch",
+              "verdict": "⚠️"
+            },
+            {
+              "pillar": "估值合理 (PE < 40)",
+              "original_target": "< 40",
+              "current_status": "12",
+              "trend": "stable",
+              "verdict": "✅"
+            },
+            {
+              "pillar": "FCF 为正",
+              "original_target": "持续正 FCF",
+              "current_status": "正",
+              "trend": "stable",
+              "verdict": "✅"
+            }
+          ],
+          "pillars_passed": 2,
+          "pillars_total": 5,
+          "thesis_intact_pct": 40.0,
+          "conviction": "Low",
+          "recommended_action": "Trim / Review",
+          "methodology_log": [
+            "Step 1 · 构建 5 条核心假设支柱",
+            "Step 2 · 当前命中 2/5，完好率 40.0%",
+            "Step 3 · 信念度 Low，建议 Trim / Review"
+          ]
+        },
+        "morning_note": {
+          "method": "Morning Note",
+          "date": "2026-11-11",
+          "top_call": "海底捞 · 技术面 Stage 4 下跌，暂观望",
+          "recommendation": "无明确信号",
+          "bullets": [
+            "【价格】¥10.08 · PE 12x",
+            "【技术面】Stage 4 下跌 · 均线 均线交错",
+            "【资金面】龙虎榜 None 次 · 主力资金 —",
+            "【舆情】热度 0 · 数据缺失（未抓到有效舆情，非真实负面）"
+          ],
+          "methodology_log": [
+            "Step 1 · 扫描技术面 + 资金面 + 舆情",
+            "Step 2 · Top Call: 海底捞 · 技术面 Stage 4 下跌，暂观望"
+          ]
+        },
+        "idea_screens": {
+          "value": {
+            "method": "Idea Screen (value)",
+            "checks": [
+              {
+                "criterion": "PE < 15",
+                "pass": true
+              },
+              {
+                "criterion": "PB < 1.5",
+                "pass": false
+              },
+              {
+                "criterion": "股息率 > 3%",
+                "pass": true
+              },
+              {
+                "criterion": "FCF > 0",
+                "pass": true
+              },
+              {
+                "criterion": "资产负债率 < 50%",
+                "pass": false
+              }
+            ],
+            "passed": 3,
+            "total": 5,
+            "pass_rate_pct": 60.0,
+            "fits_screen": false,
+            "verdict": "🟡 部分命中 (3/5)",
+            "methodology_log": [
+              "Step 1 · value 筛选 — 5 条标准",
+              "Step 2 · 命中 3/5 (60.0%)"
+            ]
+          },
+          "growth": {
+            "method": "Idea Screen (growth)",
+            "checks": [
+              {
+                "criterion": "营收增速 > 15%",
+                "pass": false
+              },
+              {
+                "criterion": "净利增速 > 20%",
+                "pass": false
+              },
+              {
+                "criterion": "毛利率扩张",
+                "pass": false
+              },
+              {
+                "criterion": "ROE > 15%",
+                "pass": false
+              }
+            ],
+            "passed": 0,
+            "total": 4,
+            "pass_rate_pct": 0.0,
+            "fits_screen": false,
+            "verdict": "🟡 部分命中 (0/4)",
+            "methodology_log": [
+              "Step 1 · growth 筛选 — 4 条标准",
+              "Step 2 · 命中 0/4 (0.0%)"
+            ]
+          },
+          "quality": {
+            "method": "Idea Screen (quality)",
+            "checks": [
+              {
+                "criterion": "ROE 连续 5 年 > 15%",
+                "pass": true
+              },
+              {
+                "criterion": "净利率 > 15%",
+                "pass": false
+              },
+              {
+                "criterion": "FCF 持续为正",
+                "pass": true
+              },
+              {
+                "criterion": "资产负债率 < 50%",
+                "pass": false
+              },
+              {
+                "criterion": "护城河 ≥ 28/40",
+                "pass": false
+              }
+            ],
+            "passed": 2,
+            "total": 5,
+            "pass_rate_pct": 40.0,
+            "fits_screen": false,
+            "verdict": "🟡 部分命中 (2/5)",
+            "methodology_log": [
+              "Step 1 · quality 筛选 — 5 条标准",
+              "Step 2 · 命中 2/5 (40.0%)"
+            ]
+          },
+          "gulp": {
+            "method": "Idea Screen (gulp)",
+            "checks": [
+              {
+                "criterion": "PEG < 1.5",
+                "pass": true
+              },
+              {
+                "criterion": "营收增速 > 15%",
+                "pass": false
+              },
+              {
+                "criterion": "ROE > 15%",
+                "pass": false
+              },
+              {
+                "criterion": "Stage 2",
+                "pass": false
+              }
+            ],
+            "passed": 1,
+            "total": 4,
+            "pass_rate_pct": 25.0,
+            "fits_screen": false,
+            "verdict": "🟡 部分命中 (1/4)",
+            "methodology_log": [
+              "Step 1 · gulp 筛选 — 4 条标准",
+              "Step 2 · 命中 1/4 (25.0%)"
+            ]
+          }
+        },
+        "sector_overview": {
+          "method": "Sector Overview",
+          "industry": "餐饮",
+          "market_size": {
+            "tam": "—",
+            "growth": 2.4,
+            "lifecycle": "成熟，客流及客单分化"
+          },
+          "value_chain": {
+            "upstream": "颐海调味品、蜀海加工食材及物流、扎鲁特旗海底捞供应牛羊肉",
+            "company": [],
+            "downstream": "直营顾客、外卖平台和加盟商"
+          },
+          "competitive_map": [
+            {
+              "ticker": "09922.HK",
+              "name": "九毛九",
+              "period": "2026H1",
+              "currency": "CNY",
+              "revenue_growth": -13.2,
+              "revenue_yi": 23.91,
+              "net_profit_yi": 0.758,
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082802450.pdf"
+            },
+            {
+              "ticker": "00520.HK",
+              "name": "呷哺呷哺",
+              "period": "2026H1",
+              "currency": "CNY",
+              "revenue_growth": -23.1,
+              "revenue_yi": 14.93,
+              "net_profit_yi": -0.36,
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082701671.pdf"
+            },
+            {
+              "ticker": "09658.HK",
+              "name": "特海国际",
+              "period": "2026H1",
+              "currency": "USD",
+              "revenue_growth": 12.1,
+              "revenue_yi": 4.4475,
+              "net_profit_yi": 0.0219,
+              "url": "https://ir.superhiinternational.com/node/7761/html"
+            }
+          ],
+          "peer_count": 3,
+          "methodology_log": [
+            "Step 1 · 行业=餐饮，生命周期=成熟，客流及客单分化",
+            "Step 2 · TAM — · 增速 2.4",
+            "Step 3 · 识别同行 3 家"
+          ]
+        },
+        "summary": {
+          "rec_rating": "观察",
+          "target_price": 8.89,
+          "upside_pct": -11.8,
+          "thesis_intact_pct": 40.0,
+          "next_high_impact_event": "关联交易通函",
+          "earnings_headline": "双超预期：营收 +5.3% / 净利 +5.3%",
+          "screens_passed": 0
+        }
+      },
+      "source": "compute:research_workflow (7 research products)",
+      "fallback": false
+    },
+    "22_deep_methods": {
+      "data": {
+        "ic_memo": {
+          "method": "Investment Committee Memo",
+          "sections": {
+            "I_exec_summary": {
+              "headline": "观察 · 暂缓",
+              "recommendation": "跟踪同店日销、核心利润率及租赁后现金流。",
+              "top_3_risks": [
+                {
+                  "risk": "护城河偏弱",
+                  "detail": "4 项合计 18/40",
+                  "severity": "Medium",
+                  "mitigant": "密切跟踪市场份额变化"
+                }
+              ]
+            },
+            "II_company_overview": {
+              "name": "海底捞",
+              "industry": "餐饮 / 连锁火锅",
+              "business_model": "—",
+              "market_cap_yi": 481.18745606399995,
+              "revenue_last_yi": 448.58967
+            },
+            "III_industry_market": {
+              "industry_name": "餐饮 / 连锁火锅",
+              "tam": "—",
+              "growth": 2.4,
+              "lifecycle": "成熟，客流及客单分化"
+            },
+            "IV_financial_analysis": {
+              "roe_5yr": [
+                -45.88,
+                17.9,
+                47.43,
+                42.88,
+                39.61
+              ],
+              "revenue_hist_yi": [
+                390.97,
+                310.39,
+                414.53,
+                427.55,
+                432.25
+              ],
+              "net_profit_hist_yi": [
+                -41.63,
+                13.74,
+                44.99,
+                47.08,
+                40.5
+              ],
+              "net_margin": 9.0,
+              "debt_ratio": 53.78,
+              "fcf_positive": true
+            },
+            "V_valuation": {
+              "dcf": {
+                "intrinsic_per_share": 8.89,
+                "safety_margin_pct": -11.8,
+                "verdict": "观察 · 基准价值低于收盘价"
+              },
+              "comps": {
+                "target_percentile": {},
+                "implied_price": {
+                  "2027E 同行平均 PE": 11.01
+                },
+                "verdict": "沿用海通国际预测，属于相对估值情景"
+              }
+            },
+            "VI_risks_mitigants": [
+              {
+                "risk": "护城河偏弱",
+                "detail": "4 项合计 18/40",
+                "severity": "Medium",
+                "mitigant": "密切跟踪市场份额变化"
+              }
+            ],
+            "VII_returns_scenarios": [
+              {
+                "scenario": "Bull (乐观)",
+                "price_target": 11.56,
+                "return_pct": 14.7,
+                "probability_pct": 25,
+                "assumptions": "超预期增速 + 估值扩张"
+              },
+              {
+                "scenario": "Base (中性)",
+                "price_target": 8.89,
+                "return_pct": -11.8,
+                "probability_pct": 50,
+                "assumptions": "DCF 基础假设"
+              },
+              {
+                "scenario": "Bear (悲观)",
+                "price_target": 6.22,
+                "return_pct": -38.3,
+                "probability_pct": 25,
+                "assumptions": "增速放缓 + 估值压缩"
+              }
+            ],
+            "VIII_recommendation": "可批准但建议分批建仓，控制初始仓位"
+          },
+          "methodology_log": [
+            "Step 1 · 汇总公司/行业/财务快照",
+            "Step 2 · 结合 DCF/Comps 形成估值结论",
+            "Step 3 · 构建三情景回报",
+            "Step 4 · 出具建议: 可批准但建议分批建仓，控制初始仓位"
+          ]
+        },
+        "unit_economics": {
+          "method": "Margin Decomposition",
+          "business_type": "non-recurring",
+          "revenue_yi": 448.58967,
+          "gross_margin_pct": 30.0,
+          "opex_pct_of_rev": 21.0,
+          "net_margin_pct": 9.0,
+          "waterfall": [
+            {
+              "stage": "收入",
+              "value": 100,
+              "label": "100%"
+            },
+            {
+              "stage": "毛利",
+              "value": 30.0,
+              "label": "30%"
+            },
+            {
+              "stage": "税前",
+              "value": 12.0,
+              "label": "12%"
+            },
+            {
+              "stage": "净利",
+              "value": 9.0,
+              "label": "9%"
+            }
+          ],
+          "methodology_log": [
+            "Step 1 · 营收 448.6 亿",
+            "Step 2 · 毛利率 30% · 运营费率 21% · 净利率 9%"
+          ]
+        },
+        "value_creation_plan": {
+          "method": "Value Creation Plan (EBITDA Bridge)",
+          "current_ebitda_yi": 67.5,
+          "current_margin_pct": 15.0,
+          "levers": [
+            {
+              "category": "Revenue · Organic Growth",
+              "lever": "现有市场渗透率提升",
+              "current_state": "市场份额 ~—%",
+              "target_state": "5 年内提升 3pp",
+              "ebitda_impact_yi": 3.36,
+              "timeline": "Y1-Y5",
+              "confidence": "Medium"
+            },
+            {
+              "category": "Revenue · Cross-Sell",
+              "lever": "新产品交叉销售",
+              "current_state": "核心产品",
+              "target_state": "5 年新增 20% 营收占比",
+              "ebitda_impact_yi": 17.94,
+              "timeline": "Y2-Y5",
+              "confidence": "Medium"
+            },
+            {
+              "category": "Margin · Pricing Power",
+              "lever": "定价优化",
+              "current_state": "毛利率 30%",
+              "target_state": "+300bps",
+              "ebitda_impact_yi": 13.46,
+              "timeline": "Y1-Y3",
+              "confidence": "High"
+            },
+            {
+              "category": "Margin · COGS",
+              "lever": "采购集中 + 供应链优化",
+              "current_state": "多点采购",
+              "target_state": "−200bps COGS",
+              "ebitda_impact_yi": 8.97,
+              "timeline": "Y1-Y2",
+              "confidence": "High"
+            },
+            {
+              "category": "Capital Efficiency",
+              "lever": "营运资本优化",
+              "current_state": "存货周转 —",
+              "target_state": "存货周转 +20%",
+              "ebitda_impact_yi": 4.49,
+              "timeline": "Y1-Y3",
+              "confidence": "Medium"
+            }
+          ],
+          "total_uplift_yi": 48.22,
+          "target_ebitda_yi": 115.72,
+          "target_margin_pct": 25.8,
+          "hundred_day_priorities": [
+            "Day 30 · 财务 QoE 验证",
+            "Day 60 · 新管理层招募",
+            "Day 90 · 季度 KPI 仪表盘上线"
+          ],
+          "methodology_log": [
+            "Step 1 · 现 EBITDA 67.5 亿 (15% 利润率)",
+            "Step 2 · 5 大杠杆合计加厚 48.2 亿",
+            "Step 3 · 目标 EBITDA 115.7 亿 (26%)"
+          ]
+        },
+        "dd_checklist": {
+          "method": "Due Diligence Checklist",
+          "workstreams": [
+            {
+              "workstream": "财务尽调 (Financial DD)",
+              "items": [
+                {
+                  "item": "5 年营收 / 净利历史",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "ROE / 毛利 / 净利率",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "资产负债率",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "自由现金流",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "审计意见 / 会计政策",
+                  "status": "⚪ 需人工核查"
+                }
+              ]
+            },
+            {
+              "workstream": "商业尽调 (Commercial DD)",
+              "items": [
+                {
+                  "item": "市场规模 (TAM)",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "竞争格局",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "客户集中度",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "上下游分析",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            },
+            {
+              "workstream": "法律尽调 (Legal DD)",
+              "items": [
+                {
+                  "item": "股权结构",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "重大诉讼",
+                  "status": "⚪ 需披露核查"
+                },
+                {
+                  "item": "关联交易",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "股权质押 / 内部交易",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            },
+            {
+              "workstream": "运营尽调 (Operational DD)",
+              "items": [
+                {
+                  "item": "护城河评估",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "研发投入",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "管理层背景",
+                  "status": "⚪ 需人工核查"
+                },
+                {
+                  "item": "ESG 评级",
+                  "status": "⚪ 需第三方数据"
+                }
+              ]
+            },
+            {
+              "workstream": "市场尽调 (Market DD)",
+              "items": [
+                {
+                  "item": "政策环境",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "舆情扫描",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "事件驱动监控",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "杀猪盘排查",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            }
+          ],
+          "total_items": 21,
+          "items_auto_verified": 9,
+          "completion_pct": 43.0,
+          "manual_review_required": 12,
+          "methodology_log": [
+            "Step 1 · 生成 5 大工作流 21 条清单",
+            "Step 2 · 自动命中 9 条 (43.0%)",
+            "Step 3 · 剩余 12 条需人工复核"
+          ]
+        },
+        "competitive_analysis": {
+          "method": "Competitive Analysis (Porter + BCG)",
+          "porter_five_forces": {
+            "new_entrants_threat": {
+              "score": 3,
+              "rationale": "进入壁垒分 7/10 (无形资产)"
+            },
+            "substitutes_threat": {
+              "score": 5,
+              "rationale": "转换成本分 2/10"
+            },
+            "supplier_power": {
+              "score": 3,
+              "rationale": "中性（未细分）"
+            },
+            "buyer_power": {
+              "score": 3,
+              "rationale": "中性（未细分）"
+            },
+            "rivalry_intensity": {
+              "score": 3,
+              "rationale": "规模优势分 7/10"
+            }
+          },
+          "industry_attractiveness_pct": 40.0,
+          "bcg_position": {
+            "category": "Dog (瘦狗)",
+            "market_share_pct": 0.0,
+            "market_growth_pct": 2.4,
+            "strategic_action": "考虑剥离 / 收缩"
+          },
+          "methodology_log": [
+            "Step 1 · Porter 5 力合计威胁分 17/25，行业吸引力 40.0%",
+            "Step 2 · BCG 定位 Dog (瘦狗) — 考虑剥离 / 收缩"
+          ]
+        },
+        "summary": {
+          "ic_recommendation": "观察 · 暂缓",
+          "bcg_position": "Dog (瘦狗)",
+          "industry_attractiveness": 40.0,
+          "dd_completion_pct": 43.0,
+          "value_creation_uplift_yi": 48.22,
+          "unit_economics_verdict": "—"
+        }
+      },
+      "source": "compute:deep_analysis_methods (6 PE/IB/WM methods)",
+      "fallback": false
+    }
+  },
+  "fund_managers": [],
+  "_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [],
+    "missing_enrichment": [],
+    "fallback_dims": [
+      {
+        "dim": "0_basic",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "7_industry",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "5_chain",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "6_research",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "8_materials",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "9_futures",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "12_capital_flow",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "11_governance",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "1_financials",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "2_kline",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "13_policy",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "10_valuation",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "19_contests",
+        "reason": "unknown"
+      },
+      {
+        "dim": "4_peers",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "3_macro",
+        "reason": "港交所原件或公开数据复核"
+      },
+      {
+        "dim": "14_moat",
+        "reason": "港交所原件或公开数据复核"
+      }
+    ],
+    "coverage_pct": 100.0,
+    "passed_checks": 18,
+    "total_checks": 18
+  }
+}

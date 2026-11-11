@@ -1,0 +1,182 @@
+{
+  "ticker": "000636.SZ",
+  "name": "风华高科",
+  "analysis_date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "quote_time": "2026-11-04T16:14:45+08:00",
+  "quote_price": 33.1,
+  "dimension_count": 23,
+  "method_count": 66,
+  "score": 35.1,
+  "score_notice": "方法综合分，非胜率或收益预测",
+  "data_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [],
+    "missing_enrichment": [],
+    "fallback_dims": [
+      {
+        "dim": "0_basic",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "1_financials",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "2_kline",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "3_macro",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "13_policy",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "7_industry",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "15_events",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "8_materials",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "9_futures",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "4_peers",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "5_chain",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "6_research",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "10_valuation",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "11_governance",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "14_moat",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "17_sentiment",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "18_trap",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "12_capital_flow",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "16_lhb",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      },
+      {
+        "dim": "19_contests",
+        "reason": "定向接口及原文人工核验；全市场脚本阻塞后接管"
+      }
+    ],
+    "coverage_pct": 100.0,
+    "passed_checks": 18,
+    "total_checks": 18
+  },
+  "mechanical_review": {
+    "ticker": "000636.SZ",
+    "market": "A",
+    "reviewed_at": "2026-11-04T18:24:21",
+    "critical_count": 0,
+    "warning_count": 0,
+    "info_count": 1,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "info",
+        "category": "valuation",
+        "dim": "20_valuation_models",
+        "issue": "Comps 隐含目标价缺失",
+        "evidence": "implied_price=None",
+        "suggested_fix": "检查 fetch_peers 是否返回足够同行样本"
+      }
+    ],
+    "checks_run": [
+      "check_industry_mapping_sanity",
+      "check_all_dims_exist",
+      "check_empty_dims",
+      "check_hk_kline_populated",
+      "check_hk_financials_populated",
+      "check_panel_non_empty",
+      "check_coverage_threshold",
+      "check_placeholder_strings",
+      "check_valuation_sanity",
+      "check_industry_data_coverage",
+      "check_metals_materials_populated",
+      "check_agent_analysis_exists",
+      "check_factcheck_redflags",
+      "check_consensus_formula_sanity",
+      "check_panel_hollow_verdicts",
+      "check_panel_insights_rendered",
+      "check_debate_bull_bear_populated"
+    ]
+  },
+  "browser_fallback": {
+    "enabled": true,
+    "attempted": 10,
+    "succeeded": 2,
+    "failed": 8,
+    "skipped": 0,
+    "skip_reasons": {},
+    "disabled_reason": ""
+  },
+  "limitations": {
+    "4_peers": "已取三家原币经营摘要但不同期间且无FX标准化，不出全球分位。",
+    "6_research": "未取得统一时点一致预期，不能做超预期比较。",
+    "8_materials": "缺当前材料采购权重/12月完整序列，用2025权重显式敏感性。",
+    "9_futures": "2025及H1无衍生品投资；11月套保、曲线、时滞未知。",
+    "14_moat": "AI单列收入/客户、分产品份额/良率/利用率未披露。",
+    "16_lhb": "接口success=false/code9201；不据此认定未上榜。",
+    "19_contests": "未取得可核当期个人实盘成本，不造持仓。",
+    "fund_managers": "Q3名单不能推经理内部权重和真实最新持仓。"
+  },
+  "model_notice": "所有未来值均为研究者假设；没有完整三表、实际收购或并购交易预测",
+  "visual_verification": {
+    "desktop": "1440×1050已查看",
+    "mobile": "390×900已查看",
+    "document_overflow": false,
+    "page_errors": [],
+    "runtime_remote_requests": [],
+    "dim_cards": 23,
+    "method_comments": 66,
+    "method_seats": 66,
+    "method_filter": "24位游资可筛选；席位跳转可恢复全组",
+    "calculator": "18亿×30倍÷11.4749亿股=47.06元",
+    "archive_search": "风华/000636通过，空结果和URL参数恢复通过",
+    "javascript_disabled": "正文23卡/66点评与首页12报告链接仍可见",
+    "new_local_links": "通过",
+    "preexisting_directory_links": [
+      "常青科技20261028报告→data",
+      "德明利20261026报告→data/"
+    ],
+    "preexisting_link_note": "两处历史目录链接无index入口，本次保留原样。"
+  }
+}
