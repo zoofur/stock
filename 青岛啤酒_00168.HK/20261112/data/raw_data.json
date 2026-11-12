@@ -1,0 +1,2759 @@
+{
+  "ticker": "00168.HK",
+  "market": "H",
+  "fetched_at": "2026-11-12T10:59:33",
+  "_profile_depth": "deep",
+  "dimensions": {
+    "0_basic": {
+      "ticker": "00168.HK",
+      "data": {
+        "name": "青岛啤酒股份",
+        "code": "00168",
+        "industry": "啤酒制造",
+        "currency": "HKD",
+        "price": 41.38,
+        "change_pct": -1.5699333967649776,
+        "quote_date": "2026-11-11",
+        "market_cap": 564.5,
+        "market_cap_yi": 564.5,
+        "market_cap_cny_yi": 483.4581102504088,
+        "shares_outstanding_yi": 13.64195121,
+        "h_shares_yi": 6.55069178,
+        "h_class_cap_yi": 271.0676258564,
+        "a_price_cny": 51.51,
+        "board_lot": 500,
+        "ah_combined_cap_cny_yi": 597.4212200514967,
+        "ah_discount_pct": 31.199624538924464,
+        "pe_ttm": 11.07,
+        "pb": 1.49,
+        "dividend_yield_ttm": 6.52489125181247,
+        "main_business": "啤酒生产与销售，青岛啤酒和崂山啤酒双品牌",
+        "market_cap_basis": "港元。H股价格乘全部A+H已发行股数的隐含市值。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00168%2Cday%2C%2C2026-11-11%2C300%2Cqfq",
+        "https://quotes.sina.cn/hs/company/quotes/view/sh600600?vt=4",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1102/2026110200485.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601777.pdf"
+      ]
+    },
+    "7_industry": {
+      "ticker": "00168.HK",
+      "data": {
+        "industry": "啤酒制造",
+        "growth": -6.0,
+        "growth_basis": "行业媒体转述国家统计局规模以上啤酒产量，2026年前三季2894.7万千升",
+        "lifecycle": "成熟消费品，结构升级与整体缩量并存",
+        "premium_growth": 2,
+        "volume_change_pct": -6.222802436901653,
+        "peer_china_q3_volume_growth": -16.8
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102701294.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900045.pdf",
+        "https://data.stats.gov.cn/easyquery.htm?cn=A01",
+        "https://c.cnbrewing.com/zx/202610/21/zx110677.html"
+      ]
+    },
+    "5_chain": {
+      "ticker": "00168.HK",
+      "data": {
+        "upstream": "进口大麦为主、麦芽、国产包材、玻璃、易拉罐",
+        "downstream": "经销商、餐饮、现代零售、电商及即时零售",
+        "products": [
+          "青岛啤酒",
+          "崂山啤酒",
+          "白啤",
+          "生鲜啤酒"
+        ],
+        "procurement": "总部集中招标，多数年度，部分季度"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf"
+      ]
+    },
+    "6_research": {
+      "ticker": "00168.HK",
+      "data": {
+        "summary": "券商对旺季缩量、单位成本与费用率走向有不同侧重",
+        "reports": [
+          {
+            "institution": "华创证券",
+            "date": "2026-10-29",
+            "title": "结构延续提升，成本压制盈利",
+            "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/846646401002/index.phtml"
+          },
+          {
+            "institution": "中金公司研报转载",
+            "date": "2026-10-30",
+            "title": "吨价稳健提升，销量下降致使利润承压",
+            "url": "https://quote.cfi.cn/ybdata.aspx?id=20261030000157"
+          }
+        ]
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/846646401002/index.phtml",
+        "https://quote.cfi.cn/ybdata.aspx?id=20261030000157"
+      ]
+    },
+    "8_materials": {
+      "ticker": "00168.HK",
+      "data": {
+        "core_material": [
+          "麦芽",
+          "玻璃瓶",
+          "易拉罐",
+          "纸箱"
+        ],
+        "malt_cost_pct": 13.62,
+        "packaging_cost_pct": 50.33,
+        "cost_basis": "2025啤酒生产成本",
+        "gross_margin_malt_up_10pp": -0.75,
+        "gross_margin_packaging_up_10pp": -2.77,
+        "barley_proxy_aud_t": 357
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf",
+        "https://www.agriculture.gov.au/abares/data/weekly-commodity-price-update"
+      ]
+    },
+    "9_futures": {
+      "ticker": "00168.HK",
+      "data": {
+        "linked_contract": "上期所铝期货（制罐成本代理）",
+        "snapshot": "2026-11-11",
+        "settlements_cny_t": {
+          "AL2611": 22645,
+          "AL2612": 22285,
+          "AL2701": 21940,
+          "AL2702": 21745,
+          "AL2703": 21700
+        },
+        "note": "AL2611–AL2703近高远低；未见公司采购基差、用铝比例及持仓披露。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/?query_date=20261111&query_options=1&query_product_code=al_f",
+        "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-November-2026.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf"
+      ]
+    },
+    "12_capital_flow": {
+      "ticker": "00168.HK",
+      "data": {
+        "note": "CCASS持仓是结算日存量，不能等同交易日净流入。",
+        "scope": "港股通",
+        "southbound_pct": 48.23,
+        "southbound_shares": 315973887,
+        "southbound_date": "2026-11-11"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk"
+      ]
+    },
+    "11_governance": {
+      "ticker": "00168.HK",
+      "data": {
+        "controller": "青岛市国资委，经青啤集团控制",
+        "insider_trades_1y": [
+          {
+            "date": "2026-10-16",
+            "direction": "增持",
+            "shares": 1583000,
+            "price": 40.77883765003158,
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF"
+          }
+        ],
+        "note": "控股股东计划合计增持1.5–3亿元人民币；截至10月16日公告口径，已买H股158.3万、A股45.92万。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF"
+      ]
+    },
+    "4_peers": {
+      "ticker": "00168.HK",
+      "data": {
+        "industry": "啤酒",
+        "peer_table": [
+          {
+            "ticker": "00291.HK",
+            "name": "华润啤酒",
+            "period": "TTM 2026H1",
+            "currency": "CNY",
+            "price_hkd": 20.64,
+            "net_profit_yi": 27.51,
+            "shares_yi": 32.44176905,
+            "pe": 20.845652929153925,
+            "note": "白酒减值压低净利",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900245.pdf"
+          },
+          {
+            "ticker": "01876.HK",
+            "name": "百威亚太",
+            "period": "TTM 2026Q3",
+            "currency": "USD",
+            "price_hkd": 6.37,
+            "net_profit_yi": 4.6,
+            "shares_yi": 132.43397,
+            "pe": 23.375546116283267,
+            "note": "同日官方中间价套算；按正常化净利为17.46倍",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900045.pdf"
+          },
+          {
+            "ticker": "000729.SZ",
+            "name": "燕京啤酒",
+            "period": "TTM 2026Q3",
+            "currency": "CNY",
+            "price_cny": 10.93,
+            "net_profit_yi": 20.43139264,
+            "shares_yi": 28.18539341,
+            "pe": 15.078088674590711,
+            "note": "前三季归母净利+20.56%；A股定价",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630476.PDF"
+          }
+        ],
+        "global_candidates": [
+          "AB InBev",
+          "Heineken",
+          "Carlsberg"
+        ],
+        "global_basis": "2025年度集团财务规模，按2026-11-11中间价统一折人民币；分部与税费口径有别，不给全球交易估值分位。",
+        "global_financial_context": [
+          {
+            "name": "AB InBev",
+            "period": "FY2025",
+            "currency": "USD",
+            "revenue_m": 59320,
+            "profit_attributable_m": 6837,
+            "cny_per_currency": 6.7191,
+            "revenue_cny_yi": 3985.7701199999997,
+            "profit_cny_yi": 459.384867,
+            "organic_beer_volume_change_pct": -2.6,
+            "source": "https://www.sec.gov/Archives/edgar/data/1668717/000119312526049841/d891969dex992.htm"
+          },
+          {
+            "name": "Heineken",
+            "period": "FY2025",
+            "currency": "EUR",
+            "revenue_m": 34257,
+            "profit_attributable_m": 1885,
+            "cny_per_currency": 7.4852,
+            "revenue_cny_yi": 2564.204964,
+            "profit_cny_yi": 141.09601999999998,
+            "organic_beer_volume_change_pct": -2.4,
+            "source": "https://www.theheinekencompany.com/sites/heineken-corp/files/2026-02/heinekenn.v.2025fypressrelease_final.pdf"
+          },
+          {
+            "name": "Carlsberg",
+            "period": "FY2025",
+            "currency": "DKK",
+            "revenue_m": 89095,
+            "profit_attributable_m": 5955,
+            "cny_per_currency": 1.0018032458425166,
+            "revenue_cny_yi": 892.5566018833902,
+            "profit_cny_yi": 59.65738328992186,
+            "organic_beer_volume_change_pct": -2.9,
+            "source": "https://www.carlsberggroup.com/media/1tgf0wsy/carlsberg-group_2025-annual-report.pdf"
+          },
+          {
+            "name": "Asahi Group",
+            "period": "FY2025",
+            "currency": "JPY",
+            "revenue_m": 2894676,
+            "profit_attributable_m": 121574,
+            "cny_per_currency": 0.042279,
+            "revenue_cny_yi": 1223.84006604,
+            "profit_cny_yi": 51.40027145999999,
+            "organic_beer_volume_change_pct": null,
+            "source": "https://www.asahigroup-holdings.com/ir_library_file/file/2025_4q_results.pdf"
+          },
+          {
+            "name": "Kirin Holdings",
+            "period": "FY2025",
+            "currency": "JPY",
+            "revenue_m": 2433363,
+            "profit_attributable_m": 147500,
+            "cny_per_currency": 0.042279,
+            "revenue_cny_yi": 1028.80154277,
+            "profit_cny_yi": 62.36152499999999,
+            "organic_beer_volume_change_pct": null,
+            "source": "https://www.kirinholdings.com/en/investors/finance/analysis/"
+          }
+        ]
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900245.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0323/2026032300266_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900045.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0323/2026032300073.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630476.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-04-15/1225102551.PDF",
+        "https://cn.investing.com/equities/yanjing-brewery-a-historical-data",
+        "https://stock360.hkej.com/quotePlus/1876",
+        "https://www.ab-inbev.com/investors/annual-reports",
+        "https://www.theheinekencompany.com/investors/results-reports-webcasts-and-presentations",
+        "https://www.carlsberggroup.com/investor-relations/reports-and-presentations/"
+      ]
+    },
+    "10_valuation": {
+      "ticker": "00168.HK",
+      "data": {
+        "pe": 11.06642419561147,
+        "pb": 1.488329974096995,
+        "pe_core": 12.592412778793786,
+        "price": 41.38,
+        "currency": "HKD",
+        "pe_quantile": 5.357142857142857,
+        "pb_quantile": 5.357142857142857,
+        "history": {
+          "pe": {
+            "supplier_value": 10.512931949113133,
+            "sample_count": 56,
+            "points": [
+              [
+                20220429,
+                22.626223741666557
+              ],
+              [
+                20220531,
+                23.802295883397864
+              ],
+              [
+                20220630,
+                28.647010974708934
+              ],
+              [
+                20220729,
+                26.909232735434315
+              ],
+              [
+                20220831,
+                26.856572788789627
+              ],
+              [
+                20220930,
+                26.13688685131226
+              ],
+              [
+                20221031,
+                19.308647103051367
+              ],
+              [
+                20221130,
+                25.592734069317178
+              ],
+              [
+                20221230,
+                27.067212575368366
+              ],
+              [
+                20230131,
+                26.485584563019337
+              ],
+              [
+                20230228,
+                27.17010265311725
+              ],
+              [
+                20230331,
+                30.08369247250838
+              ],
+              [
+                20230428,
+                26.987403118904865
+              ],
+              [
+                20230531,
+                21.731791758831395
+              ],
+              [
+                20230630,
+                22.95702630903257
+              ],
+              [
+                20230731,
+                22.537867120805856
+              ],
+              [
+                20230831,
+                21.070809962012337
+              ],
+              [
+                20230929,
+                20.66777228102511
+              ],
+              [
+                20231031,
+                19.12010758603415
+              ],
+              [
+                20231130,
+                16.637395471152818
+              ],
+              [
+                20231229,
+                16.895339586984644
+              ],
+              [
+                20240131,
+                14.363883878573546
+              ],
+              [
+                20240229,
+                16.201687203104843
+              ],
+              [
+                20240328,
+                17.346284010488368
+              ],
+              [
+                20240430,
+                16.766841156594122
+              ],
+              [
+                20240531,
+                16.323664738358154
+              ],
+              [
+                20240628,
+                15.392994260062622
+              ],
+              [
+                20240731,
+                14.757774727257736
+              ],
+              [
+                20240830,
+                13.35438273617717
+              ],
+              [
+                20240930,
+                17.963417485831236
+              ],
+              [
+                20241031,
+                14.816864916355863
+              ],
+              [
+                20241129,
+                14.388461045394429
+              ],
+              [
+                20241231,
+                16.781613703868654
+              ],
+              [
+                20250128,
+                14.122555194452847
+              ],
+              [
+                20250228,
+                15.37822171278809
+              ],
+              [
+                20250331,
+                16.54525294747614
+              ],
+              [
+                20250430,
+                16.101408574669126
+              ],
+              [
+                20250530,
+                15.969429815860366
+              ],
+              [
+                20250630,
+                15.030914197664714
+              ],
+              [
+                20250731,
+                14.634977921238423
+              ],
+              [
+                20250829,
+                14.825613906184415
+              ],
+              [
+                20250930,
+                15.54416492636546
+              ],
+              [
+                20251031,
+                15.39752186102239
+              ],
+              [
+                20251128,
+                15.426850474091005
+              ],
+              [
+                20251231,
+                14.288900287028778
+              ],
+              [
+                20260130,
+                14.511780013449053
+              ],
+              [
+                20260227,
+                15.544145931948261
+              ],
+              [
+                20260331,
+                14.218494241148143
+              ],
+              [
+                20260430,
+                14.11779851035001
+              ],
+              [
+                20260529,
+                13.016113028819454
+              ],
+              [
+                20260630,
+                11.262836846811203
+              ],
+              [
+                20260731,
+                12.194428370385737
+              ],
+              [
+                20260831,
+                10.340172313409969
+              ],
+              [
+                20260930,
+                10.172493843462778
+              ],
+              [
+                20261030,
+                10.131844517414976
+              ],
+              [
+                20261111,
+                10.512931949113133
+              ]
+            ],
+            "sample_percentile": 5.357142857142857,
+            "supplier_period": "2022-04-29至2026-11-11，56点，供应商近五年窗口可得子样本",
+            "source": "https://cibo.hk/zh-CN/valuation-00168.html"
+          },
+          "pb": {
+            "supplier_value": 1.5437046322293004,
+            "sample_count": 56,
+            "points": [
+              [
+                20220429,
+                3.1039271159239776
+              ],
+              [
+                20220531,
+                3.265263901623672
+              ],
+              [
+                20220630,
+                3.92987513823734
+              ],
+              [
+                20220729,
+                3.69148197727809
+              ],
+              [
+                20220831,
+                3.6842579420975063
+              ],
+              [
+                20220930,
+                3.5855294612962005
+              ],
+              [
+                20221031,
+                2.648812899547227
+              ],
+              [
+                20221130,
+                3.510881097763506
+              ],
+              [
+                20221230,
+                3.7131540828198393
+              ],
+              [
+                20230131,
+                3.6333647649237837
+              ],
+              [
+                20230228,
+                3.7272688244546175
+              ],
+              [
+                20230331,
+                4.126963026560215
+              ],
+              [
+                20230428,
+                3.927865463442021
+              ],
+              [
+                20230531,
+                3.162940647980791
+              ],
+              [
+                20230630,
+                3.3412666785791143
+              ],
+              [
+                20230731,
+                3.2802604049533723
+              ],
+              [
+                20230831,
+                3.066738447263274
+              ],
+              [
+                20230929,
+                3.008078568776983
+              ],
+              [
+                20231031,
+                2.7828246353896273
+              ],
+              [
+                20231130,
+                2.4214797839140774
+              ],
+              [
+                20231229,
+                2.4590221061453033
+              ],
+              [
+                20240131,
+                2.090582897471097
+              ],
+              [
+                20240229,
+                2.3580648843529213
+              ],
+              [
+                20240328,
+                2.5246545428494955
+              ],
+              [
+                20240430,
+                2.6069124535357577
+              ],
+              [
+                20240531,
+                2.5380072785524335
+              ],
+              [
+                20240628,
+                2.3933064110874533
+              ],
+              [
+                20240731,
+                2.294542326944689
+              ],
+              [
+                20240830,
+                2.0763426061641628
+              ],
+              [
+                20240930,
+                2.7929564259907322
+              ],
+              [
+                20241031,
+                2.303729683609132
+              ],
+              [
+                20241129,
+                2.237121347791919
+              ],
+              [
+                20241231,
+                2.6092092927018684
+              ],
+              [
+                20250128,
+                2.195778242801924
+              ],
+              [
+                20250228,
+                2.3910095719213422
+              ],
+              [
+                20250331,
+                2.5724598660440954
+              ],
+              [
+                20250430,
+                2.4074134422756854
+              ],
+              [
+                20250530,
+                2.3876805452078522
+              ],
+              [
+                20250630,
+                2.2473577216143696
+              ],
+              [
+                20250731,
+                2.188159030410869
+              ],
+              [
+                20250829,
+                2.216662103953295
+              ],
+              [
+                20250930,
+                2.3240967657670555
+              ],
+              [
+                20251031,
+                2.3021713245805735
+              ],
+              [
+                20251128,
+                2.30655641281787
+              ],
+              [
+                20251231,
+                2.136414989210772
+              ],
+              [
+                20260130,
+                2.169739008467015
+              ],
+              [
+                20260227,
+                2.3240939258033912
+              ],
+              [
+                20260331,
+                2.1258881796782716
+              ],
+              [
+                20260430,
+                2.113413052771326
+              ],
+              [
+                20260529,
+                1.9484924049090966
+              ],
+              [
+                20260630,
+                1.6860296161497288
+              ],
+              [
+                20260731,
+                1.8254874561472436
+              ],
+              [
+                20260831,
+                1.5183368422361656
+              ],
+              [
+                20260930,
+                1.4937151637134167
+              ],
+              [
+                20261030,
+                1.4877462719503263
+              ],
+              [
+                20261111,
+                1.5437046322293004
+              ]
+            ],
+            "sample_percentile": 5.357142857142857,
+            "supplier_period": "2022-04-29至2026-11-11，56点，供应商近五年窗口可得子样本",
+            "source": "https://cibo.hk/zh-CN/valuation-00168.html"
+          }
+        },
+        "dividend_yield_ttm": 6.52489125181247,
+        "fcf_yield_ttm": 6.098146433975367
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://cibo.hk/zh-CN/valuation-00168.html",
+        "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062603121.pdf"
+      ]
+    },
+    "16_lhb": {
+      "ticker": "00168.HK",
+      "data": {
+        "status": "不适用",
+        "note": "港股无A股龙虎榜；A股席位信号不移植至H股。"
+      },
+      "source": "公开来源复核",
+      "source_urls": []
+    },
+    "13_policy": {
+      "ticker": "00168.HK",
+      "data": {
+        "policy_dir": "餐饮场景促消费；按规则核定啤酒消费税；食品标签过渡",
+        "snippets": [
+          "吃货季扩展商圈与文旅餐饮渠道",
+          "每10万吨从乙类转甲类，静态消费税增加300万元",
+          "2027年3月16日实施新版食品标签标准"
+        ]
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www.miit.gov.cn/jgsj/xfpgys/wjfb/art/2026/art_6c0fcb1c57c24b7692ef4eb7decd6a99.html",
+        "https://fgk.chinatax.gov.cn/zcfgk/c100012/c5248635/content.html",
+        "https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202666/content.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/spscs/art/2026/art_9a2980ad60f7459aab4d6f5b9902767b.html"
+      ]
+    },
+    "18_trap": {
+      "ticker": "00168.HK",
+      "data": {
+        "trap_level": "⚪ 未评级",
+        "status": "公开样本不足",
+        "recommendation": "公司披露与交易记录已核验，推广渠道、群聊和荐股活动缺乏可验证样本。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00168%2Cday%2C%2C2026-11-11%2C300%2Cqfq"
+      ]
+    },
+    "1_financials": {
+      "ticker": "00168.HK",
+      "data": {
+        "currency": "CNY",
+        "financial_years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "revenue_history": [
+          301.66805,
+          321.71566,
+          339.36523,
+          321.3783,
+          324.73494
+        ],
+        "net_profit_history": [
+          31.55456,
+          37.10629,
+          42.67851,
+          43.44984,
+          45.88101
+        ],
+        "roe_history": [
+          14.47,
+          15.3,
+          16.12,
+          15.38,
+          15.5
+        ],
+        "roe": 15.5,
+        "eps": 3.202396074248971,
+        "revenue_ttm": 311.42052616,
+        "net_profit_ttm": 43.686931,
+        "core_profit_ttm": 38.39280992,
+        "revenue_growth_yoy": -4.53,
+        "net_profit_growth_yoy": -4.16,
+        "revenue_growth_period": "2026Q1–Q3",
+        "net_profit_growth_period": "2026Q1–Q3",
+        "gross_margin": 44.04448940023642,
+        "net_margin": 14.028276022356586,
+        "operating_cash_flow_yi": 52.56148292,
+        "capex_yi": 23.07949941,
+        "fcf_latest_yi": 29.481983510000003,
+        "financial_health": {
+          "equity": 324.83261015,
+          "cash": 91.73673512,
+          "short_financial_assets": 112.88845138,
+          "total_debt": 1.11544538,
+          "current_ratio": 1.6842136334044049,
+          "consolidated_liabilities_to_assets_pct": 36.912628692829315,
+          "note": "负债率按合并总负债/总资产；租赁负债单列。"
+        },
+        "cash_flow_periods": {
+          "2024FY": [
+            51.54661132,
+            21.4104957
+          ],
+          "2025FY": [
+            45.92509302,
+            22.53224472
+          ],
+          "2025Q1–Q3": [
+            58.16206274,
+            15.6179758
+          ],
+          "2026Q1–Q3": [
+            64.79845264,
+            16.16523049
+          ]
+        },
+        "q3_revenue_yi": 83.80380089,
+        "q3_revenue_yoy": -5.58,
+        "q3_net_profit_yi": 11.35134978,
+        "q3_net_profit_yoy": -17.15,
+        "q3_core_profit_yi": 9.63552692,
+        "q3_core_profit_yoy": -25.31,
+        "q3_gross_margin": 42.12,
+        "q3_prior_gross_margin": 43.56,
+        "nine_month_volume_10k_kl": 646.5,
+        "nine_month_prior_volume_10k_kl": 689.4,
+        "premium_volume_10k_kl": 299.4,
+        "previous_premium_volume_10k_kl": 293.5,
+        "nine_month_core_profit_yoy": -5.91,
+        "customer_receipts_yi": 302.7380426,
+        "prior_customer_receipts_yi": 309.28273388,
+        "vendor_payments_yi": 129.78904863,
+        "prior_vendor_payments_yi": 135.44327602,
+        "dividend_cny": 2.35,
+        "dividend_hkd": 2.7
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1027/2025102701294.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0626/2026062603121.pdf"
+      ]
+    },
+    "3_macro": {
+      "ticker": "00168.HK",
+      "data": {
+        "catering_yoy": 2.4,
+        "catering_sep_yoy": 2.1,
+        "retail_yoy": 1.1,
+        "pmi": 49.3,
+        "rate_cycle": "10月内地LPR 3.0%/3.5%，香港基本利率4.25%",
+        "fx_cny_per_hkd": 0.85643,
+        "china_revenue_pct": 98.41,
+        "summary": "餐饮总额增长，青啤同期量跌6.2%。港元折现和人民币换算需分开。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html",
+        "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html",
+        "https://www.hkma.gov.hk/gb_chi/news-and-media/press-releases/2026/10/20261029-3/",
+        "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf"
+      ]
+    },
+    "19_contests": {
+      "ticker": "00168.HK",
+      "data": {
+        "status": "未核验",
+        "note": "没有可核对的比赛交易记录，剔除该类信号。"
+      },
+      "source": "公开来源复核",
+      "source_urls": []
+    },
+    "2_kline": {
+      "ticker": "00168.HK",
+      "data": {
+        "kline_count": 300,
+        "indicators": {
+          "last_close": 41.38,
+          "ma5": 41.708,
+          "ma10": 40.954,
+          "ma20": 40.43899999999999,
+          "ma60": 40.526,
+          "ma120": 43.49783333333335,
+          "ma200": 46.46380000000001,
+          "above_ma20": true,
+          "above_ma200": false,
+          "ma_bull_alignment": false,
+          "macd_dif": 0.38935412511289513,
+          "macd_dea": 0.13829485146974402,
+          "macd_hist": 0.5021185472863022,
+          "macd_golden_cross": false,
+          "rsi_14": 68.8427299703264,
+          "kdj_k": 86.2,
+          "kdj_d": 83.4,
+          "kdj_j": 91.8,
+          "obv": -54380977.0,
+          "obv_trend_up": false,
+          "williams_r": -17.1,
+          "year_high": 55.75,
+          "year_low": 38.44,
+          "pct_from_year_high": -25.775784753363222,
+          "stage": 4,
+          "vol_5_vs_20": 0.8254878438524893,
+          "vcp_score": 0.03869082407948532
+        },
+        "stage": "Stage 4 下跌",
+        "ma_align": "均线未形成多头排列",
+        "macd": "水上",
+        "rsi": 68.84,
+        "price_basis": "腾讯日线，未复权",
+        "candles_60d": [
+          {
+            "date": "2026-08-18",
+            "open": 44.0,
+            "close": 43.56,
+            "high": 44.0,
+            "low": 43.34
+          },
+          {
+            "date": "2026-08-19",
+            "open": 43.56,
+            "close": 43.34,
+            "high": 43.88,
+            "low": 43.26
+          },
+          {
+            "date": "2026-08-20",
+            "open": 43.34,
+            "close": 43.2,
+            "high": 43.8,
+            "low": 43.2
+          },
+          {
+            "date": "2026-08-21",
+            "open": 43.78,
+            "close": 42.94,
+            "high": 43.78,
+            "low": 42.8
+          },
+          {
+            "date": "2026-08-24",
+            "open": 43.46,
+            "close": 42.58,
+            "high": 43.46,
+            "low": 42.22
+          },
+          {
+            "date": "2026-08-25",
+            "open": 42.68,
+            "close": 42.82,
+            "high": 43.0,
+            "low": 42.6
+          },
+          {
+            "date": "2026-08-26",
+            "open": 43.0,
+            "close": 42.86,
+            "high": 43.26,
+            "low": 42.82
+          },
+          {
+            "date": "2026-08-27",
+            "open": 42.86,
+            "close": 41.38,
+            "high": 42.86,
+            "low": 39.96
+          },
+          {
+            "date": "2026-08-28",
+            "open": 41.38,
+            "close": 41.48,
+            "high": 41.74,
+            "low": 41.06
+          },
+          {
+            "date": "2026-08-31",
+            "open": 40.98,
+            "close": 40.7,
+            "high": 41.42,
+            "low": 40.62
+          },
+          {
+            "date": "2026-09-01",
+            "open": 41.28,
+            "close": 40.4,
+            "high": 41.28,
+            "low": 40.2
+          },
+          {
+            "date": "2026-09-02",
+            "open": 40.5,
+            "close": 40.06,
+            "high": 40.6,
+            "low": 39.84
+          },
+          {
+            "date": "2026-09-03",
+            "open": 40.46,
+            "close": 39.58,
+            "high": 40.46,
+            "low": 39.54
+          },
+          {
+            "date": "2026-09-04",
+            "open": 40.08,
+            "close": 40.5,
+            "high": 40.86,
+            "low": 39.64
+          },
+          {
+            "date": "2026-09-07",
+            "open": 40.7,
+            "close": 40.94,
+            "high": 41.14,
+            "low": 40.32
+          },
+          {
+            "date": "2026-09-08",
+            "open": 40.96,
+            "close": 41.46,
+            "high": 41.64,
+            "low": 40.7
+          },
+          {
+            "date": "2026-09-09",
+            "open": 41.46,
+            "close": 40.44,
+            "high": 41.46,
+            "low": 40.32
+          },
+          {
+            "date": "2026-09-10",
+            "open": 40.5,
+            "close": 39.88,
+            "high": 40.7,
+            "low": 39.76
+          },
+          {
+            "date": "2026-09-11",
+            "open": 39.96,
+            "close": 39.64,
+            "high": 40.2,
+            "low": 39.34
+          },
+          {
+            "date": "2026-09-14",
+            "open": 39.64,
+            "close": 40.16,
+            "high": 40.24,
+            "low": 39.62
+          },
+          {
+            "date": "2026-09-15",
+            "open": 40.26,
+            "close": 39.8,
+            "high": 40.26,
+            "low": 39.76
+          },
+          {
+            "date": "2026-09-16",
+            "open": 39.88,
+            "close": 39.84,
+            "high": 40.0,
+            "low": 39.5
+          },
+          {
+            "date": "2026-09-17",
+            "open": 39.8,
+            "close": 39.7,
+            "high": 39.9,
+            "low": 39.34
+          },
+          {
+            "date": "2026-09-18",
+            "open": 39.7,
+            "close": 39.12,
+            "high": 39.78,
+            "low": 39.08
+          },
+          {
+            "date": "2026-09-21",
+            "open": 39.2,
+            "close": 39.7,
+            "high": 39.72,
+            "low": 38.86
+          },
+          {
+            "date": "2026-09-22",
+            "open": 39.78,
+            "close": 39.4,
+            "high": 39.78,
+            "low": 39.22
+          },
+          {
+            "date": "2026-09-23",
+            "open": 39.28,
+            "close": 39.72,
+            "high": 39.82,
+            "low": 39.28
+          },
+          {
+            "date": "2026-09-24",
+            "open": 39.72,
+            "close": 39.78,
+            "high": 39.82,
+            "low": 39.44
+          },
+          {
+            "date": "2026-09-25",
+            "open": 39.78,
+            "close": 39.22,
+            "high": 39.78,
+            "low": 38.9
+          },
+          {
+            "date": "2026-09-28",
+            "open": 39.38,
+            "close": 39.6,
+            "high": 39.9,
+            "low": 39.32
+          },
+          {
+            "date": "2026-09-29",
+            "open": 39.7,
+            "close": 39.32,
+            "high": 39.76,
+            "low": 39.18
+          },
+          {
+            "date": "2026-09-30",
+            "open": 39.22,
+            "close": 40.04,
+            "high": 40.14,
+            "low": 39.22
+          },
+          {
+            "date": "2026-10-02",
+            "open": 39.7,
+            "close": 39.3,
+            "high": 39.86,
+            "low": 39.0
+          },
+          {
+            "date": "2026-10-05",
+            "open": 39.04,
+            "close": 39.38,
+            "high": 39.56,
+            "low": 38.98
+          },
+          {
+            "date": "2026-10-06",
+            "open": 39.38,
+            "close": 39.44,
+            "high": 39.6,
+            "low": 39.38
+          },
+          {
+            "date": "2026-10-07",
+            "open": 39.68,
+            "close": 39.44,
+            "high": 39.68,
+            "low": 39.26
+          },
+          {
+            "date": "2026-10-08",
+            "open": 39.5,
+            "close": 40.02,
+            "high": 40.1,
+            "low": 39.5
+          },
+          {
+            "date": "2026-10-09",
+            "open": 40.1,
+            "close": 40.66,
+            "high": 40.9,
+            "low": 40.1
+          },
+          {
+            "date": "2026-10-12",
+            "open": 40.66,
+            "close": 40.6,
+            "high": 41.2,
+            "low": 40.38
+          },
+          {
+            "date": "2026-10-13",
+            "open": 41.0,
+            "close": 40.78,
+            "high": 41.0,
+            "low": 40.12
+          },
+          {
+            "date": "2026-10-14",
+            "open": 40.94,
+            "close": 41.1,
+            "high": 41.38,
+            "low": 40.56
+          },
+          {
+            "date": "2026-10-15",
+            "open": 41.16,
+            "close": 41.5,
+            "high": 41.5,
+            "low": 40.98
+          },
+          {
+            "date": "2026-10-16",
+            "open": 41.54,
+            "close": 41.4,
+            "high": 41.7,
+            "low": 41.02
+          },
+          {
+            "date": "2026-10-20",
+            "open": 41.2,
+            "close": 40.38,
+            "high": 41.7,
+            "low": 40.16
+          },
+          {
+            "date": "2026-10-21",
+            "open": 40.38,
+            "close": 39.56,
+            "high": 40.38,
+            "low": 39.34
+          },
+          {
+            "date": "2026-10-22",
+            "open": 39.3,
+            "close": 38.84,
+            "high": 39.48,
+            "low": 38.7
+          },
+          {
+            "date": "2026-10-23",
+            "open": 39.58,
+            "close": 39.6,
+            "high": 39.84,
+            "low": 39.02
+          },
+          {
+            "date": "2026-10-26",
+            "open": 39.6,
+            "close": 39.38,
+            "high": 39.88,
+            "low": 39.1
+          },
+          {
+            "date": "2026-10-27",
+            "open": 39.38,
+            "close": 38.68,
+            "high": 39.54,
+            "low": 38.24
+          },
+          {
+            "date": "2026-10-28",
+            "open": 38.8,
+            "close": 38.8,
+            "high": 38.86,
+            "low": 38.42
+          },
+          {
+            "date": "2026-10-29",
+            "open": 38.0,
+            "close": 38.44,
+            "high": 38.64,
+            "low": 37.2
+          },
+          {
+            "date": "2026-10-30",
+            "open": 38.46,
+            "close": 39.88,
+            "high": 40.16,
+            "low": 38.42
+          },
+          {
+            "date": "2026-11-02",
+            "open": 40.16,
+            "close": 40.12,
+            "high": 40.34,
+            "low": 39.62
+          },
+          {
+            "date": "2026-11-03",
+            "open": 40.12,
+            "close": 41.26,
+            "high": 41.26,
+            "low": 40.12
+          },
+          {
+            "date": "2026-11-04",
+            "open": 41.28,
+            "close": 41.3,
+            "high": 41.76,
+            "low": 40.62
+          },
+          {
+            "date": "2026-11-05",
+            "open": 41.6,
+            "close": 41.6,
+            "high": 42.0,
+            "low": 41.14
+          },
+          {
+            "date": "2026-11-06",
+            "open": 41.6,
+            "close": 41.84,
+            "high": 42.06,
+            "low": 41.42
+          },
+          {
+            "date": "2026-11-09",
+            "open": 41.52,
+            "close": 41.68,
+            "high": 42.1,
+            "low": 41.52
+          },
+          {
+            "date": "2026-11-10",
+            "open": 41.68,
+            "close": 42.04,
+            "high": 42.24,
+            "low": 41.44
+          },
+          {
+            "date": "2026-11-11",
+            "open": 42.04,
+            "close": 41.38,
+            "high": 42.1,
+            "low": 41.26
+          }
+        ],
+        "ma20_60d": [
+          45.3,
+          45.18,
+          45.04,
+          44.91,
+          44.76,
+          44.58,
+          44.36,
+          44.01,
+          43.75,
+          43.49,
+          43.25,
+          43.01,
+          42.75,
+          42.55,
+          42.35,
+          42.21,
+          42.02,
+          41.8,
+          41.58,
+          41.4,
+          41.21,
+          41.03,
+          40.86,
+          40.67,
+          40.52,
+          40.35,
+          40.2,
+          40.12,
+          40.0,
+          39.95,
+          39.89,
+          39.89,
+          39.88,
+          39.82,
+          39.75,
+          39.65,
+          39.62,
+          39.66,
+          39.71,
+          39.74,
+          39.81,
+          39.89,
+          39.98,
+          40.04,
+          40.03,
+          40.0,
+          40.0,
+          39.98,
+          39.95,
+          39.91,
+          39.87,
+          39.86,
+          39.9,
+          39.99,
+          40.09,
+          40.2,
+          40.29,
+          40.34,
+          40.41,
+          40.44
+        ],
+        "ma60_60d": [
+          46.34,
+          46.22,
+          46.1,
+          45.98,
+          45.86,
+          45.75,
+          45.62,
+          45.48,
+          45.35,
+          45.22,
+          45.1,
+          44.95,
+          44.79,
+          44.64,
+          44.49,
+          44.35,
+          44.2,
+          44.06,
+          43.94,
+          43.85,
+          43.77,
+          43.67,
+          43.57,
+          43.46,
+          43.36,
+          43.23,
+          43.18,
+          43.11,
+          43.02,
+          42.92,
+          42.84,
+          42.77,
+          42.71,
+          42.62,
+          42.55,
+          42.48,
+          42.41,
+          42.33,
+          42.26,
+          42.18,
+          42.11,
+          42.03,
+          41.96,
+          41.87,
+          41.77,
+          41.64,
+          41.52,
+          41.37,
+          41.23,
+          41.12,
+          41.0,
+          40.92,
+          40.84,
+          40.79,
+          40.73,
+          40.68,
+          40.64,
+          40.6,
+          40.57,
+          40.53
+        ],
+        "close_60d": [
+          43.56,
+          43.34,
+          43.2,
+          42.94,
+          42.58,
+          42.82,
+          42.86,
+          41.38,
+          41.48,
+          40.7,
+          40.4,
+          40.06,
+          39.58,
+          40.5,
+          40.94,
+          41.46,
+          40.44,
+          39.88,
+          39.64,
+          40.16,
+          39.8,
+          39.84,
+          39.7,
+          39.12,
+          39.7,
+          39.4,
+          39.72,
+          39.78,
+          39.22,
+          39.6,
+          39.32,
+          40.04,
+          39.3,
+          39.38,
+          39.44,
+          39.44,
+          40.02,
+          40.66,
+          40.6,
+          40.78,
+          41.1,
+          41.5,
+          41.4,
+          40.38,
+          39.56,
+          38.84,
+          39.6,
+          39.38,
+          38.68,
+          38.8,
+          38.44,
+          39.88,
+          40.12,
+          41.26,
+          41.3,
+          41.6,
+          41.84,
+          41.68,
+          42.04,
+          41.38
+        ],
+        "kline_stats": {
+          "ytd_return": "-20.3%",
+          "volatility": "25.4%",
+          "max_drawdown": "-31.0%"
+        }
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00168%2Cday%2C%2C2026-11-11%2C300%2Cqfq"
+      ]
+    },
+    "15_events": {
+      "ticker": "00168.HK",
+      "data": {
+        "_issuer_identity_version": 2,
+        "event_timeline": [
+          "2026-11-10 · 公告：11月17日15:30–16:30召开三季报说明会",
+          "2026-10-28 · 发布2026年三季度报告，单季扣非利润下降25.31%",
+          "2026-10-16 · 控股股东增持进展公告",
+          "2026-08-26 · 发布2026年上半年业绩"
+        ],
+        "recent_notices": [
+          {
+            "date": "2026-11-10",
+            "title": "公告：11月17日15:30–16:30召开三季报说明会",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225662886.PDF",
+            "stock_code": "00168",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-10-28",
+            "title": "发布2026年三季度报告，单季扣非利润下降25.31%",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+            "stock_code": "00168",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-10-16",
+            "title": "控股股东增持进展公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF",
+            "stock_code": "00168",
+            "issuer_verified": true
+          },
+          {
+            "date": "2026-08-26",
+            "title": "发布2026年上半年业绩",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf",
+            "stock_code": "00168",
+            "issuer_verified": true
+          }
+        ],
+        "recent_news": [],
+        "disclosures_count": 4,
+        "news_count": 0,
+        "catalyst": [],
+        "catalysts": [],
+        "warnings": [],
+        "_note": "仅包含公司归属已核验的公告及新闻；缺失公告不代表没有风险。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-11-10/1225662886.PDF",
+        "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf"
+      ]
+    },
+    "14_moat": {
+      "ticker": "00168.HK",
+      "data": {
+        "scores": {
+          "intangible": 8,
+          "switching": 2,
+          "network": 3,
+          "scale": 8,
+          "cost": 6
+        },
+        "note": "主观10分制。品牌和集中采购可支撑吨价与供应链效率，旺季缩量揭示渠道议价有限。"
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf"
+      ]
+    },
+    "17_sentiment": {
+      "ticker": "00168.HK",
+      "data": {
+        "status": "样本有限",
+        "note": "研报下修可核验，社媒情绪未取有代表性的样本。",
+        "recent_observations": [
+          "10月末部分研究机构下调盈利预测，11月11日H股较前收跌1.57%"
+        ]
+      },
+      "source": "公开来源复核",
+      "source_urls": [
+        "https://quote.cfi.cn/ybdata.aspx?id=20261030000157",
+        "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00168%2Cday%2C%2C2026-11-11%2C300%2Cqfq"
+      ]
+    },
+    "20_valuation_models": {
+      "data": {
+        "dcf": {
+          "method": "五年经营现金流折现 · HKD/股",
+          "wacc_breakdown": {
+            "wacc": 0.09,
+            "cost_of_equity": null,
+            "after_tax_kd": null
+          },
+          "base_fcf_yi": 28,
+          "projected_fcf_yi": [
+            28.560000000000002,
+            29.1312,
+            29.713824000000002,
+            30.30810048,
+            30.9142624896
+          ],
+          "pv_fcf_yi": [
+            26.201834862385322,
+            24.519148219846812,
+            22.94452402224197,
+            21.47102247952918,
+            20.09214947625666
+          ],
+          "year_labels": [
+            "2027E",
+            "2028E",
+            "2029E",
+            "2030E",
+            "2031E"
+          ],
+          "pv_explicit_yi": 115.22867906025995,
+          "terminal_value_yi": 418.37301902592,
+          "tv_pv_yi": 271.91375624534015,
+          "tv_pct_of_ev": 70.23610212884532,
+          "enterprise_value_yi": 387.1424353056001,
+          "net_debt_yi": -125,
+          "equity_value_yi": 512.1424353056001,
+          "shares_yi": 13.64195121,
+          "intrinsic_per_share": 43.84,
+          "current_price": 41.38,
+          "currency": "CNY",
+          "price_currency": "HKD",
+          "safety_margin_pct": 5.94,
+          "verdict": "基准上行有限，等待安全边际",
+          "assumptions": {
+            "stage1_growth": 0.02,
+            "stage1_years": 5,
+            "stage2_growth": 0.02,
+            "stage2_years": 0,
+            "terminal_g": 0.015
+          },
+          "scenarios": {
+            "压力": {
+              "fcf_yi": 23,
+              "cash_yi": 85,
+              "discount": 0.105,
+              "growth": 0,
+              "terminal_growth": 0.005,
+              "intrinsic_hkd": 26.652720548314697,
+              "flows": [
+                23,
+                23,
+                23,
+                23,
+                23
+              ],
+              "pv": [
+                20.81447963800905,
+                18.836633156569274,
+                17.046726838524233,
+                15.426902116311522,
+                13.96099739032717
+              ],
+              "terminal_value": 231.15,
+              "terminal_pv": 140.30802377278806,
+              "enterprise_value": 226.39376291252933,
+              "terminal_share_pct": 61.97521608711376
+            },
+            "基准": {
+              "fcf_yi": 28,
+              "cash_yi": 125,
+              "discount": 0.09,
+              "growth": 0.02,
+              "terminal_growth": 0.015,
+              "intrinsic_hkd": 43.83514005374535,
+              "flows": [
+                28.560000000000002,
+                29.1312,
+                29.713824000000002,
+                30.30810048,
+                30.9142624896
+              ],
+              "pv": [
+                26.201834862385322,
+                24.519148219846812,
+                22.94452402224197,
+                21.47102247952918,
+                20.09214947625666
+              ],
+              "terminal_value": 418.37301902592,
+              "terminal_pv": 271.91375624534015,
+              "enterprise_value": 387.1424353056001,
+              "terminal_share_pct": 70.23610212884532
+            },
+            "乐观": {
+              "fcf_yi": 34,
+              "cash_yi": 155,
+              "discount": 0.0825,
+              "growth": 0.04,
+              "terminal_growth": 0.02,
+              "intrinsic_hkd": 65.06448385949375,
+              "flows": [
+                35.36,
+                36.77440000000001,
+                38.245376,
+                39.77519104000001,
+                41.366198681600004
+              ],
+              "pv": [
+                32.66512702078522,
+                31.38266244953038,
+                30.150548681304006,
+                28.966808894740115,
+                27.829543880396965
+              ],
+              "terminal_value": 675.096362483712,
+              "terminal_pv": 454.1781561280784,
+              "enterprise_value": 605.1728470548351,
+              "terminal_share_pct": 75.04932819415228
+            }
+          },
+          "sensitivity_table": {
+            "wacc_axis": [
+              "7.0%",
+              "8.0%",
+              "9.0%",
+              "10.0%",
+              "11.0%"
+            ],
+            "g_axis": [
+              "0.5%",
+              "1.0%",
+              "1.5%",
+              "2.0%",
+              "2.5%"
+            ],
+            "values_per_share": [
+              [
+                50.27,
+                52.86,
+                55.92,
+                59.59,
+                64.07
+              ],
+              [
+                44.96,
+                46.81,
+                48.95,
+                51.44,
+                54.39
+              ],
+              [
+                40.89,
+                42.27,
+                43.84,
+                45.62,
+                47.68
+              ],
+              [
+                37.69,
+                38.75,
+                39.93,
+                41.26,
+                42.76
+              ],
+              [
+                35.09,
+                35.92,
+                36.84,
+                37.86,
+                39.0
+              ]
+            ],
+            "center_cell": 43.84
+          },
+          "methodology_log": [
+            "2024/2025/TTM经营现金流减现金资本开支为30.14/23.39/29.48亿元人民币。取28亿元作基期，预留季节性、少数股东和租赁支出。",
+            "表内货币资金91.74亿，交易性金融资产112.89亿，近似租赁负债1.12亿。只计125亿可分配净现金假设，其余为经营留存和估值折扣。",
+            "人民币现金流用9.0%折现，五年增2%，永续1.5%，同日中间价0.85643人民币/港元，全部A+H股本13.642亿股。",
+            "压力/基准/乐观分别26.65/43.84/65.06港元，终值占基准企业价值70.2%。"
+          ]
+        },
+        "comps": {
+          "method": "港股及A股本地同行市盈率，盈利口径逐项校准",
+          "peer_count": 3,
+          "peer_stats": {
+            "pe": {
+              "median": 20.85
+            }
+          },
+          "target_percentile": {},
+          "peer_table": [
+            {
+              "ticker": "00291.HK",
+              "name": "华润啤酒",
+              "period": "TTM 2026H1",
+              "currency": "CNY",
+              "price_hkd": 20.64,
+              "net_profit_yi": 27.51,
+              "shares_yi": 32.44176905,
+              "pe": 20.845652929153925,
+              "note": "白酒减值压低净利",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900245.pdf"
+            },
+            {
+              "ticker": "01876.HK",
+              "name": "百威亚太",
+              "period": "TTM 2026Q3",
+              "currency": "USD",
+              "price_hkd": 6.37,
+              "net_profit_yi": 4.6,
+              "shares_yi": 132.43397,
+              "pe": 23.375546116283267,
+              "note": "同日官方中间价套算；按正常化净利为17.46倍",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900045.pdf"
+            },
+            {
+              "ticker": "000729.SZ",
+              "name": "燕京啤酒",
+              "period": "TTM 2026Q3",
+              "currency": "CNY",
+              "price_cny": 10.93,
+              "net_profit_yi": 20.43139264,
+              "shares_yi": 28.18539341,
+              "pe": 15.078088674590711,
+              "note": "前三季归母净利+20.56%；A股定价",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630476.PDF"
+            }
+          ],
+          "implied_price": {
+            "2026E 11×（港元）": 40.96,
+            "2026E 13×（港元）": 48.4,
+            "2026E 15×（港元）": 55.85
+          },
+          "current_price": 41.38,
+          "valuation_verdict": "11–15倍情景对应40.96–55.85港元",
+          "methodology_log": [
+            "华润报告20.85倍受白酒减值抬高。按公司披露调整项与25%估计税率，华润正常化约10.46倍，采用未经调整的上半年基数作另一估计为11.37倍。",
+            "百威亚太报告23.38倍、公司正常化净利17.46倍。燕京15.08倍，A股且前三季利润增长20.56%。",
+            "青啤2026E归母43.5亿元为研究情景，中位数直接套用会放大一次性差异；按11/13/15倍情景定价。"
+          ]
+        },
+        "lbo": {
+          "method": "假设买方现金流回报测试 · 以FCF计倍数",
+          "entry_ev_yi": 358.4581102504088,
+          "leverage_turns": 2.560415073217206,
+          "entry_debt_yi": 71.69162205008176,
+          "entry_equity_yi": 286.76648820032705,
+          "exit_multiple": 12,
+          "exit_ev_yi": 370.9711498752,
+          "debt_schedule": [
+            71.69162205008176,
+            46.71620315258585,
+            19.92081331021514,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "irr_pct": 9.21,
+          "moic": 1.54,
+          "verdict": "低于15%假设门槛",
+          "methodology_log": [
+            "入场按H股隐含全股本价格减125亿元可分配净现金，初始债务为EV的20%。",
+            "五年现金流年增2%，融资利率5%，现金流优先还债，退出EV=12×第五年FCF。",
+            "未计溢价及费用，假设控制权可得。基数及退出倍数以FCF计算。"
+          ],
+          "entry_fcf_yi": 28,
+          "fcf_path_yi": [
+            28.560000000000002,
+            29.1312,
+            29.713824000000002,
+            30.30810048,
+            30.9142624896
+          ]
+        },
+        "three_statement": {
+          "method": "3-Statement Projection (5-year, linked)",
+          "years": [
+            "2027E",
+            "2028E",
+            "2029E",
+            "2030E",
+            "2031E"
+          ],
+          "income_statement": {
+            "revenue": [
+              317.22,
+              323.56,
+              330.04,
+              336.64,
+              343.37
+            ],
+            "cogs": [
+              182.4,
+              186.05,
+              189.77,
+              193.57,
+              197.44
+            ],
+            "gross_profit": [
+              134.82,
+              137.51,
+              140.27,
+              143.07,
+              145.93
+            ],
+            "opex": [
+              76.13,
+              77.66,
+              79.21,
+              80.79,
+              82.41
+            ],
+            "ebit": [
+              58.69,
+              59.86,
+              61.06,
+              62.28,
+              63.52
+            ],
+            "tax": [
+              14.67,
+              14.96,
+              15.26,
+              15.57,
+              15.88
+            ],
+            "net_income": [
+              44.01,
+              44.89,
+              45.79,
+              46.71,
+              47.64
+            ]
+          },
+          "cash_flow": {
+            "net_income": [
+              44.01,
+              44.89,
+              45.79,
+              46.71,
+              47.64
+            ],
+            "dep_amort": [
+              8.25,
+              8.41,
+              8.58,
+              8.75,
+              8.93
+            ],
+            "nwc_change": [
+              0.5,
+              0.51,
+              0.52,
+              0.53,
+              0.54
+            ],
+            "ocf": [
+              51.76,
+              52.79,
+              53.85,
+              54.93,
+              56.03
+            ],
+            "capex": [
+              21.89,
+              22.33,
+              22.77,
+              23.23,
+              23.69
+            ],
+            "fcf": [
+              29.87,
+              30.46,
+              31.08,
+              31.7,
+              32.34
+            ]
+          },
+          "balance_sheet": {
+            "equity_rollforward": [
+              338.03,
+              351.5,
+              365.24,
+              379.25,
+              393.54
+            ],
+            "dividends": [
+              30.81,
+              31.42,
+              32.05,
+              32.7,
+              33.35
+            ]
+          },
+          "assumptions": {
+            "revenue_growth_y1": 0.02,
+            "revenue_growth_y2": 0.02,
+            "revenue_growth_y3": 0.02,
+            "revenue_growth_y4": 0.02,
+            "revenue_growth_y5": 0.02,
+            "gross_margin": 0.425,
+            "opex_pct_revenue": 0.24,
+            "tax_rate": 0.25,
+            "capex_pct_revenue": 0.069,
+            "dep_pct_revenue": 0.026,
+            "nwc_pct_revenue": 0.08
+          },
+          "growth_path": [
+            "2%",
+            "2%",
+            "2%",
+            "2%",
+            "2%"
+          ],
+          "methodology_log": [
+            "Step 1 · 基期营收 311.0 亿 · 5 年增速路径 ['2%', '2%', '2%', '2%', '2%']",
+            "Step 2 · 毛利率假设 42% · 运营费率 24%",
+            "Step 3 · Y5 营收 343.4 亿 · 净利 47.6 亿",
+            "Step 4 · 5 年累计 FCF 155.4 亿",
+            "示意模型，人民币亿元；2026E营收311亿元为假设，权益用2026Q3近似基期。",
+            "权益滚动扣除70%派息；少数股东、理财收益和其他综合收益从简，三表FCF为校验场景。"
+          ]
+        },
+        "merger_case": {
+          "status": "终止交易案例",
+          "target": "即墨黄酒",
+          "price_cny_yi": 6.65,
+          "funding_hurdle": 0.09,
+          "annual_after_tax_hurdle_yi": 0.5985,
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1026/2025102600014_c.pdf",
+          "note": "交易已终止。6.65亿元×9%得年税后收益门槛约0.60亿元，缺乏并表利润与协同证据，估值贡献按未发生处理。"
+        },
+        "summary": {
+          "dcf_intrinsic": 43.84,
+          "dcf_safety_margin_pct": 5.94,
+          "dcf_verdict": "基准上行有限，等待安全边际",
+          "lbo_irr_pct": 9.21,
+          "lbo_verdict": "低于15%假设门槛",
+          "comps_verdict": "11–15倍情景对应40.96–55.85港元"
+        }
+      },
+      "source": "财报、股本及汇率重算",
+      "fallback": false
+    },
+    "21_research_workflow": {
+      "data": {
+        "initiating_coverage": {
+          "method": "Initiating Coverage (JPM/GS/MS style)",
+          "company": {
+            "name": "青岛啤酒股份",
+            "code": "00168",
+            "industry": "啤酒制造"
+          },
+          "headline": {
+            "rating": "观察",
+            "target_price": 43.84,
+            "current_price": 41.38,
+            "upside_pct": 5.94,
+            "report_date": "2026-11-12"
+          },
+          "executive_summary": "H股41.38港元，DCF基准43.84港元。重点跟踪旺季量价、采购续标及分红现金覆盖。",
+          "investment_thesis": [
+            {
+              "title": "品牌结构",
+              "detail": "中高端销量增加2%，占比升至46.3%，仍需规模支撑。"
+            },
+            {
+              "title": "财务",
+              "detail": "FY25加权ROE15.50%。TTM自由现金流只覆盖最近年度派息约92%。"
+            }
+          ],
+          "key_risks": [
+            {
+              "risk": "宏观 / 行业需求下行",
+              "severity": "Medium",
+              "detail": "景气周期风险"
+            }
+          ],
+          "valuation_bridge": [
+            {
+              "method": "DCF",
+              "value": 43.84,
+              "rationale": "WACC 9.0% + 终值 g 1.5%"
+            },
+            {
+              "method": "Comps (2026E 11×（港元）)",
+              "value": 40.96,
+              "rationale": "同行中位数估值法"
+            },
+            {
+              "method": "Comps (2026E 13×（港元）)",
+              "value": 48.4,
+              "rationale": "同行中位数估值法"
+            },
+            {
+              "method": "Comps (2026E 15×（港元）)",
+              "value": 55.85,
+              "rationale": "同行中位数估值法"
+            },
+            {
+              "method": "Blended",
+              "value": 47.26,
+              "rationale": "平均 4 种估值方法"
+            }
+          ],
+          "financial_snapshot": {
+            "revenue_history_yi": [
+              301.66805,
+              321.71566,
+              339.36523,
+              321.3783,
+              324.73494
+            ],
+            "net_profit_history_yi": [
+              31.55456,
+              37.10629,
+              42.67851,
+              43.44984,
+              45.88101
+            ],
+            "roe_history": [
+              14.47,
+              15.3,
+              16.12,
+              15.38,
+              15.5
+            ]
+          },
+          "coverage_universe_pos": {
+            "analyst_count": 0.0,
+            "ratings": {},
+            "consensus": "—"
+          },
+          "methodology_log": [
+            "Task 1 · 公司研究 — 业务/管理层/行业扫描 ✓",
+            "Task 2 · 财务模型 — 5 年历史 + 3 年预测 ✓",
+            "Task 3 · 估值分析 — 5 种方法混合 ✓",
+            "Task 4 · 综合评级 — 增持 (Outperform)，目标价 ¥47.26"
+          ]
+        },
+        "earnings_analysis": {
+          "headline": "2026Q3扣非同比下降25.31%",
+          "latest": {
+            "revenue_yi": 83.8038,
+            "net_profit_yi": 11.3513,
+            "core_profit_yi": 9.6355,
+            "core_profit_yoy": -25.31
+          },
+          "consensus": null,
+          "beat_miss": "缺统一可比共识样本",
+          "thesis_impact": "旺季毛利率回落，年末复核经营现金覆盖。"
+        },
+        "catalyst_calendar": {
+          "method": "Catalyst Calendar",
+          "generated_at": "2026-11-12",
+          "events": [
+            {
+              "date": "2026-11-17",
+              "event": "三季报业绩说明会",
+              "impact": "high",
+              "source": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225662886.PDF",
+              "category": "已公告"
+            },
+            {
+              "date": "2027-01-24",
+              "event": "控股股东增持计划约六个月届满，日期推算",
+              "impact": "medium",
+              "source": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF",
+              "category": "按计划期限推算"
+            }
+          ],
+          "high_impact_count": 1,
+          "past_event_count": 4,
+          "forward_event_count": 2,
+          "next_30d": [
+            {
+              "date": "2026-11-17",
+              "event": "三季报业绩说明会",
+              "impact": "high",
+              "source": "https://static.cninfo.com.cn/finalpage/2026-11-10/1225662886.PDF"
+            }
+          ],
+          "methodology_log": [
+            "公司公告与披露的股东增持计划。日期分为已公告与按披露推算。"
+          ],
+          "next_60d": [],
+          "next_90d": [
+            {
+              "date": "2027-01-24",
+              "event": "控股股东增持计划约六个月届满，日期推算",
+              "impact": "medium",
+              "source": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF"
+            }
+          ]
+        },
+        "thesis_tracker": {
+          "pillars": [
+            {
+              "test": "现金流覆盖全年派息",
+              "current": "92%",
+              "status": "待验证"
+            },
+            {
+              "test": "旺季量价与利润率",
+              "current": "销量-9.1%，毛利率-1.44个百分点",
+              "status": "承压"
+            },
+            {
+              "test": "安全边际15%",
+              "current": "价值参考37.26港元",
+              "status": "未满足"
+            }
+          ],
+          "recommended_action": "观察"
+        },
+        "morning_note": {
+          "date": "2026-11-12",
+          "top_call": "41.38港元观察",
+          "recommendation": "关注11月17日说明会",
+          "bullets": [
+            "现金流覆盖约92%",
+            "关注旺季动销与毛利率",
+            "基准DCF 43.84港元"
+          ]
+        },
+        "idea_screens": {
+          "status": "未生成横截面量化筛选；单一发行人无法验证因子排名。"
+        },
+        "sector_overview": {
+          "method": "Sector Overview",
+          "industry": "啤酒制造",
+          "market_size": {
+            "tam": "—",
+            "growth": -6.0,
+            "lifecycle": "成熟消费品，结构升级与整体缩量并存"
+          },
+          "value_chain": {
+            "upstream": "进口大麦为主、麦芽、国产包材、玻璃、易拉罐",
+            "company": [],
+            "downstream": "经销商、餐饮、现代零售、电商及即时零售"
+          },
+          "competitive_map": [
+            {
+              "ticker": "00291.HK",
+              "name": "华润啤酒",
+              "period": "TTM 2026H1",
+              "currency": "CNY",
+              "price_hkd": 20.64,
+              "net_profit_yi": 27.51,
+              "shares_yi": 32.44176905,
+              "pe": 20.845652929153925,
+              "note": "白酒减值压低净利",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0819/2026081900245.pdf"
+            },
+            {
+              "ticker": "01876.HK",
+              "name": "百威亚太",
+              "period": "TTM 2026Q3",
+              "currency": "USD",
+              "price_hkd": 6.37,
+              "net_profit_yi": 4.6,
+              "shares_yi": 132.43397,
+              "pe": 23.375546116283267,
+              "note": "同日官方中间价套算；按正常化净利为17.46倍",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1029/2026102900045.pdf"
+            },
+            {
+              "ticker": "000729.SZ",
+              "name": "燕京啤酒",
+              "period": "TTM 2026Q3",
+              "currency": "CNY",
+              "price_cny": 10.93,
+              "net_profit_yi": 20.43139264,
+              "shares_yi": 28.18539341,
+              "pe": 15.078088674590711,
+              "note": "前三季归母净利+20.56%；A股定价",
+              "url": "https://static.cninfo.com.cn/finalpage/2026-10-28/1225630476.PDF"
+            }
+          ],
+          "peer_count": 3,
+          "methodology_log": [
+            "Step 1 · 行业=啤酒制造，生命周期=成熟消费品，结构升级与整体缩量并存",
+            "Step 2 · TAM — · 增速 -6.0",
+            "Step 3 · 识别同行 3 家"
+          ]
+        },
+        "summary": {
+          "rec_rating": "观察",
+          "target_price": 43.84,
+          "upside_pct": 5.94,
+          "thesis_intact_pct": 40.0,
+          "next_high_impact_event": "11月17日业绩说明会",
+          "earnings_headline": "2026Q3扣非同比下降25.31%",
+          "screens_passed": 1
+        }
+      },
+      "source": "compute:research_workflow (7 research products)",
+      "fallback": false
+    },
+    "22_deep_methods": {
+      "data": {
+        "ic_memo": {
+          "method": "Investment Committee Memo",
+          "sections": {
+            "I_exec_summary": {
+              "headline": "观察",
+              "recommendation": "按37.26港元的价值阈值或量、利、现金流转强再评估。",
+              "top_3_risks": [
+                "Q3销量-9.1%、扣非-25.31%；若低价带继续缩量，单位收入抬升难补毛利。",
+                "TTM经营现金流减现金资本开支29.48亿元，低于2025年度宣派约32.06亿元，历史派息需要经营改善或存量资金。",
+                "DCF终值占基准EV约70%；压力情景26.65港元，较41.38低约36%。"
+              ]
+            },
+            "II_company_overview": {
+              "name": "青岛啤酒股份",
+              "industry": "啤酒制造",
+              "business_model": "啤酒生产与销售，青岛啤酒和崂山啤酒双品牌",
+              "market_cap_yi": 483.4581102504088,
+              "revenue_last_yi": 311.42052616,
+              "market_cap_basis": "H股价格×全股本×CNY/HKD"
+            },
+            "III_industry_market": {
+              "industry_name": "啤酒制造",
+              "tam": "—",
+              "growth": -6.0,
+              "lifecycle": "成熟消费品，结构升级与整体缩量并存"
+            },
+            "IV_financial_analysis": {
+              "roe_5yr": [
+                14.47,
+                15.3,
+                16.12,
+                15.38,
+                15.5
+              ],
+              "revenue_hist_yi": [
+                301.66805,
+                321.71566,
+                339.36523,
+                321.3783,
+                324.73494
+              ],
+              "net_profit_hist_yi": [
+                31.55456,
+                37.10629,
+                42.67851,
+                43.44984,
+                45.88101
+              ],
+              "net_margin": 14.0,
+              "debt_ratio": 36.91,
+              "fcf_positive": true
+            },
+            "V_valuation": {
+              "dcf": {
+                "intrinsic_per_share": 43.84,
+                "safety_margin_pct": 5.94,
+                "verdict": "基准上行有限，等待安全边际"
+              },
+              "comps": {
+                "target_percentile": {},
+                "implied_price": {
+                  "2026E 11×（港元）": 40.96,
+                  "2026E 13×（港元）": 48.4,
+                  "2026E 15×（港元）": 55.85
+                },
+                "verdict": "11–15倍情景对应40.96–55.85港元"
+              }
+            },
+            "VI_risks_mitigants": [
+              {
+                "risk": "Q3销量-9.1%、扣非-25.31%；若低价带继续缩量，单位收入抬升难补毛利。",
+                "mitigant": "说明会核对终端动销、渠道库存与单位成本。"
+              },
+              {
+                "risk": "TTM经营现金流减现金资本开支29.48亿元，低于2025年度宣派约32.06亿元，历史派息需要经营改善或存量资金。",
+                "mitigant": "比较全年FCF与实际分红，核查理财赎回可用性。"
+              },
+              {
+                "risk": "DCF终值占基准EV约70%；压力情景26.65港元，较41.38低约36%。",
+                "mitigant": "用26.65港元压力情景和敏感性表设定风险预算。"
+              },
+              {
+                "risk": "包材和大麦的采购合同未公开。Q3吨成本代理同比升6.5%，价格传导存在招标与库存滞后。",
+                "mitigant": "核对招标与季度毛利变化。"
+              },
+              {
+                "risk": "A/H折价31.2%可长期存在，人民币波动和股息税改变港元现金回报。",
+                "mitigant": "用固定汇率及不变折价分别测算。"
+              }
+            ],
+            "VII_returns_scenarios": [
+              {
+                "scenario": "压力",
+                "price_target": 26.65,
+                "return_pct": -35.59,
+                "assumptions": "估计现金流、折现率、永续增速和可分配净现金",
+                "probability_pct": null
+              },
+              {
+                "scenario": "基准",
+                "price_target": 43.84,
+                "return_pct": 5.93,
+                "assumptions": "估计现金流、折现率、永续增速和可分配净现金",
+                "probability_pct": null
+              },
+              {
+                "scenario": "乐观",
+                "price_target": 65.06,
+                "return_pct": 57.24,
+                "assumptions": "估计现金流、折现率、永续增速和可分配净现金",
+                "probability_pct": null
+              }
+            ],
+            "VIII_recommendation": "观察，等待估值安全边际或现金分红覆盖改善。"
+          },
+          "methodology_log": [
+            "使用现金流三情景，个别情景不赋主观概率。"
+          ]
+        },
+        "unit_economics": {
+          "method": "单季度合并收入及成本÷披露销量",
+          "q3_2026": {
+            "revenue_cny_kl": 4265,
+            "cost_cny_kl": 2468
+          },
+          "q3_2025": {
+            "revenue_cny_kl": 4105,
+            "cost_cny_kl": 2317
+          },
+          "note": "收入、成本为合并代理；并非出厂均价或纯原材料成本。"
+        },
+        "value_creation_plan": {
+          "levers": [
+            "低价带恢复动销",
+            "主品牌结构升级",
+            "包材采购招标与产能利用率"
+          ],
+          "estimated_uplift": null,
+          "note": "缺少细分成本与销量弹性，不将重叠杠杆直接相加。"
+        },
+        "dd_checklist": {
+          "method": "Due Diligence Checklist",
+          "workstreams": [
+            {
+              "workstream": "财务尽调 (Financial DD)",
+              "items": [
+                {
+                  "item": "5 年营收 / 净利历史",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "ROE / 毛利 / 净利率",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "资产负债率",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "自由现金流",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "审计意见 / 会计政策",
+                  "status": "⚪ 需人工核查"
+                }
+              ]
+            },
+            {
+              "workstream": "商业尽调 (Commercial DD)",
+              "items": [
+                {
+                  "item": "市场规模 (TAM)",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "竞争格局",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "客户集中度",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "上下游分析",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            },
+            {
+              "workstream": "法律尽调 (Legal DD)",
+              "items": [
+                {
+                  "item": "股权结构",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "重大诉讼",
+                  "status": "⚪ 需披露核查"
+                },
+                {
+                  "item": "关联交易",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "股权质押 / 内部交易",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            },
+            {
+              "workstream": "运营尽调 (Operational DD)",
+              "items": [
+                {
+                  "item": "护城河评估",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "研发投入",
+                  "status": "⚪ 需年报披露"
+                },
+                {
+                  "item": "管理层背景",
+                  "status": "⚪ 需人工核查"
+                },
+                {
+                  "item": "ESG 评级",
+                  "status": "⚪ 需第三方数据"
+                }
+              ]
+            },
+            {
+              "workstream": "市场尽调 (Market DD)",
+              "items": [
+                {
+                  "item": "政策环境",
+                  "status": "✅ 已有数据"
+                },
+                {
+                  "item": "舆情扫描",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "事件驱动监控",
+                  "status": "❌ 缺失"
+                },
+                {
+                  "item": "杀猪盘排查",
+                  "status": "✅ 已有数据"
+                }
+              ]
+            }
+          ],
+          "total_items": 21,
+          "items_auto_verified": 8,
+          "completion_pct": 38.0,
+          "manual_review_required": 13,
+          "methodology_log": [
+            "Step 1 · 生成 5 大工作流 21 条清单",
+            "Step 2 · 自动命中 8 条 (38.0%)",
+            "Step 3 · 剩余 13 条需人工复核"
+          ]
+        },
+        "competitive_analysis": {
+          "porter_five_forces": {
+            "new_entrants_threat": {
+              "score": 2,
+              "rationale": "规模品牌与分销进入门槛，精酿可切入细分。"
+            },
+            "substitutes_threat": {
+              "score": 3,
+              "rationale": "低糖及其他饮料竞争饮用场景。"
+            },
+            "supplier_power": {
+              "score": 3,
+              "rationale": "麦芽、包材暴露与集中竞价同时存在。"
+            },
+            "buyer_power": {
+              "score": 4,
+              "rationale": "渠道促销、到店客流与经销商动销。"
+            },
+            "rivalry_intensity": {
+              "score": 5,
+              "rationale": "行业集中，头部竞争份额及价格带。"
+            }
+          },
+          "bcg_position": {
+            "category": "未评估",
+            "market_share_pct": null,
+            "market_growth_pct": -6.0,
+            "strategic_action": "缺少公司与最大竞对同口径销量，无法计算相对市占率。"
+          }
+        },
+        "summary": {
+          "ic_recommendation": "观察",
+          "bcg_position": "未评估",
+          "industry_attractiveness": null,
+          "dd_completion_pct": 38.0,
+          "value_creation_uplift_yi": null,
+          "unit_economics_verdict": "Q3每千升收入代理升3.9%，成本代理升6.5%。"
+        }
+      },
+      "source": "compute:deep_analysis_methods (6 PE/IB/WM methods)",
+      "fallback": false
+    }
+  },
+  "_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [],
+    "missing_enrichment": [],
+    "fallback_dims": [],
+    "coverage_pct": 100.0,
+    "passed_checks": 18,
+    "total_checks": 18
+  },
+  "snapshot_date": "2026-11-11",
+  "market_status": {
+    "market": "H",
+    "label": "11月11日收盘快照",
+    "now": "2026-11-11T16:10:00+08:00",
+    "is_open": false
+  },
+  "research_as_of": "2026-11-12",
+  "review_limits": "结构完整性检查18/18；行业产量用二手引述，历史估值为抽样，荐股与社媒样本不足。"
+}

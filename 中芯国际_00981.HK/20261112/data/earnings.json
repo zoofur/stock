@@ -1,0 +1,299 @@
+{
+  "ticker": "00981.HK",
+  "as_of": "2026-11-12",
+  "quarter": "2026Q3",
+  "status": "official_q3_unaudited_results_verified",
+  "q3_actual": {
+    "revenue": 3190.038,
+    "gross_profit": 953.19,
+    "gross_margin_pct": 29.9,
+    "operating_profit": 710.063,
+    "parent_profit": 428.405,
+    "group_profit": 650.925,
+    "minority_profit": 222.52,
+    "other_income_net": -32.142,
+    "pretax_profit": 677.921,
+    "tax": 26.996,
+    "associate_jv_profit": -22.985,
+    "operating_expenses": 243.127,
+    "other_operating_income": 154.964,
+    "rd": 258.378,
+    "operating_cash": 1182.208,
+    "working_capital_and_other": -756.303,
+    "capex_disclosed": 1094.3,
+    "cash_ppe": 1388.457,
+    "cash_intangibles": 0,
+    "wafers": 3033683,
+    "utilization_pct": 97.3,
+    "monthly_capacity": 1116750,
+    "wafer_revenue_share_pct": 95.9,
+    "manufacturing_depreciation": 945.759,
+    "depreciation_amortization": 1270.42,
+    "basic_eps_usd": 0.05,
+    "basic_weighted_shares_m": 8561,
+    "diluted_weighted_shares_m": 8574,
+    "parent_equity": 25645.492,
+    "china_revenue_pct": 90.8,
+    "consumer_electronics_wafer_revenue_pct": 40.6,
+    "smartphone_wafer_revenue_pct": 14.3,
+    "industrial_automotive_wafer_revenue_pct": 19.3,
+    "twelve_inch_wafer_revenue_pct": 78.9,
+    "inventory": 4826.119,
+    "trade_and_other_receivables": 2294.754,
+    "cash_and_equivalents": 8303.843,
+    "total_debt": 14904.184,
+    "total_cash_on_hand": 13406.216,
+    "net_debt": 1497.968,
+    "associate_capital_injection": 1305.879
+  },
+  "unit": "USD million unless otherwise specified",
+  "source_index": "../sources/index.md",
+  "official": {
+    "2025Q3": {
+      "revenue": 2381.822,
+      "gross_profit": 522.811,
+      "gross_margin_pct": 22,
+      "operating_profit": 351.069,
+      "parent_profit": 191.758,
+      "capex_disclosed": 2394.2,
+      "wafers": 2499465,
+      "utilization_pct": 95.8,
+      "basic_eps_usd": 0.02
+    },
+    "2025Q4": {
+      "revenue": 2488.71,
+      "parent_profit": 172.851
+    },
+    "2026Q1": {
+      "revenue": 2505.487,
+      "gross_profit": 503.603,
+      "gross_margin_pct": 20.1,
+      "operating_profit": 247.792,
+      "parent_profit": 197.448,
+      "operating_cash": 684.985,
+      "capex_disclosed": 1562.8,
+      "cash_ppe": 1312.063,
+      "cash_intangibles": 0.72,
+      "wafers": 2509137,
+      "utilization_pct": 93.1,
+      "wafer_revenue_share_pct": 93.9
+    },
+    "2026Q2": {
+      "revenue": 3005.588,
+      "gross_profit": 760.64,
+      "gross_margin_pct": 25.3,
+      "operating_profit": 534.179,
+      "parent_profit": 479.197,
+      "other_income_net": 275.907,
+      "pretax_profit": 810.086,
+      "associate_jv_profit": 193.824,
+      "operating_cash": 2522.116,
+      "working_capital_and_other": 834.965,
+      "capex_disclosed": 1835.7,
+      "cash_ppe": 1540.943,
+      "cash_intangibles": 5.664,
+      "wafers": 2869495,
+      "utilization_pct": 93.7,
+      "wafer_revenue_share_pct": 94.6,
+      "manufacturing_depreciation": 924.796,
+      "depreciation_amortization": 1211.721,
+      "basic_eps_usd": 0.06,
+      "china_revenue_pct": 90.2,
+      "consumer_electronics_wafer_revenue_pct": 44.2,
+      "twelve_inch_wafer_revenue_pct": 78.2,
+      "other_operating_income": 112.612,
+      "operating_expenses": 226.461,
+      "minority_profit": 254.022,
+      "group_profit": 733.219,
+      "tax": 76.867,
+      "inventory": 4360.884,
+      "trade_and_other_receivables": 1512.779,
+      "net_debt": 162.342,
+      "monthly_capacity": 1096500,
+      "basic_weighted_shares_m": 8054
+    },
+    "2026H1": {
+      "parent_profit": 676.645,
+      "parent_ex_nonrecurring": 433.383,
+      "operating_cash": 3207.101,
+      "parent_equity": 25149.484,
+      "associate_jv_fair_value_gain": 218.993
+    },
+    "2026Q3_guidance": {
+      "revenue_qoq_pct": [
+        2,
+        4
+      ],
+      "gross_margin_pct": [
+        26,
+        28
+      ]
+    },
+    "north_acquisition": {
+      "remaining_stake_pct": 49,
+      "registration_date": "2026-06-12",
+      "new_a_shares": 547182073
+    },
+    "2026Q4_guidance": {
+      "revenue_qoq_pct": [
+        4,
+        6
+      ],
+      "gross_margin_pct": [
+        26,
+        28
+      ]
+    }
+  },
+  "published_forecasts_not_actuals": {
+    "investing": {
+      "revenue": 3110,
+      "eps_usd": 0.0513
+    },
+    "futu": {
+      "revenue": 3094,
+      "eps_usd": 0.05
+    }
+  },
+  "hk_quote": {
+    "close_hkd": 48.74,
+    "day_change_pct": -0.53,
+    "date": "2026-11-12",
+    "hk_shares": 6014663288,
+    "a_shares": 2547775982,
+    "hkd_per_usd_assumption": 7.8
+  },
+  "derived": {
+    "guidance_cases": [
+      {
+        "case": "指引下沿",
+        "revenue_qoq_pct": 2,
+        "revenue_yoy_pct": 28.712,
+        "revenue": 3065.6998,
+        "gross_margin_pct": 26,
+        "gross_profit": 797.0819,
+        "gross_profit_qoq_pct": 4.791
+      },
+      {
+        "case": "指引中值",
+        "revenue_qoq_pct": 3,
+        "revenue_yoy_pct": 29.974,
+        "revenue": 3095.7556,
+        "gross_margin_pct": 27,
+        "gross_profit": 835.854,
+        "gross_profit_qoq_pct": 9.888
+      },
+      {
+        "case": "指引上沿",
+        "revenue_qoq_pct": 4,
+        "revenue_yoy_pct": 31.236,
+        "revenue": 3125.8115,
+        "gross_margin_pct": 28,
+        "gross_profit": 875.2272,
+        "gross_profit_qoq_pct": 15.065
+      }
+    ],
+    "q2_wafer_asp_proxy_usd": 990.87,
+    "q1_wafer_asp_proxy_usd": 937.63,
+    "q2_cash_after_ppe_and_intangibles": 975.509,
+    "h1_cash_after_ppe_and_intangibles": 347.711,
+    "q2_other_income_to_pretax_pct": 34.06,
+    "h1_nonrecurring_share_of_parent_profit_pct": 35.95,
+    "ttm_parent_profit_through_2026q2": 1041.254,
+    "hk_equivalent_equity_value_hkd_bn": 417.333,
+    "q3_yoy_pct": {
+      "revenue": 33.9327,
+      "gross_profit": 82.3202,
+      "operating_profit": 102.2574,
+      "parent_profit": 123.4092,
+      "wafers": 21.3733
+    },
+    "q3_qoq_pct": {
+      "revenue": 6.1369,
+      "gross_profit": 25.3142,
+      "operating_profit": 32.926,
+      "parent_profit": -10.5994,
+      "operating_cash": -53.1263,
+      "capex_disclosed": -40.3879,
+      "wafers": 5.7218,
+      "inventory": 10.6684,
+      "trade_and_other_receivables": 51.6913
+    },
+    "q3_revenue_vs_forecast_pct": {
+      "investing": 2.5736,
+      "futu": 3.104
+    },
+    "q3_revenue_vs_company_guide_high_pct": 2.0547,
+    "q3_margin_vs_company_guide_high_pp": 1.9,
+    "q3_eps_basic_reconstructed_usd": 0.050041,
+    "q3_wafer_asp_proxy_usd": 1008.43,
+    "q3_wafer_asp_proxy_qoq_pct": 1.7718,
+    "q3_operating_profit_ex_other_operating_income": 555.099,
+    "q3_operating_profit_ex_other_operating_income_qoq_pct": 31.6752,
+    "q3_cash_after_ppe_and_intangibles": -206.249,
+    "ytd_cash_after_ppe_and_intangibles": 141.462,
+    "q3_working_capital_and_other_qoq_delta": -1591.268,
+    "q3_other_income_net_qoq_delta": -308.049,
+    "q3_associate_jv_qoq_delta": -216.809,
+    "ttm_parent_profit_through_2026q3": 1277.901,
+    "hk_trailing_pe_using_q3": 41.869,
+    "hk_latest_pb_using_q3": 2.086,
+    "annual_parent_profit_hurdles": {
+      "30": {
+        "parent_profit": 1783.476,
+        "growth_vs_ttm_pct": 39.5629
+      },
+      "35": {
+        "parent_profit": 1528.693,
+        "growth_vs_ttm_pct": 19.6253
+      },
+      "40": {
+        "parent_profit": 1337.607,
+        "growth_vs_ttm_pct": 4.6722
+      }
+    },
+    "q4_guidance_cases": [
+      {
+        "case": "下沿",
+        "revenue_qoq_pct": 4,
+        "revenue": 3317.6395,
+        "gross_margin_pct": 26,
+        "gross_profit": 862.5863,
+        "gross_profit_qoq_pct": -9.5053
+      },
+      {
+        "case": "中值",
+        "revenue_qoq_pct": 5,
+        "revenue": 3349.5399,
+        "gross_margin_pct": 27,
+        "gross_profit": 904.3758,
+        "gross_profit_qoq_pct": -5.1211
+      },
+      {
+        "case": "上沿",
+        "revenue_qoq_pct": 6,
+        "revenue": 3381.4403,
+        "gross_margin_pct": 28,
+        "gross_profit": 946.8033,
+        "gross_profit_qoq_pct": -0.67
+      }
+    ]
+  },
+  "skill": {
+    "version": "3.9.4",
+    "workflow": "earnings",
+    "latest": {
+      "revenue_usd_100m": 31.90038,
+      "net_profit_usd_100m": 4.28405,
+      "revenue_yoy_pct": 33.9,
+      "net_profit_yoy_pct": 123.4
+    },
+    "revenue_vs_investing_forecast_pct": 2.6,
+    "revenue_tag": "🟢 小幅超预期",
+    "parent_profit_vs_consensus_pct": null
+  },
+  "official_release": {
+    "local_time": "2026-11-12T17:40:00+08:00",
+    "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1112/2026111200682.pdf"
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "ticker": "00168.HK",
+  "name": "青岛啤酒股份",
+  "overall_score": 53.1,
+  "verdict_label": "观望偏空 · 2 派看空",
+  "verdict_detail": "基本面 58.5 · 共识 45.0",
+  "fundamental_score": 58.5,
+  "panel_consensus": 45.0,
+  "consensus_valid": true,
+  "school_lock": null,
+  "school_scores": {
+    "A": {
+      "group": "A",
+      "label": "经典价值派",
+      "desc": "巴菲特 / 格雷厄姆 / 费雪 / 芒格 一脉",
+      "n_members": 6,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 53.3,
+      "avg_score": 52.2,
+      "vote_consensus": 53.3,
+      "score_mean": 52.2,
+      "verdict": "关注",
+      "bullish": 2,
+      "neutral": 2,
+      "bearish": 2,
+      "skip": 0,
+      "dominant_signal": "bullish"
+    },
+    "B": {
+      "group": "B",
+      "label": "成长派",
+      "desc": "彼得·林奇 / 欧奈尔 / 蒂尔 / 伍德 一脉",
+      "n_members": 9,
+      "n_active": 9,
+      "short_excluded": 0,
+      "consensus": 10.1,
+      "avg_score": 22.6,
+      "vote_consensus": 13.3,
+      "score_mean": 22.6,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 2,
+      "bearish": 7,
+      "skip": 0,
+      "dominant_signal": "bearish"
+    },
+    "C": {
+      "group": "C",
+      "label": "宏观派",
+      "desc": "索罗斯 / 达利欧 / 马克斯 一脉",
+      "n_members": 5,
+      "n_active": 5,
+      "short_excluded": 2,
+      "consensus": 57.7,
+      "avg_score": 51.6,
+      "vote_consensus": 64.0,
+      "score_mean": 51.6,
+      "verdict": "关注",
+      "bullish": 2,
+      "neutral": 2,
+      "bearish": 1,
+      "skip": 0,
+      "dominant_signal": "bullish"
+    },
+    "D": {
+      "group": "D",
+      "label": "技术派",
+      "desc": "利弗莫尔 / Minervini / 达瓦斯 一脉",
+      "n_members": 4,
+      "n_active": 3,
+      "short_excluded": 0,
+      "consensus": 33.1,
+      "avg_score": 35.3,
+      "vote_consensus": 40.0,
+      "score_mean": 35.3,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 2,
+      "bearish": 1,
+      "skip": 1,
+      "dominant_signal": "neutral"
+    },
+    "E": {
+      "group": "E",
+      "label": "中式价投",
+      "desc": "段永平 / 张坤 / 朱少醒 / 冯柳 一脉",
+      "n_members": 7,
+      "n_active": 7,
+      "short_excluded": 0,
+      "consensus": 50.3,
+      "avg_score": 49.6,
+      "vote_consensus": 51.4,
+      "score_mean": 49.6,
+      "verdict": "关注",
+      "bullish": 3,
+      "neutral": 1,
+      "bearish": 3,
+      "skip": 0,
+      "dominant_signal": "bullish"
+    },
+    "F": {
+      "group": "F",
+      "label": "A 股游资",
+      "desc": "龙虎榜顶流 23 位·章盟主/孙哥/赵老哥为代表",
+      "n_members": 24,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 24,
+      "dominant_signal": "skip"
+    },
+    "G": {
+      "group": "G",
+      "label": "量化派",
+      "desc": "Simons / Thorp / Shaw 一脉",
+      "n_members": 4,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 4,
+      "dominant_signal": "skip"
+    },
+    "H": {
+      "group": "H",
+      "label": "科技领袖派",
+      "desc": "黄仁勋 / 马斯克 / Altman / Saylor 一脉",
+      "n_members": 4,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 4,
+      "dominant_signal": "skip"
+    },
+    "I": {
+      "group": "I",
+      "label": "AI 卡位/瓶颈猎手",
+      "desc": "Serenity · AI 供应链卡脖子/瓶颈点",
+      "n_members": 1,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 1,
+      "dominant_signal": "skip"
+    }
+  },
+  "short_consensus": {
+    "total": 2,
+    "active": 2,
+    "skip": 0,
+    "short_candidates": 0,
+    "no_short_thesis": 2,
+    "avg_score": 78.0,
+    "top_short_candidates": [
+      {
+        "id": "burry",
+        "name": "迈克尔·伯利",
+        "score": 78,
+        "headline": "约 12.59 倍扣非市盈率，估值扩张型空头缺席"
+      },
+      {
+        "id": "chanos",
+        "name": "吉姆·查诺斯",
+        "score": 78,
+        "headline": "前三季经营现金流 64.80 亿元，覆盖归母净利 50.55 亿元"
+      }
+    ]
+  },
+  "dim_commentary": {
+    "0_basic": "11月11日H股收41.38港元，按同日中间价折35.44元人民币，相对A股51.51元折价31.2%。港股每手500股。",
+    "1_financials": "三季度扣非9.64亿元，同比降25.31%。前三季经营现金流增11.4%，客户收款却同比少6.54亿元；支出下降贡献更大，现金流需看全年。",
+    "2_kline": "300个交易日未复权日线。收盘高于MA60的40.53，低于MA120的43.50与MA200的46.46；5/20日均量比0.83，趋势确认不足。",
+    "3_macro": "前三季餐饮收入增2.4%，青啤销量同期降6.2%；餐饮总额不能代替啤酒动销。 https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965614.html https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+    "4_peers": "华润报告约20.85倍，调整后情景约10.46–11.37倍；百威正常化约17.46倍。燕京约15.08倍且利润增速更高。全球五家仅比较经营体量。",
+    "5_chain": "大麦多为进口，包材多为国产，多数物料按年度招标。餐饮、经销商与即时零售需求变化影响单位收入和履约成本。",
+    "6_research": "华创与中金公开摘要均确认旺季量弱，且关注成本和费用率。报告重算盈利、汇率和分红，券商预测只用于校验假设。",
+    "7_industry": "全国规上啤酒前三季产量同比约降6%，公司销售量降6.2%，中高端升2%。产量与销量口径不同。 https://c.cnbrewing.com/zx/202610/21/zx110677.html https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1028/2026102801299.pdf",
+    "8_materials": "麦芽和包材占2025啤酒生产成本13.62%和50.33%；全包材涨10%的静态毛利影响约2.77个百分点。 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0427/2026042702944.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0924/2026092400582.pdf",
+    "9_futures": "沪铝近月结算22645元，2703为21700元；期货报价须经制罐商续标和存货结转才影响成本。 https://www.shfe.com.cn/reports/tradedata/dailyandweeklydata/?query_date=20261111&query_options=1&query_product_code=al_f",
+    "10_valuation": "重算H股报告PE 11.07倍、扣非PE 12.59倍；供应商2022年4月至今展示抽样中，PE/PB均约在第5百分位。",
+    "11_governance": "控股股东截至10月16日公告已买入H股158.3万股，均价约40.78港元。价格接近现价，后续以公告核验进度。",
+    "12_capital_flow": "港交所11月11日披露港股通合计持有3.1597亿H股，占48.23%。结算日持仓不能当日内净买入。",
+    "13_policy": "吨价跨档会增加每吨30元消费税，每10万吨静态多300万元，实际税负仍取决于跨档与渠道顺价。 https://fgk.chinatax.gov.cn/zcfgk/c100012/c5248635/content.html https://fgk.chinatax.gov.cn/zcfgk/c102416/c5202666/content.html",
+    "14_moat": "双品牌和集中采购支撑价格带与渠道覆盖。Q3吨收入代理升3.9%仍未覆盖约9.1%缩量，品牌议价需由动销验证。",
+    "15_events": "11月17日业绩说明会可验证吨成本、终端动销与渠道库存；增持进度是后续跟踪点。 https://static.cninfo.com.cn/finalpage/2026-11-10/1225662886.PDF https://static.cninfo.com.cn/finalpage/2026-10-17/1225608931.PDF",
+    "16_lhb": "H股缺少A股龙虎榜和涨停制度对应信号，相关评委跳过。A股盘口不用于推断H股成交集中价。",
+    "17_sentiment": "10月末部分机构下调盈利预测，缺少有代表性的社媒样本；只据可查盈利修订和成交数据判断。",
+    "18_trap": "有港交所公告和历史交易记录；无法核验私域荐股、推广承诺和资金路径，保留未评级。",
+    "19_contests": "缺少可核验比赛实盘记录和该股持仓凭证，该维度不作方向性判断。"
+  },
+  "institutional_modeling": {
+    "dcf_intrinsic": 43.84,
+    "dcf_safety_margin_pct": 5.94,
+    "dcf_verdict": "基准上行有限，等待安全边际",
+    "lbo_irr_pct": 9.21,
+    "lbo_verdict": "低于15%假设门槛",
+    "comps_verdict": "11–15倍情景对应40.96–55.85港元",
+    "initiating_rating": "观察",
+    "target_price": 43.84,
+    "upside_pct": 5.94,
+    "ic_recommendation": "观察",
+    "bcg_position": "未评估",
+    "industry_attractiveness": null
+  },
+  "detected_style": "balanced",
+  "style_label_cn": "中性兜底",
+  "style_explanation": "无明显风格倾向 · 全派系等权",
+  "style_diagnostics": {
+    "active_weight": 32.0,
+    "bullish_weight": 9.0,
+    "neutral_weight": 5.4,
+    "active_count": 32,
+    "bullish_count": 9,
+    "neutral_count": 9,
+    "bearish_count": 14,
+    "raw_consensus_old": 28.1,
+    "raw_fund_old": 58.5
+  },
+  "quant_signal": {
+    "count": 0,
+    "quant_funds": [],
+    "active_funds_total": 0,
+    "quant_funds_total": 0,
+    "is_quant_factor_style": null,
+    "evidence_status": "not_applicable",
+    "verified_funds_total": 0,
+    "unavailable_funds_total": 0,
+    "report_periods": [],
+    "counts_by_period": {},
+    "unavailable_reasons": {},
+    "publication_date_verified": false,
+    "scope": "scanned_funds_only"
+  },
+  "agent_reviewed": true,
+  "panel_insights": "长线评委30个有效，7偏多、9中性、14谨慎，34弃权。空头2例独立计。价值方法看到11.07倍PE，成长方法盯住扣非降25.31%，A股游资24例市场不适用。规则与人工差逾30分包括费雪、邓普顿、索罗斯、霍华德·马克斯、罗伯逊。",
+  "claude_narrative_stub": {
+    "_note": "以下字段已由 agent 覆盖",
+    "needs_rewrite": []
+  },
+  "debate": {
+    "bull": {
+      "name": "价值估值视角",
+      "type": "scenario"
+    },
+    "bear": {
+      "name": "现金流压力视角",
+      "type": "scenario"
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "bull_say": "H股报表PE 11.07倍、PB 1.49倍；相对同一发行人A股折价31.2%。",
+        "bear_say": "Q3销量跌9.1%，单位收入代理增3.9%，单位成本代理仍升6.5%。"
+      },
+      {
+        "round": 2,
+        "bull_say": "前三季中高端销量增长2%，占比升至46.3%；前三季经营现金流增11.4%。",
+        "bear_say": "TTM扣非PE 12.59倍，近12个月29.48亿元自由现金流低于最近年度32.06亿元宣派。"
+      },
+      {
+        "round": 3,
+        "bull_say": "若年度可持续自由现金流稳在28亿元，五年增2%，DCF约43.84港元。",
+        "bear_say": "基准较现价上行5.94%，压力估值26.65港元；至少15%安全边际对应37.26港元。"
+      }
+    ],
+    "punchline": "历史税前股息率6.52%，近12个月现金流却只覆盖年度分红92%。"
+  },
+  "great_divide": {
+    "bull_signal": "bullish",
+    "bear_signal": "bearish",
+    "punchline": "历史税前股息率6.52%，近12个月现金流却只覆盖年度分红92%。"
+  },
+  "risks": [
+    "Q3销量-9.1%、扣非-25.31%；若低价带继续缩量，单位收入抬升难补毛利。",
+    "TTM经营现金流减现金资本开支29.48亿元，低于2025年度宣派约32.06亿元，历史派息需要经营改善或存量资金。",
+    "DCF终值占基准EV约70%；压力情景26.65港元，较41.38低约36%。",
+    "包材和大麦的采购合同未公开。Q3吨成本代理同比升6.5%，价格传导存在招标与库存滞后。",
+    "A/H折价31.2%可长期存在，人民币波动和股息税改变港元现金回报。"
+  ],
+  "buy_zones": {
+    "value": {
+      "price": 37.26,
+      "rationale": "基准DCF 43.84港元打85折。"
+    },
+    "growth": {
+      "price": 48.4,
+      "rationale": "2026E归母43.5亿元按13倍市盈率换算；为盈利恢复情景价值。"
+    },
+    "technical": {
+      "price": 40.53,
+      "rationale": "60日均线观察位，43.50港元120日线需放量确认。"
+    },
+    "youzi": {
+      "price": null,
+      "rationale": "港股无A股龙虎榜集中成交价格。"
+    }
+  },
+  "fund_managers": [],
+  "dashboard": {
+    "core_conclusion": "41.38港元适合观察。H股11.07倍市盈率和6.52%历史税前股息率给出估值缓冲，Q3扣非下滑25.31%且TTM现金流覆盖分红约92%。基准43.84港元，价值参考37.26港元。",
+    "next_catalyst": "2026-11-17 15:30–16:30 三季报说明会",
+    "scenario_value_hkd": {
+      "压力": 26.65,
+      "基准": 43.84,
+      "乐观": 65.06
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "00168.HK",
+  "analysis_date": "2026-11-12",
+  "quote_date": "2026-11-11",
+  "quote_hkd": 41.38,
+  "price_currency": "HKD",
+  "financial_statement_currency": "CNY",
+  "cny_per_hkd": 0.85643,
+  "report": "full-report-standalone.html",
+  "core_value_hkd": 43.84,
+  "value_reference_hkd": 37.26,
+  "stress_value_hkd": 26.65,
+  "coverage_core_checks": "18/18",
+  "dimension_commentaries": 23,
+  "method_count": 66,
+  "limits": [
+    "历史估值为2022-04-29至2026-11-11的56点展示抽样。",
+    "行业产量用行业媒体引述。",
+    "异常推广未评级。",
+    "增持、分红、估值均有各自披露时点。"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "ticker": "00168.HK",
+  "fundamental_score": 58.5,
+  "dimensions": {
+    "1_financials": {
+      "score": 7,
+      "weight": 5,
+      "label": "FY25加权ROE 15.50%，Q3扣非-25.31%",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "2_kline": {
+      "score": 3,
+      "weight": 4,
+      "label": "Stage 4 下跌 · 均线均线未形成多头排列 · YTD -20.3%",
+      "reasons_pass": [],
+      "reasons_fail": [
+        "最大回撤 -31.0%"
+      ]
+    },
+    "3_macro": {
+      "score": 6,
+      "weight": 3,
+      "label": "宏观环境中性"
+    },
+    "4_peers": {
+      "score": 7,
+      "weight": 4,
+      "label": "3家本地估值同行，5家全球财务背景",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "5_chain": {
+      "score": 5,
+      "weight": 4,
+      "label": "集中采购及多渠道分销",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 3,
+      "label": "公开券商摘要，缺完整一致预期",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "7_industry": {
+      "score": 4,
+      "weight": 4,
+      "label": "成熟行业，前三季规上啤酒产量约-6.0%",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "8_materials": {
+      "score": 6,
+      "weight": 3,
+      "label": "原材料成本关注中"
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 2,
+      "label": "无强关联期货品种"
+    },
+    "10_valuation": {
+      "score": 9,
+      "weight": 5,
+      "label": "H股报告PE 11.07倍，历史展示样本约第5百分位",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "11_governance": {
+      "score": 7,
+      "weight": 4,
+      "label": "控股股东增持进度已公告",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "12_capital_flow": {
+      "score": 5,
+      "weight": 3,
+      "label": "港股通结算持股48.23%",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 3,
+      "label": "政策环境中性"
+    },
+    "14_moat": {
+      "score": 6,
+      "weight": 3,
+      "label": "护城河需定性评估"
+    },
+    "15_events": {
+      "score": 5,
+      "weight": 4,
+      "label": "近期新闻 0 条 · 公告 4 份"
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "港股制度不适用",
+      "reasons_pass": [],
+      "data_status": "不适用",
+      "reasons_fail": []
+    },
+    "17_sentiment": {
+      "score": 5,
+      "weight": 0,
+      "label": "缺有代表性的社媒数据",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "18_trap": {
+      "score": 5,
+      "weight": 0,
+      "label": "推广样本不足，未评级",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "无可核验比赛交易记录",
+      "reasons_pass": [],
+      "reasons_fail": []
+    }
+  }
+}
