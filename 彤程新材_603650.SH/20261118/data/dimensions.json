@@ -1,0 +1,309 @@
+{
+  "ticker": "603650.SH",
+  "fundamental_score": 53.2,
+  "dimensions": {
+    "1_financials": {
+      "score": 5,
+      "weight": 8,
+      "label": "财务与回款",
+      "reasons_pass": [
+        "ROE 最新 16.0%"
+      ],
+      "reasons_fail": [
+        "营收增速 4.8% 停滞"
+      ]
+    },
+    "2_kline": {
+      "score": 4,
+      "weight": 4,
+      "label": "技术趋势",
+      "reasons_pass": [],
+      "reasons_fail": [
+        "最大回撤 -57.2%"
+      ]
+    },
+    "3_macro": {
+      "score": 5,
+      "weight": 2,
+      "label": "宏观环境"
+    },
+    "4_peers": {
+      "score": 5,
+      "weight": 3,
+      "label": "同业对标",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "5_chain": {
+      "score": 7,
+      "weight": 3,
+      "label": "产业链",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "6_research": {
+      "score": 6,
+      "weight": 3,
+      "label": "盈利预期",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "7_industry": {
+      "score": 7,
+      "weight": 4,
+      "label": "行业景气"
+    },
+    "8_materials": {
+      "score": 4,
+      "weight": 3,
+      "label": "原材料"
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 0,
+      "label": "无强关联期货品种"
+    },
+    "10_valuation": {
+      "score": 4,
+      "weight": 7,
+      "label": "估值分位",
+      "reasons_pass": [
+        "PE 在 5 年中位数以下"
+      ],
+      "reasons_fail": []
+    },
+    "11_governance": {
+      "score": 6,
+      "weight": 4,
+      "label": "治理"
+    },
+    "12_capital_flow": {
+      "score": 5,
+      "weight": 3,
+      "label": "资金面",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 2,
+      "label": "政策与监管"
+    },
+    "14_moat": {
+      "score": 7,
+      "weight": 4,
+      "label": "护城河"
+    },
+    "15_events": {
+      "score": 6,
+      "weight": 3,
+      "label": "事件"
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "龙虎榜证据未核验",
+      "reasons_pass": [],
+      "data_status": "unverified"
+    },
+    "17_sentiment": {
+      "score": 6,
+      "weight": 0,
+      "label": "雪球热度上榜 0 次"
+    },
+    "18_trap": {
+      "score": 9,
+      "weight": 0,
+      "label": "🟢 未发现推广痕迹"
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "雪球 0 个组合持有 · 0 个收益 >50%",
+      "reasons_pass": []
+    },
+    "0_basic": {
+      "score": 7,
+      "weight": 2,
+      "label": "公司与股本"
+    },
+    "20_valuation_models": {
+      "score": 4,
+      "weight": 5,
+      "label": "机构建模"
+    },
+    "21_research_workflow": {
+      "score": 6,
+      "weight": 2,
+      "label": "研究与催化剂"
+    },
+    "22_deep_methods": {
+      "score": 5,
+      "weight": 3,
+      "label": "投委会审查"
+    }
+  },
+  "reviewed_dimensions": {
+    "0_basic": {
+      "label": "公司与股本",
+      "score": 7,
+      "weight": 2,
+      "commentary": "A、H均对应同一公司。A盘中47.72元，H盘中35.68港元折30.52元，折价36.0%。用各自报价乘股数后合计314.77亿元；名义股本6.84亿股。",
+      "baseline_score": null
+    },
+    "1_financials": {
+      "label": "财务与回款",
+      "score": 5,
+      "weight": 8,
+      "commentary": "9M归母5.22亿却只转成1.15亿经营现金；支出3.30亿现金资本开支后，简式自由现金−2.15亿。同期权益法利润2.42亿，占税前利润约44%。",
+      "baseline_score": 7
+    },
+    "2_kline": {
+      "label": "技术趋势",
+      "score": 4,
+      "weight": 4,
+      "commentary": "截至11月17日，47.37元高于MA20的46.72元，低于MA60的57.18元。放量反弹至20日均量的1.62倍，MACD双线仍在零轴下。252日年化波动63%。",
+      "baseline_score": 5
+    },
+    "3_macro": {
+      "label": "宏观环境",
+      "score": 5,
+      "weight": 2,
+      "commentary": "10月集成电路产量增长21.9%，同期汽车产量下降7.7%，电子材料和轮胎助剂应分开看。利率暂稳，汇率风险已有财报体现，前三季汇兑损失同比多3,078万元。 https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html https://static.cninfo.com.cn/finalpage/2026-10-28/1225631790.PDF 按招股书H1敏感度，利率上移25bp时，按文件时点线性折算约少465.5万元税后利润；以三季末归母权益作量级对照，约少0.07个百分点。 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf",
+      "baseline_score": 6
+    },
+    "4_peers": {
+      "label": "同业对标",
+      "score": 5,
+      "weight": 3,
+      "commentary": "光刻胶对标晶瑞电材、上海新阳，CMP对标鼎龙，酚醛树脂对标圣泉。鼎龙2026H1抛光垫收入7.45亿元，彤程超0.20亿元，规模差距限制CMP短期估值贡献。https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-26/ce8bb71b-ffa4-4100-8481-135ae4ea33d5.PDF https://static.cninfo.com.cn/finalpage/2026-08-20/1225481819.PDF",
+      "baseline_score": 7
+    },
+    "5_chain": {
+      "label": "产业链",
+      "score": 7,
+      "weight": 3,
+      "commentary": "上游苯酚影响轮胎用酚醛树脂，光刻胶依赖树脂、光引发剂和高纯溶剂。下游为轮胎厂、晶圆厂和显示面板厂，北旭面板胶、北京科华半导体胶各自面临长周期验证。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=82",
+      "baseline_score": 5
+    },
+    "6_research": {
+      "label": "盈利预期",
+      "score": 6,
+      "weight": 3,
+      "commentary": "样本六家均值为2026/27/28归母6.92/8.79/10.77亿。2026目标隐含Q4 1.70亿，对去年的0.68亿约增148%；用上调预期定价前，先核对现金兑现。",
+      "baseline_score": 5
+    },
+    "7_industry": {
+      "label": "行业景气",
+      "score": 7,
+      "weight": 4,
+      "commentary": "2025年中国半导体光刻胶市场约70亿元，彤程以5.8%居本土供应商第一，前五家本土供应商合计10.5%。国产仍有渗透空间，先进配方的批量复购和良率决定公司能兑现多少。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=84",
+      "baseline_score": 7
+    },
+    "8_materials": {
+      "label": "原材料",
+      "score": 4,
+      "weight": 3,
+      "commentary": "苯酚采购均价同比涨10.13%，助剂组合售价微降；框架协定多按交付市价重定价，影响要看当期实际领用成本和组合售价。 https://static.cninfo.com.cn/finalpage/2026-10-28/1225631803.PDF https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf",
+      "baseline_score": 6
+    },
+    "9_futures": {
+      "label": "期货与基差",
+      "score": null,
+      "weight": 0,
+      "commentary": "纯苯近月较次月升水175元/吨，企稳与否应对照苯酚实际采价。2025年报的原料衍生品披露不适用，无法把期货波动直接计入公司套保损益。 https://www.9qihuo.com/hangqing?productcode=bz https://static.cninfo.com.cn/finalpage/2026-04-18/1225115153.PDF",
+      "baseline_score": 5
+    },
+    "10_valuation": {
+      "label": "估值分位",
+      "score": 4,
+      "weight": 7,
+      "commentary": "A股TTM 55.29倍，五年PE分位49.05%。PB为4.79倍及3.88%分位；H股募资把9月底归母净资产提高62.69%，PB低分位含权益基数变化。",
+      "baseline_score": 7
+    },
+    "11_governance": {
+      "label": "治理",
+      "score": 6,
+      "weight": 4,
+      "commentary": "实际控制人于11月16日增持41.11万H股，披露权益达H股的9.71%。拟增持650万至1300万股为9月30日起12个月承诺窗口，首日买入发生在窗口前。",
+      "baseline_score": 7
+    },
+    "12_capital_flow": {
+      "label": "资金面",
+      "score": 5,
+      "weight": 3,
+      "commentary": "11月16日融资余额5.07亿元，单日净偿还约508万元；11月17日约3347万元大单净买入为估算。9月末陆股通托管440.97万股只用于披露时点对照。",
+      "baseline_score": 6
+    },
+    "13_policy": {
+      "label": "政策与监管",
+      "score": 6,
+      "weight": 2,
+      "commentary": "光刻胶与抛光垫符合十五五材料方向，能否转成订单仍取决于客户量产认证。进口关税优惠须核验主体与适用货物，高新15%税率关注北京科华、北旭与彤程镇江2026年到期续认。 https://gxt.hunan.gov.cn/gxt/xxgk_71033/ghjh/202609/t20260915_34064746.html https://www.ndrc.gov.cn/xxgk/zcfb/tz/202604/t20260409_1404580.html https://gss.mof.gov.cn/gzdt/zhengcefabu/202103/t20210329_3677452.htm https://static.cninfo.com.cn/finalpage/2026-04-18/1225115153.PDF",
+      "baseline_score": 6
+    },
+    "14_moat": {
+      "label": "护城河",
+      "score": 7,
+      "weight": 4,
+      "commentary": "H1已有3款沉浸式光刻胶稳定量产、20余款新品拿到正式订单。量产验证有切换成本，覆盖12英寸线体的比例不代表销售份额，观察复购和自产树脂导入。",
+      "baseline_score": 6
+    },
+    "15_events": {
+      "label": "事件",
+      "score": 6,
+      "weight": 3,
+      "commentary": "H股上市实际募资净额29.01亿港元，新增H股约占发行后总股本10%；研发和产线投入能否提升单位利润和回款，决定融资对每股价值的影响。https://www.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092801810_c.pdf#page=3 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=266",
+      "baseline_score": 5
+    },
+    "16_lhb": {
+      "label": "龙虎榜",
+      "score": null,
+      "weight": 0,
+      "commentary": "近20个已完成交易日公开检索无上榜、无涨停。8月6日核到历史榜，距离当前较久，近期游资席位成本缺少可核验样本。",
+      "baseline_score": 5
+    },
+    "17_sentiment": {
+      "label": "舆情",
+      "score": null,
+      "weight": 0,
+      "commentary": "A股11月17日涨4.43%，H股盘中仍较发行价低18.91%。资金与中期意见不同，社媒无完整可重复样本，减少其评分权重。",
+      "baseline_score": 6
+    },
+    "18_trap": {
+      "label": "荐股风险初筛",
+      "score": null,
+      "weight": 0,
+      "commentary": "公开证据初筛为低。未见与本股相关的公开诱导交易证据，H股基石持有33.1%、A股从102.28元回撤约54%是独立的流通与波动风险。",
+      "baseline_score": 9
+    },
+    "19_contests": {
+      "label": "实盘比赛",
+      "score": null,
+      "weight": 0,
+      "commentary": "公开组合与比赛结果未能核实有效持仓样本。账户、日期和交易记录缺任一项时无法将仓位及收益归因到彤程新材。",
+      "baseline_score": 5
+    },
+    "20_valuation_models": {
+      "label": "机构建模",
+      "score": 4,
+      "weight": 5,
+      "commentary": "分部DCF基准24.53元，2027E归母均值按30倍PE值38.54元。五年LBO在20%控制权溢价和12倍退出假设下IRR为−6.6%。估值依赖增长转成现金。",
+      "baseline_score": null
+    },
+    "21_research_workflow": {
+      "label": "研究与催化剂",
+      "score": 6,
+      "weight": 2,
+      "commentary": "未来60天的观察按订单复购、年末回款、泰国增资进度排序。以公司公告验证进度，Q4归母约1.70亿是券商均值隐含门槛。",
+      "baseline_score": null
+    },
+    "22_deep_methods": {
+      "label": "投委会审查",
+      "score": 5,
+      "weight": 3,
+      "commentary": "以商业化、现金转化、联营分红与行业倍数作投委会核验。苯酚全年若按7.5万吨用量、单价上升500元且无传导，税前成本敏感性约3750万元。",
+      "baseline_score": null
+    }
+  }
+}

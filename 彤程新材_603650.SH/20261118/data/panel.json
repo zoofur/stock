@@ -1,0 +1,2533 @@
+{
+  "ticker": "603650.SH",
+  "panel_consensus": 31.7,
+  "consensus_valid": true,
+  "hollow_verdicts": 0,
+  "hollow_pct": 0.0,
+  "hollow_ids": [],
+  "consensus_warning": null,
+  "vote_distribution": {
+    "strongly_buy": 0,
+    "buy": 0,
+    "watch": 0,
+    "wait": 26,
+    "avoid": 0,
+    "n_a": 28,
+    "skip": 10
+  },
+  "signal_distribution": {
+    "bullish": 1,
+    "neutral": 26,
+    "bearish": 27,
+    "skip": 10
+  },
+  "abstention_distribution": {
+    "missing_model": 4,
+    "strategy_out_of_scope": 4,
+    "market_not_applicable": 1,
+    "method_not_applicable": 1
+  },
+  "investors": [
+    {
+      "investor_id": "buffett",
+      "name": "巴菲特",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/buffett.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 24,
+      "verdict": "偏空",
+      "reasoning": "2021至2025年ROE为10.26%至15.98%，A股TTM市盈率55.29倍。以所有者盈余（owner earnings）审视，近12个月经营现金1.85亿元与现金资本开支4.78亿元相差2.93亿元，认证壁垒仍需成为可分配现金。",
+      "comment": "2021至2025年ROE为10.26%至15.98%，A股TTM市盈率55.29倍。以所有者盈余（owner earnings）审视，近12个月经营现金1.85亿元与现金资本开支4.78亿元相差2.93亿元，认证壁垒仍需成为可分配现金。",
+      "headline": "五年仅两年ROE超15%，简式自由现金流为负",
+      "pass": [
+        {
+          "name": "护城河清晰 (总分 ≥ 24/40)",
+          "msg": "护城河 27/40 可见",
+          "weight": 4
+        },
+        {
+          "name": "资产负债率 < 50%",
+          "msg": "资产负债率 43% 保守",
+          "weight": 3
+        },
+        {
+          "name": "PE 在 5 年中位数以下",
+          "msg": "PE 55.29 在 5 年 49.05 分位",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "ROE 连续 5 年 > 15%",
+          "msg": "ROE 5 年最低 10.3%，达标率仅 2/5",
+          "weight": 5
+        },
+        {
+          "name": "净利率 > 15%",
+          "msg": "净利率仅 14.2%",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 14,
+      "weight_total": 22,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "10 年以上 / 永远；如果你不愿意持有十年，就不要持有十分钟",
+      "position_sizing": "集中持仓，前 5 大通常占 70%+；好机会稀有，要重仓",
+      "what_would_change_my_mind": "ROE 连续 2 年跌破 12% · CEO 离职且战略转向 · 发现管理层诚信问题 · 商业模式被颠覆（例如纺织、报纸）",
+      "rule_score": 63
+    },
+    {
+      "investor_id": "graham",
+      "name": "格雷厄姆",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/graham.svg",
+      "signal": "bearish",
+      "confidence": 0.7,
+      "score": 12,
+      "verdict": "偏空",
+      "reasoning": "流动比率1.48低于防御型投资者偏好的2，当前估值也高于15倍市盈率与1.5倍市净率阈值。按流动资产减全部负债约6.78亿元，市值远超净流动资产，缺少账面安全边际。",
+      "comment": "流动比率1.48低于防御型投资者偏好的2，当前估值也高于15倍市盈率与1.5倍市净率阈值。按流动资产减全部负债约6.78亿元，市值远超净流动资产，缺少账面安全边际。",
+      "headline": "55.29倍市盈率与4.79倍市净率超防御标准",
+      "pass": [
+        {
+          "name": "连续 10 年盈利",
+          "msg": "连续 5 年盈利",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "PE < 15",
+          "msg": "PE 55.29 高于 15",
+          "weight": 3
+        },
+        {
+          "name": "PB < 1.5",
+          "msg": "PB 4.79 高于 1.5",
+          "weight": 3
+        },
+        {
+          "name": "PE × PB < 22.5 (格雷厄姆 22.5 定律)",
+          "msg": "PE×PB = 264.8 超 22.5 红线",
+          "weight": 3
+        },
+        {
+          "name": "流动比率 > 2",
+          "msg": "流动比率 1.5 < 2",
+          "weight": 2
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 14,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-3 年；达到内在价值或持有 2 年仍跑输市场则卖出",
+      "position_sizing": "分散至少 30 只，单票上限 5%，防御型投资者的铁律",
+      "what_would_change_my_mind": "PE × PB > 22.5 · 流动比率跌破 2 · 连续两年无盈利 · 股息中断",
+      "rule_score": 21
+    },
+    {
+      "investor_id": "fisher",
+      "name": "费雪",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/fisher.svg",
+      "signal": "bullish",
+      "confidence": 0.62,
+      "score": 67,
+      "verdict": "偏多",
+      "reasoning": "以研发效率与销售组织衡量，上半年逾20款新品获得正式订单，2025年研发投入占营收6.78%，可结合三款浸没式胶量产跟踪转化。实地交叉核验（scuttlebutt）优先看复购和利润率，三款量产与订单领先令长线情景相对偏多，基准DCF 24.53元仍低于现价。",
+      "comment": "以研发效率与销售组织衡量，上半年逾20款新品获得正式订单，2025年研发投入占营收6.78%，可结合三款浸没式胶量产跟踪转化。实地交叉核验（scuttlebutt）优先看复购和利润率，三款量产与订单领先令长线情景相对偏多，基准DCF 24.53元仍低于现价。",
+      "headline": "超过20款新品取得正式订单，三款浸没式胶稳定量产",
+      "pass": [
+        {
+          "name": "质量壁垒 (护城河 ≥ 6 avg)",
+          "msg": "护城河总分 27",
+          "weight": 3
+        },
+        {
+          "name": "卖方研报多数推荐",
+          "msg": "研报买入率 100%",
+          "weight": 2
+        }
+      ],
+      "fail": [
+        {
+          "name": "盈利能力优秀",
+          "msg": "净利率 14.2% 一般",
+          "weight": 3
+        },
+        {
+          "name": "营收 3 年 CAGR > 15%",
+          "msg": "营收 3Y CAGR 仅 11.1%",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 5,
+      "weight_total": 11,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "长期持有 5-15 年，让伟大的公司给你长期复利",
+      "position_sizing": "集中 10-20 只，深入了解后重仓；不懂的不碰",
+      "what_would_change_my_mind": "15 要点中出现 3 项以上恶化 · 管理层对投资者不坦诚 · 研发投入比突降 · 利润率持续侵蚀",
+      "rule_score": 45
+    },
+    {
+      "investor_id": "munger",
+      "name": "芒格",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/munger.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 25,
+      "verdict": "偏空",
+      "reasoning": "逆向思考（invert）先看两条亏钱路径，轮胎联营分红下滑和光刻胶扩产难回款。五年ROE最高15.98%，资本再投入和双业务估值让55.29倍报价更难消化。",
+      "comment": "逆向思考（invert）先看两条亏钱路径，轮胎联营分红下滑和光刻胶扩产难回款。五年ROE最高15.98%，资本再投入和双业务估值让55.29倍报价更难消化。",
+      "headline": "TTM现金资本开支4.78亿元，高于经营现金2.93亿元",
+      "pass": [],
+      "fail": [
+        {
+          "name": "护城河强 (总分 ≥ 28)",
+          "msg": "护城河 27/40 不够宽",
+          "weight": 5
+        },
+        {
+          "name": "财务稳健 (低负债+正现金流)",
+          "msg": "财务质量可疑",
+          "weight": 4
+        },
+        {
+          "name": "估值有安全边际 (PE 分位 < 40)",
+          "msg": "PE 分位 49.05，等更便宜",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 13,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "终身持有好生意，除非基本面永久性恶化",
+      "position_sizing": "极度集中，3-5 只占组合 80%+；反过来想，分散是能力不足的承认",
+      "what_would_change_my_mind": "反过来想——'这家最可能怎么死？' 看到 2 个以上答案时就要警觉 · 管理层 incentive 跑偏",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "templeton",
+      "name": "邓普顿",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/templeton.svg",
+      "signal": "neutral",
+      "confidence": 0.59,
+      "score": 39,
+      "verdict": "观望",
+      "reasoning": "47.72元较前复权一年盘中高点102.28元低53.3%，下跌提供逆向复核机会。五年PE处于49.1%分位，盘中跨市场A股溢价约56%，现价尚未达到极端悲观估值。",
+      "comment": "47.72元较前复权一年盘中高点102.28元低53.3%，下跌提供逆向复核机会。五年PE处于49.1%分位，盘中跨市场A股溢价约56%，现价尚未达到极端悲观估值。",
+      "headline": "A股回撤逾五成，55.29倍TTM溢价仍厚",
+      "pass": [],
+      "fail": [
+        {
+          "name": "PE 在 5 年低位 (分位 < 25)",
+          "msg": "PE 分位 49.05，离悲观点还远",
+          "weight": 5
+        },
+        {
+          "name": "相对同行便宜",
+          "msg": "PE 高于同行均值",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 8,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-10 年，等公司兑现内在价值",
+      "position_sizing": "集中 10-20 只，重仓高确定性机会",
+      "what_would_change_my_mind": "基本面永久性恶化 · 管理层诚信受损 · 安全边际被市场吃掉",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "klarman",
+      "name": "卡拉曼",
+      "group": "A",
+      "mandate": "long",
+      "avatar": "avatars/klarman.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 26,
+      "verdict": "偏空",
+      "reasoning": "现金等价物30.80亿元对应约40.71亿元有息债务代理，股权资产处分也取决于市场和税费。新产品转量产值得跟踪，基准DCF 24.53元较47.72元报价低48.6%，达不到30%安全边际。",
+      "comment": "现金等价物30.80亿元对应约40.71亿元有息债务代理，股权资产处分也取决于市场和税费。新产品转量产值得跟踪，基准DCF 24.53元较47.72元报价低48.6%，达不到30%安全边际。",
+      "headline": "42.93%负债率遇上TTM简式自由现金-2.93亿元",
+      "pass": [],
+      "fail": [
+        {
+          "name": "负债率低 + 现金流正",
+          "msg": "下行保护不足",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 4,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "灵活，有机会就出手，没机会就拿现金；特殊事件驱动为主",
+      "position_sizing": "可以 30-50% 现金等机会；单票 5-10%，特殊情形可更高",
+      "what_would_change_my_mind": "安全边际消失（市值接近 NAV）· 催化剂被推迟或取消 · 出现更好的错杀机会",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "lynch",
+      "name": "彼得·林奇",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/lynch.svg",
+      "signal": "bearish",
+      "confidence": 0.64,
+      "score": 27,
+      "verdict": "偏空",
+      "reasoning": "按2027年盈利预测均值，37.14倍远期PE除以27.0%的预期净利增速，PEG约1.38。按GARP做功课（do your homework），实际前三季归母仅增5.66%，当前定价需要连续兑现。",
+      "comment": "按2027年盈利预测均值，37.14倍远期PE除以27.0%的预期净利增速，PEG约1.38。按GARP做功课（do your homework），实际前三季归母仅增5.66%，当前定价需要连续兑现。",
+      "headline": "55.29倍TTM市盈率越过40倍估值警戒",
+      "pass": [
+        {
+          "name": "营收增速 20-50% (林奇 fast grower sweet spot)",
+          "msg": "营收增速 29% · fast grower",
+          "weight": 3
+        },
+        {
+          "name": "研报覆盖中性偏上",
+          "msg": "6 家研报 · 买入 100%",
+          "weight": 2
+        }
+      ],
+      "fail": [
+        {
+          "name": "PEG < 1 (林奇理想值)",
+          "msg": "PEG 未进入林奇理想区间 (< 1)",
+          "weight": 5
+        },
+        {
+          "name": "PEG 1-1.5 (临界接受)",
+          "msg": "PEG 不在 1-1.5 临界区",
+          "weight": 3
+        },
+        {
+          "name": "PE < 40 (林奇警戒线)",
+          "msg": "PE 55 > 40 · 林奇警戒（Rolls Royce 不是必要品）",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 5,
+      "weight_total": 16,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "公司故事讲完为止，典型 3-5 年；小盘 fast-grower 可以短些",
+      "position_sizing": "30-50 只多样化，按 6 类（稳定/周期/fast/慢/困境/资产）配比",
+      "what_would_change_my_mind": "PEG > 2（成长不配估值）· 库存/应收增速超过营收 · 故事不再兑现 · 个人能接触的场景里热度消退",
+      "rule_score": 31
+    },
+    {
+      "investor_id": "oneill",
+      "name": "欧奈尔",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/oneill.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 29,
+      "verdict": "偏空",
+      "reasoning": "CAN SLIM先看季度增长与接近新高，0.22元EPS同比下降8.33%，47.72元较已完成60日盘中高点75.96元低37.2%。新品符合产品催化的方向，走势和盈利增速仍需共同确认。",
+      "comment": "CAN SLIM先看季度增长与接近新高，0.22元EPS同比下降8.33%，47.72元较已完成60日盘中高点75.96元低37.2%。新品符合产品催化的方向，走势和盈利增速仍需共同确认。",
+      "headline": "三季度EPS同比跌8.33%，现价低于60日均线",
+      "pass": [],
+      "fail": [
+        {
+          "name": "C: 季度 EPS 同比 > 25%",
+          "msg": "净利增速 6% < 25%",
+          "weight": 3
+        },
+        {
+          "name": "A: 年度 EPS 增长 > 20%",
+          "msg": "年化增速不够",
+          "weight": 3
+        },
+        {
+          "name": "M: 个股趋势向上 (Stage 2)",
+          "msg": "非 Stage 2",
+          "weight": 3
+        },
+        {
+          "name": "N: 接近 52 周新高",
+          "msg": "距 60 日高点 -37.6%",
+          "weight": 2
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 11,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "握到 cup-and-handle 失败或 50 日均线破位；典型 3-12 个月",
+      "position_sizing": "初仓 25%，突破加仓至 100%；CANSLIM 7 维不达标不开仓",
+      "what_would_change_my_mind": "M 大盘转熊 · 跌破买入价 7-8% 无条件止损 · RS 强度跌出前 20% · 季度 EPS 减速",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "thiel",
+      "name": "彼得·蒂尔",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/thiel.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 52,
+      "verdict": "观望",
+      "reasoning": "酚醛、PHS和丙烯酸树脂建立了从分子到配方的垂直能力，可提升特定工艺切换成本。规模优势在少数细分领域更清晰，当前需验证其在客户认证之外能否取得持续定价权。",
+      "comment": "酚醛、PHS和丙烯酸树脂建立了从分子到配方的垂直能力，可提升特定工艺切换成本。规模优势在少数细分领域更清晰，当前需验证其在客户认证之外能否取得持续定价权。",
+      "headline": "自产树脂提供工艺差异，95%产线覆盖仍要看采购量",
+      "pass": [
+        {
+          "name": "规模优势 ≥ 7",
+          "msg": "规模优势 7/10",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "行业垄断地位 (护城河 ≥ 28)",
+          "msg": "垄断度不够",
+          "weight": 5
+        },
+        {
+          "name": "网络效应 ≥ 7",
+          "msg": "网络效应 4/10 弱",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 11,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "Power law 回报，一笔对的能 cover 所有错的；持有至 IPO/被收购",
+      "position_sizing": "极度不分散，单笔可 30%+；先找垄断再谈估值",
+      "what_would_change_my_mind": "竞争进入（垄断破） · 网络效应被新技术绕过 · 管理层卖股转向",
+      "rule_score": 27
+    },
+    {
+      "investor_id": "wood",
+      "name": "木头姐",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/wood.svg",
+      "signal": "neutral",
+      "confidence": 0.59,
+      "score": 59,
+      "verdict": "观望",
+      "reasoning": "三款浸没式光刻胶稳定量产，电子材料前三季实现约1.63亿元税前利润。按Wright定律视角，需要每次累积出货翻倍的单位成本轨迹，集团2025年研发投入占比6.78%，现阶段保留创新敞口观察。",
+      "comment": "三款浸没式光刻胶稳定量产，电子材料前三季实现约1.63亿元税前利润。按Wright定律视角，需要每次累积出货翻倍的单位成本轨迹，集团2025年研发投入占比6.78%，现阶段保留创新敞口观察。",
+      "headline": "电子化学品半年增56.89%，全集团研发投入占比距15%仍远",
+      "pass": [
+        {
+          "name": "行业处于 S 曲线拐点 (TAM > 20%/年)",
+          "msg": "行业增速 22% — S 曲线拐点",
+          "weight": 5
+        }
+      ],
+      "fail": [
+        {
+          "name": "属于 ARK 颠覆式创新平台",
+          "msg": "不在 ARK 五大创新平台范畴",
+          "weight": 5
+        },
+        {
+          "name": "营收加速或高增长",
+          "msg": "营收增速 11% 不够颠覆",
+          "weight": 3
+        },
+        {
+          "name": "长期视角 (5 年改变游戏规则)",
+          "msg": "1Y 回撤 -57% 过大，即使颠覆也要风控",
+          "weight": 2
+        }
+      ],
+      "weight_pass": 5,
+      "weight_total": 15,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "5 年视角看颠覆性技术拐点；短期波动不是卖出理由",
+      "position_sizing": "高 β 组合单票可 10%+，接受 50% 回撤换 10x 上行",
+      "what_would_change_my_mind": "S-curve 采用率斜率走平 · 监管禁令 · 核心技术被更新范式替代",
+      "rule_score": 33
+    },
+    {
+      "investor_id": "andreessen",
+      "name": "马克·安德森",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/andreessen.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 52,
+      "verdict": "观望",
+      "reasoning": "电子化学品半年增56.89%，自主树脂与客户验证形成可复制工艺能力。以创始人主导与规模扩张框架衡量，集团三年营收年复合增速仅11.10%，扩产与客户导入速度仍限定经营杠杆。",
+      "comment": "电子化学品半年增56.89%，自主树脂与客户验证形成可复制工艺能力。以创始人主导与规模扩张框架衡量，集团三年营收年复合增速仅11.10%，扩产与客户导入速度仍限定经营杠杆。",
+      "headline": "电子化学品半年增长56.89%，量产效率决定规模上限",
+      "pass": [
+        {
+          "name": "网络效应 / 平台粘性",
+          "msg": "护城河 27/40 · 平台/网络效应可见",
+          "weight": 4
+        }
+      ],
+      "fail": [
+        {
+          "name": "软件 / AI 原生公司",
+          "msg": "非软件/AI 原生 · 不在 techno-optimist 射程",
+          "weight": 5
+        }
+      ],
+      "weight_pass": 4,
+      "weight_total": 9,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-5 年，跟随公司成长曲线",
+      "position_sizing": "中度集中 20-30 只，成长最猛的票重仓",
+      "what_would_change_my_mind": "增长失速 · 估值与成长严重背离（PEG>2）· 护城河被穿",
+      "rule_score": 44
+    },
+    {
+      "investor_id": "gurley",
+      "name": "比尔·格利",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/gurley.svg",
+      "signal": "bearish",
+      "confidence": 0.61,
+      "score": 34,
+      "verdict": "偏空",
+      "reasoning": "需求强度可从收入与销量核验，电子化学品前三季销量2.03万吨，增量仍要拆开产品组合同单价。TTM简式自由现金流率约-7.0%，平台式高毛利单位经济尚未体现。",
+      "comment": "需求强度可从收入与销量核验，电子化学品前三季销量2.03万吨，增量仍要拆开产品组合同单价。TTM简式自由现金流率约-7.0%，平台式高毛利单位经济尚未体现。",
+      "headline": "前三季毛利率23.03%，电子化学品均价下跌0.41%",
+      "pass": [],
+      "fail": [
+        {
+          "name": "marketplace / SaaS / B2B 平台",
+          "msg": "非 marketplace/SaaS · 偏离 Gurley 射程",
+          "weight": 5
+        },
+        {
+          "name": "单位经济为正",
+          "msg": "毛利率 23% / 净利率 14.2% · 单位经济不健康",
+          "weight": 5
+        },
+        {
+          "name": "需求强度足",
+          "msg": "增速不足 · magnitude of demand 不够",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 17,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-5 年，跟随公司成长曲线",
+      "position_sizing": "中度集中 20-30 只，成长最猛的票重仓",
+      "what_would_change_my_mind": "增长失速 · 估值与成长严重背离（PEG>2）· 护城河被穿",
+      "rule_score": 17
+    },
+    {
+      "investor_id": "naval",
+      "name": "纳瓦尔",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/naval.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 44,
+      "verdict": "观望",
+      "reasoning": "specific knowledge更可能来自树脂配方、质量验证和交付经验，专利授权计数提供了部分证据。五年仅两年ROE超过15%，生产投入与回款特征尚不足以支持高杠杆式复利。",
+      "comment": "specific knowledge更可能来自树脂配方、质量验证和交付经验，专利授权计数提供了部分证据。五年仅两年ROE超过15%，生产投入与回款特征尚不足以支持高杠杆式复利。",
+      "headline": "500件授权专利有积累，4.78亿元TTM现金资本开支限制复利",
+      "pass": [
+        {
+          "name": "正和游戏",
+          "msg": "非零和游戏 · 创造真实价值",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "可复制的杠杆 (代码/媒体/资本)",
+          "msg": "重资产/重服务 · 缺可复制杠杆",
+          "weight": 5
+        },
+        {
+          "name": "独特知识 / 不可教授",
+          "msg": "护城河 27/40 · 谁都能干",
+          "weight": 4
+        },
+        {
+          "name": "适合 10 年+ 持有",
+          "msg": "ROE 不持续 · 短期生意",
+          "weight": 4
+        },
+        {
+          "name": "复利曲线清晰",
+          "msg": "净利不复利 · 不在长期主义清单",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 19,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-5 年，跟随公司成长曲线",
+      "position_sizing": "中度集中 20-30 只，成长最猛的票重仓",
+      "what_would_change_my_mind": "增长失速 · 估值与成长严重背离（PEG>2）· 护城河被穿",
+      "rule_score": 15
+    },
+    {
+      "investor_id": "gerstner",
+      "name": "布拉德·格斯特纳",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/gerstner.svg",
+      "signal": "neutral",
+      "confidence": 0.58,
+      "score": 42,
+      "verdict": "观望",
+      "reasoning": "集团三年收入年复合增长11.10%，前三季度营收增速加快。按增长质量框架，与AI资本开支直接挂钩的收入未单列，预计明年约37.1倍PE仍要靠现金兑现和结构改善。",
+      "comment": "集团三年收入年复合增长11.10%，前三季度营收增速加快。按增长质量框架，与AI资本开支直接挂钩的收入未单列，预计明年约37.1倍PE仍要靠现金兑现和结构改善。",
+      "headline": "营收同比29.37%，TTM归母净利率14.16%且现金兑现偏弱",
+      "pass": [
+        {
+          "name": "营收加速 (非匀速)",
+          "msg": "同比 29% > 3y avg 11% · 加速中",
+          "weight": 4
+        }
+      ],
+      "fail": [
+        {
+          "name": "AI / 云原生 / 算力链",
+          "msg": "非 AI/云赛道 · Gerstner 不重仓",
+          "weight": 5
+        },
+        {
+          "name": "Rule of 40",
+          "msg": "增速 11 + 利率 14 < 40 · 不达标",
+          "weight": 4
+        },
+        {
+          "name": "估值高但增长撑得起",
+          "msg": "PEG 5.0 偏贵 + 增速不够 · 不值这个价",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 4,
+      "weight_total": 16,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-5 年，跟随公司成长曲线",
+      "position_sizing": "中度集中 20-30 只，成长最猛的票重仓",
+      "what_would_change_my_mind": "增长失速 · 估值与成长严重背离（PEG>2）· 护城河被穿",
+      "rule_score": 25
+    },
+    {
+      "investor_id": "chamath",
+      "name": "查马斯",
+      "group": "B",
+      "mandate": "long",
+      "avatar": "avatars/chamath.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 48,
+      "verdict": "观望",
+      "reasoning": "电子材料约占前三季度收入三分之一，实际盈利提供了成长依据。A股报价对应2027年均值盈利约37.1倍，细分市场狭义份额与客户集中度决定可承受的估值。",
+      "comment": "电子材料约占前三季度收入三分之一，实际盈利提供了成长依据。A股报价对应2027年均值盈利约37.1倍，细分市场狭义份额与客户集中度决定可承受的估值。",
+      "headline": "电子材料税前利润1.63亿元，重估要穿过营运资本",
+      "pass": [
+        {
+          "name": "盈利路径清晰",
+          "msg": "毛利率 23% · 路径清晰",
+          "weight": 4
+        }
+      ],
+      "fail": [
+        {
+          "name": "颠覆性公司 thesis 明确",
+          "msg": "传统行业 · 不在 disruption 列表",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 4,
+      "weight_total": 8,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-5 年，跟随公司成长曲线",
+      "position_sizing": "中度集中 20-30 只，成长最猛的票重仓",
+      "what_would_change_my_mind": "增长失速 · 估值与成长严重背离（PEG>2）· 护城河被穿",
+      "rule_score": 50
+    },
+    {
+      "investor_id": "soros",
+      "name": "索罗斯",
+      "group": "C",
+      "mandate": "long",
+      "avatar": "avatars/soros.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 52,
+      "verdict": "观望",
+      "reasoning": "两地盘中价格折算后相差约36%，H股融资和光刻胶放量可以强化预期。可错性检验是A股重新站稳60日均线并伴随回款改善，目前价格仍低于约57.18元的60日均线。",
+      "comment": "两地盘中价格折算后相差约36%，H股融资和光刻胶放量可以强化预期。可错性检验是A股重新站稳60日均线并伴随回款改善，目前价格仍低于约57.18元的60日均线。",
+      "headline": "A/H价差约36%，反身性缺少趋势确认",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 有趋势",
+          "msg": "无明确趋势",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "反身性循环一轮，通常数周到数月，随时可翻转",
+      "position_sizing": "重仓押一次（sterling 1992 那种），但任何时候都可反向",
+      "what_would_change_my_mind": "市场停止验证我的叙事（反身性反转）· 基本面超出错误区间 · 更好的非对称机会出现",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "dalio",
+      "name": "达里奥",
+      "group": "C",
+      "mandate": "long",
+      "avatar": "avatars/dalio.svg",
+      "signal": "neutral",
+      "confidence": 0.58,
+      "score": 43,
+      "verdict": "观望",
+      "reasoning": "按经济机器框架，10月集成电路产量增21.9%提供结构性增长，PMI与社融增量显示信用和需求复苏仍不均衡。负债率42.93%、年度现金股息对应A股约1.05%，单票对全天候配置的分散贡献有限。",
+      "comment": "按经济机器框架，10月集成电路产量增21.9%提供结构性增长，PMI与社融增量显示信用和需求复苏仍不均衡。负债率42.93%、年度现金股息对应A股约1.05%，单票对全天候配置的分散贡献有限。",
+      "headline": "1年LPR维持3.0%，PMI 49.3%显示短周期走弱",
+      "pass": [
+        {
+          "name": "有股息 (全天候配置)",
+          "msg": "股息率 1.1%",
+          "weight": 2
+        }
+      ],
+      "fail": [
+        {
+          "name": "公司负债率低",
+          "msg": "负债率 43% 偏高",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 2,
+      "weight_total": 5,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "All Weather 全天候配置，再平衡周期约 1 年；单次押注几天到几月",
+      "position_sizing": "风险平价：每类资产的波动率贡献相等，不看单票",
+      "what_would_change_my_mind": "经济周期象限切换（增长↑↓ × 通胀↑↓ 四宫格）· 央行政策拐点 · 长债利率结构破位",
+      "rule_score": 40
+    },
+    {
+      "investor_id": "marks",
+      "name": "霍华德·马克斯",
+      "group": "C",
+      "mandate": "long",
+      "avatar": "avatars/marks.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 30,
+      "verdict": "偏空",
+      "reasoning": "用二阶思维看，价格经历大幅回撤，现金流与估值仍要求较高增长。基准DCF约24.53元，当前47.72元提供的价格保护有限。",
+      "comment": "用二阶思维看，价格经历大幅回撤，现金流与估值仍要求较高增长。基准DCF约24.53元，当前47.72元提供的价格保护有限。",
+      "headline": "一年最大回撤约57%，A股仍约55倍TTM市盈率",
+      "pass": [
+        {
+          "name": "风险已定价 (回撤过)",
+          "msg": "最大回撤 -57%",
+          "weight": 2
+        }
+      ],
+      "fail": [
+        {
+          "name": "历史估值便宜",
+          "msg": "PE 49.05 分位不便宜",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 2,
+      "weight_total": 6,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "完整的市场周期（通常 5-7 年），周期位置决定进出",
+      "position_sizing": "逆向：别人抢时不买，别人弃时买；单票仓位按风险定价调",
+      "what_would_change_my_mind": "二阶思维反转（我对多数人的判断变了）· 风险溢价收敛到极值 · 周期钟摆触顶",
+      "rule_score": 33
+    },
+    {
+      "investor_id": "druck",
+      "name": "德鲁肯米勒",
+      "group": "C",
+      "mandate": "long",
+      "avatar": "avatars/druck.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 56,
+      "verdict": "观望",
+      "reasoning": "12至18个月的主题有产量和行业投资支撑，前三季电子材料利润总额1.63亿元证明转型开始兑现。10月LPR持平，单季归母利润下降7.09%，提高确信度还需要电子材料放量与集团回款同步。",
+      "comment": "12至18个月的主题有产量和行业投资支撑，前三季电子材料利润总额1.63亿元证明转型开始兑现。10月LPR持平，单季归母利润下降7.09%，提高确信度还需要电子材料放量与集团回款同步。",
+      "headline": "集成电路投资增长13.8%，盈利拐点仍需确认",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "灵活，从几周到 2 年；对错都要快速反应",
+      "position_sizing": "不对的时候只下小注，极度对的时候 all-in；集中非常高",
+      "what_would_change_my_mind": "央行立场转向 · 自己的赔率判断被市场证伪 · 发现更大赔率的品种",
+      "rule_score": null
+    },
+    {
+      "investor_id": "robertson",
+      "name": "罗伯逊",
+      "group": "C",
+      "mandate": "long",
+      "avatar": "avatars/robertson.svg",
+      "signal": "neutral",
+      "confidence": 0.59,
+      "score": 61,
+      "verdict": "观望",
+      "reasoning": "按招股书引用的2025年销售金额口径，公司在该细分市场居首，前三季电子材料利润增长292.74%。集团TTM净利率14.16%，经营现金流仅约归母利润的31%，横向比较应将现金转化与排名并看。",
+      "comment": "按招股书引用的2025年销售金额口径，公司在该细分市场居首，前三季电子材料利润增长292.74%。集团TTM净利率14.16%，经营现金流仅约归母利润的31%，横向比较应将现金转化与排名并看。",
+      "headline": "全球轮胎用酚醛树脂助剂份额41.4%，龙头再看回款",
+      "pass": [
+        {
+          "name": "基本面强",
+          "msg": "ROE 16.0% 净利率 14.2%",
+          "weight": 3
+        }
+      ],
+      "fail": [],
+      "weight_pass": 3,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "数周到数月，跟随宏观节奏与流动性窗口",
+      "position_sizing": "按赔率分配，对的时候敢重仓，错的时候立即认错",
+      "what_would_change_my_mind": "宏观叙事被证伪 · 央行/政策转向 · 赔率变得不利",
+      "rule_score": 100
+    },
+    {
+      "investor_id": "burry",
+      "name": "迈克尔·伯利",
+      "group": "C",
+      "mandate": "short",
+      "avatar": "avatars/burry.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 31,
+      "verdict": "风险观察",
+      "reasoning": "逐项核算营运资金、资本开支与权益法投资，A股报价要求很高的现金回收斜率。资产负债率约43%，H股募集资金增加缓冲，估值偏空判断仍需配合可验证的重新定价催化剂。",
+      "comment": "逐项核算营运资金、资本开支与权益法投资，A股报价要求很高的现金回收斜率。资产负债率约43%，H股募集资金增加缓冲，估值偏空判断仍需配合可验证的重新定价催化剂。",
+      "headline": "A股约55倍TTM市盈率，简式自由现金流为负2.93亿元",
+      "pass": [
+        {
+          "name": "非估值泡沫篮子",
+          "msg": "PE 55 · PS 7.8 · 未在 Burry 空头清单",
+          "weight": 5
+        },
+        {
+          "name": "债务可控",
+          "msg": "负债率 43% · 不爆雷",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "FCF 真实 · 不是会计利润",
+          "msg": "FCF 弱 · 利润可能粉饰",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 8,
+      "weight_total": 12,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "数周到数月，跟随宏观节奏与流动性窗口",
+      "position_sizing": "按赔率分配，对的时候敢重仓，错的时候立即认错",
+      "what_would_change_my_mind": "宏观叙事被证伪 · 央行/政策转向 · 赔率变得不利",
+      "rule_score": 66
+    },
+    {
+      "investor_id": "chanos",
+      "name": "吉姆·查诺斯",
+      "group": "C",
+      "mandate": "short",
+      "avatar": "avatars/chanos.svg",
+      "signal": "neutral",
+      "confidence": 0.58,
+      "score": 43,
+      "verdict": "无明确做空触发",
+      "reasoning": "应收账款较年末增加2.75亿元，公司解释新品增长形成账期时间差。投资收益约2.43亿元也使报表利润和经营现金存在结构差异，下一步看应收实际回款和投资分红到账。",
+      "comment": "应收账款较年末增加2.75亿元，公司解释新品增长形成账期时间差。投资收益约2.43亿元也使报表利润和经营现金存在结构差异，下一步看应收实际回款和投资分红到账。",
+      "headline": "前三季经营现金约为归母利润22%，跟踪应收及联营分红",
+      "pass": [
+        {
+          "name": "非中概雷区",
+          "msg": "非美上市中概 · 跳过 Chanos 黑名单",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "现金匹配利润",
+          "msg": "OCF/净利 0.3 · 大幅背离 · 可能账面利润",
+          "weight": 5
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 8,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "数周到数月，跟随宏观节奏与流动性窗口",
+      "position_sizing": "按赔率分配，对的时候敢重仓，错的时候立即认错",
+      "what_would_change_my_mind": "宏观叙事被证伪 · 央行/政策转向 · 赔率变得不利",
+      "rule_score": 37
+    },
+    {
+      "investor_id": "livermore",
+      "name": "利弗莫尔",
+      "group": "D",
+      "mandate": "long",
+      "avatar": "avatars/livermore.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 25,
+      "verdict": "偏空",
+      "reasoning": "11月17日虽涨4.43%且放量至20日均量的1.62倍，收盘47.37元仍距60日线约17%。趋势跟随等待关键位通过和回踩确认。",
+      "comment": "11月17日虽涨4.43%且放量至20日均量的1.62倍，收盘47.37元仍距60日线约17%。趋势跟随等待关键位通过和回踩确认。",
+      "headline": "趋势先站回57.18元60日线",
+      "pass": [],
+      "fail": [
+        {
+          "name": "处于 Stage 2 上升期",
+          "msg": "Stage 1 非上升",
+          "weight": 5
+        },
+        {
+          "name": "均线多头排列",
+          "msg": "均线非多头",
+          "weight": 3
+        },
+        {
+          "name": "接近高点但未超买",
+          "msg": "位置不利",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 11,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "吃完主升浪，通常数周到数月，坐住比交易难",
+      "position_sizing": "试仓-验证-加仓-重仓 pyramid；错了立刻止损走人",
+      "what_would_change_my_mind": "关键支撑破位 · 领涨股走弱 · 整体市场 tone 改变 · 任何反向信号 '立即 get out'",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "minervini",
+      "name": "米内尔维尼",
+      "group": "D",
+      "mandate": "long",
+      "avatar": "avatars/minervini.svg",
+      "signal": "bearish",
+      "confidence": 0.67,
+      "score": 19,
+      "verdict": "偏空",
+      "reasoning": "57.18元的MA60低于62.29元的MA120，收盘47.37元距前复权52周最高102.28元约54%。短均线修复不足以形成第二阶段趋势模板。",
+      "comment": "57.18元的MA60低于62.29元的MA120，收盘47.37元距前复权52周最高102.28元约54%。短均线修复不足以形成第二阶段趋势模板。",
+      "headline": "SEPA两项不足，MA60低于MA120且距高点54%",
+      "pass": [
+        {
+          "name": "YTD 相对强度 > 0",
+          "msg": "YTD +9%",
+          "weight": 2
+        },
+        {
+          "name": "RSI 未严重超买 (< 80)",
+          "msg": "RSI 50",
+          "weight": 2
+        }
+      ],
+      "fail": [
+        {
+          "name": "严格 Stage 2 (SEPA 核心)",
+          "msg": "不在 Stage 2，不碰",
+          "weight": 5
+        },
+        {
+          "name": "MA 多头堆叠",
+          "msg": "MA 未堆叠",
+          "weight": 4
+        },
+        {
+          "name": "距 52 周高点 < 25%",
+          "msg": "距高点 -38% 过远",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 4,
+      "weight_total": 16,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "VCP 突破后 3-6 个月吃主升浪；跌破 20 日立即减仓",
+      "position_sizing": "初始 25% 仓位，确认追加至 100%；亏损不超过整仓 2%",
+      "what_would_change_my_mind": "跌破 10/20 日均线 · 放量下跌 · 趋势模板 8 条件中 3 项以上失效",
+      "rule_score": 25
+    },
+    {
+      "investor_id": "darvas",
+      "name": "达瓦斯",
+      "group": "D",
+      "mandate": "long",
+      "avatar": "avatars/darvas.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 31,
+      "verdict": "偏空",
+      "reasoning": "取近五日低点与十日高点作为观察区。11月17日放量反弹仍未越过50.77元，达瓦斯方法等待箱体上沿突破且量能延续。",
+      "comment": "取近五日低点与十日高点作为观察区。11月17日放量反弹仍未越过50.77元，达瓦斯方法等待箱体上沿突破且量能延续。",
+      "headline": "44.59–50.77元局部箱体仍在",
+      "pass": [],
+      "fail": [
+        {
+          "name": "处于趋势向上 (Stage 2)",
+          "msg": "非上升箱体",
+          "weight": 5
+        },
+        {
+          "name": "均线支撑",
+          "msg": "MA 未支撑",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 8,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "数周到 3 个月，跟趋势做，破位就走",
+      "position_sizing": "Pyramid 加仓，亏损严格控制在单笔 2% 以内",
+      "what_would_change_my_mind": "关键均线破位 · 量能背离 · 相对强度掉出前列",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "gann",
+      "name": "江恩",
+      "group": "D",
+      "mandate": "long",
+      "avatar": "avatars/gann.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型未验证",
+      "reasoning": "对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验",
+      "comment": "对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验",
+      "headline": "对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验",
+      "abstention_category": "missing_model",
+      "skip_reason": "对应模型与验证流程尚未实现：预定义高低点锚点、角度尺度与周期模型、样本外验证、交易成本与稳定性检验",
+      "required_evidence": [
+        "预定义高低点锚点、角度尺度与周期模型",
+        "样本外验证",
+        "交易成本与稳定性检验"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "数周到 3 个月，跟趋势做，破位就走",
+      "position_sizing": "Pyramid 加仓，亏损严格控制在单笔 2% 以内",
+      "what_would_change_my_mind": "关键均线破位 · 量能背离 · 相对强度掉出前列",
+      "rule_score": null
+    },
+    {
+      "investor_id": "duan",
+      "name": "段永平",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/duan.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 24,
+      "verdict": "偏空",
+      "reasoning": "不为清单先看生意的现金生成，前三季归母5.22亿元，集团经营净现金只有1.15亿元。A股报价已要求多年业绩兑现，等待财报证明增长与回款可同时改善。",
+      "comment": "不为清单先看生意的现金生成，前三季归母5.22亿元，集团经营净现金只有1.15亿元。A股报价已要求多年业绩兑现，等待财报证明增长与回款可同时改善。",
+      "headline": "55.29倍TTM市盈率超过40倍估值警戒",
+      "pass": [
+        {
+          "name": "价格对 (PE 分位 < 50)",
+          "msg": "PE 49.05 分位",
+          "weight": 4
+        },
+        {
+          "name": "10 年看得懂 (护城河 + 成熟业务)",
+          "msg": "商业模式可见 10 年",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "生意对 (净利率 > 15% + ROE > 10%)",
+          "msg": "生意质量一般",
+          "weight": 5
+        },
+        {
+          "name": "PE 不超过 40 (段永平价格红线)",
+          "msg": "PE 55 太贵 · 段永平历史买入都是相对便宜时",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 7,
+      "weight_total": 15,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "10-20 年，好的公司尽可能长；搞懂了就敢重仓",
+      "position_sizing": "极度集中：Apple 占他组合大半；敢 all-in 到自己真的懂的",
+      "what_would_change_my_mind": "生意的本质变了（不是季度波动）· 管理层 incentive 偏移 · 自己真的不懂了就卖",
+      "rule_score": 46
+    },
+    {
+      "investor_id": "zhangkun",
+      "name": "张坤",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/zhangkun.svg",
+      "signal": "bearish",
+      "confidence": 0.66,
+      "score": 22,
+      "verdict": "偏空",
+      "reasoning": "五年ROE仅两次过15%，近12个月简式自由现金为-2.93亿元。高价需要利润稳定、现金回收和再投资回报三项长期证据。",
+      "comment": "五年ROE仅两次过15%，近12个月简式自由现金为-2.93亿元。高价需要利润稳定、现金回收和再投资回报三项长期证据。",
+      "headline": "TTM经营现金仅为归母利润31.3%，长期复利证据不足",
+      "pass": [
+        {
+          "name": "品牌/无形资产壁垒",
+          "msg": "无形资产 8/10",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "ROE 持续 > 15% (5 年 ≥ 3 次)",
+          "msg": "ROE 持续性 2/5",
+          "weight": 5
+        },
+        {
+          "name": "定价权 (净利率 > 18%)",
+          "msg": "净利率 14.2% 无定价权",
+          "weight": 3
+        },
+        {
+          "name": "PE 不超过 40 (张坤估值纪律)",
+          "msg": "PE 55 超出张坤历史持仓估值上限",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 14,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-5 年中期；白酒、医药、大消费要看够一个周期",
+      "position_sizing": "易方达蓝筹前十大长期占 70%+，低换手；好公司等回调",
+      "what_would_change_my_mind": "ROE 连续 2 年掉队行业平均 · 估值分位超 90% · 管理层大规模变动",
+      "rule_score": 21
+    },
+    {
+      "investor_id": "zhushaoxing",
+      "name": "朱少醒",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/zhushaoxing.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 46,
+      "verdict": "观望",
+      "reasoning": "电子化学品的客户验证和收入结构提升给长期成长留空间。集团三年复合增速低于15%，近一年年化波动约63%。电子分部的正式订单足以保留观察，尚需跟踪其对集团成长的贡献。",
+      "comment": "电子化学品的客户验证和收入结构提升给长期成长留空间。集团三年复合增速低于15%，近一年年化波动约63%。电子分部的正式订单足以保留观察，尚需跟踪其对集团成长的贡献。",
+      "headline": "电子化学品半年增56.89%，集团三年复合增速11.10%",
+      "pass": [],
+      "fail": [
+        {
+          "name": "长期成长 (3Y CAGR > 15%)",
+          "msg": "长期成长不足",
+          "weight": 4
+        },
+        {
+          "name": "低换手适配 (波动 < 50%)",
+          "msg": "波动过大",
+          "weight": 2
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 6,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-5 年，等好公司给好价格",
+      "position_sizing": "偏集中，单票 5-15%；深度研究后重仓",
+      "what_would_change_my_mind": "ROE / 净利率掉队行业 · 管理层或核心业务大变 · 估值分位过高",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "xiezhiyu",
+      "name": "谢治宇",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/xiezhiyu.svg",
+      "signal": "neutral",
+      "confidence": 0.55,
+      "score": 49,
+      "verdict": "观望",
+      "reasoning": "远期PEG约1.38落入观察区，但以2026年预测PE约47.18倍和归母预测增幅23.0%衡量，PEG约2.05。增长与估值需同口径，应重点看四季度业绩兑现后滚动调整。",
+      "comment": "远期PEG约1.38落入观察区，但以2026年预测PE约47.18倍和归母预测增幅23.0%衡量，PEG约2.05。增长与估值需同口径，应重点看四季度业绩兑现后滚动调整。",
+      "headline": "37.14倍2027E估值与27.0%预期增速匹配度一般",
+      "pass": [
+        {
+          "name": "PEG 在 1-2 之间 (成长和估值平衡)",
+          "msg": "PEG 合理",
+          "weight": 4
+        },
+        {
+          "name": "增速 > 10%",
+          "msg": "营收增速 29.4%",
+          "weight": 2
+        }
+      ],
+      "fail": [],
+      "weight_pass": 6,
+      "weight_total": 6,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-5 年，等好公司给好价格",
+      "position_sizing": "偏集中，单票 5-15%；深度研究后重仓",
+      "what_would_change_my_mind": "ROE / 净利率掉队行业 · 管理层或核心业务大变 · 估值分位过高",
+      "rule_score": 100
+    },
+    {
+      "investor_id": "fengliu",
+      "name": "冯柳",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/fengliu.svg",
+      "signal": "neutral",
+      "confidence": 0.55,
+      "score": 49,
+      "verdict": "观望",
+      "reasoning": "年内较高点回撤和盘中H股价差均提示预期分化，三年PE分位仍为75.4%。缺乏可核验目标价时，用2027年均值盈利对应37.14倍加上简式自由现金流负值判断，赔率依旧有限。",
+      "comment": "年内较高点回撤和盘中H股价差均提示预期分化，三年PE分位仍为75.4%。缺乏可核验目标价时，用2027年均值盈利对应37.14倍加上简式自由现金流负值判断，赔率依旧有限。",
+      "headline": "前复权一年高点回撤53%，TTM现金指标压低逆向赔率",
+      "pass": [
+        {
+          "name": "赔率好 (PE 分位 < 40 或大回撤过)",
+          "msg": "PE 分位 49.05 · 回撤 -57%",
+          "weight": 4
+        }
+      ],
+      "fail": [],
+      "weight_pass": 4,
+      "weight_total": 4,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-6 个月等错杀修复，弱者体系不预测只应对",
+      "position_sizing": "偏均衡，单票不超 10%；用足够差价换取错了也能扛",
+      "what_would_change_my_mind": "基本面证伪（订单/产能/客户反馈）· 价格修复完毕 · 发现更大错杀",
+      "rule_score": 100
+    },
+    {
+      "investor_id": "dengxiaofeng",
+      "name": "邓晓峰",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/dengxiaofeng.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 45,
+      "verdict": "观望",
+      "reasoning": "产业链视角关注轮胎利润、橡胶助剂定价与电子扩产的错位，2025年ROE 15.98%提供历史资产回报参照。原料和联营波动仍在，55.29倍TTM高于左侧纪律。",
+      "comment": "产业链视角关注轮胎利润、橡胶助剂定价与电子扩产的错位，2025年ROE 15.98%提供历史资产回报参照。原料和联营波动仍在，55.29倍TTM高于左侧纪律。",
+      "headline": "橡胶助剂仍占50.4%，苯酚采购均价同比高10.13%",
+      "pass": [
+        {
+          "name": "恰当价格 (PE 分位 < 60)",
+          "msg": "PE 分位 49.05",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "PE 不超过 35 (邓晓峰偏左侧)",
+          "msg": "PE 55 过高 · 邓晓峰偏左侧出击",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 6,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "2-4 年跨周期，深度研究周期行业与产业链",
+      "position_sizing": "集中产业链龙头，单票 10-20%；周期底部布局、顶部卖",
+      "what_would_change_my_mind": "产能周期见顶信号 · 价格下行兑现 · 下游需求证伪",
+      "rule_score": 50
+    },
+    {
+      "investor_id": "zhang_lei",
+      "name": "张磊",
+      "group": "E",
+      "mandate": "long",
+      "avatar": "avatars/zhang_lei.svg",
+      "signal": "neutral",
+      "confidence": 0.58,
+      "score": 58,
+      "verdict": "观望",
+      "reasoning": "创始人仍任董事长，客户认证和自产树脂增加黏性，具备长期跟踪的理由。集团三分之一收入来自电子化学品，时间能否转成复利要看新产品出货、再投资回报与营运资本收敛。",
+      "comment": "创始人仍任董事长，客户认证和自产树脂增加黏性，具备长期跟踪的理由。集团三分之一收入来自电子化学品，时间能否转成复利要看新产品出货、再投资回报与营运资本收敛。",
+      "headline": "95%产线覆盖给长跑道，五年ROE仅两年超15%",
+      "pass": [
+        {
+          "name": "非纯周期",
+          "msg": "非纯周期 · 适合做时间朋友",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "赛道 10 年+ 跑道",
+          "msg": "橡胶助剂 / 电子化学品 · 偏短周期 · 不在高瓴 thesis",
+          "weight": 5
+        },
+        {
+          "name": "复利 track record",
+          "msg": "复利 track record 不足",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 12,
+      "ideal_price": null,
+      "period": "中长线",
+      "time_horizon": "3-5 年，等好公司给好价格",
+      "position_sizing": "偏集中，单票 5-15%；深度研究后重仓",
+      "what_would_change_my_mind": "ROE / 净利率掉队行业 · 管理层或核心业务大变 · 估值分位过高",
+      "rule_score": 25
+    },
+    {
+      "investor_id": "zhang_mz",
+      "name": "章盟主",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/zhang_mz.svg",
+      "signal": "bearish",
+      "confidence": 0.61,
+      "score": 34,
+      "verdict": "偏空",
+      "reasoning": "11月17日收47.37元，低于60日线57.18元。8.31亿元成交和电子材料增量具备观察价值，当前缺少板块联动和可核盘口承接，按顺势与止损纪律暂缓。",
+      "comment": "11月17日收47.37元，低于60日线57.18元。8.31亿元成交和电子材料增量具备观察价值，当前缺少板块联动和可核盘口承接，按顺势与止损纪律暂缓。",
+      "headline": "顺势先看换手，2.86%低于5%观察线",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "核心大龙 7-15 天，吃到主升末期",
+      "position_sizing": "打最强龙头，重仓敢拿；接力中军分仓",
+      "what_would_change_my_mind": "题材逻辑证伪 · 大盘系统性风险 · 自己席位被跟风破坏节奏",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "sun_ge",
+      "name": "孙哥",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/sun_ge.svg",
+      "signal": "neutral",
+      "confidence": 0.55,
+      "score": 49,
+      "verdict": "观望",
+      "reasoning": "2025年5.8%系中国半导体光刻胶市场份额，可提供行业地位依据。波段思路仍需板块走强确认，11月17日的单日上行不足以建立领导性。",
+      "comment": "2025年5.8%系中国半导体光刻胶市场份额，可提供行业地位依据。波段思路仍需板块走强确认，11月17日的单日上行不足以建立领导性。",
+      "headline": "本土光刻胶第一，走势仍低于60日线约17%",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "zhao_lg",
+      "name": "赵老哥",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/zhao_lg.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 24,
+      "verdict": "偏空",
+      "reasoning": "市值处在500亿元以内观察区。龙头战法要见早封及封单，11月17日只涨4.43%、换手2.86%，也未见近期龙虎榜接力回报。",
+      "comment": "市值处在500亿元以内观察区。龙头战法要见早封及封单，11月17日只涨4.43%、换手2.86%，也未见近期龙虎榜接力回报。",
+      "headline": "20个交易日0次涨停，封板战法无信号",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+2 到 T+5，吃打板主升；强度退化立即走",
+      "position_sizing": "龙头板仓位 10-20%，T+1 根据分歧加减；绝不过周末的不隔夜",
+      "what_would_change_my_mind": "板上砸盘 · 龙头断板 · 龙虎榜出现对手方机构 · 量能跟不上",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "fs_wyj",
+      "name": "佛山无影脚",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/fs_wyj.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "策略射程外",
+      "reasoning": "按11月17日47.37元与A股股数估算市值；20交易日公开龙虎榜未见可覆盖容量限制的席位交易。",
+      "comment": "按11月17日47.37元与A股股数估算市值；20交易日公开龙虎榜未见可覆盖容量限制的席位交易。",
+      "headline": "A股市值约292亿元，超80亿元策略上限",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "A股市值约292亿元，超80亿元策略上限",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "yangjia",
+      "name": "炒股养家",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/yangjia.svg",
+      "signal": "bearish",
+      "confidence": 0.62,
+      "score": 32,
+      "verdict": "偏空",
+      "reasoning": "11月17日成交量为20日均值1.62倍，收盘仍低于11月13日的47.75元。该样本反映有修复，近20天0次涨停及0次上榜也压低持续接力判断。",
+      "comment": "11月17日成交量为20日均值1.62倍，收盘仍低于11月13日的47.75元。该样本反映有修复，近20天0次涨停及0次上榜也压低持续接力判断。",
+      "headline": "放量反弹4.43%，情绪确认仍不足",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "chen_xq",
+      "name": "陈小群",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/chen_xq.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 29,
+      "verdict": "偏空",
+      "reasoning": "11月16日跌5.01%、次日涨4.43%，两日过后价格仍低于上周五。产品销量的叙事尚未转化为可验证的盘口龙头地位。",
+      "comment": "11月16日跌5.01%、次日涨4.43%，两日过后价格仍低于上周五。产品销量的叙事尚未转化为可验证的盘口龙头地位。",
+      "headline": "近20日无封板，二板接力无触发",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "hu_jl",
+      "name": "呼家楼",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/hu_jl.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 31,
+      "verdict": "偏空",
+      "reasoning": "公开近20交易日榜单为零，没有近期多席位共振可核。11月17日流向估算不可反推出营业部、单一资金主体或持仓。",
+      "comment": "公开近20交易日榜单为零，没有近期多席位共振可核。11月17日流向估算不可反推出营业部、单一资金主体或持仓。",
+      "headline": "日成交8.31亿元，近期无席位合力记录",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "fang_xx",
+      "name": "方新侠",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/fang_xx.svg",
+      "signal": "bearish",
+      "confidence": 0.62,
+      "score": 32,
+      "verdict": "偏空",
+      "reasoning": "反弹日成交上来，47.37元离MA60仍有约17%。趋势持仓先看换手后持续放量、收复中期趋势，再评估承接和退出容量。",
+      "comment": "反弹日成交上来，47.37元离MA60仍有约17%。趋势持仓先看换手后持续放量、收复中期趋势，再评估承接和退出容量。",
+      "headline": "8.31亿元成交低于10亿元容量观察线",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "zuoshou",
+      "name": "作手新一",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/zuoshou.svg",
+      "signal": "bearish",
+      "confidence": 0.64,
+      "score": 28,
+      "verdict": "偏空",
+      "reasoning": "11月17日的上涨让短线修复加速，仍低于57.18元的60日均线。行业地位和二级市场龙头要分别验证。",
+      "comment": "11月17日的上涨让短线修复加速，仍低于57.18元的60日均线。行业地位和二级市场龙头要分别验证。",
+      "headline": "20日跌约5%，连板和趋势条件皆未确认",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "xiao_ey",
+      "name": "小鳄鱼",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/xiao_ey.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 52,
+      "verdict": "观望",
+      "reasoning": "净资产收益率已过10%的基础门槛；电子材料9M税前利润1.63亿元，为业务拐点提供证据。经营现金流同比下降57.21%，且股价在60日线之下，压低加速判断。",
+      "comment": "净资产收益率已过10%的基础门槛；电子材料9M税前利润1.63亿元，为业务拐点提供证据。经营现金流同比下降57.21%，且股价在60日线之下，压低加速判断。",
+      "headline": "9M加权ROE 12.22%，趋势确认仍欠缺",
+      "pass": [
+        {
+          "name": "基本面辅助选股 (ROE > 10%)",
+          "msg": "ROE 16.0%",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 6,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 50
+    },
+    {
+      "investor_id": "jiao_yy",
+      "name": "交易猿",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/jiao_yy.svg",
+      "signal": "bearish",
+      "confidence": 0.61,
+      "score": 34,
+      "verdict": "偏空",
+      "reasoning": "大容量风格可以纳入观察，11月17日收47.37元较60日均线低17%。需要验证板块及个股相对强度后才有锁仓依据。",
+      "comment": "大容量风格可以纳入观察，11月17日收47.37元较60日均线低17%。需要验证板块及个股相对强度后才有锁仓依据。",
+      "headline": "292亿元市值有容量，2.86%换手未见加速",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "mao_lb",
+      "name": "毛老板",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/mao_lb.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 47,
+      "verdict": "观望",
+      "reasoning": "电子材料放量提供题材支撑，股价仍低于60日线。半导体材料与算力核心订单的直接关联缺乏可核证据。",
+      "comment": "电子材料放量提供题材支撑，股价仍低于60日线。半导体材料与算力核心订单的直接关联缺乏可核证据。",
+      "headline": "电子材料税前利润1.63亿元，交易主线尚待确认",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "xiao_xian",
+      "name": "消闲派",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/xiao_xian.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 31,
+      "verdict": "偏空",
+      "reasoning": "量增1.62倍只覆盖一个反弹日，47.37元仍低于57.18元中期均线。杠杆型短线对回撤敏感，缺确认时不提高风险暴露。",
+      "comment": "量增1.62倍只覆盖一个反弹日，47.37元仍低于57.18元中期均线。杠杆型短线对回撤敏感，缺确认时不提高风险暴露。",
+      "headline": "20日无涨停，尚未进入加速窗口",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "lasa",
+      "name": "拉萨天团",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/lasa.svg",
+      "signal": "bearish",
+      "confidence": 0.62,
+      "score": 33,
+      "verdict": "偏空",
+      "reasoning": "11月17日成交放量是可见价格和成交信息；近期活跃营业部名单仍空缺。聚合席位行为无从核验，无法推断次日溢价。",
+      "comment": "11月17日成交放量是可见价格和成交信息；近期活跃营业部名单仍空缺。聚合席位行为无从核验，无法推断次日溢价。",
+      "headline": "近20日公开龙虎榜0次，跟踪依据不足",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "1-2 天，打首板 / 二板为主",
+      "position_sizing": "单票 5-15%，封板率高时加仓；封板力度弱就跑",
+      "what_would_change_my_mind": "封板时间推后 · 开板即砸 · 情绪周期从亢奋转分歧",
+      "rule_score": null
+    },
+    {
+      "investor_id": "chengdu",
+      "name": "成都帮",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/chengdu.svg",
+      "signal": "neutral",
+      "confidence": 0.6,
+      "score": 38,
+      "verdict": "观望",
+      "reasoning": "底部点火可以留意11月16日低点44.59元后的反弹。292亿元A股市值及近20日无榜，使短线点火的资金辨识度偏低。",
+      "comment": "底部点火可以留意11月16日低点44.59元后的反弹。292亿元A股市值及近20日无榜，使短线点火的资金辨识度偏低。",
+      "headline": "距52周高点约54%，反弹仍需二次确认",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "sunan",
+      "name": "苏南帮",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/sunan.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "策略射程外",
+      "reasoning": "低价小盘的联动框架缺容量匹配。近20个交易日未见上榜可供反查，历史记录不用于覆盖当前限制。",
+      "comment": "低价小盘的联动框架缺容量匹配。近20个交易日未见上榜可供反查，历史记录不用于覆盖当前限制。",
+      "headline": "A股市值约292亿元，超50亿元策略上限",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "A股市值约292亿元，超50亿元策略上限",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "ningbo_st",
+      "name": "宁波桑田路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/ningbo_st.svg",
+      "signal": "bearish",
+      "confidence": 0.65,
+      "score": 26,
+      "verdict": "偏空",
+      "reasoning": "11月4日收涨9.69%但未触涨停价，11月17日收涨4.43%。已核走势没有当期连板阶梯，也没有同期榜单承接。",
+      "comment": "11月4日收涨9.69%但未触涨停价，11月17日收涨4.43%。已核走势没有当期连板阶梯，也没有同期榜单承接。",
+      "headline": "近20日无首板，连续板接力无触发",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "liuyi_zl",
+      "name": "六一中路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/liuyi_zl.svg",
+      "signal": "bearish",
+      "confidence": 0.61,
+      "score": 34,
+      "verdict": "偏空",
+      "reasoning": "半年报已有实质产品进展，接力策略还需近期封板、板块联动以及次日承接。近20个交易日无涨停，暂缺交易触发。",
+      "comment": "半年报已有实质产品进展，接力策略还需近期封板、板块联动以及次日承接。近20个交易日无涨停，暂缺交易触发。",
+      "headline": "近期未封板，三款浸没式量产仅作题材支撑",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "liu_sh",
+      "name": "流沙河",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/liu_sh.svg",
+      "signal": "neutral",
+      "confidence": 0.58,
+      "score": 42,
+      "verdict": "观望",
+      "reasoning": "11月16日低点44.59元至次日收盘抬升约6.2%。低吸框架需观察缩量回踩与再放量，当前只能作为盘面观察。",
+      "comment": "11月16日低点44.59元至次日收盘抬升约6.2%。低吸框架需观察缩量回踩与再放量，当前只能作为盘面观察。",
+      "headline": "44.59元至47.37元有修复，未见榜单强化",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "gu_bl",
+      "name": "古北路",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/gu_bl.svg",
+      "signal": "bearish",
+      "confidence": 0.62,
+      "score": 33,
+      "verdict": "偏空",
+      "reasoning": "资金规模满足大容量观察条件，但缺席位流与板块份额同步验证。11月17日8.31亿元只是全市场成交额。",
+      "comment": "资金规模满足大容量观察条件，但缺席位流与板块份额同步验证。11月17日8.31亿元只是全市场成交额。",
+      "headline": "A股市值约292亿元，近20日无榜",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "bj_cj",
+      "name": "北京炒家",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/bj_cj.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "策略射程外",
+      "reasoning": "规模超出规则定义的首板策略范围；近20个交易日未出现可转换为首板信号的封板。",
+      "comment": "规模超出规则定义的首板策略范围；近20个交易日未出现可转换为首板信号的封板。",
+      "headline": "约292亿元超出20至80亿元首板区间",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "约292亿元超出20至80亿元首板区间",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "wang_zr",
+      "name": "瑞鹤仙",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/wang_zr.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 44,
+      "verdict": "观望",
+      "reasoning": "近端反抽与电子材料题材给出观察机会。中期均线未收复，近20交易日情绪接力没有封板确认。",
+      "comment": "近端反抽与电子材料题材给出观察机会。中期均线未收复，近20交易日情绪接力没有封板确认。",
+      "headline": "10日涨约13%，60日趋势仍承压",
+      "pass": [],
+      "fail": [
+        {
+          "name": "Stage 2 上升",
+          "msg": "不在 Stage 2",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 3,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "xin_dd",
+      "name": "鑫多多",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/xin_dd.svg",
+      "signal": "bearish",
+      "confidence": 0.63,
+      "score": 30,
+      "verdict": "偏空",
+      "reasoning": "11月4日涨9.69%但未触涨停价，盘中强势可作观察。292亿元A股市值下，后续需验证换手和板块梯队。",
+      "comment": "11月4日涨9.69%但未触涨停价，盘中强势可作观察。292亿元A股市值下，后续需验证换手和板块梯队。",
+      "headline": "近20日无涨停，首二板触发仍缺",
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "T+1 到 T+5 超短线，视盘面决定",
+      "position_sizing": "单票 5-20%，强度强时加仓、弱时立即走",
+      "what_would_change_my_mind": "板上砸盘 / 断板 · 量能不配合 · 龙虎榜对手方压过自己席位",
+      "rule_score": null
+    },
+    {
+      "investor_id": "ghzw",
+      "name": "股海贼王",
+      "group": "F",
+      "mandate": "long",
+      "avatar": "avatars/ghzw.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 46,
+      "verdict": "观望",
+      "reasoning": "低位逻辑有电子材料9M税前利润同比增长292.74%支撑。近20交易日零封板、股价在MA60下，主线地位与弱转强需要盘面给答案。",
+      "comment": "低位逻辑有电子材料9M税前利润同比增长292.74%支撑。近20交易日零封板、股价在MA60下，主线地位与弱转强需要盘面给答案。",
+      "headline": "离年高约54%，逻辑有增量，接力仍少确认",
+      "pass": [],
+      "fail": [
+        {
+          "name": "盘口强度（Stage 2 + 量能配合）",
+          "msg": "盘口不强 · 弱转强没确认 · 等盘面给答案",
+          "weight": 4
+        },
+        {
+          "name": "时代情绪载体（格局票判定）",
+          "msg": "非时代级题材 · 做短可以 · 谈不上格局",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 7,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "超短接力 T+1 到 T+5（持仓中位 1 天）· 时代级格局票可拿数月看三五倍",
+      "position_sizing": "同时 3-5 只 · 第一重仓常打五成 · 闲钱逆回购 · 高位票绝不满仓搞",
+      "what_would_change_my_mind": "主线退潮 · 弱转强失败/盘口承接消失 · 大盘系统性风险（自认十年最大弱项 · 赚 15 个点就休息）",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "simons",
+      "name": "西蒙斯",
+      "group": "G",
+      "mandate": "long",
+      "avatar": "avatars/simons.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型未验证",
+      "reasoning": "对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验",
+      "comment": "对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验",
+      "headline": "对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验",
+      "abstention_category": "missing_model",
+      "skip_reason": "对应模型与验证流程尚未实现：预定义统计交易信号、样本外回测、交易成本与稳定性检验",
+      "required_evidence": [
+        "预定义统计交易信号",
+        "样本外回测",
+        "交易成本与稳定性检验"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "平均持仓 < 2 天；数秒到数月组合，完全由模型决定",
+      "position_sizing": "等权数千只，单票仓位 < 0.5%；风险预算由协方差决定",
+      "what_would_change_my_mind": "模型信号 Sharpe 跌破 0.5 · 因子衰减 · 市场结构变化（如交易制度改变）",
+      "rule_score": null
+    },
+    {
+      "investor_id": "thorp",
+      "name": "索普",
+      "group": "G",
+      "mandate": "long",
+      "avatar": "avatars/thorp.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "市场不适用",
+      "reasoning": "保留技能的A股市场适用性弃权。单一历史波动率给不出胜率和盈亏比，无法严谨估算期望收益或凯利仓位。",
+      "comment": "保留技能的A股市场适用性弃权。单一历史波动率给不出胜率和盈亏比，无法严谨估算期望收益或凯利仓位。",
+      "headline": "约63%波动率，缺少可估计的交易赔率",
+      "abstention_category": "market_not_applicable",
+      "skip_reason": "约63%波动率，缺少可估计的交易赔率",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "由模型决定，通常数天到数周",
+      "position_sizing": "等权或风险平价分散，单票权重由模型算",
+      "what_would_change_my_mind": "因子 IC 衰减 · Sharpe 下降 · 市场微观结构改变",
+      "rule_score": null
+    },
+    {
+      "investor_id": "shaw",
+      "name": "大卫·肖",
+      "group": "G",
+      "mandate": "long",
+      "avatar": "avatars/shaw.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型未验证",
+      "reasoning": "对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "comment": "对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "headline": "对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "abstention_category": "missing_model",
+      "skip_reason": "对应模型与验证流程尚未实现：同口径横截面样本与因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "required_evidence": [
+        "同口径横截面样本与因子标准化",
+        "组合样本外回测",
+        "交易成本与稳定性检验"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "由模型决定，通常数天到数周",
+      "position_sizing": "等权或风险平价分散，单票权重由模型算",
+      "what_would_change_my_mind": "因子 IC 衰减 · Sharpe 下降 · 市场微观结构改变",
+      "rule_score": null
+    },
+    {
+      "investor_id": "asness",
+      "name": "克利夫·阿斯尼斯",
+      "group": "G",
+      "mandate": "long",
+      "avatar": "avatars/asness.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "模型未验证",
+      "reasoning": "对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "comment": "对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "headline": "对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "abstention_category": "missing_model",
+      "skip_reason": "对应模型与验证流程尚未实现：价值、质量、动量因子标准化、组合样本外回测、交易成本与稳定性检验",
+      "required_evidence": [
+        "价值、质量、动量因子标准化",
+        "组合样本外回测",
+        "交易成本与稳定性检验"
+      ],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "由模型决定，通常数天到数周",
+      "position_sizing": "等权或风险平价分散，单票权重由模型算",
+      "what_would_change_my_mind": "因子 IC 衰减 · Sharpe 下降 · 市场微观结构改变",
+      "rule_score": null
+    },
+    {
+      "investor_id": "jensen_huang",
+      "name": "黄仁勋",
+      "group": "H",
+      "mandate": "long",
+      "avatar": "avatars/jensen_huang.svg",
+      "signal": "neutral",
+      "confidence": 0.57,
+      "score": 56,
+      "verdict": "观望",
+      "reasoning": "从供应链瓶颈看，量产光刻胶及EBR能覆盖部分先进制造工序。H1半导体材料收入约3.07亿元，集团毛利率约23%，规模和单客户渗透需要更多验证。",
+      "comment": "从供应链瓶颈看，量产光刻胶及EBR能覆盖部分先进制造工序。H1半导体材料收入约3.07亿元，集团毛利率约23%，规模和单客户渗透需要更多验证。",
+      "headline": "3款沉浸式供货，卡位看客户复购",
+      "pass": [],
+      "fail": [
+        {
+          "name": "AI 算力需求强相关",
+          "msg": "不在 AI 算力链 · Jensen 没视角",
+          "weight": 5
+        },
+        {
+          "name": "CUDA / 生态绑定",
+          "msg": "非生态核心 · 容易被替代",
+          "weight": 4
+        },
+        {
+          "name": "数据中心资本开支受益",
+          "msg": "增速 29% · 没吃到 Capex 红利",
+          "weight": 4
+        },
+        {
+          "name": "毛利率 ≥ 50%",
+          "msg": "毛利率 23% · 缺定价权",
+          "weight": 3
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 16,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "5-10 年技术周期，跟随平台迁移（AI/EV/AGI/数字资产）",
+      "position_sizing": "极度集中——All in 自己看得最清的产业链节点",
+      "what_would_change_my_mind": "技术路线被颠覆 · scaling 失效 · 产业链节点被绕过",
+      "rule_score": 0
+    },
+    {
+      "investor_id": "musk",
+      "name": "马斯克",
+      "group": "H",
+      "mandate": "long",
+      "avatar": "avatars/musk.svg",
+      "signal": "neutral",
+      "confidence": 0.56,
+      "score": 48,
+      "verdict": "观望",
+      "reasoning": "自产核心树脂和高纯溶剂涉及工艺集成，单吨成本曲线、良率和自产替代比例缺失。汽车产量下降与新能源产量增长并存，轮胎端结构变化尚待订单确认。",
+      "comment": "自产核心树脂和高纯溶剂涉及工艺集成，单吨成本曲线、良率和自产替代比例缺失。汽车产量下降与新能源产量增长并存，轮胎端结构变化尚待订单确认。",
+      "headline": "苯酚+10.13%，看自产树脂能否降本",
+      "pass": [
+        {
+          "name": "非传统 OEM",
+          "msg": "非传统 OEM · 在变革侧",
+          "weight": 3
+        }
+      ],
+      "fail": [
+        {
+          "name": "第一性原理能颠覆的赛道",
+          "msg": "橡胶助剂 / 电子化学品 · 不是 Musk 第一性能颠覆的",
+          "weight": 5
+        }
+      ],
+      "weight_pass": 3,
+      "weight_total": 8,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "5-10 年技术周期，跟随平台迁移（AI/EV/AGI/数字资产）",
+      "position_sizing": "极度集中——All in 自己看得最清的产业链节点",
+      "what_would_change_my_mind": "技术路线被颠覆 · scaling 失效 · 产业链节点被绕过",
+      "rule_score": 37
+    },
+    {
+      "investor_id": "altman",
+      "name": "山姆·奥特曼",
+      "group": "H",
+      "mandate": "long",
+      "avatar": "avatars/altman.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "方法不适用",
+      "reasoning": "电子化学品9M收入10.93亿元。公司未分拆直接由算力需求驱动的收入或承诺订单，难用AI基础设施扩张框架定价。",
+      "comment": "电子化学品9M收入10.93亿元。公司未分拆直接由算力需求驱动的收入或承诺订单，难用AI基础设施扩张框架定价。",
+      "headline": "缺少可量化的AI资本开支收入映射",
+      "abstention_category": "method_not_applicable",
+      "skip_reason": "缺少可量化的AI资本开支收入映射",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "5-10 年技术周期，跟随平台迁移（AI/EV/AGI/数字资产）",
+      "position_sizing": "极度集中——All in 自己看得最清的产业链节点",
+      "what_would_change_my_mind": "技术路线被颠覆 · scaling 失效 · 产业链节点被绕过",
+      "rule_score": 57
+    },
+    {
+      "investor_id": "saylor",
+      "name": "迈克尔·塞勒",
+      "group": "H",
+      "mandate": "long",
+      "avatar": "avatars/saylor.svg",
+      "signal": "skip",
+      "confidence": 0,
+      "score": null,
+      "verdict": "策略射程外",
+      "reasoning": "账上现金、轮胎联营股权和电子材料制造资产有各自现金流模型。没有可核验的数字资产财库敞口。",
+      "comment": "账上现金、轮胎联营股权和电子材料制造资产有各自现金流模型。没有可核验的数字资产财库敞口。",
+      "headline": "资产结构与数字资产策略不匹配",
+      "abstention_category": "strategy_out_of_scope",
+      "skip_reason": "资产结构与数字资产策略不匹配",
+      "required_evidence": [],
+      "pass": [],
+      "fail": [],
+      "weight_pass": 0,
+      "weight_total": 0,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "5-10 年技术周期，跟随平台迁移（AI/EV/AGI/数字资产）",
+      "position_sizing": "极度集中——All in 自己看得最清的产业链节点",
+      "what_would_change_my_mind": "技术路线被颠覆 · scaling 失效 · 产业链节点被绕过",
+      "rule_score": 27
+    },
+    {
+      "investor_id": "serenity",
+      "name": "Serenity",
+      "group": "I",
+      "mandate": "long",
+      "avatar": "avatars/serenity.svg",
+      "signal": "neutral",
+      "confidence": 0.55,
+      "score": 50,
+      "verdict": "观望",
+      "reasoning": "3款沉浸式胶稳定供货体现验证进展。要称为高弹性单点瓶颈，仍需验证独供份额、客户切换成本和更强业绩弹性。",
+      "comment": "3款沉浸式胶稳定供货体现验证进展。要称为高弹性单点瓶颈，仍需验证独供份额、客户切换成本和更强业绩弹性。",
+      "headline": "半导体有卡位线索，326亿市值限制弹性",
+      "pass": [],
+      "fail": [
+        {
+          "name": "产品处于 AI 产业链关键环节",
+          "msg": "不在 AI 产业链上 —— 对我没有意义",
+          "weight": 5
+        },
+        {
+          "name": "卡位评级强 (chokepoint ≥ 70)",
+          "msg": "AI 卡位分仅 4.0，卡位不够硬",
+          "weight": 5
+        },
+        {
+          "name": "上游不可替代 (切换+规模壁垒高)",
+          "msg": "可替代性偏高，三家都能供，不是真瓶颈",
+          "weight": 5
+        },
+        {
+          "name": "中小市值高弹性 (市值 < 300 亿)",
+          "msg": "市值 326 亿偏大或不在链上，弹性有限",
+          "weight": 4
+        }
+      ],
+      "weight_pass": 0,
+      "weight_total": 22,
+      "ideal_price": null,
+      "period": "短线",
+      "time_horizon": "thesis-driven，从信息差到机构 rotation 兑现，典型数月到 1-2 年；瓶颈逻辑不破就拿住",
+      "position_sizing": "极度集中 + 约 1.3-1.4x margin，最高信念的卡点敢满仓重押；不在链上的一律 0 仓",
+      "what_would_change_my_mind": "卡位被证伪（出现可替代方案 / 新增产能放量）· 供给从紧转松 · 下游 roadmap 绕过该节点 · 估值已反映瓶颈、信息差消失",
+      "rule_score": 0
+    }
+  ],
+  "school_scores": {
+    "A": {
+      "group": "A",
+      "label": "经典价值派",
+      "desc": "巴菲特 / 格雷厄姆 / 费雪 / 芒格 一脉",
+      "n_members": 6,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 24.3,
+      "avg_score": 32.2,
+      "vote_consensus": 26.7,
+      "score_mean": 32.2,
+      "verdict": "回避",
+      "bullish": 1,
+      "neutral": 1,
+      "bearish": 4,
+      "skip": 0,
+      "dominant_signal": "bearish"
+    },
+    "B": {
+      "group": "B",
+      "label": "成长派",
+      "desc": "彼得·林奇 / 欧奈尔 / 蒂尔 / 伍德 一脉",
+      "n_members": 9,
+      "n_active": 9,
+      "short_excluded": 0,
+      "consensus": 39.5,
+      "avg_score": 43.0,
+      "vote_consensus": 40.0,
+      "score_mean": 43.0,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 6,
+      "bearish": 3,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "C": {
+      "group": "C",
+      "label": "宏观派",
+      "desc": "索罗斯 / 达利欧 / 马克斯 一脉",
+      "n_members": 5,
+      "n_active": 5,
+      "short_excluded": 2,
+      "consensus": 47.7,
+      "avg_score": 48.4,
+      "vote_consensus": 48.0,
+      "score_mean": 48.4,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 4,
+      "bearish": 1,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "D": {
+      "group": "D",
+      "label": "技术派",
+      "desc": "利弗莫尔 / Minervini / 达瓦斯 一脉",
+      "n_members": 4,
+      "n_active": 3,
+      "short_excluded": 0,
+      "consensus": 6.1,
+      "avg_score": 25.0,
+      "vote_consensus": 0.0,
+      "score_mean": 25.0,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 3,
+      "skip": 1,
+      "dominant_signal": "bearish"
+    },
+    "E": {
+      "group": "E",
+      "label": "中式价投",
+      "desc": "段永平 / 张坤 / 朱少醒 / 冯柳 一脉",
+      "n_members": 7,
+      "n_active": 7,
+      "short_excluded": 0,
+      "consensus": 39.9,
+      "avg_score": 41.9,
+      "vote_consensus": 42.9,
+      "score_mean": 41.9,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 5,
+      "bearish": 2,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "F": {
+      "group": "F",
+      "label": "A 股游资",
+      "desc": "龙虎榜顶流 23 位·章盟主/孙哥/赵老哥为代表",
+      "n_members": 24,
+      "n_active": 21,
+      "short_excluded": 0,
+      "consensus": 24.2,
+      "avg_score": 35.7,
+      "vote_consensus": 20.0,
+      "score_mean": 35.7,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 7,
+      "bearish": 14,
+      "skip": 3,
+      "dominant_signal": "bearish"
+    },
+    "G": {
+      "group": "G",
+      "label": "量化派",
+      "desc": "Simons / Thorp / Shaw 一脉",
+      "n_members": 4,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 4,
+      "dominant_signal": "skip"
+    },
+    "H": {
+      "group": "H",
+      "label": "科技领袖派",
+      "desc": "黄仁勋 / 马斯克 / Altman / Saylor 一脉",
+      "n_members": 4,
+      "n_active": 2,
+      "short_excluded": 0,
+      "consensus": 56.2,
+      "avg_score": 52.0,
+      "vote_consensus": 60.0,
+      "score_mean": 52.0,
+      "verdict": "关注",
+      "bullish": 0,
+      "neutral": 2,
+      "bearish": 0,
+      "skip": 2,
+      "dominant_signal": "neutral"
+    },
+    "I": {
+      "group": "I",
+      "label": "AI 卡位/瓶颈猎手",
+      "desc": "Serenity · AI 供应链卡脖子/瓶颈点",
+      "n_members": 1,
+      "n_active": 1,
+      "short_excluded": 0,
+      "consensus": 54.5,
+      "avg_score": 50.0,
+      "vote_consensus": 60.0,
+      "score_mean": 50.0,
+      "verdict": "关注",
+      "bullish": 0,
+      "neutral": 1,
+      "bearish": 0,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    }
+  },
+  "long_active": 54,
+  "short_consensus": {
+    "total": 2,
+    "active": 2,
+    "skip": 0,
+    "short_candidates": 1,
+    "no_short_thesis": 1,
+    "avg_score": 37.0,
+    "top_short_candidates": [
+      {
+        "id": "burry",
+        "name": "迈克尔·伯利",
+        "score": 31,
+        "headline": "A股约55倍TTM市盈率，简式自由现金流为负2.93亿元"
+      },
+      {
+        "id": "chanos",
+        "name": "吉姆·查诺斯",
+        "score": 43,
+        "headline": "前三季经营现金约为归母利润22%，跟踪应收及联营分红"
+      }
+    ]
+  },
+  "consensus_formula": {
+    "version": "v2.15.5 · polarize(0.65*score_mean + 0.35*vote_weighted, k=1.3)",
+    "score_weight": 0.65,
+    "vote_weight": 0.35,
+    "neutral_weight": 0.6,
+    "polarize_k": 1.3,
+    "score_mean": 38.76,
+    "vote_weighted": 30.74,
+    "consensus_raw": 35.95,
+    "consensus_final": 31.74,
+    "bullish": 1,
+    "neutral_weighted": 15.6,
+    "bearish": 27,
+    "skip": 10,
+    "active": 54,
+    "short_excluded": 2
+  },
+  "agent_reviewed": true
+}

@@ -1,0 +1,501 @@
+{
+  "issuer": "腾讯控股",
+  "ticker": "00700.HK",
+  "announcement_at": "2026-11-18T16:30:00+08:00",
+  "as_of": "2026-09-30",
+  "status": "未经审核，已获核数师及审核委员会审阅",
+  "amount_unit": "CNY million unless field suffix specifies another unit",
+  "sources": {
+    "hkex_2026q3_zh": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800449_c.pdf",
+    "hkex_2026q3_en": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800448.pdf",
+    "tencent_2026q2": "https://www.tencent.com/wp-content/uploads/2026/08/E700_IRA.pdf",
+    "hkex_2025q3": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/1113/2025111300286.pdf",
+    "preview_zht": "https://hk.stockstar.com/IG2026111700008107.shtml",
+    "preview_va": "https://www.hstong.com/news/detail/26111810390214446"
+  },
+  "quarter_periods": [
+    "2025Q3",
+    "2026Q2",
+    "2026Q3"
+  ],
+  "quarter": {
+    "revenue": [
+      192869,
+      204785,
+      207336
+    ],
+    "gross_profit": [
+      108798,
+      118433,
+      115911
+    ],
+    "sales_marketing_expense": [
+      11468,
+      11869,
+      12144
+    ],
+    "general_admin_expense": [
+      34259,
+      38808,
+      44077
+    ],
+    "other_operating_gains_net": [
+      483,
+      -480,
+      -543
+    ],
+    "ifrs_operating_profit": [
+      63554,
+      67276,
+      59147
+    ],
+    "investment_gains_and_others_net": [
+      2820,
+      11184,
+      10057
+    ],
+    "interest_income": [
+      4256,
+      4202,
+      3992
+    ],
+    "finance_cost": [
+      3756,
+      2979,
+      3487
+    ],
+    "associates_and_jv_ifrs_profit": [
+      7854,
+      -9993,
+      4482
+    ],
+    "pretax_profit": [
+      74728,
+      69690,
+      74191
+    ],
+    "tax_expense": [
+      9785,
+      11713,
+      9052
+    ],
+    "noncontrolling_profit": [
+      1810,
+      1955,
+      1527
+    ],
+    "ifrs_parent_profit": [
+      63133,
+      56022,
+      63612
+    ],
+    "non_ifrs_operating_profit": [
+      72570,
+      75636,
+      68073
+    ],
+    "non_ifrs_parent_profit": [
+      70551,
+      68415,
+      66519
+    ],
+    "non_ifrs_associates_and_jv_profit": [
+      10322,
+      6359,
+      8826
+    ],
+    "basic_eps_cny": [
+      6.952,
+      6.207,
+      7.059
+    ],
+    "non_ifrs_basic_eps_cny": [
+      7.769,
+      7.581,
+      7.382
+    ],
+    "rnd_expense": [
+      22822,
+      27278,
+      32362
+    ],
+    "depreciation_ppe_and_investment_properties": [
+      7297,
+      9553,
+      11995
+    ],
+    "adjusted_ebitda": [
+      86698,
+      91372,
+      84893
+    ]
+  },
+  "segments": {
+    "value_added_services": {
+      "revenue": [
+        95860,
+        98414,
+        98326
+      ],
+      "gross_profit": [
+        58623,
+        null,
+        63017
+      ]
+    },
+    "marketing_services": {
+      "revenue": [
+        36242,
+        43565,
+        43049
+      ],
+      "gross_profit": [
+        20551,
+        null,
+        22578
+      ]
+    },
+    "fintech_and_business_services": {
+      "revenue": [
+        58174,
+        60286,
+        63655
+      ],
+      "gross_profit": [
+        29210,
+        null,
+        31551
+      ]
+    },
+    "others": {
+      "revenue": [
+        2593,
+        2520,
+        2306
+      ],
+      "gross_profit": [
+        414,
+        null,
+        -1235
+      ]
+    }
+  },
+  "q3_2026_business": {
+    "domestic_games_revenue": 47600,
+    "domestic_games_yoy_pct": 11,
+    "international_games_revenue": 18900,
+    "international_games_yoy_pct": -9,
+    "international_games_constant_currency_yoy_pct": -4,
+    "social_networks_revenue": 31800,
+    "social_networks_yoy_pct": -1,
+    "cloud_services_revenue_yoy_pct": 35,
+    "cloud_services_revenue": null,
+    "weixin_and_wechat_mau_million": 1449,
+    "qq_mobile_mau_million": 533,
+    "paid_vas_subscriptions_million": 253,
+    "video_accounts_time_spent_yoy_pct_lower_bound": 20
+  },
+  "post_period_operating_update": {
+    "workbuddy_dau_million_lower_bound": 10,
+    "workbuddy_daily_tokens_trillion_lower_bound": 100
+  },
+  "non_ifrs_operating_profit_ex_new_ai_products": [
+    null,
+    86100,
+    83300
+  ],
+  "q3_non_ifrs_operating_profit_ex_new_ai_products_reported_yoy_pct": 8,
+  "q3_non_ifrs_parent_adjustments": {
+    "share_based_compensation": 7834,
+    "investee_net_gains": -8780,
+    "intangible_amortisation": 3123,
+    "impairment": 909,
+    "social_initiatives_and_donations": 429,
+    "others": 221,
+    "income_tax_effects": -829
+  },
+  "q3_ifrs_fvpl_net_fair_value_gains": [
+    -5234,
+    null,
+    7216
+  ],
+  "cash": {
+    "operating_cash_flow": [
+      85300,
+      52700,
+      2600
+    ],
+    "capex_disclosed": [
+      12983,
+      52784,
+      81433
+    ],
+    "capex_paid": [
+      20000,
+      59300,
+      65100
+    ],
+    "media_content_paid": [
+      4900,
+      5000,
+      4600
+    ],
+    "lease_liabilities_paid": [
+      1900,
+      2200,
+      2000
+    ],
+    "free_cash_flow": [
+      58500,
+      -13800,
+      -69100
+    ],
+    "free_cash_flow_ex_compute_prepay": [
+      null,
+      37600,
+      16900
+    ],
+    "net_cash_or_debt_period_end": [
+      102422,
+      58191,
+      -13702
+    ]
+  },
+  "q3_end_liquidity": {
+    "cash_and_equivalents": 231717,
+    "term_deposits_and_others": 294010,
+    "borrowings": 380101,
+    "notes_payable": 159328
+  },
+  "q2_end_liquidity": {
+    "cash_and_equivalents": 206930,
+    "term_deposits_and_others": 304224,
+    "borrowings": 298942,
+    "notes_payable": 154021
+  },
+  "q3_buybacks": {
+    "shares": 15867600,
+    "hkd": 7032259517.04
+  },
+  "nine_month_periods": [
+    "2025_9M",
+    "2026_9M"
+  ],
+  "nine_month": {
+    "revenue": [
+      557395,
+      608579
+    ],
+    "gross_profit": [
+      314304,
+      345609
+    ],
+    "ifrs_operating_profit": [
+      181224,
+      193798
+    ],
+    "ifrs_parent_profit": [
+      166582,
+      177727
+    ],
+    "non_ifrs_operating_profit": [
+      211138,
+      219336
+    ],
+    "non_ifrs_parent_profit": [
+      194932,
+      202839
+    ],
+    "operating_cash_flow": [
+      236577,
+      156713
+    ],
+    "investing_cash_flow": [
+      -147914,
+      -122357
+    ],
+    "financing_cash_flow": [
+      -60748,
+      60910
+    ],
+    "capex_disclosed": [
+      59566,
+      166153
+    ],
+    "rnd_expense": [
+      61983,
+      82182
+    ]
+  },
+  "calculated": {
+    "earnings_skill_actual": {
+      "revenue_yi": 2073.36,
+      "net_profit_yi": 636.12,
+      "revenue_yoy_pct": 7.5,
+      "net_profit_yoy_pct": 0.8
+    },
+    "quarter_growth": {
+      "revenue": {
+        "yoy_pct": 7.5,
+        "qoq_pct": 1.25
+      },
+      "gross_profit": {
+        "yoy_pct": 6.54,
+        "qoq_pct": -2.13
+      },
+      "sales_marketing_expense": {
+        "yoy_pct": 5.89,
+        "qoq_pct": 2.32
+      },
+      "general_admin_expense": {
+        "yoy_pct": 28.66,
+        "qoq_pct": 13.58
+      },
+      "other_operating_gains_net": {
+        "yoy_pct": -212.42,
+        "qoq_pct": null
+      },
+      "ifrs_operating_profit": {
+        "yoy_pct": -6.93,
+        "qoq_pct": -12.08
+      },
+      "investment_gains_and_others_net": {
+        "yoy_pct": 256.63,
+        "qoq_pct": -10.08
+      },
+      "interest_income": {
+        "yoy_pct": -6.2,
+        "qoq_pct": -5.0
+      },
+      "finance_cost": {
+        "yoy_pct": -7.16,
+        "qoq_pct": 17.05
+      },
+      "associates_and_jv_ifrs_profit": {
+        "yoy_pct": -42.93,
+        "qoq_pct": null
+      },
+      "pretax_profit": {
+        "yoy_pct": -0.72,
+        "qoq_pct": 6.46
+      },
+      "tax_expense": {
+        "yoy_pct": -7.49,
+        "qoq_pct": -22.72
+      },
+      "noncontrolling_profit": {
+        "yoy_pct": -15.64,
+        "qoq_pct": -21.89
+      },
+      "ifrs_parent_profit": {
+        "yoy_pct": 0.76,
+        "qoq_pct": 13.55
+      },
+      "non_ifrs_operating_profit": {
+        "yoy_pct": -6.2,
+        "qoq_pct": -10.0
+      },
+      "non_ifrs_parent_profit": {
+        "yoy_pct": -5.72,
+        "qoq_pct": -2.77
+      },
+      "non_ifrs_associates_and_jv_profit": {
+        "yoy_pct": -14.49,
+        "qoq_pct": 38.8
+      },
+      "basic_eps_cny": {
+        "yoy_pct": 1.54,
+        "qoq_pct": 13.73
+      },
+      "non_ifrs_basic_eps_cny": {
+        "yoy_pct": -4.98,
+        "qoq_pct": -2.62
+      },
+      "rnd_expense": {
+        "yoy_pct": 41.8,
+        "qoq_pct": 18.64
+      },
+      "depreciation_ppe_and_investment_properties": {
+        "yoy_pct": 64.38,
+        "qoq_pct": 25.56
+      },
+      "adjusted_ebitda": {
+        "yoy_pct": -2.08,
+        "qoq_pct": -7.09
+      }
+    },
+    "nine_month_yoy_pct": {
+      "revenue": 9.18,
+      "gross_profit": 9.96,
+      "ifrs_operating_profit": 6.94,
+      "ifrs_parent_profit": 6.69,
+      "non_ifrs_operating_profit": 3.88,
+      "non_ifrs_parent_profit": 4.06,
+      "operating_cash_flow": -33.76,
+      "capex_disclosed": 178.94,
+      "rnd_expense": 32.59
+    },
+    "segments_revenue_delta": {
+      "value_added_services": 2466,
+      "marketing_services": 6807,
+      "fintech_and_business_services": 5481,
+      "others": -287
+    },
+    "segments_revenue_increment_share_pct": {
+      "value_added_services": 17.05,
+      "marketing_services": 47.05,
+      "fintech_and_business_services": 37.89,
+      "others": -1.98
+    },
+    "ifrs_parent_profit_yoy_bridge": {
+      "gross_profit": 7113,
+      "sales_marketing": -676,
+      "general_admin": -9818,
+      "other_operating_gains": -1026,
+      "investment_gains_and_others": 7237,
+      "interest_income": -264,
+      "finance_cost": 269,
+      "associates_and_jv": -3372,
+      "tax": 733,
+      "noncontrolling_profit": 283
+    },
+    "ifrs_parent_profit_qoq_bridge": {
+      "gross_profit": -2522,
+      "sales_marketing": -275,
+      "general_admin": -5269,
+      "other_operating_gains": -63,
+      "investment_gains_and_others": -1127,
+      "interest_income": -210,
+      "finance_cost": -508,
+      "associates_and_jv": 14475,
+      "tax": 2661,
+      "noncontrolling_profit": 428
+    },
+    "new_ai_products_implied_operating_profit_drag": [
+      null,
+      10464,
+      15227
+    ],
+    "compute_prepayment_implied": [
+      null,
+      51400,
+      86000
+    ],
+    "revenue_benchmarks": [
+      {
+        "name": "智通财经经证券之星转载",
+        "published": "2026-11-17",
+        "revenue_cny_million": 210240,
+        "source": "preview_zht",
+        "revenue_vs_benchmark_pct": -1.4
+      },
+      {
+        "name": "华盛通转引 Visible Alpha",
+        "published": "2026-11-18",
+        "revenue_cny_million": 211100,
+        "source": "preview_va",
+        "revenue_vs_benchmark_pct": -1.8
+      }
+    ]
+  }
+}

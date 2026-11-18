@@ -1,0 +1,399 @@
+{
+  "ticker": "603650.SH",
+  "name": "彤程新材",
+  "overall_score": 44.2,
+  "verdict_label": "谨慎 · 3 派看空",
+  "verdict_detail": "基本面 53.2 · 共识 30.7",
+  "fundamental_score": 53.2,
+  "panel_consensus": 30.7,
+  "consensus_valid": true,
+  "school_lock": null,
+  "school_scores": {
+    "A": {
+      "group": "A",
+      "label": "经典价值派",
+      "desc": "巴菲特 / 格雷厄姆 / 费雪 / 芒格 一脉",
+      "n_members": 6,
+      "n_active": 6,
+      "short_excluded": 0,
+      "consensus": 24.3,
+      "avg_score": 32.2,
+      "vote_consensus": 26.7,
+      "score_mean": 32.2,
+      "verdict": "回避",
+      "bullish": 1,
+      "neutral": 1,
+      "bearish": 4,
+      "skip": 0,
+      "dominant_signal": "bearish"
+    },
+    "B": {
+      "group": "B",
+      "label": "成长派",
+      "desc": "彼得·林奇 / 欧奈尔 / 蒂尔 / 伍德 一脉",
+      "n_members": 9,
+      "n_active": 9,
+      "short_excluded": 0,
+      "consensus": 39.5,
+      "avg_score": 43.0,
+      "vote_consensus": 40.0,
+      "score_mean": 43.0,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 6,
+      "bearish": 3,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "C": {
+      "group": "C",
+      "label": "宏观派",
+      "desc": "索罗斯 / 达利欧 / 马克斯 一脉",
+      "n_members": 5,
+      "n_active": 5,
+      "short_excluded": 2,
+      "consensus": 47.7,
+      "avg_score": 48.4,
+      "vote_consensus": 48.0,
+      "score_mean": 48.4,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 4,
+      "bearish": 1,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "D": {
+      "group": "D",
+      "label": "技术派",
+      "desc": "利弗莫尔 / Minervini / 达瓦斯 一脉",
+      "n_members": 4,
+      "n_active": 3,
+      "short_excluded": 0,
+      "consensus": 6.1,
+      "avg_score": 25.0,
+      "vote_consensus": 0.0,
+      "score_mean": 25.0,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 3,
+      "skip": 1,
+      "dominant_signal": "bearish"
+    },
+    "E": {
+      "group": "E",
+      "label": "中式价投",
+      "desc": "段永平 / 张坤 / 朱少醒 / 冯柳 一脉",
+      "n_members": 7,
+      "n_active": 7,
+      "short_excluded": 0,
+      "consensus": 39.9,
+      "avg_score": 41.9,
+      "vote_consensus": 42.9,
+      "score_mean": 41.9,
+      "verdict": "谨慎",
+      "bullish": 0,
+      "neutral": 5,
+      "bearish": 2,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    },
+    "F": {
+      "group": "F",
+      "label": "A 股游资",
+      "desc": "龙虎榜顶流 23 位·章盟主/孙哥/赵老哥为代表",
+      "n_members": 24,
+      "n_active": 21,
+      "short_excluded": 0,
+      "consensus": 24.2,
+      "avg_score": 35.7,
+      "vote_consensus": 20.0,
+      "score_mean": 35.7,
+      "verdict": "回避",
+      "bullish": 0,
+      "neutral": 7,
+      "bearish": 14,
+      "skip": 3,
+      "dominant_signal": "bearish"
+    },
+    "G": {
+      "group": "G",
+      "label": "量化派",
+      "desc": "Simons / Thorp / Shaw 一脉",
+      "n_members": 4,
+      "n_active": 0,
+      "short_excluded": 0,
+      "consensus": 0.0,
+      "avg_score": 0.0,
+      "vote_consensus": 0.0,
+      "score_mean": 0.0,
+      "verdict": "不适合",
+      "bullish": 0,
+      "neutral": 0,
+      "bearish": 0,
+      "skip": 4,
+      "dominant_signal": "skip"
+    },
+    "H": {
+      "group": "H",
+      "label": "科技领袖派",
+      "desc": "黄仁勋 / 马斯克 / Altman / Saylor 一脉",
+      "n_members": 4,
+      "n_active": 2,
+      "short_excluded": 0,
+      "consensus": 56.2,
+      "avg_score": 52.0,
+      "vote_consensus": 60.0,
+      "score_mean": 52.0,
+      "verdict": "关注",
+      "bullish": 0,
+      "neutral": 2,
+      "bearish": 0,
+      "skip": 2,
+      "dominant_signal": "neutral"
+    },
+    "I": {
+      "group": "I",
+      "label": "AI 卡位/瓶颈猎手",
+      "desc": "Serenity · AI 供应链卡脖子/瓶颈点",
+      "n_members": 1,
+      "n_active": 1,
+      "short_excluded": 0,
+      "consensus": 54.5,
+      "avg_score": 50.0,
+      "vote_consensus": 60.0,
+      "score_mean": 50.0,
+      "verdict": "关注",
+      "bullish": 0,
+      "neutral": 1,
+      "bearish": 0,
+      "skip": 0,
+      "dominant_signal": "neutral"
+    }
+  },
+  "short_consensus": {
+    "total": 2,
+    "active": 2,
+    "skip": 0,
+    "short_candidates": 1,
+    "no_short_thesis": 1,
+    "avg_score": 37.0,
+    "top_short_candidates": [
+      {
+        "id": "burry",
+        "name": "迈克尔·伯利",
+        "score": 31,
+        "headline": "A股约55倍TTM市盈率，简式自由现金流为负2.93亿元"
+      },
+      {
+        "id": "chanos",
+        "name": "吉姆·查诺斯",
+        "score": 43,
+        "headline": "前三季经营现金约为归母利润22%，跟踪应收及联营分红"
+      }
+    ]
+  },
+  "dim_commentary": {
+    "0_basic": "A、H均对应同一公司。A盘中47.72元，H盘中35.68港元折30.52元，折价36.0%。用各自报价乘股数后合计314.77亿元；名义股本6.84亿股。",
+    "1_financials": "9M归母5.22亿却只转成1.15亿经营现金；支出3.30亿现金资本开支后，简式自由现金−2.15亿。同期权益法利润2.42亿，占税前利润约44%。",
+    "2_kline": "截至11月17日，47.37元高于MA20的46.72元，低于MA60的57.18元。放量反弹至20日均量的1.62倍，MACD双线仍在零轴下。252日年化波动63%。",
+    "3_macro": "10月集成电路产量增长21.9%，同期汽车产量下降7.7%，电子材料和轮胎助剂应分开看。利率暂稳，汇率风险已有财报体现，前三季汇兑损失同比多3,078万元。 https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html https://static.cninfo.com.cn/finalpage/2026-10-28/1225631790.PDF 按招股书H1敏感度，利率上移25bp时，按文件时点线性折算约少465.5万元税后利润；以三季末归母权益作量级对照，约少0.07个百分点。 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf",
+    "4_peers": "光刻胶对标晶瑞电材、上海新阳，CMP对标鼎龙，酚醛树脂对标圣泉。鼎龙2026H1抛光垫收入7.45亿元，彤程超0.20亿元，规模差距限制CMP短期估值贡献。https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-26/ce8bb71b-ffa4-4100-8481-135ae4ea33d5.PDF https://static.cninfo.com.cn/finalpage/2026-08-20/1225481819.PDF",
+    "5_chain": "上游苯酚影响轮胎用酚醛树脂，光刻胶依赖树脂、光引发剂和高纯溶剂。下游为轮胎厂、晶圆厂和显示面板厂，北旭面板胶、北京科华半导体胶各自面临长周期验证。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=82",
+    "6_research": "样本六家均值为2026/27/28归母6.92/8.79/10.77亿。2026目标隐含Q4 1.70亿，对去年的0.68亿约增148%；用上调预期定价前，先核对现金兑现。",
+    "7_industry": "2025年中国半导体光刻胶市场约70亿元，彤程以5.8%居本土供应商第一，前五家本土供应商合计10.5%。国产仍有渗透空间，先进配方的批量复购和良率决定公司能兑现多少。https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=84",
+    "8_materials": "苯酚采购均价同比涨10.13%，助剂组合售价微降；框架协定多按交付市价重定价，影响要看当期实际领用成本和组合售价。 https://static.cninfo.com.cn/finalpage/2026-10-28/1225631803.PDF https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf",
+    "9_futures": "纯苯近月较次月升水175元/吨，企稳与否应对照苯酚实际采价。2025年报的原料衍生品披露不适用，无法把期货波动直接计入公司套保损益。 https://www.9qihuo.com/hangqing?productcode=bz https://static.cninfo.com.cn/finalpage/2026-04-18/1225115153.PDF",
+    "10_valuation": "A股TTM 55.29倍，五年PE分位49.05%。PB为4.79倍及3.88%分位；H股募资把9月底归母净资产提高62.69%，PB低分位含权益基数变化。",
+    "11_governance": "实际控制人于11月16日增持41.11万H股，披露权益达H股的9.71%。拟增持650万至1300万股为9月30日起12个月承诺窗口，首日买入发生在窗口前。",
+    "12_capital_flow": "11月16日融资余额5.07亿元，单日净偿还约508万元；11月17日约3347万元大单净买入为估算。9月末陆股通托管440.97万股只用于披露时点对照。",
+    "13_policy": "光刻胶与抛光垫符合十五五材料方向，能否转成订单仍取决于客户量产认证。进口关税优惠须核验主体与适用货物，高新15%税率关注北京科华、北旭与彤程镇江2026年到期续认。 https://gxt.hunan.gov.cn/gxt/xxgk_71033/ghjh/202609/t20260915_34064746.html https://www.ndrc.gov.cn/xxgk/zcfb/tz/202604/t20260409_1404580.html https://gss.mof.gov.cn/gzdt/zhengcefabu/202103/t20210329_3677452.htm https://static.cninfo.com.cn/finalpage/2026-04-18/1225115153.PDF",
+    "14_moat": "H1已有3款沉浸式光刻胶稳定量产、20余款新品拿到正式订单。量产验证有切换成本，覆盖12英寸线体的比例不代表销售份额，观察复购和自产树脂导入。",
+    "15_events": "H股上市实际募资净额29.01亿港元，新增H股约占发行后总股本10%；研发和产线投入能否提升单位利润和回款，决定融资对每股价值的影响。https://www.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092801810_c.pdf#page=3 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf#page=266",
+    "16_lhb": "近20个已完成交易日公开检索无上榜、无涨停。8月6日核到历史榜，距离当前较久，近期游资席位成本缺少可核验样本。",
+    "17_sentiment": "A股11月17日涨4.43%，H股盘中仍较发行价低18.91%。资金与中期意见不同，社媒无完整可重复样本，减少其评分权重。",
+    "18_trap": "公开证据初筛为低。未见与本股相关的公开诱导交易证据，H股基石持有33.1%、A股从102.28元回撤约54%是独立的流通与波动风险。",
+    "19_contests": "公开组合与比赛结果未能核实有效持仓样本。账户、日期和交易记录缺任一项时无法将仓位及收益归因到彤程新材。"
+  },
+  "institutional_modeling": {
+    "dcf_intrinsic": 24.53,
+    "dcf_safety_margin_pct": -48.6,
+    "dcf_verdict": "基准现金流估值偏低",
+    "lbo_irr_pct": -6.6,
+    "lbo_verdict": "照当前 A/H 合计报价收购，回报不足",
+    "comps_verdict": "同业经营组合差异大，远期倍数只作敏感性",
+    "initiating_rating": "观察",
+    "target_price": 38.54,
+    "upside_pct": -19.2,
+    "ic_recommendation": null,
+    "bcg_position": null,
+    "industry_attractiveness": null
+  },
+  "detected_style": "balanced",
+  "style_label_cn": "中性兜底",
+  "style_explanation": "无明显风格倾向 · 全派系等权",
+  "style_diagnostics": {
+    "active_weight": 56.0,
+    "bullish_weight": 1.0,
+    "neutral_weight": 16.2,
+    "active_count": 56,
+    "bullish_count": 1,
+    "neutral_count": 27,
+    "bearish_count": 28,
+    "raw_consensus_old": 1.8,
+    "raw_fund_old": 53.2
+  },
+  "quant_signal": {
+    "count": 0,
+    "quant_funds": [],
+    "active_funds_total": 0,
+    "quant_funds_total": 0,
+    "is_quant_factor_style": null,
+    "evidence_status": "unavailable",
+    "verified_funds_total": 0,
+    "unavailable_funds_total": 0,
+    "report_periods": [],
+    "counts_by_period": {},
+    "unavailable_reasons": {},
+    "publication_date_verified": false,
+    "scope": "scanned_funds_only"
+  },
+  "agent_reviewed": true,
+  "panel_insights": "66位方法模拟。多头策略中1偏多、26中性、27偏空、10弃权。独立空头框架1份标出风险，1份中性，0份弃权。成长方法认可电子材料扩张，价值方法更看回款，趋势方法等待50.77元至57.18元确认。规则与复核相差超过30分共24位，主要来自把深回撤或单条增长当成完整信号。",
+  "claude_narrative_stub": {
+    "_note": "以下字段已由 agent 覆盖",
+    "needs_rewrite": []
+  },
+  "debate": {
+    "bull": {
+      "investor_id": "fisher",
+      "name": "费雪",
+      "group": "A"
+    },
+    "bear": {
+      "investor_id": "graham",
+      "name": "格雷厄姆",
+      "group": "A"
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "bull_say": "9M电子材料利润1.63亿，增292.74%。即使联营回落，剔除投融资的集团经营利润仍增64.41%。",
+        "bear_say": "9M集团归母只增5.66%，经营现金反降57.21%。应收账款较年初增加约2.75亿元。"
+      },
+      {
+        "round": 2,
+        "bull_say": "H1有3款沉浸式胶量产，CMP收入超2000万元。验证和复购带动产品结构改善的空间。",
+        "bear_say": "TTM经营现金1.85亿，现金资本开支4.78亿。近三季度权益法利润2.42亿，联营利润波动直接影响归母。"
+      },
+      {
+        "round": 3,
+        "bull_say": "H股折合30.52元，TTM 35.36倍，比A股报价折价约36%。资产重估和盈利兑现能扩大长期回报。",
+        "bear_say": "A报47.72元，隐含约37倍2027E。基准DCF为24.53元，经营兑现门槛明显高于现金流模型。"
+      }
+    ],
+    "punchline": "电子材料利润增近3倍，过去12个月经营现金扣掉资本开支仍少2.93亿元。"
+  },
+  "great_divide": {
+    "bull_avatar": "fisher",
+    "bear_avatar": "graham",
+    "bull_score": 67,
+    "bear_score": 12,
+    "bull_signal": "bullish",
+    "bear_signal": "bearish",
+    "punchline": "电子材料利润增近3倍，过去12个月经营现金扣掉资本开支仍少2.93亿元。"
+  },
+  "risks": [
+    "应收账款10.89亿元，较2025年末增33.8%，带动TTM简式自由现金流−2.93亿元。",
+    "9M权益法收益2.42亿元相当于税前利润44.2%，轮胎联营波动传入归母利润。",
+    "9M苯酚采购价涨10.13%，同口径橡胶助剂均价跌0.31%，成本传导滞后。",
+    "股价较52周盘中高点回撤约54%，H股基石集中且当日成交薄。",
+    "A股按30倍2027E需要约10.88亿元归母，较样本均值8.79亿元高约24%。"
+  ],
+  "buy_zones": {
+    "value": {
+      "price": 20.85,
+      "rationale": "基准DCF每股24.53元打85折，预留15%模型安全边际。"
+    },
+    "growth": {
+      "price": 38.54,
+      "rationale": "2027E归母8.79亿元除现有名义股本，乘情景30倍PE。"
+    },
+    "technical": {
+      "price": 57.18,
+      "rationale": "以11月17日MA60作趋势确认位，需站稳和量能配合。"
+    },
+    "youzi": {
+      "price": 50.77,
+      "rationale": "近10日高点作突破观察位，近20日无龙虎榜，席位成本缺失。"
+    }
+  },
+  "friendly": {
+    "scenarios": {
+      "entry_price": 47.72,
+      "cases": [
+        {
+          "name": "最坏情况",
+          "probability": "5%",
+          "return": -126.0
+        },
+        {
+          "name": "偏差情况",
+          "probability": "25%",
+          "return": -60.0
+        },
+        {
+          "name": "合理情况",
+          "probability": "40%",
+          "return": 15.0
+        },
+        {
+          "name": "乐观情况",
+          "probability": "25%",
+          "return": 70.5
+        },
+        {
+          "name": "极致乐观",
+          "probability": "5%",
+          "return": 141.0
+        }
+      ]
+    },
+    "exit_triggers": [
+      "股价跌破 ¥41.99（当前价 -12%）→ 无条件止损",
+      "下季度营收同比转负 → 基本面反转信号",
+      "下次业绩预告低于 +10% → 预期管理失守",
+      "顶级游资 席位大额卖出 > 2 亿 → 顶级资金撤离信号",
+      "PE 站上 5 年 90 分位 → 泡沫区获利了结"
+    ],
+    "similar_stocks": []
+  },
+  "fund_managers": [],
+  "dashboard": {
+    "core_conclusion": "观察。电子材料增利进入量产阶段，回款和资本开支拖累现金。A股47.72元已反映较高的2027盈利与倍数预期；H股折30.52元有相对折价，仍高于24.53元基准DCF。",
+    "data_perspective": {
+      "trend": "Stage 1（均线法候选，尚未确认筑底）",
+      "price": "¥47.72",
+      "volume": "—",
+      "chips": "短期修复，中期均线压制"
+    },
+    "intelligence": {
+      "news": "已采集 3 项催化剂事件",
+      "risks": [
+        "应收账款10.89亿元，较2025年末增33.8%，带动TTM简式自由现金流−2.93亿元。",
+        "9M权益法收益2.42亿元相当于税前利润44.2%，轮胎联营波动传入归母利润。",
+        "9M苯酚采购价涨10.13%，同口径橡胶助剂均价跌0.31%，成本传导滞后。"
+      ],
+      "catalysts": [
+        "暂无明确催化剂"
+      ]
+    },
+    "battle_plan": {
+      "entry": "¥43.9",
+      "position": "分批建仓 · 勿满仓",
+      "stop": "¥40.56",
+      "target": "¥59.65"
+    }
+  }
+}

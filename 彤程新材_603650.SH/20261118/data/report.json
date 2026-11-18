@@ -1,0 +1,267 @@
+{
+  "ticker": "603650.SH",
+  "hk_ticker": "09607.HK",
+  "name": "彤程新材",
+  "date": "2026-11-18",
+  "snapshot": {
+    "a_price": 47.72,
+    "a_time": "2026-11-18 14:40:20+08:00",
+    "h_price_hkd": 35.68,
+    "h_time": "2026-11-18 14:23:34+08:00",
+    "fx_cny_per_hkd": 0.85544,
+    "h_cny": 30.5220992,
+    "h_discount_to_a": 0.3603918860016765,
+    "a_prev_close": 47.37,
+    "h_prev_close": 36.12,
+    "a_priced_total_cap_yi": 326.48194796959996,
+    "h_priced_total_cap_yi": 208.82050299533464,
+    "mixed_cap_yi": 314.76696151735035,
+    "ttm_eps_current_shares": 0.8631450833343094,
+    "a_pe_ttm": 55.28618643769452,
+    "h_pe_ttm": 35.361493437573486,
+    "a_pb_q3": 4.793758401641239,
+    "blended_pe_ttm": 53.30238019927289,
+    "shares": {
+      "as_of": "2026-11-06",
+      "a_shares_including_treasury": 616042968,
+      "a_shares_excluding_treasury": 613041051,
+      "h_shares": 68118700,
+      "treasury_shares": 3001917,
+      "total_shares_including_treasury": 684161668,
+      "total_shares_excluding_treasury": 681159751,
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-09-30/1225588864.PDF",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110600524.pdf"
+      ]
+    }
+  },
+  "fundamental_score": 53.2,
+  "panel": {
+    "bullish": 1,
+    "neutral": 26,
+    "bearish": 27,
+    "skip": 10
+  },
+  "verdict": "观察",
+  "core_fields": {
+    "core_conclusion": "观察。电子材料增利进入量产阶段，回款和资本开支拖累现金。A股47.72元已反映较高的2027盈利与倍数预期；H股折30.52元有相对折价，仍高于24.53元基准DCF。",
+    "risks": [
+      "应收账款10.89亿元，较2025年末增33.8%，带动TTM简式自由现金流−2.93亿元。",
+      "9M权益法收益2.42亿元相当于税前利润44.2%，轮胎联营波动传入归母利润。",
+      "9M苯酚采购价涨10.13%，同口径橡胶助剂均价跌0.31%，成本传导滞后。",
+      "股价较52周盘中高点回撤约54%，H股基石集中且当日成交薄。",
+      "A股按30倍2027E需要约10.88亿元归母，较样本均值8.79亿元高约24%。"
+    ],
+    "buy_zones": {
+      "value": {
+        "price": 20.85,
+        "rationale": "基准DCF每股24.53元打85折，预留15%模型安全边际。"
+      },
+      "growth": {
+        "price": 38.54,
+        "rationale": "2027E归母8.79亿元除现有名义股本，乘情景30倍PE。"
+      },
+      "technical": {
+        "price": 57.18,
+        "rationale": "以11月17日MA60作趋势确认位，需站稳和量能配合。"
+      },
+      "youzi": {
+        "price": 50.77,
+        "rationale": "近10日高点作突破观察位，近20日无龙虎榜，席位成本缺失。"
+      }
+    }
+  },
+  "sources": {
+    "季报": [
+      "2026年三季报",
+      "https://static.cninfo.com.cn/finalpage/2026-10-28/1225631790.PDF",
+      "第1–4页损益及解释，第6–12页三表与股东。"
+    ],
+    "中报": [
+      "2026年半年报",
+      "https://static.cninfo.com.cn/finalpage/2026-08-20/1225481819.PDF",
+      "半导体与显示材料的分产品收入和验证状态、联营持股。"
+    ],
+    "年报": [
+      "2025年年报",
+      "https://static.cninfo.com.cn/finalpage/2026-04-18/1225115153.PDF",
+      "第7–9页财务历史，第198–199页联营权益和分红。"
+    ],
+    "经营": [
+      "2026年前三季度经营公告",
+      "https://static.cninfo.com.cn/finalpage/2026-10-28/1225631803.PDF",
+      "分产品产销收入与原料单价。分类变更使部分历史口径不可比。"
+    ],
+    "报价": [
+      "腾讯A/H股公开行情",
+      "https://qt.gtimg.cn/q=sh603650,hk09607,sh000300",
+      "11月18日盘中，A股14:40:20，H股14:23:34。动态链接会更新，冻结值见底稿。"
+    ],
+    "日线": [
+      "腾讯前复权日线",
+      "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603650,day,,,320,qfq",
+      "指标截至11月17日完整交易日。盘中价格单列。"
+    ],
+    "历史": [
+      "东财历史估值接口",
+      "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_VALUEANALYSIS_DET&columns=ALL&filter=(SECURITY_CODE%3D%22603650%22)&sortColumns=TRADE_DATE&sortTypes=-1&pageSize=500",
+      "2021-11-18至2026-11-17窗口，1211条去重有效日样本。"
+    ],
+    "汇率": [
+      "中国外汇交易中心人民币中间价",
+      "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+      "11月18日每港元0.85544人民币。海外报表同日折算仅为尺度。"
+    ],
+    "招股": [
+      "港股招股章程",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0921/2026092100030_c.pdf",
+      "第53页注明无超配。PDF第42页海外收入，第143–145页原料，第397–398页风险敏感度。"
+    ],
+    "配发": [
+      "港交所配发结果",
+      "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0928/2026092801810_c.pdf",
+      "发售价44港元，净募29.0129亿港元，基石占H股33.1%。"
+    ],
+    "股本": [
+      "11月6日H股翌日披露报表",
+      "https://static.cninfo.com.cn/finalpage/2026-11-07/1225661349.PDF",
+      "A股注销26,668股后的名义与库存股份。"
+    ],
+    "增持": [
+      "港交所11月17日权益披露",
+      "https://di.hkex.com.hk/di/summary/DSM20261117C2.htm",
+      "张宁11月16日增持41.11万H股，披露权益占H股9.71%。"
+    ],
+    "计划": [
+      "实际控制人H股增持计划",
+      "https://static.cninfo.com.cn/finalpage/2026-09-30/1225588871.PDF",
+      "12个月窗口始于9月30日，计划650万至1300万股。"
+    ],
+    "泰国": [
+      "港交所泰国项目关联增资",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1015/2026101501016.pdf",
+      "集团侧拟出资4.59亿泰铢，保持51%权益，审批为条件。"
+    ],
+    "研报": [
+      "同花顺盈利预测",
+      "https://basic.10jqka.com.cn/603650/worth.html",
+      "11月18日可见的6家聚合预测及报告。均值为券商估计。"
+    ],
+    "太平洋": [
+      "太平洋证券三季报点评",
+      "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/848175904991/index.phtml",
+      "11月16日预测2026/27/28归母7.06/9.08/10.83亿元。"
+    ],
+    "榜单": [
+      "上交所交易公开信息",
+      "https://www.sse.com.cn/disclosure/diclosure/public/inquirydata/index.shtml?secCode=603650",
+      "历史榜单供核查。"
+    ],
+    "短线": [
+      "近20日交易统计",
+      "https://www.dabanke.com/gupiao-603650.html",
+      "11月17日止无上榜或涨停，结合交易所公告与日线。"
+    ],
+    "两融": [
+      "东财两融",
+      "https://emweb.eastmoney.com/CompanyBigNews/Index?code=SH603650&color=b&type=soft",
+      "最近明确核到11月16日。"
+    ],
+    "资金": [
+      "证券之星成交资金估算",
+      "https://stock.stockstar.com/RB2026111700024890.shtml",
+      "11月17日大单资金估算和收盘数据。"
+    ],
+    "监管": [
+      "证监会荐股操纵案例",
+      "https://www.csrc.gov.cn/qingdao/c104017/c9274afbe5ad84c48afbda641f8bb391e/content.shtml",
+      "筛查参照。"
+    ],
+    "审计": [
+      "北京证监局审计组成员警示函",
+      "https://www.csrc.gov.cn/beijing/c105547/c7536720/content.shtml",
+      "2025年警示函对象为审计项目组成员。"
+    ],
+    "同行": [
+      "腾讯同行公开报价",
+      "https://qt.gtimg.cn/q=sh688199,sz300346,sh688019,sh688120,sz300121,sh688550",
+      "11月18日14:45附近盘中快照。"
+    ],
+    "联营": [
+      "公开联营持股报价",
+      "https://qt.gtimg.cn/q=sh603049,hk01809",
+      "中策橡胶与浦林成山分别计算。"
+    ],
+    "港股通": [
+      "上交所沪港通纳入公告",
+      "https://www.sse.com.cn/services/hkexsc/disclo/announ/c/c_20260928_10833597.shtml",
+      "上市日调入沪港通下港股通。"
+    ]
+  },
+  "source_scope": "详见来源索引和分维度证据",
+  "review": {
+    "passed": true,
+    "checks_run": [
+      "check_industry_mapping_sanity",
+      "check_all_dims_exist",
+      "check_empty_dims",
+      "check_hk_kline_populated",
+      "check_hk_financials_populated",
+      "check_panel_non_empty",
+      "check_coverage_threshold",
+      "check_placeholder_strings",
+      "check_valuation_sanity",
+      "check_industry_data_coverage",
+      "check_metals_materials_populated",
+      "check_agent_analysis_exists",
+      "check_factcheck_redflags",
+      "check_consensus_formula_sanity",
+      "check_panel_hollow_verdicts",
+      "check_panel_insights_rendered",
+      "check_debate_bull_bear_populated"
+    ],
+    "critical_count": 0,
+    "warning_count": 0,
+    "info_count": 0
+  },
+  "data_quality": {
+    "playwright_fallback": {
+      "attempted": 10,
+      "added": 0,
+      "resolution": "公司披露、交易所和独立行情交叉补录"
+    },
+    "limits": [
+      "雪球公开组合和比赛页未能核实具体当期持仓及成本。",
+      "雪球及公开资料只用于事件核验，缺少完整、可重复社媒样本。",
+      "近20个已完成交易日未见上榜，席位成本不适用。",
+      "三季报两大主体无质押，整体流通与关联质押比例未核实。",
+      "三家海外业务对照，集团利润结构不同，未给统一可套倍数。"
+    ]
+  },
+  "model": {
+    "base_dcf_price_cny": 24.531402827043305,
+    "lbo_irr": -0.06597236504966719,
+    "multiple_targets": [
+      {
+        "pe_2027e": 25,
+        "consensus_profit_yi": 8.79,
+        "price": 32.11960129868018
+      },
+      {
+        "pe_2027e": 30,
+        "consensus_profit_yi": 8.79,
+        "price": 38.543521558416224
+      },
+      {
+        "pe_2027e": 35,
+        "consensus_profit_yi": 8.79,
+        "price": 44.96744181815226
+      },
+      {
+        "pe_2027e": 40,
+        "consensus_profit_yi": 8.79,
+        "price": 51.391362077888296
+      }
+    ]
+  }
+}

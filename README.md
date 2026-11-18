@@ -6,6 +6,8 @@
 
 | 公司 | 历史深度报告 | 财报更新 | 补充 |
 |---|---|---|---|
+| 腾讯控股 00700.HK | — | [2026-11-18 三季报解读](腾讯控股_00700.HK/20261118/full-report-standalone.html) | [港交所原文](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800449_c.pdf) |
+| 彤程新材 603650.SH | [2026-11-18](彤程新材_603650.SH/20261118/full-report-standalone.html) | — | 含 09607.HK 估值对照 |
 | 中芯国际 00981.HK | — | [2026-11-12 三季报解读](中芯国际_00981.HK/20261112/full-report-standalone.html) | — |
 | 青岛啤酒 00168.HK | [2026-11-12](青岛啤酒_00168.HK/20261112/full-report-standalone.html) | — | — |
 | 海底捞 06862.HK | [2026-11-11](海底捞_06862.HK/20261111/full-report-standalone.html) | [2026-11-11 中报解读](海底捞_06862.HK/20261111/2026中报解读.html) | — |
