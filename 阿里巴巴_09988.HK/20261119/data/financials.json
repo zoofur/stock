@@ -1,0 +1,302 @@
+{
+  "company": "阿里巴巴集团",
+  "ticker": "09988.HK",
+  "as_of": "2026-11-19",
+  "period": "2026 Q3 (calendar), FY2027 Q2 (fiscal)",
+  "unit": "RMB million unless stated otherwise",
+  "quarters": {
+    "2025-09-30": {
+      "revenue": 247795,
+      "operating_income": 5365,
+      "adjusted_ebita": 9073,
+      "net_income": 20612,
+      "net_income_attributable_to_ordinary_shareholders": 20990,
+      "non_gaap_net_income": 10352,
+      "non_gaap_diluted_eps_per_ads_rmb": 4.36,
+      "operating_cash_flow": 10099,
+      "capital_expenditure": 31501,
+      "capital_expenditure_in_fcf": 31428,
+      "buyer_protection_fund_adjustment": -511,
+      "free_cash_flow": -21840,
+      "interest_and_investment_income_net": 20092,
+      "consolidated_cost_of_revenue": 150781,
+      "sales_and_marketing_expenses": 66496,
+      "product_development_expenses": 17095,
+      "adjusted_ebitda": 17256
+    },
+    "2026-06-30": {
+      "revenue": 268953,
+      "operating_income": 15161,
+      "adjusted_ebita": 27329,
+      "net_income": 10444,
+      "net_income_attributable_to_ordinary_shareholders": 10537,
+      "non_gaap_net_income": 20715,
+      "non_gaap_diluted_eps_per_ads_rmb": 8.52,
+      "operating_cash_flow": 22945,
+      "capital_expenditure": 67678,
+      "free_cash_flow": -44670,
+      "adjusted_ebitda": 39143
+    },
+    "2026-09-30": {
+      "revenue": 271519,
+      "operating_income": 29116,
+      "adjusted_ebita": 32636,
+      "net_income": 64420,
+      "net_income_attributable_to_ordinary_shareholders": 64535,
+      "non_gaap_net_income": 19909,
+      "non_gaap_diluted_eps_per_ads_rmb": 8.1,
+      "operating_cash_flow": 15690,
+      "capital_expenditure": 50477,
+      "capital_expenditure_in_fcf": 50463,
+      "buyer_protection_fund_adjustment": 301,
+      "free_cash_flow": -34472,
+      "interest_and_investment_income_net": 73305,
+      "consolidated_cost_of_revenue": 168476,
+      "sales_and_marketing_expenses": 41341,
+      "product_development_expenses": 22632,
+      "cash_and_other_liquid_investments": 487929,
+      "adjusted_ebitda": 46055
+    }
+  },
+  "six_months_to_september": {
+    "2025": {
+      "revenue": 495447,
+      "adjusted_ebita": 47917,
+      "non_gaap_net_income": 43862,
+      "operating_cash_flow": 30771,
+      "capital_expenditure": 70177,
+      "free_cash_flow": -40655
+    },
+    "2026": {
+      "revenue": 540472,
+      "adjusted_ebita": 59965,
+      "non_gaap_net_income": 40624,
+      "operating_cash_flow": 38635,
+      "capital_expenditure": 118155,
+      "free_cash_flow": -79142
+    }
+  },
+  "revenue_and_profit_by_segment": {
+    "periods": [
+      "2025-09-30",
+      "2026-06-30",
+      "2026-09-30"
+    ],
+    "columns": [
+      "revenue",
+      "adjusted_ebita"
+    ],
+    "alibaba_ecommerce_group": [
+      [
+        193429,
+        11336
+      ],
+      [
+        205862,
+        39749
+      ],
+      [
+        197237,
+        38851
+      ]
+    ],
+    "ai_cloud_and_compute": [
+      [
+        39914,
+        4000
+      ],
+      [
+        48437,
+        5628
+      ],
+      [
+        60973,
+        8838
+      ]
+    ],
+    "ai_labs_and_applications": [
+      [
+        2940,
+        -3435
+      ],
+      [
+        3338,
+        -13861
+      ],
+      [
+        4435,
+        -10503
+      ]
+    ],
+    "all_others": [
+      [
+        29118,
+        -994
+      ],
+      [
+        28803,
+        -3343
+      ],
+      [
+        27714,
+        -3301
+      ]
+    ],
+    "unallocated": [
+      [
+        577,
+        -1221
+      ],
+      [
+        783,
+        -163
+      ],
+      [
+        542,
+        -623
+      ]
+    ],
+    "inter_segment_elimination": [
+      [
+        -18183,
+        -613
+      ],
+      [
+        -18270,
+        -681
+      ],
+      [
+        -19382,
+        -626
+      ]
+    ],
+    "ecommerce_revenue_breakdown": {
+      "periods": [
+        "2025-09-30",
+        "2026-09-30"
+      ],
+      "china_ecommerce": [
+        103974,
+        98497
+      ],
+      "china_ecommerce_customer_management": [
+        78855,
+        75033
+      ],
+      "china_quick_commerce": [
+        48126,
+        58757
+      ],
+      "international_ecommerce": [
+        27879,
+        25723
+      ],
+      "global_wholesale": [
+        13450,
+        14260
+      ],
+      "comparable_customer_management_growth_pct": 1
+    },
+    "cloud_revenue_breakdown": {
+      "unit": "RMB billion, rounded by company",
+      "periods": [
+        "2025-09-30",
+        "2026-09-30"
+      ],
+      "columns": [
+        "prior",
+        "current",
+        "reported_yoy_pct"
+      ],
+      "external": [
+        29,
+        47,
+        64
+      ],
+      "external_recurring": [
+        22,
+        37,
+        67
+      ],
+      "external_compute_equipment_solutions": [
+        7,
+        10,
+        55
+      ],
+      "internal": [
+        11,
+        14,
+        23
+      ]
+    }
+  },
+  "profit_items": {
+    "2024_09_adjusted_ebita": 40561,
+    "2025_09_investment_disposals_and_revaluation_gains": 16192,
+    "2026_09_investment_disposals_and_revaluation_gains": 87068
+  },
+  "financing": {
+    "august_share_placement_gross_hkd_million": 80000,
+    "august_share_placement_net_hkd_million": 79700,
+    "august_share_placement_new_shares": 710000000,
+    "quarter_share_buyback_usd_million": 221
+  },
+  "derived": {
+    "revenue_yoy_pct": 9.57,
+    "non_gaap_net_income_qoq_pct": -3.89,
+    "adjusted_ebita_qoq_pct": 19.42,
+    "cloud_revenue_increment_pct_of_consolidated_increment_before_eliminations": 88.77,
+    "cloud_adjusted_ebita_margin_pct": [
+      10.02,
+      11.62,
+      14.49
+    ],
+    "adjusted_ebita_bridge_yoy": {
+      "alibaba_ecommerce_group": 27515,
+      "ai_cloud_and_compute": 4838,
+      "ai_labs_and_applications": -7068,
+      "all_others": -2307,
+      "unallocated": 598,
+      "inter_segment_elimination": -13
+    },
+    "adjusted_ebita_bridge_qoq": {
+      "alibaba_ecommerce_group": -898,
+      "ai_cloud_and_compute": 3210,
+      "ai_labs_and_applications": 3358,
+      "all_others": 42,
+      "unallocated": -460,
+      "inter_segment_elimination": 55
+    },
+    "operating_cash_flow_to_capex_pct": 31.08,
+    "fiscal_2027_q2_fcf_bridge_yoy": {
+      "operating_cash_flow": 5591,
+      "capital_expenditure_in_fcf": -19035,
+      "buyer_protection_fund_adjustment": 812
+    },
+    "adjusted_ebitda_vs_investing_sample_pct": 15.43
+  },
+  "published_consensus_samples": {
+    "investing_com": {
+      "revenue": 270530,
+      "non_gaap_net_income": 26610,
+      "adjusted_ebitda": 39900
+    },
+    "lseg_via_reuters": {
+      "revenue": 269810
+    }
+  },
+  "skill_post_earnings_analysis": {
+    "function": "lib.research_workflow.build_earnings_analysis",
+    "net_profit_metric": "non_gaap_net_income, not GAAP or attributable net income",
+    "unit": "RMB 100 million for monetary values",
+    "latest": {
+      "revenue_yi": 2715.19,
+      "net_profit_yi": 199.09,
+      "revenue_yoy_pct": 9.6,
+      "net_profit_yoy_pct": 92.3
+    },
+    "revenue_vs_investing_sample_pct": 0.4,
+    "non_gaap_net_income_vs_investing_sample_pct": -25.2,
+    "revenue_vs_lseg_sample_pct": 0.63
+  }
+}

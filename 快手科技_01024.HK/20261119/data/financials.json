@@ -1,0 +1,88 @@
+{
+  "company": "快手科技",
+  "ticker": "01024.HK",
+  "released_on": "2026-11-19",
+  "financial_unit": "人民币百万元",
+  "quarter_order": ["2025Q3", "2026Q2", "2026Q3"],
+  "quarterly": {
+    "revenue": [35554, 35535, 31592],
+    "cost_of_revenue": [16120, 17207, 16376],
+    "gross_profit": [19434, 18328, 15216],
+    "gross_margin_pct": [54.7, 51.6, 48.2],
+    "selling_and_marketing_expense": [10420, 9922, 9483],
+    "admin_expense": [688, 895, 1566],
+    "research_and_development_expense": [3650, 4581, 5178],
+    "other_income": [27, 33, 85],
+    "other_net_gains": [596, 794, 291],
+    "operating_profit": [5299, 3757, -635],
+    "profit_for_the_period": [4489, 3152, -959],
+    "profit_attributable_to_equity_holders": [4488, 3146, -961],
+    "adjusted_net_profit": [4986, 3913, 790],
+    "adjusted_net_margin_pct": [14.0, 11.0, 2.5],
+    "adjusted_ebitda": [7653, 7122, 3894],
+    "online_marketing_revenue": [20102, 20639, 17871],
+    "live_streaming_revenue": [9574, 8690, 7752],
+    "other_services_revenue": [5878, 6206, 5969],
+    "domestic_revenue": [34400, 34356, 30327],
+    "domestic_operating_profit": [5391, 3733, 420],
+    "overseas_revenue": [1154, 1179, 1265],
+    "overseas_operating_profit": [-64, -25, -23],
+    "dau_million": [416.2, 412.3, 417.3],
+    "mau_million": [731.1, 797.3, 818.5],
+    "online_marketing_revenue_per_dau_rmb": [48.3, null, 42.8],
+    "operating_cash_flow": [7669, 5919, 1691],
+    "cash_paid_for_ppe_and_intangibles_approx": [5300, 5900, 2900],
+    "cash_and_equivalents_at_period_end": [12919, 11696, 27591]
+  },
+  "nine_month_order": ["2025", "2026"],
+  "nine_months": {
+    "revenue": [103208, 100843],
+    "profit_attributable_to_equity_holders": [13388, 5088],
+    "adjusted_net_profit": [15184, 8077],
+    "operating_cash_flow": [19450, 10735]
+  },
+  "q3_2026": {
+    "adjustments_to_ifrs_net_profit": {
+      "share_based_compensation": 1408,
+      "net_fair_value_changes_on_investments": 293,
+      "finance_costs_on_redemption_financial_liabilities": 48
+    },
+    "investing_cash_flow": 8637,
+    "financing_cash_flow": 5627,
+    "cash_currency_translation_effect": -60,
+    "beijing_kling_capital_subscription_cash_inflow_approx": 17900,
+    "kling_ai_standalone_revenue": null,
+    "kling_ai_standalone_profit": null,
+    "domestic_ecommerce_platform_gmv": null
+  },
+  "balance_sheet_order": ["2025-12-31", "2026-09-30"],
+  "balance_sheet": {
+    "current_borrowings": [1968, 12638],
+    "noncurrent_borrowings": [11098, 14673],
+    "redemption_financial_liabilities": [0, 15359]
+  },
+  "beijing_kling_transaction": {
+    "closed_on": "2026-10-30",
+    "capital_subscriptions_approx": 19801.84,
+    "max_outcome_annual_simple_interest_pct_per_company_assessment": 8
+  },
+  "public_pre_results_reference": {
+    "published_on": "2026-11-17",
+    "publisher": "哈富证券",
+    "revenue": 33140,
+    "adjusted_net_profit": null
+  },
+  "derived": {
+    "revenue_yoy_change": {"online_marketing": -2231, "live_streaming": -1822, "other_services": 91, "total": -3962},
+    "operating_profit_yoy_change": {"gross_profit": -4218, "selling_and_marketing_expense": 937, "admin_expense": -878, "research_and_development_expense": -1528, "other_income_and_gains": -247, "total": -5934},
+    "q3_2026_free_cash_flow_proxy_approx": -1209
+  },
+  "sources": {
+    "q3_2026": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900311_c.pdf",
+    "q3_2026_release": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-third-quarter-2026-unaudited",
+    "q2_2026": "https://ir.kuaishou.com/static-files/3dd8a357-fa7b-4388-b023-f1105b05e4de",
+    "q3_2025": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1119/2025111900308_c.pdf",
+    "kling_close": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1030/2026103002124_c.pdf",
+    "forecast": "https://finance.eastmoney.com/a/202611173932804956.html"
+  }
+}
