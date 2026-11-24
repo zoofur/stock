@@ -1,0 +1,1823 @@
+{
+  "ticker": "09999.HK",
+  "market": "H",
+  "fetched_at": "2026-11-24T14:35:00+08:00",
+  "_profile_depth": "deep",
+  "source_index": {
+    "三季报": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+    "三季报财务表": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "三季报演示": "https://ir.netease.com/static-files/4ce9997f-f8b2-4df7-a71e-a754261a5fb4",
+    "二季报": "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-and-interim-2026-unaudited",
+    "一季报": "https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results",
+    "2025年报": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+    "2025四季报": "https://ir.netease.com/node/15256",
+    "历史损益": "https://ir.netease.com/financial-information/fundamentals/income-statement",
+    "历史权益": "https://ir.netease.com/financial-information/fundamentals/balance-sheet",
+    "股本与回购": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+    "股息公告": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+    "收市交叉核对": "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ",
+    "日线及延时报价": "https://stockanalysis.com/quote/hkg/9999/history/",
+    "汇率": "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+    "美联储": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "香港利率": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+    "社零": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html",
+    "腾讯业绩": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+    "腾讯行情": "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700",
+    "金山行情": "https://stockanalysis.com/quote/hkg/3888/",
+    "心动中报": "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+    "心动行情": "https://stockanalysis.com/quote/hkg/2400/statistics/",
+    "Capcom业绩": "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+    "Capcom行情": "https://stockanalysis.com/quote/tyo/9697/statistics/",
+    "港股通结算持仓": "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk",
+    "三季行业": "https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html",
+    "版号": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+    "防沉迷": "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+    "深港通": "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+    "南向及回购披露": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666",
+    "淡仓": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546",
+    "券商一": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555997&NewsSource=HK6&NewsType=",
+    "券商二": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555999&NewsSource=HK6&NewsType=",
+    "无限大": "https://www.playstation.com/zh-hans-cn/games/ananta/",
+    "遗忘之海": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+    "2026中报": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf",
+    "云音乐行情": "https://stockanalysis.com/quote/hkg/9899/history/",
+    "有道行情": "https://stockanalysis.com/stocks/dao/history/",
+    "Take-Two业绩": "https://ir.take2games.com/node/32676",
+    "GTA VI": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm",
+    "港股期权": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/dqe261123.htm",
+    "理杏仁PE": "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pe-ttm",
+    "理杏仁PB": "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pb",
+    "五年估值分位": "https://www.getstockcheck.com/en/stock/9999.HK/",
+    "五年分位方法": "https://www.getstockcheck.com/zh/guides/stockcheck-methodology-data-sources/",
+    "国家新闻出版署（2026年进口审批）": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+    "国务院行政法规库《未成年人网络保护条例》": "https://xzfg.moj.gov.cn/law/download?LawID=1694&t=1698903300500&type=pdf",
+    "国家新闻出版署（行政审批许可结果）": "https://www.nppa.gov.cn/data/xkjg/202605/t20260508_988675.html",
+    "港交所美元兑人民币（香港）期货规格": "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en",
+    "港交所人民币外汇期货日报": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf261116.htm",
+    "港交所人民币外汇期货日报 · cusf260924.htm": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf260924.htm",
+    "游戏工委报告，IT之家转引": "https://www.ithome.com/1/015/969.htm",
+    "网易Q3业绩会管理层答问第三方转录": "https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+    "网易游戏公告": "https://www.neteasegames.com/news/20261110/37000_1319180.html",
+    "《燕云十六声》官方周年信": "https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html",
+    "《漫威争锋》官方更新": "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+    "暴雪国服": "https://wow.blizzard.cn/news/24315820/index.html",
+    "港交所分派表": "https://www3.hkexnews.hk/reports/doe/eent_c.htm"
+  },
+  "dimensions": {
+    "0_basic": {
+      "source": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ",
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do"
+      ],
+      "data": {
+        "code": "09999",
+        "name": "网易",
+        "industry": "电子游戏与数字内容",
+        "main_business": "网络游戏及增值服务、网易有道、网易云音乐及创新业务",
+        "chairman": "丁磊",
+        "price": 159.5,
+        "price_date": "2026-11-23",
+        "intraday_snapshot": {
+          "date": "2026-11-24",
+          "time_hkt": "14:05",
+          "hkd": 155.1,
+          "status": "延时盘中"
+        },
+        "change_pct": 3.57,
+        "market_cap": 510619107702.0,
+        "market_cap_yi": 5106.19107702,
+        "total_shares": 3201373716,
+        "currency": "HKD",
+        "pe_ttm": 13.537383220249314,
+        "pb": 2.518706560992328,
+        "high_52w": 232.6,
+        "low_52w": 150.3,
+        "listed_date": "2020-06-11",
+        "ads_to_ordinary": 5
+      }
+    },
+    "1_financials": {
+      "source": [
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://ir.netease.com/static-files/4ce9997f-f8b2-4df7-a71e-a754261a5fb4",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-and-interim-2026-unaudited",
+        "https://ir.netease.com/node/15256",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/financial-information/fundamentals/income-statement",
+        "https://ir.netease.com/financial-information/fundamentals/balance-sheet"
+      ],
+      "data": {
+        "years": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "unit": "CNY 亿元，明细表标有 rmb_bn 的字段单位十亿元",
+        "revenue_history": [
+          876.0603000000001,
+          964.9581000000001,
+          1034.68159,
+          1052.95236,
+          1126.2580699999999
+        ],
+        "net_profit_history": [
+          168.5684,
+          203.37599999999998,
+          294.16552,
+          296.97609,
+          337.59799999999996
+        ],
+        "gross_margin_history": [
+          53.615944016639034,
+          54.68230174968218,
+          60.94956227064985,
+          62.49768033190029,
+          64.28532849491592
+        ],
+        "roe_history": [
+          20.33156152622671,
+          25.68939349943738,
+          22.586190423014315,
+          22.583186313477857
+        ],
+        "roe_years": [
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "roe_basis": "期初和期末归母权益均值",
+        "roe": 22.583186313477857,
+        "revenue_ttm": 1160.9720000000002,
+        "net_profit_ttm": 322.98941,
+        "eps": 10.08908795576555,
+        "eps_fy25": 10.59,
+        "financial_health": {
+          "debt_ratio": 25.552228265258584,
+          "net_cash_yi": 1752
+        },
+        "revenue_growth_yoy": -1.7850830214793612,
+        "net_profit_growth_yoy": -2.477506991035072,
+        "gross_margin": 68.37839827088509,
+        "operating_cashflow": 490.71175000000005,
+        "operating_cashflow_yi": 490.71175000000005,
+        "capex": 11.93587,
+        "free_cash_flow": 478.77588000000003,
+        "quarterly_rmb_bn": {
+          "2025Q3": {
+            "revenue": 28.358625,
+            "games": 23.327508,
+            "gross": 18.177605,
+            "op": 8.013466,
+            "net": 8.615677,
+            "adjusted": 9.502057,
+            "ocf": 12.947954,
+            "rd": 4.541891,
+            "games_gross": 16.176378
+          },
+          "2026Q2": {
+            "revenue": 30.106546,
+            "games": 25.022788,
+            "gross": 21.217325,
+            "op": 12.089338,
+            "net": 6.980656,
+            "adjusted": 7.746714,
+            "ocf": 9.972929,
+            "rd": 4.64391,
+            "games_gross": 19.048823
+          },
+          "2026Q3": {
+            "revenue": 27.8524,
+            "games": 22.937367,
+            "gross": 19.045025,
+            "op": 9.427843,
+            "net": 8.402223,
+            "adjusted": 9.163569,
+            "ocf": 10.541844,
+            "rd": 4.694212,
+            "games_gross": 17.053275
+          }
+        },
+        "nine_months_rmb_bn": {
+          "2025": {
+            "revenue": 85.078834,
+            "net": 27.517844,
+            "ocf": 35.916469,
+            "op": 27.515709,
+            "physical_capex": 0.927558,
+            "content_capex": 0.803103,
+            "net_interest": 2.951082
+          },
+          "2026": {
+            "revenue": 88.550227,
+            "net": 26.056985,
+            "ocf": 34.247844,
+            "op": 34.174014,
+            "physical_capex": 0.506211,
+            "content_capex": 0.365572,
+            "net_interest": 2.660553
+          }
+        },
+        "fiscal_2025_rmb_bn": {
+          "revenue": 112.625807,
+          "net": 33.7598,
+          "ocf": 50.7398,
+          "op": 35.834867,
+          "physical_capex": 1.065376,
+          "content_capex": 0.987089,
+          "net_interest": 3.953486
+        },
+        "ttm_rmb_bn": {
+          "revenue": 116.09720000000002,
+          "net": 32.298941,
+          "ocf": 49.071175000000004,
+          "op": 42.493172,
+          "physical_capex": 0.6440290000000001,
+          "content_capex": 0.5495579999999999,
+          "net_interest": 3.662957,
+          "fcf": 47.877588
+        },
+        "segment_q3_rmb_bn": {
+          "游戏及增值": 22.937367,
+          "有道": 1.429,
+          "云音乐": 1.946,
+          "创新及其他": 1.54
+        },
+        "parent_equity_yi": 1735.98286,
+        "total_assets_yi": 2393.44911,
+        "liabilities_yi": 611.57958,
+        "net_cash_yi": 1752,
+        "net_cash_prev_yi": 1635,
+        "contract_liabilities_yi": 202.13305,
+        "contract_liabilities_fy25_yi": 205.1454,
+        "dividend_yield": 2.854683385579937,
+        "dividend_years": [
+          2024,
+          2025
+        ],
+        "dividend_amounts": [
+          3.77,
+          4.16
+        ]
+      }
+    },
+    "2_kline": {
+      "source": [
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ"
+      ],
+      "data": {
+        "candles_60d": [
+          {
+            "date": "2026-09-14",
+            "open": 182.1,
+            "high": 183,
+            "low": 181,
+            "close": 182.1,
+            "volume": 4597035
+          },
+          {
+            "date": "2026-09-15",
+            "open": 184.1,
+            "high": 188.8,
+            "low": 183.5,
+            "close": 187.1,
+            "volume": 6092672
+          },
+          {
+            "date": "2026-09-16",
+            "open": 187.1,
+            "high": 187.2,
+            "low": 182.8,
+            "close": 186.8,
+            "volume": 4633508
+          },
+          {
+            "date": "2026-09-17",
+            "open": 184.2,
+            "high": 186.5,
+            "low": 183.4,
+            "close": 185.1,
+            "volume": 4979145
+          },
+          {
+            "date": "2026-09-18",
+            "open": 184.5,
+            "high": 184.9,
+            "low": 182.8,
+            "close": 183.6,
+            "volume": 7105157
+          },
+          {
+            "date": "2026-09-21",
+            "open": 183.6,
+            "high": 186.8,
+            "low": 181.7,
+            "close": 185.3,
+            "volume": 3419685
+          },
+          {
+            "date": "2026-09-22",
+            "open": 184.4,
+            "high": 187.4,
+            "low": 184.4,
+            "close": 185.2,
+            "volume": 3508111
+          },
+          {
+            "date": "2026-09-23",
+            "open": 184,
+            "high": 185.2,
+            "low": 182.3,
+            "close": 184.3,
+            "volume": 3739006
+          },
+          {
+            "date": "2026-09-24",
+            "open": 183.4,
+            "high": 187.1,
+            "low": 182.6,
+            "close": 186.6,
+            "volume": 3823255
+          },
+          {
+            "date": "2026-09-25",
+            "open": 182.5,
+            "high": 183.2,
+            "low": 179,
+            "close": 180.9,
+            "volume": 4353354
+          },
+          {
+            "date": "2026-09-28",
+            "open": 184,
+            "high": 190.7,
+            "low": 183,
+            "close": 189.7,
+            "volume": 10159182
+          },
+          {
+            "date": "2026-09-29",
+            "open": 189.7,
+            "high": 193.8,
+            "low": 187.9,
+            "close": 192.8,
+            "volume": 9632313
+          },
+          {
+            "date": "2026-09-30",
+            "open": 192.8,
+            "high": 192.9,
+            "low": 189.4,
+            "close": 192.6,
+            "volume": 6316533
+          },
+          {
+            "date": "2026-10-02",
+            "open": 187.7,
+            "high": 188.6,
+            "low": 184.9,
+            "close": 186.2,
+            "volume": 7259238
+          },
+          {
+            "date": "2026-10-05",
+            "open": 183,
+            "high": 185.6,
+            "low": 182.7,
+            "close": 185.6,
+            "volume": 3751677
+          },
+          {
+            "date": "2026-10-06",
+            "open": 187.3,
+            "high": 188.7,
+            "low": 184.5,
+            "close": 185.6,
+            "volume": 2508650
+          },
+          {
+            "date": "2026-10-07",
+            "open": 186.2,
+            "high": 189,
+            "low": 186.2,
+            "close": 188.5,
+            "volume": 2202132
+          },
+          {
+            "date": "2026-10-08",
+            "open": 187.4,
+            "high": 190.1,
+            "low": 185.5,
+            "close": 186.5,
+            "volume": 4065859
+          },
+          {
+            "date": "2026-10-09",
+            "open": 185.2,
+            "high": 194.5,
+            "low": 185.2,
+            "close": 193.5,
+            "volume": 7777832
+          },
+          {
+            "date": "2026-10-12",
+            "open": 197.3,
+            "high": 201.2,
+            "low": 196.1,
+            "close": 199.1,
+            "volume": 8416574
+          },
+          {
+            "date": "2026-10-13",
+            "open": 197,
+            "high": 198.9,
+            "low": 193.4,
+            "close": 195.5,
+            "volume": 6288434
+          },
+          {
+            "date": "2026-10-14",
+            "open": 195.3,
+            "high": 200.2,
+            "low": 193,
+            "close": 197.2,
+            "volume": 5613361
+          },
+          {
+            "date": "2026-10-15",
+            "open": 193.4,
+            "high": 198.2,
+            "low": 193.3,
+            "close": 196.2,
+            "volume": 4814110
+          },
+          {
+            "date": "2026-10-16",
+            "open": 201.4,
+            "high": 201.8,
+            "low": 197.4,
+            "close": 197.7,
+            "volume": 3845332
+          },
+          {
+            "date": "2026-10-20",
+            "open": 197.7,
+            "high": 198.9,
+            "low": 195.1,
+            "close": 195.2,
+            "volume": 4693778
+          },
+          {
+            "date": "2026-10-21",
+            "open": 198,
+            "high": 198.1,
+            "low": 193,
+            "close": 194.5,
+            "volume": 3935401
+          },
+          {
+            "date": "2026-10-22",
+            "open": 191.4,
+            "high": 192.5,
+            "low": 180.6,
+            "close": 181.8,
+            "volume": 8238007
+          },
+          {
+            "date": "2026-10-23",
+            "open": 186.2,
+            "high": 187.7,
+            "low": 182.4,
+            "close": 183,
+            "volume": 9183402
+          },
+          {
+            "date": "2026-10-26",
+            "open": 192.1,
+            "high": 192.1,
+            "low": 184.2,
+            "close": 184.9,
+            "volume": 6870089
+          },
+          {
+            "date": "2026-10-27",
+            "open": 186.7,
+            "high": 186.7,
+            "low": 176.7,
+            "close": 178.5,
+            "volume": 7116761
+          },
+          {
+            "date": "2026-10-28",
+            "open": 178.2,
+            "high": 178.3,
+            "low": 175,
+            "close": 176.1,
+            "volume": 5883733
+          },
+          {
+            "date": "2026-10-29",
+            "open": 175.3,
+            "high": 175.3,
+            "low": 171.5,
+            "close": 172.4,
+            "volume": 7528777
+          },
+          {
+            "date": "2026-10-30",
+            "open": 174.3,
+            "high": 178.6,
+            "low": 172.5,
+            "close": 176.7,
+            "volume": 7379414
+          },
+          {
+            "date": "2026-11-02",
+            "open": 179,
+            "high": 179.7,
+            "low": 174.4,
+            "close": 177.5,
+            "volume": 9180690
+          },
+          {
+            "date": "2026-11-03",
+            "open": 180.5,
+            "high": 183.8,
+            "low": 179,
+            "close": 182.8,
+            "volume": 6905405
+          },
+          {
+            "date": "2026-11-04",
+            "open": 182.8,
+            "high": 184,
+            "low": 180.9,
+            "close": 183,
+            "volume": 4912601
+          },
+          {
+            "date": "2026-11-05",
+            "open": 188.5,
+            "high": 201,
+            "low": 188.3,
+            "close": 199.6,
+            "volume": 11102164
+          },
+          {
+            "date": "2026-11-06",
+            "open": 198.3,
+            "high": 203.8,
+            "low": 194,
+            "close": 200.4,
+            "volume": 12672215
+          },
+          {
+            "date": "2026-11-09",
+            "open": 200.4,
+            "high": 206.6,
+            "low": 200.2,
+            "close": 202.8,
+            "volume": 6199571
+          },
+          {
+            "date": "2026-11-10",
+            "open": 203.2,
+            "high": 205.4,
+            "low": 200.8,
+            "close": 203.8,
+            "volume": 6593456
+          },
+          {
+            "date": "2026-11-11",
+            "open": 199.8,
+            "high": 199.8,
+            "low": 195.3,
+            "close": 196.9,
+            "volume": 7581078
+          },
+          {
+            "date": "2026-11-12",
+            "open": 192.9,
+            "high": 197,
+            "low": 190.9,
+            "close": 194.5,
+            "volume": 6626852
+          },
+          {
+            "date": "2026-11-13",
+            "open": 192.1,
+            "high": 193.5,
+            "low": 188.9,
+            "close": 190.4,
+            "volume": 7267581
+          },
+          {
+            "date": "2026-11-16",
+            "open": 192,
+            "high": 195.9,
+            "low": 192,
+            "close": 193.1,
+            "volume": 5023906
+          },
+          {
+            "date": "2026-11-17",
+            "open": 192.1,
+            "high": 192.2,
+            "low": 188.7,
+            "close": 189.8,
+            "volume": 6851568
+          },
+          {
+            "date": "2026-11-18",
+            "open": 186.6,
+            "high": 188.8,
+            "low": 185.8,
+            "close": 188.3,
+            "volume": 7177288
+          },
+          {
+            "date": "2026-11-19",
+            "open": 187.5,
+            "high": 190.4,
+            "low": 185.2,
+            "close": 186.9,
+            "volume": 8150992
+          },
+          {
+            "date": "2026-11-20",
+            "open": 162.1,
+            "high": 164.8,
+            "low": 150.3,
+            "close": 154,
+            "volume": 34289663
+          },
+          {
+            "date": "2026-11-23",
+            "open": 156.8,
+            "high": 160.7,
+            "low": 155.1,
+            "close": 159.5,
+            "volume": 15225164
+          }
+        ],
+        "kline_count": 49,
+        "stage": "财报跳空后弱势，正式长期 Stage 未确认",
+        "ma_align": "空头",
+        "macd": "DIF 与柱线均在零下",
+        "macd_diff": -3.9434562466472016,
+        "macd_signal": -0.16126754363202778,
+        "macd_histogram": -7.5643774060303475,
+        "rsi": 31.89349953938165,
+        "indicators": {
+          "ma5": 175.70000000000002,
+          "ma10": 185.72,
+          "ma20": 185.35,
+          "ma40": 187.85
+        },
+        "currency": "HKD",
+        "kline_stats": {
+          "record_low": 150.3,
+          "resistance_low": 164.8,
+          "gap_prior_low": 185.2,
+          "volume_ratio": 4.5656379586742855
+        },
+        "avg_volume_20": 9183443.95
+      }
+    },
+    "3_macro": {
+      "source": [
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+        "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm"
+      ],
+      "data": {
+        "usd_hkd": 7.77,
+        "fx_cny_per_hkd": 0.8563,
+        "fed_range_pct": [
+          3.75,
+          4.0
+        ],
+        "hk_base_rate_pct": 4.25,
+        "china_retail_oct_yoy": 0.4
+      }
+    },
+    "4_peers": {
+      "source": [
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700",
+        "https://stockanalysis.com/quote/hkg/3888/",
+        "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+        "https://stockanalysis.com/quote/hkg/2400/statistics/",
+        "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+        "https://stockanalysis.com/quote/tyo/9697/statistics/",
+        "https://ir.take2games.com/node/32676"
+      ],
+      "data": {
+        "peers": [
+          {
+            "name": "腾讯控股",
+            "code": "00700.HK",
+            "price_hkd": 344.0,
+            "price_date": "2026-11-23",
+            "pe": 11.82,
+            "period": "2026Q3 TTM",
+            "report_ccy": "CNY",
+            "revenue": 2073,
+            "revenue_yoy": 8.0,
+            "profit": 636,
+            "profit_yoy": 0.8,
+            "games_domestic_yoy": 11,
+            "games_international_yoy": -9,
+            "filings": [
+              "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+              "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700"
+            ]
+          },
+          {
+            "name": "金山软件",
+            "code": "03888.HK",
+            "price_hkd": 21.9,
+            "price_date": "2026-11-23",
+            "pe": 9.29,
+            "period": "2026H1 TTM",
+            "report_ccy": "CNY",
+            "filings": [
+              "https://stockanalysis.com/quote/hkg/3888/"
+            ],
+            "limit": "包含办公软件和投资损益，倍数仅作边界参考"
+          },
+          {
+            "name": "心动公司",
+            "code": "02400.HK",
+            "price_hkd": 38.2,
+            "price_date": "2026-11-23",
+            "pe": 11.139095315024234,
+            "period": "2026H1 TTM",
+            "report_ccy": "CNY",
+            "games_h1_yi": 23.18,
+            "games_h1_yoy": 11.9,
+            "filings": [
+              "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+              "https://stockanalysis.com/quote/hkg/2400/statistics/"
+            ],
+            "limit": "以11月24日盘中PE反推同指标EPS，再套11月23日收盘价，约数"
+          },
+          {
+            "name": "Capcom",
+            "code": "9697.T",
+            "price_jpy": 4424,
+            "price_date": "2026-11-20",
+            "pe": 26.39,
+            "period": "截至2026年9月 TTM",
+            "report_ccy": "JPY",
+            "revenue_h1_bn": 120.887,
+            "revenue_h1_yoy": 49.0,
+            "filings": [
+              "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+              "https://stockanalysis.com/quote/tyo/9697/statistics/"
+            ],
+            "limit": "主机及买断 IP 溢价，单列"
+          },
+          {
+            "name": "Take-Two",
+            "code": "TTWO.US",
+            "period": "2027财年Q2",
+            "report_ccy": "USD",
+            "revenue_bn": 1.497,
+            "revenue_yoy": -15.6,
+            "net_bn": -0.054,
+            "pe": null,
+            "filings": [
+              "https://ir.take2games.com/node/32676"
+            ],
+            "limit": "当季亏损，排除正PE对标"
+          }
+        ],
+        "peer_list": [
+          {
+            "name": "腾讯控股",
+            "code": "00700.HK",
+            "price_hkd": 344.0,
+            "price_date": "2026-11-23",
+            "pe": 11.82,
+            "period": "2026Q3 TTM",
+            "report_ccy": "CNY",
+            "revenue": 2073,
+            "revenue_yoy": 8.0,
+            "profit": 636,
+            "profit_yoy": 0.8,
+            "games_domestic_yoy": 11,
+            "games_international_yoy": -9,
+            "filings": [
+              "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+              "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700"
+            ]
+          },
+          {
+            "name": "金山软件",
+            "code": "03888.HK",
+            "price_hkd": 21.9,
+            "price_date": "2026-11-23",
+            "pe": 9.29,
+            "period": "2026H1 TTM",
+            "report_ccy": "CNY",
+            "filings": [
+              "https://stockanalysis.com/quote/hkg/3888/"
+            ],
+            "limit": "包含办公软件和投资损益，倍数仅作边界参考"
+          },
+          {
+            "name": "心动公司",
+            "code": "02400.HK",
+            "price_hkd": 38.2,
+            "price_date": "2026-11-23",
+            "pe": 11.139095315024234,
+            "period": "2026H1 TTM",
+            "report_ccy": "CNY",
+            "games_h1_yi": 23.18,
+            "games_h1_yoy": 11.9,
+            "filings": [
+              "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+              "https://stockanalysis.com/quote/hkg/2400/statistics/"
+            ],
+            "limit": "以11月24日盘中PE反推同指标EPS，再套11月23日收盘价，约数"
+          },
+          {
+            "name": "Capcom",
+            "code": "9697.T",
+            "price_jpy": 4424,
+            "price_date": "2026-11-20",
+            "pe": 26.39,
+            "period": "截至2026年9月 TTM",
+            "report_ccy": "JPY",
+            "revenue_h1_bn": 120.887,
+            "revenue_h1_yoy": 49.0,
+            "filings": [
+              "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+              "https://stockanalysis.com/quote/tyo/9697/statistics/"
+            ],
+            "limit": "主机及买断 IP 溢价，单列"
+          },
+          {
+            "name": "Take-Two",
+            "code": "TTWO.US",
+            "period": "2027财年Q2",
+            "report_ccy": "USD",
+            "revenue_bn": 1.497,
+            "revenue_yoy": -15.6,
+            "net_bn": -0.054,
+            "pe": null,
+            "filings": [
+              "https://ir.take2games.com/node/32676"
+            ],
+            "limit": "当季亏损，排除正PE对标"
+          }
+        ],
+        "global_status": "可比估值覆盖不足，不给全球分位"
+      }
+    },
+    "5_chain": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ],
+      "data": {
+        "upstream": [
+          "游戏研发人才",
+          "IP/授权内容",
+          "移动分发渠道",
+          "云与服务器"
+        ],
+        "downstream": [
+          "移动和端游玩家",
+          "内容订阅者",
+          "广告客户"
+        ],
+        "games_online_share_pct": 97.5
+      }
+    },
+    "6_research": {
+      "source": [
+        "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555997&NewsSource=HK6&NewsType=",
+        "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555999&NewsSource=HK6&NewsType="
+      ],
+      "data": {
+        "reports": [
+          {
+            "broker": "招商证券国际",
+            "date": "2026-11-23",
+            "target_hkd": 204,
+            "url": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555997&NewsSource=HK6&NewsType=",
+            "basis": "AASTOCKS 转述"
+          },
+          {
+            "broker": "招银国际",
+            "date": "2026-11-23",
+            "fy2026_28_revenue_revision_pct": [
+              -6,
+              -4
+            ],
+            "url": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555999&NewsSource=HK6&NewsType=",
+            "basis": "AASTOCKS 转述"
+          }
+        ]
+      }
+    },
+    "7_industry": {
+      "source": [
+        "https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html",
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.ithome.com/1/015/969.htm",
+        "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+        "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+        "https://ir.take2games.com/node/32676",
+        "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm"
+      ],
+      "data": {
+        "growth": 5.11,
+        "growth_basis": "2026Q3中国国内游戏市场实际销售额同比，新华财经转引游戏工委",
+        "industry_name": "网络游戏",
+        "industry_description": "成熟存量和新品共同驱动。网易游戏及增值服务含海外和增值服务，与国内市场销售口径不同。",
+        "industry_revenue_yi": 925.22,
+        "mobile_revenue_yi": 678.2,
+        "mobile_yoy": 5.33,
+        "pc_revenue_yi": 205.47,
+        "pc_yoy": 1.26,
+        "overseas_selfdeveloped_usd_yi": 57.72,
+        "overseas_yoy": 15.58
+      }
+    },
+    "8_materials": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ],
+      "data": {
+        "materials_detail": [
+          "研发人力",
+          "渠道及第三方分成",
+          "版税",
+          "服务器",
+          "内容版权"
+        ],
+        "q3_group_cost_rmb_bn": 8.807375,
+        "prior_year_group_cost_rmb_bn": 10.18102,
+        "q3_fx_net_loss_rmb_bn": 0.280914
+      }
+    },
+    "9_futures": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/dqe261123.htm",
+        "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf261116.htm",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf260924.htm"
+      ],
+      "data": {
+        "status": "商品期货相关性低，追踪外汇和权益期权",
+        "fy25_historical_usd_cash_and_deposits_bn": 11.8,
+        "fy25_historical_usd_debt_bn": 2.5,
+        "has_disclosed_fx_hedge_2025": false,
+        "net_fx_translation_10pct_rmb_bn": 6.6,
+        "q3_exchange_loss_yi": 2.80914,
+        "ytd_exchange_loss_yi": 13.39514,
+        "prior_ytd_exchange_loss_yi": 2.57972
+      }
+    },
+    "10_valuation": {
+      "source": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+        "https://ir.netease.com/node/15256",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-and-interim-2026-unaudited",
+        "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pe-ttm",
+        "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pb",
+        "https://www.getstockcheck.com/en/stock/9999.HK/",
+        "https://www.getstockcheck.com/zh/guides/stockcheck-methodology-data-sources/"
+      ],
+      "data": {
+        "pe": 13.537383220249314,
+        "pb": 2.518706560992328,
+        "fx_cny_per_hkd": 0.8563,
+        "eps_ttm_cny": 10.08908795576555,
+        "cap_cny_bn": 437.2431419252226,
+        "net_cash_hkd_per_share": 63.9104363694721,
+        "pe_history_status": "五年点时PE序列未核验",
+        "price_receipts": "采用11/23收市及当日中间价",
+        "dividend_usd_per_share_paid_4q": [
+          0.114,
+          0.232,
+          0.144,
+          0.096
+        ],
+        "dividend_yield": 2.854683385579937,
+        "q3_div_usd": 0.117,
+        "usd_hkd_assumption": 7.77,
+        "earnings_yield": 7.386951996041546,
+        "provider_valuation_snapshot": {
+          "date": "2026-11-23",
+          "provider": "理杏仁",
+          "pe": 13.49,
+          "pb": 2.522,
+          "pe_displayed_percentile": 7.21,
+          "pb_displayed_percentile": 0.14,
+          "pe_displayed_median": 16.17,
+          "pb_displayed_median": 3.469,
+          "percentile_window": "公开抓取窗口长度未明确，原样记录为网页显示分位"
+        },
+        "pe_quantile": 3.1,
+        "pb_quantile": 0.8,
+        "quantile_snapshot": {
+          "date": "2026-11-20",
+          "price_hkd": 154.0,
+          "pe_ttm": 13.0,
+          "pb_mrq": 2.44,
+          "provider": "股查查",
+          "window_years": 5,
+          "notes": "与11/23主行情为不同快照。分位作为历史参考，与本站倍数分开。"
+        }
+      }
+    },
+    "11_governance": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf"
+      ],
+      "data": {
+        "vie_net_revenue_share_2025_pct": 85.2,
+        "repurchase_authorization_usd_bn": 5,
+        "repurchase_used_2026q3_usd_bn": 2.3,
+        "authorization_end": "2029-01-09",
+        "governance_notes": [
+          "开曼主体及境内协议控制",
+          "集中投票及监管风险",
+          "现金上划和股息受法定分配能力约束"
+        ]
+      }
+    },
+    "12_capital_flow": {
+      "source": [
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+        "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk"
+      ],
+      "data": {
+        "southbound_shares": 71905509,
+        "southbound_pct_as_reported": 2.22,
+        "southbound_date": "2026-11-23",
+        "main_flow_error": "东财主力资金和逐日个股南向净额未独立核验",
+        "repurchase_trade_date": "2026-11-20",
+        "repurchased_ordinary": 49885,
+        "repurchase_usd": 999750.27,
+        "short_report_date": "2026-11-13",
+        "short_shares": 50932762,
+        "southbound_eligible_since": "2026-06-30"
+      }
+    },
+    "13_policy": {
+      "source": [
+        "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+        "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+        "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+        "https://xzfg.moj.gov.cn/law/download?LawID=1694&t=1698903300500&type=pdf",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://www.nppa.gov.cn/data/xkjg/202605/t20260508_988675.html"
+      ],
+      "data": {
+        "snippets": [
+          "2026-10-28《桃花》获批，国新出审〔2026〕2615号",
+          "未成年人实名与限时监管",
+          "2026-06-30纳入港股通"
+        ]
+      }
+    },
+    "14_moat": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ],
+      "data": {
+        "advantages": [
+          "长线运营与复杂研发",
+          "既有IP用户社区",
+          "自研与授权产品并存"
+        ],
+        "top5_games_rev_pct": 35.2,
+        "games_rev_share_q3_pct": 82.35328732891959,
+        "games_margin_q3_pct": 74.34713408910447,
+        "scores": {
+          "产品开发与迭代": 8,
+          "长线运营与社区": 8,
+          "渠道议价": 5,
+          "收入分散": 4
+        },
+        "score_basis": "研究员十分制，参考74.35%游戏毛利率、前五游戏35.2%集团收入、约16.9%研发率及现有渠道分成"
+      }
+    },
+    "15_events": {
+      "source": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+        "https://www.playstation.com/zh-hans-cn/games/ananta/",
+        "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+        "https://www.neteasegames.com/news/20261110/37000_1319180.html",
+        "https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html",
+        "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+        "https://wow.blizzard.cn/news/24315820/index.html",
+        "https://www3.hkexnews.hk/reports/doe/eent_c.htm",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf"
+      ],
+      "data": {
+        "_issuer_identity_version": 2,
+        "event_timeline": [
+          "2026-11-23 · 翌日回购及股本披露",
+          "2026-11-19 · 三季度业绩与股息",
+          "2026-11-19 · 股息公告"
+        ],
+        "recent_notices": [
+          {
+            "date": "2026-11-19",
+            "title": "三季度业绩与股息",
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          },
+          {
+            "date": "2026-11-23",
+            "title": "翌日回购及股本披露",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          },
+          {
+            "date": "2026-11-19",
+            "title": "股息公告",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          }
+        ],
+        "recent_news": [],
+        "disclosures_count": 3,
+        "news_count": 0,
+        "catalyst": [],
+        "catalysts": [],
+        "warnings": [],
+        "_note": "仅包含公司归属已核验的公告及新闻；缺失公告不代表没有风险。",
+        "verified_events": [
+          {
+            "date": "2026-11-19",
+            "title": "三季度业绩与股息",
+            "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          },
+          {
+            "date": "2026-11-23",
+            "title": "翌日回购及股本披露",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          },
+          {
+            "date": "2026-11-19",
+            "title": "股息公告",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+            "issuer_verified": true,
+            "stock_code": "09999"
+          }
+        ],
+        "scheduled": [
+          {
+            "date": "2027-01-15",
+            "title": "《无限大》计划上线",
+            "url": "https://www.playstation.com/zh-hans-cn/games/ananta/",
+            "status": "公开排期，可变更"
+          },
+          {
+            "date": "2026-12-04",
+            "title": "《遗忘之海》封测",
+            "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+            "status": "已公布封测安排"
+          },
+          {
+            "date": "2026-12-14",
+            "title": "普通股季度股息预计支付",
+            "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+            "status": "公告预计，12月2日除息、12月3日登记"
+          }
+        ]
+      }
+    },
+    "16_lhb": {
+      "source": [
+        "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666"
+      ],
+      "data": {
+        "status": "港股维度不适用",
+        "applicable": false
+      }
+    },
+    "17_sentiment": {
+      "source": [
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546"
+      ],
+      "data": {
+        "results_next_session_change_pct": -17.6,
+        "results_volume_multiple": 4.5656379586742855,
+        "short_reportable_shares": 50932762,
+        "short_reportable_pct": 1.5909658327437832,
+        "short_report_date": "2026-11-13"
+      }
+    },
+    "18_trap": {
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://stockanalysis.com/quote/hkg/9999/history/"
+      ],
+      "data": {
+        "status": "典型异常炒作信号低，公开资料初筛",
+        "verified_promotion": null,
+        "notable_risks": [
+          "游戏集中度",
+          "VIE 合同结构",
+          "财报后异常波动"
+        ]
+      }
+    },
+    "19_contests": {
+      "source": [
+        "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666"
+      ],
+      "data": {
+        "status": "缺少可核验公开竞赛或实盘组合样本",
+        "applicable": false
+      }
+    },
+    "20_valuation_models": {
+      "data": {
+        "summary": {
+          "dcf_intrinsic": 169.8,
+          "dcf_safety_margin_pct": 6.5,
+          "dcf_verdict": "基准情景上行有限，先验证游戏收入与现金流",
+          "lbo_irr_pct": 3.8,
+          "lbo_verdict": "仅为假想交易压力测试",
+          "comps_verdict": "⚪ 同行样本不足 · 无法对标"
+        },
+        "audited_scenarios": {
+          "dcf_cases": {
+            "压力": {
+              "fcf_rmb_bn": 27,
+              "growth": -0.02,
+              "discount": 0.1275,
+              "terminal": 0.005,
+              "available_net_cash_rmb_bn": 70,
+              "flows_rmb_bn": [
+                26.46,
+                25.930799999999998,
+                25.412183999999996,
+                24.903940319999997,
+                24.405861513599998
+              ],
+              "pv_explicit_rmb_bn": 90.39896200996037,
+              "pv_terminal_rmb_bn": 109.88574651435655,
+              "equity_rmb_bn": 270.2847085243169,
+              "price_hkd": 98.59596841201295,
+              "upside_pct": -38.18434582318937
+            },
+            "基准": {
+              "fcf_rmb_bn": 32,
+              "growth": 0.035,
+              "discount": 0.115,
+              "terminal": 0.02,
+              "available_net_cash_rmb_bn": 100,
+              "flows_rmb_bn": [
+                33.12,
+                34.279199999999996,
+                35.47897199999999,
+                36.72073601999999,
+                38.005961780699984
+              ],
+              "pv_explicit_rmb_bn": 128.6829315219059,
+              "pv_terminal_rmb_bn": 236.78487452644256,
+              "equity_rmb_bn": 465.4678060483485,
+              "price_hkd": 169.79595091604315,
+              "upside_pct": 6.45514164015244
+            },
+            "改善": {
+              "fcf_rmb_bn": 37,
+              "growth": 0.07,
+              "discount": 0.105,
+              "terminal": 0.025,
+              "available_net_cash_rmb_bn": 130,
+              "flows_rmb_bn": [
+                39.59,
+                42.3613,
+                45.326591,
+                48.49945237000001,
+                51.89441403590001
+              ],
+              "pv_explicit_rmb_bn": 168.14580937552728,
+              "pv_terminal_rmb_bn": 403.5925127179086,
+              "equity_rmb_bn": 701.738322093436,
+              "price_hkd": 255.9840318617161,
+              "upside_pct": 60.49155602615428
+            }
+          },
+          "sensitivity_hkd": {
+            "0.095": {
+              "0.01": 190.56834041767408,
+              "0.015": 197.65912061606386,
+              "0.02": 205.695338174239,
+              "0.025": 214.87958681215343,
+              "0.03": 225.47679677897779
+            },
+            "0.105": {
+              "0.01": 174.11528606996245,
+              "0.015": 179.55334845937392,
+              "0.02": 185.6311828945985,
+              "0.025": 192.46874663422616,
+              "0.03": 200.21798553913754
+            },
+            "0.115": {
+              "0.01": 160.80352156642252,
+              "0.015": 165.0749255074923,
+              "0.02": 169.79595091604315,
+              "0.025": 175.04153470332184,
+              "0.03": 180.90424599498627
+            },
+            "0.125": {
+              "0.01": 149.81327218072784,
+              "0.015": 153.2343172630903,
+              "0.02": 156.98117616282065,
+              "0.025": 161.10272095252398,
+              "0.03": 165.65811256219612
+            },
+            "0.135": {
+              "0.01": 140.58710678014467,
+              "0.015": 143.37184712892224,
+              "0.02": 146.3987388123762,
+              "0.025": 149.70080246705317,
+              "0.03": 153.3173483745566
+            }
+          },
+          "reverse_fcf_base_rmb_bn": 29.52867629653665,
+          "reverse_fcf_at_intraday_rmb_bn": 28.472550020886374,
+          "relative_hkd": {
+            "低": 109.4565305489454,
+            "中位": 131.2429199824074,
+            "高": 139.26546728617168
+          },
+          "local_median_pe": 11.139095315024234,
+          "LBO": {
+            "压力": {
+              "premium": 0.2,
+              "entry_equity_rmb_bn": 524.6917703102671,
+              "sponsor_equity_rmb_bn": 474.6917703102671,
+              "initial_debt_rmb_bn": 50,
+              "interest_rate": 0.06,
+              "annual_principal_rmb_bn": 10,
+              "exit_ev_fcf": 7,
+              "exit_cash_rmb_bn": 70,
+              "flows_rmb_bn": [
+                14.060000000000002,
+                14.010799999999996,
+                13.972183999999995,
+                13.943940319999996,
+                254.7668921088
+              ],
+              "irr_pct": -8.802153292982256
+            },
+            "基准": {
+              "premium": 0.2,
+              "entry_equity_rmb_bn": 524.6917703102671,
+              "sponsor_equity_rmb_bn": 474.6917703102671,
+              "initial_debt_rmb_bn": 50,
+              "interest_rate": 0.06,
+              "annual_principal_rmb_bn": 10,
+              "exit_ev_fcf": 9,
+              "exit_cash_rmb_bn": 100,
+              "flows_rmb_bn": [
+                20.72,
+                22.359199999999994,
+                24.038971999999994,
+                25.76073601999999,
+                469.57961780699986
+              ],
+              "irr_pct": 3.771211354099846
+            },
+            "改善": {
+              "premium": 0.2,
+              "entry_equity_rmb_bn": 524.6917703102671,
+              "sponsor_equity_rmb_bn": 474.6917703102671,
+              "initial_debt_rmb_bn": 50,
+              "interest_rate": 0.06,
+              "annual_principal_rmb_bn": 10,
+              "exit_ev_fcf": 11,
+              "exit_cash_rmb_bn": 130,
+              "flows_rmb_bn": [
+                27.190000000000005,
+                30.4413,
+                33.886591,
+                37.53945237000001,
+                742.2529684308001
+              ],
+              "irr_pct": 14.169125864780597
+            }
+          },
+          "three_stmt": [
+            {
+              "year": 2027,
+              "revenue_rmb_bn": 121.32157400000001,
+              "op_rmb_bn": 41.85594303,
+              "net_rmb_bn": 32.834754424,
+              "ocf_rmb_bn": 35.052210944,
+              "dep_amort_rmb_bn": 2.42643148,
+              "working_capital_investment_rmb_bn": 0.2089749599999999,
+              "capex_rmb_bn": 2.183788332,
+              "dividend_rmb_bn": 14.447291946560002,
+              "net_cash_rmb_bn": 193.62113066543998,
+              "equity_rmb_bn": 191.98574847744,
+              "eps_cny": 10.256457801192244
+            },
+            {
+              "year": 2028,
+              "revenue_rmb_bn": 126.78104483,
+              "op_rmb_bn": 44.373365690499995,
+              "net_rmb_bn": 34.848692552399996,
+              "ocf_rmb_bn": 37.1659346158,
+              "dep_amort_rmb_bn": 2.5356208966000002,
+              "working_capital_investment_rmb_bn": 0.21837883319999946,
+              "capex_rmb_bn": 2.28205880694,
+              "dividend_rmb_bn": 15.333424723055998,
+              "net_cash_rmb_bn": 213.171581751244,
+              "equity_rmb_bn": 211.501016306784,
+              "eps_cny": 10.885543408515945
+            },
+            {
+              "year": 2029,
+              "revenue_rmb_bn": 131.8522866232,
+              "op_rmb_bn": 46.14830031812,
+              "net_rmb_bn": 36.268640254496006,
+              "ocf_rmb_bn": 38.702836315232005,
+              "dep_amort_rmb_bn": 2.637045732464,
+              "working_capital_investment_rmb_bn": 0.20284967172800009,
+              "capex_rmb_bn": 2.3733411592176,
+              "dividend_rmb_bn": 15.958201711978242,
+              "net_cash_rmb_bn": 233.54287519528015,
+              "equity_rmb_bn": 231.81145484930178,
+              "eps_cny": 11.329086658402492
+            },
+            {
+              "year": 2030,
+              "revenue_rmb_bn": 136.46711665501198,
+              "op_rmb_bn": 47.76349082925419,
+              "net_rmb_bn": 37.560792663403355,
+              "ocf_rmb_bn": 40.10554179523112,
+              "dep_amort_rmb_bn": 2.7293423331002398,
+              "working_capital_investment_rmb_bn": 0.18459320127247908,
+              "capex_rmb_bn": 2.4564080997902153,
+              "dividend_rmb_bn": 16.526748771897477,
+              "net_cash_rmb_bn": 254.66526011882357,
+              "equity_rmb_bn": 252.84549874080767,
+              "eps_cny": 11.732711015799243
+            },
+            {
+              "year": 2031,
+              "revenue_rmb_bn": 140.56113015466235,
+              "op_rmb_bn": 49.19639555413182,
+              "net_rmb_bn": 38.70711644330546,
+              "ocf_rmb_bn": 41.35457850641269,
+              "dep_amort_rmb_bn": 2.8112226030932472,
+              "working_capital_investment_rmb_bn": 0.16376053998601492,
+              "capex_rmb_bn": 2.530100342783922,
+              "dividend_rmb_bn": 17.031131235054403,
+              "net_cash_rmb_bn": 276.45860704739795,
+              "equity_rmb_bn": 274.52148394905873,
+              "eps_cny": 12.09078348143265
+            }
+          ],
+          "declared_dividend_4q_usd": 0.589,
+          "paid_dividend_4q_usd": 0.586,
+          "illustrative_ddm_hkd": 55.17431294117646,
+          "dividend_payout_fcf": 44,
+          "sotp_music_youdao_hkd_bn": 20.2671468842947,
+          "sotp_music_youdao_hkd_per_share": 6.330765690679113,
+          "acquisition_eps_scenario": {
+            "target_earnings_rmb_bn": 1,
+            "cash_price_rmb_bn": 15,
+            "loss_of_interest_after_tax_percent": 2.4,
+            "eps_change_cny": 0.19991417959152133,
+            "scope": "纯假设，无并购公告，未计商誉、整合成本及协同"
+          },
+          "one_title_scenario": {
+            "incremental_revenue_rmb_bn": 1.0,
+            "assumed_contribution_margin": 0.35,
+            "after_tax_income_rmb_bn": 0.27999999999999997,
+            "value_hkd_per_share_at_local_median_pe": 1.137746825664472
+          },
+          "value_entry_hkd": 144.32655827863667,
+          "growth_entry_hkd": 104.89742006280626,
+          "model_notes": [
+            "估值以人民币十亿元建模，按0.85630人民币/港元和32.014亿普通股换算。1 ADS=5普通股。",
+            "用正常经营现金流和可计净现金建立近似经营企业价值。基期正常现金流为假设，不直接套用滚动实际FCF。",
+            "无高目标杠杆，11.5%基准折现率含产品与中国监管风险。净现金按1000亿元计价，覆盖限制性现金、运营及上划风险。",
+            "可比样本以腾讯、心动、金山为本地估值参考，三家模式不同，Capcom和Take-Two仅作业务参照。",
+            "股息折现只计观察到的实际派息流，未包含留存或回购，作为分红下限观察。",
+            "三表为五年简化联动。净现金和归母权益从2026Q3快照起算，2026Q4未桥接；冻结股本与汇率，不预测回购、并购及其他综合收益。"
+          ]
+        },
+        "default_template_reference": {
+          "dcf_intrinsic": 282.41,
+          "dcf_safety_margin_pct": 77.1,
+          "lbo_irr_pct": 21.7,
+          "scope": "默认自动模型的未采纳输出，成长与可用现金假设需人工修正"
+        },
+        "dcf": {
+          "intrinsic_per_share": 169.79595091604315,
+          "currency": "HKD",
+          "scenario": "基准审查口径"
+        },
+        "comps": {
+          "implied_price": 131.2429199824074,
+          "currency": "HKD",
+          "sample": "腾讯、心动、金山"
+        }
+      },
+      "source": [
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700"
+      ],
+      "fallback": false
+    },
+    "21_research_workflow": {
+      "data": {
+        "reviewed": {
+          "catalysts": [
+            {
+              "date": "2027-01-15",
+              "title": "《无限大》计划上线",
+              "url": "https://www.playstation.com/zh-hans-cn/games/ananta/",
+              "status": "公开排期，可变更"
+            },
+            {
+              "date": "2026-12-04",
+              "title": "《遗忘之海》封测",
+              "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+              "status": "已公布封测安排"
+            },
+            {
+              "date": "2026-12-14",
+              "title": "普通股季度股息预计支付",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+              "status": "公告预计，12月2日除息、12月3日登记"
+            }
+          ],
+          "thesis_checks": [
+            "游戏分部收入同比恢复正增长",
+            "经营现金流同比止跌",
+            "新游实际留存和收入转化",
+            "分成及研发投入可控"
+          ],
+          "screen": "质量因子通过，趋势和增长确认不足"
+        },
+        "summary": {}
+      },
+      "source": [
+        "https://www.playstation.com/zh-hans-cn/games/ananta/",
+        "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf"
+      ],
+      "fallback": false
+    },
+    "22_deep_methods": {
+      "data": {
+        "reviewed": {
+          "decision": "观察，等待安全边际或经营验证",
+          "porter": [
+            "新品立项及渠道竞争高",
+            "大IP授权方和渠道具议价力",
+            "用户可低成本切换游戏",
+            "版号和长线运营提高进入成本",
+            "短视频及其他游戏争夺时长"
+          ],
+          "unit_economics": "分部毛利率可核，游戏单体流水、付费率、留存与获客成本未披露，无法计算 LTV/CAC",
+          "dd_checklist": [
+            "授权续签及分成",
+            "主要产品流水与递延确认",
+            "净现金地域及上划能力",
+            "新增市场海外运营与合规",
+            "回购导致的净股本变化"
+          ],
+          "portfolio": "不设个性化仓位，等待游戏收入、现金流及估值门槛联动验证"
+        },
+        "summary": {}
+      },
+      "source": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html"
+      ],
+      "fallback": false
+    }
+  },
+  "market_status": {
+    "is_open": true,
+    "label": "报告日盘中，采用前一交易日收盘",
+    "market": "H",
+    "timezone": "Asia/Hong_Kong"
+  },
+  "similar_stocks": [],
+  "fund_managers": [],
+  "_integrity": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [],
+    "missing_enrichment": [],
+    "fallback_dims": [],
+    "coverage_pct": 100.0,
+    "passed_checks": 18,
+    "total_checks": 18
+  },
+  "cost_research": {
+    "8_materials": {
+      "cost_basis": "数字内容分成、版税、人员、服务器带宽",
+      "group_q3_gross_margin_pct": 68.3784,
+      "game_q3_gross_margin_pct": 74.34713,
+      "game_q3_2025_gross_margin_pct": 69.34465,
+      "game_q2_2026_gross_margin_pct": 76.1259,
+      "price_shock_sensitive_share_assumption": 0.5,
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ]
+    },
+    "9_futures": {
+      "commodity_driver": "低相关",
+      "currency_proxy": "HKEX USD/CNH",
+      "fx_hedging_status": "2025年20-F按披露未开展外汇风险对冲，最新披露未核验有新增头寸",
+      "fx_sensitivity_2025_10pct_net_rmb_billions": 6.6,
+      "q3_exchange_loss_rmb_billions": 0.280914,
+      "ytd_exchange_loss_rmb_billions": 1.339514,
+      "observed_dec_contract_20260924": 6.6764,
+      "observed_dec_contract_20261116": 6.6535,
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf260924.htm",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf261116.htm"
+      ]
+    }
+  },
+  "industry_research": {
+    "catalyst_calendar": [
+      {
+        "date": "2027-01-15",
+        "name": "《无限大》多平台全球上线",
+        "priority": "高",
+        "status": "计划",
+        "monitor": "跨平台稳定性、D7/D30、外观付费转化与确认收入",
+        "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      },
+      {
+        "date": "2026-12-04",
+        "name": "《遗忘之海》封闭测试",
+        "priority": "中",
+        "status": "官方排期",
+        "monitor": "留存、运营反馈和正式排期",
+        "url": "https://www.neteasegames.com/news/20261110/37000_1319180.html"
+      },
+      {
+        "date": "2026-12",
+        "name": "《燕云十六声》公布Beyond计划",
+        "priority": "中",
+        "status": "官方预告，日期未定",
+        "monitor": "版本内容和海外回流，观察商业化安排",
+        "url": "https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html"
+      },
+      {
+        "date": "2026-12-02",
+        "name": "网易普通股季度除息",
+        "priority": "低",
+        "status": "官方排期，12月3日登记，预计12月14日支付",
+        "per_share_usd": 0.117,
+        "url": "https://www3.hkexnews.hk/reports/doe/eent_c.htm"
+      }
+    ],
+    "peers": [
+      {
+        "symbol": "0700.HK",
+        "name": "腾讯",
+        "period": "2026Q3",
+        "reporting_currency": "CNY",
+        "revenue": 207336000000,
+        "valuation_asof": "2026-11-24 11:59 HKT",
+        "trailing_pe": 11.39,
+        "ev_to_ebitda": 9.08,
+        "financial_source": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "quote_source": "https://stockanalysis.com/quote/hkg/0700/statistics/"
+      },
+      {
+        "symbol": "2400.HK",
+        "name": "心动公司",
+        "period": "2026H1",
+        "reporting_currency": "CNY",
+        "revenue": 3312235000,
+        "valuation_asof": "2026-11-24 14:15 HKT",
+        "trailing_pe": 10.83,
+        "ev_to_ebitda": 6.91,
+        "financial_source": "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+        "quote_source": "https://stockanalysis.com/quote/hkg/2400/statistics/"
+      },
+      {
+        "symbol": "9697.T",
+        "name": "Capcom",
+        "period": "六个月截至2026-09-30",
+        "reporting_currency": "JPY",
+        "revenue": 120887000000,
+        "valuation_asof": "2026-11-24 15:15 JST",
+        "trailing_pe": 25.7,
+        "ev_to_ebitda": 16.66,
+        "financial_source": "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+        "quote_source": "https://stockanalysis.com/quote/tyo/9697/statistics/"
+      },
+      {
+        "symbol": "TTWO",
+        "name": "Take-Two",
+        "period": "季度截至2026-09-30",
+        "reporting_currency": "USD",
+        "revenue": 1497000000,
+        "trailing_pe": null,
+        "financial_source": "https://ir.take2games.com/node/32676"
+      }
+    ],
+    "subsidiary_valuation": {
+      "ownership_source": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf",
+      "ownership_asof": "2026-06-30",
+      "price_asof": "2026-11-23",
+      "usd_hkd_assumed": 7.77,
+      "cloud_music": {
+        "stock": "9899.HK",
+        "shares": 129034168,
+        "hkd_per_share": 87.7,
+        "holding_hkd": 11316296533.6,
+        "quote_source": "https://stockanalysis.com/quote/hkg/9899/history/"
+      },
+      "youdao": {
+        "stock": "DAO",
+        "shares_a": 2898293,
+        "shares_b": 65387160,
+        "usd_per_ads": 16.87,
+        "ads_ratio": 1,
+        "holding_hkd": 8950850350.6947,
+        "quote_source": "https://stockanalysis.com/stocks/dao/statistics/"
+      },
+      "combined_hkd": 20267146884.2947,
+      "approx_hkd_per_netease_share": 6.333483401342094,
+      "note": "有道B股按A股价格折算，不含控制权溢价或控股折扣。与集团合并现金和利润有重叠，不可直接叠加。"
+    },
+    "southbound_position": {
+      "date": "2026-11-23",
+      "shares": 71905509,
+      "issued_pct": 2.22,
+      "source": "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk",
+      "note": "沪深港股通CCASS合计结算持股存量，不能直接解释为交易日净流入。"
+    },
+    "previous_disposal": {
+      "date": "2026-03-02",
+      "name": "Mattel收购网易所持Mattel163 50%股权",
+      "announced_price_usd": 159000000,
+      "source": "https://investors.mattel.com/news/news-details/2026/Mattel-to-Acquire-Full-Ownership-of-Mattel163-Mobile-Games-Studio-Strengthening-its-Digital-Games-Business/default.aspx",
+      "closing_source": "https://www.sec.gov/Archives/edgar/data/63276/000162828026071218/mat-20260930.htm"
+    }
+  },
+  "work_notes": {
+    "coverage": "完整性百分比指技能字段检查。资金流、长周期技术与可核实实盘记录仍有限。"
+  }
+}

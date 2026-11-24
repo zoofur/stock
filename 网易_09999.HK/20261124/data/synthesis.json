@@ -1,0 +1,179 @@
+{
+  "ticker": "09999.HK",
+  "name": "网易",
+  "dim_commentary": {
+    "0_basic": "11月23日收159.50港元，按32.014亿普通股计市值5106亿元港币。1 ADS对应5股，避免重复计算。",
+    "1_financials": "三季度营业利润增17.7%，经营现金流却降18.6%。前三季度经营利润增24.2%，归母净利降5.3%，公允价值和汇兑加重利润波动。",
+    "2_kline": "财报次日下跌17.60%，成交为此前20日均值的4.57倍。49个已收市交易日显示股价低于20日均线185.35港元。",
+    "3_macro": "香港基本利率4.25%，港币与人民币换算、净现金再投资收益与高风险折现率同时影响港股价格。 https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+    "4_peers": "本地参考倍数9.29至11.82倍低于网易自算13.54倍。腾讯、心动和金山收入结构差异限制直接折价解读。",
+    "5_chain": "游戏分部97.5%来自在线游戏运营。分发、IP及研发人才是上游约束，自研长线运营能提高毛利贡献。",
+    "6_research": "11月23日公开报道显示招商证券国际调低港股目标至204港元，招银国际调低2026至2028年收入预测4%至6%。使用媒体转述作预期变化观察。",
+    "7_industry": "国内游戏销售同比增5.11%，网易游戏及增值收入降1.7%。因收入覆盖和定义不同，方向分化可观察，份额变动无法由此计算。 https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html https://www.ithome.com/1/015/969.htm",
+    "8_materials": "同比减少的集团营业成本主要来自分成，当季游戏毛利率74.35%。研发升至46.94亿元，对新游转化要求更高。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "9_futures": "商品期货关联度低。2025年20-F美元现金定存与美元债净折算对美元人民币波动敏感，未来对冲敞口取决于资产币种结构。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "10_valuation": "按11月23日收盘自算13.54倍PE。股查查11月20日五年PE、PB分位为3.1%、0.8%。基准DCF 169.80港元，可比中位131.24港元。",
+    "11_governance": "2025年VIE产生85.2%收入。已授权50亿美元回购，截至三季度使用约23亿美元，持续回购与股权激励一起决定净股本。",
+    "12_capital_flow": "11月23日港股通结算持股约7191万股。11月13日可申报空仓约5093万股，口径是存量。个股南向流量和东财主力资金缺证。",
+    "13_policy": "《桃花》10月获国产版号，供给可上市选择增加。国内网络出版许可续期获批，产品经营仍受实名认证等规则约束。 https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+    "14_moat": "游戏毛利率74.35%体现自研与运营的质量。2025年五大产品贡献35.2%集团收入，长线运营和新品接续须同时成立。",
+    "15_events": "《无限大》排期2027年1月15日，《遗忘之海》12月4日封测。商业贡献需要等产品留存、付费与确认收入数据。 https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+    "16_lhb": "港股交易机制下A股龙虎榜及涨停战法不适用。观察港交所成交、披露与实际交易反应。",
+    "17_sentiment": "财报后放量跌17.6%，下一交易日反弹3.57%。以价格成交观察情绪，缺少可核实多期社区样本。",
+    "18_trap": "公开披露与行情初筛的典型拉盘信号偏低。涉及招揽话术、账户控制或监管调查的证据未核验。",
+    "19_contests": "缺少可核对的实盘组合原始持仓、成本和可复现记录，该维度在综合分中权重为零。",
+    "20_valuation_models": "压力、基准、改善DCF分别约99、170和256港元。可比中位131港元，LBO基准IRR约3.8%，反映付溢价后的回报偏低。",
+    "21_research_workflow": "接下来两个月关注12月封测、长线产品更新及1月新游上线。游戏收入和经营现金流恢复才改变基准假设。",
+    "22_deep_methods": "投资决策为观察。尽调先验证产品回收期与净现金动用范围，单款付费、留存或渠道合同未披露的数值保留为空。"
+  },
+  "agent_reviewed": true,
+  "panel_insights": "66项框架模拟中，4项偏多、17项中性、10项偏空、35项弃权。价值派重视现金与经营质量，技术和GARP框架对放量破位与负增长更敏感。量化和A股席位框架因证据或市场限制弃权。",
+  "debate": {
+    "bull": {
+      "investor_id": "robertson",
+      "name": "罗伯逊",
+      "group": "C"
+    },
+    "bear": {
+      "investor_id": "livermore",
+      "name": "利弗莫尔",
+      "group": "D"
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "bull_say": "季度游戏毛利率74.35%，经营利润增17.7%。分成降低后，老游戏仍能贡献现金。",
+        "bear_say": "游戏收入同比降1.7%，季度经营现金流降18.6%。毛利上升无法消除收入和回款风险。"
+      },
+      {
+        "round": 2,
+        "bull_say": "1752亿元净现金中只计1000亿元，基准仍值169.80港元。收入只要恢复温和增长就有价值缓冲。",
+        "bear_say": "腾讯、心动、金山的中位倍数推算131.24港元，压力DCF为98.60港元。159.50港元的基准上行只有6.5%。"
+      },
+      {
+        "round": 3,
+        "bull_say": "以4.57倍放量下跌起算，低价已提供较财报前更好的赔率。《无限大》1月15日计划上线，验证产品接棒。",
+        "bear_say": "财报次日跌17.60%，随后收159.50港元，仍低于185.35港元的20日均线。首发日期不能验证留存和付费。"
+      }
+    ],
+    "punchline": "基准DCF 170港元，同业中位131港元。159.50港元押注网易维持约295亿元正常年经营自由现金流。"
+  },
+  "great_divide": {
+    "bull_avatar": "robertson",
+    "bear_avatar": "livermore",
+    "bull_score": 67,
+    "bear_score": 17,
+    "bull_signal": "bullish",
+    "bear_signal": "bearish",
+    "punchline": "基准DCF 170港元，同业中位131港元。159.50港元押注网易维持约295亿元正常年经营自由现金流。"
+  },
+  "risks": [
+    "游戏收入占比82.4%，前五款游戏占2025收入35.2%。主力游戏若继续衰退，单一新品容易填不上缺口。",
+    "三季度经营现金流同比降18.6%，同期营业利润增17.7%。延续多个季度将压低正常化现金流估计。",
+    "1752亿元公司口径净现金包括限制性项目及境内余额。若基准可计现金由1000亿元减到800亿元，DCF每股减少约7.29港元。",
+    "2025年VIE产生85.2%收入，涉及协议控制与分红上划，另有游戏审批、海外合规和授权续约风险。",
+    "财报后首日最低150.30港元，若继续跌破且经营数据走弱，压力DCF约98.60港元。"
+  ],
+  "buy_zones": {
+    "value": {
+      "price": 144.33,
+      "rationale": "基准DCF 169.80港元乘85%，留15%折价。"
+    },
+    "growth": {
+      "price": 104.9,
+      "rationale": "2029情景EPS乘本地可比中位PE，以12%年回报门槛折现三年。"
+    },
+    "technical": {
+      "price": 164.8,
+      "rationale": "11月20日盘中高点，收复并放量才是价格确认，20日线在185.35。"
+    },
+    "youzi": {
+      "price": 150.3,
+      "rationale": "A股席位法不适用。本字段仅记录港股财报下跌日低点，作为短线风险观察位。"
+    }
+  },
+  "as_of": "2026-11-24",
+  "quote_date": "2026-11-23",
+  "currency": "HKD",
+  "verdict_label": "观察",
+  "fundamental_score": 57.2,
+  "method_simulation_tally": {
+    "neutral": 17,
+    "bearish": 10,
+    "skip": 35,
+    "bullish": 4
+  },
+  "long_framework_consensus": 46.0,
+  "dashboard": {
+    "core_conclusion": "网易有现金和长线游戏支撑，159.50港元仍只比基准DCF低约6%。估值观察位约144港元，或等游戏收入和经营现金流同步企稳。",
+    "price_hkd": 159.5,
+    "last_intraday_hkd": 155.1
+  },
+  "adjusted_dcf": {
+    "压力": {
+      "fcf_rmb_bn": 27,
+      "growth": -0.02,
+      "discount": 0.1275,
+      "terminal": 0.005,
+      "available_net_cash_rmb_bn": 70,
+      "flows_rmb_bn": [
+        26.46,
+        25.930799999999998,
+        25.412183999999996,
+        24.903940319999997,
+        24.405861513599998
+      ],
+      "pv_explicit_rmb_bn": 90.39896200996037,
+      "pv_terminal_rmb_bn": 109.88574651435655,
+      "equity_rmb_bn": 270.2847085243169,
+      "price_hkd": 98.59596841201295,
+      "upside_pct": -38.18434582318937
+    },
+    "基准": {
+      "fcf_rmb_bn": 32,
+      "growth": 0.035,
+      "discount": 0.115,
+      "terminal": 0.02,
+      "available_net_cash_rmb_bn": 100,
+      "flows_rmb_bn": [
+        33.12,
+        34.279199999999996,
+        35.47897199999999,
+        36.72073601999999,
+        38.005961780699984
+      ],
+      "pv_explicit_rmb_bn": 128.6829315219059,
+      "pv_terminal_rmb_bn": 236.78487452644256,
+      "equity_rmb_bn": 465.4678060483485,
+      "price_hkd": 169.79595091604315,
+      "upside_pct": 6.45514164015244
+    },
+    "改善": {
+      "fcf_rmb_bn": 37,
+      "growth": 0.07,
+      "discount": 0.105,
+      "terminal": 0.025,
+      "available_net_cash_rmb_bn": 130,
+      "flows_rmb_bn": [
+        39.59,
+        42.3613,
+        45.326591,
+        48.49945237000001,
+        51.89441403590001
+      ],
+      "pv_explicit_rmb_bn": 168.14580937552728,
+      "pv_terminal_rmb_bn": 403.5925127179086,
+      "equity_rmb_bn": 701.738322093436,
+      "price_hkd": 255.9840318617161,
+      "upside_pct": 60.49155602615428
+    }
+  },
+  "data_gaps": {
+    "12_capital_flow": "交易所验证结算存量和空仓，逐日净额及东财主力流量无独立核验。",
+    "19_contests": "缺少可再现组合样本，零权重。",
+    "18_trap": "公开资料初筛，未核实私域推广和异常账户行为。",
+    "2_kline.long_stage": "仅用49个已收市交易日，长周期趋势分类未核实。",
+    "10_valuation.quantile_as_of": "五年分位取11月20日快照，11月23日同源五年分位未核验。"
+  },
+  "equal_weight_long_vote": 39.7
+}

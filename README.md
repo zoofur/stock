@@ -6,6 +6,8 @@
 
 | 公司 | 历史深度报告 | 财报更新 | 补充 |
 |---|---|---|---|
+| 网易 09999.HK | [2026-11-24](网易_09999.HK/20261124/full-report-standalone.html) | — | [2026 三季报](https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf) |
+| 保利物业 06049.HK | [2026-11-23](保利物业_06049.HK/20261123/full-report-standalone.html) | — | [2026 中报](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf) |
 | 阿里巴巴 09988.HK | — | [2026-11-19 三季报解读](阿里巴巴_09988.HK/20261119/full-report-standalone.html) | [港交所原文](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900873.pdf) |
 | 快手科技 01024.HK | — | [2026-11-19 三季报解读](快手科技_01024.HK/20261119/full-report-standalone.html) | [港交所原文](https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900311_c.pdf) |
 | 腾讯控股 00700.HK | — | [2026-11-18 三季报解读](腾讯控股_00700.HK/20261118/full-report-standalone.html) | [港交所原文](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800449_c.pdf) |

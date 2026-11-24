@@ -1,0 +1,431 @@
+{
+  "ticker": "06049.HK",
+  "fundamental_score": 51.7,
+  "dimensions": {
+    "1_financials": {
+      "score": 6,
+      "weight": 5,
+      "label": "上半年归母净利增4.8%，经营净流出扩大至4.82亿元。一年以上贸易应收及票据净额同比增约91%。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "2_kline": {
+      "score": 3,
+      "weight": 4,
+      "label": "收盘低于MA5、MA10、MA20和MA50；日内25.44港元触及52周低位。50个交易日不足以判断长期趋势。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "3_macro": {
+      "score": 4,
+      "weight": 3,
+      "label": "竣工与土地出让收入分别降26.6%和25.8%，新增交付减少，公共项目回款需要更严格筛选。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "4_peers": {
+      "score": 6,
+      "weight": 4,
+      "label": "中海、建发、越秀近似同业的TTM PE中位7.77倍。华润万象商业管理占营收40.1%，仅用来观察商管溢价。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "5_chain": {
+      "score": 6,
+      "weight": 4,
+      "label": "主要供应端是用工及安保、保洁与工程分包，需求来自住宅业主、商办、公建与开发商；项目规模与收款质量要同时衡量。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 0,
+      "label": "国信4月用2026E EPS 2.90元，较上年2.810元高3.2%。研究样本仅核对一份原文，处于中报发布前。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "7_industry": {
+      "score": 5,
+      "weight": 4,
+      "label": "中指2025百强营收均值增长3.44%，保利26H1第三方物管增18.4%。中海基础毛利下降2.4个百分点，扩张仍要看项目质量。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "8_materials": {
+      "score": 5,
+      "weight": 3,
+      "label": "半年用工成本16.16亿元；广州最低工资上调7.2%，仅受影响项目和分包续标承受直接压力。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 0,
+      "label": "年报金融风险主要为利率和汇率；公司未披露可量化商品期货敞口，燃动PPI只用于间接成本假设。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "10_valuation": {
+      "score": 6,
+      "weight": 5,
+      "label": "按报告期EPS拼接约7.65倍，税前历史股息率6.24%。相对同行中位数折价很小，DCF结果取决于回款与现金折价。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "11_governance": {
+      "score": 4,
+      "weight": 4,
+      "label": "保利财务存款20.23亿元，接近20.30亿元日上限；车位一期30亿元历史峰值需单列核查。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "12_capital_flow": {
+      "score": 5,
+      "weight": 0,
+      "label": "港交所11月21日南向持股约占H股20.83%。当日主力净买入缺可靠记录，持股数据只作存量观察。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 3,
+      "label": "城市更新规划及上海片区联合招标有利于存量物管拓展，实际利润与现金要通过中标价、履约和结算验证。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "14_moat": {
+      "score": 7,
+      "weight": 3,
+      "label": "186城、3221个在管项目和核心50城拓展密度可摊薄后台成本，物业管理毛利率降至15.82%说明竞价约束仍在。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "15_events": {
+      "score": 5,
+      "weight": 4,
+      "label": "11月13日续签关联框架，公告预计12月15日或前寄发通函。车位保证金为资金占用，框架上限不能直接换算收入。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "A股龙虎榜框架不适用；港交所沽空统计可用于单独观察港股。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "17_sentiment": {
+      "score": 4,
+      "weight": 3,
+      "label": "11月13日可申报淡仓约占已发H股0.98%，11月23日股价接近52周低位；该统计只覆盖达到申报门槛的持仓。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "18_trap": {
+      "score": 5,
+      "weight": 0,
+      "label": "公开市场初筛未见可核实的典型异常拉升或推广信号。私域推广未核验；关联资金集中须在治理维度评估。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "缺可信持仓组合和历史策略样本，模拟组合结果不参与个股评分。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "0_basic": {
+      "score": 5,
+      "weight": 0,
+      "label": "以港股收市25.76港元和总股本5.5333亿股计，市值142.54亿港元，物管贡献八成收入。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "20_valuation_models": {
+      "score": 5,
+      "weight": 3,
+      "label": "基准DCF 36.92港元，压力值18.26港元，同行中位26.17港元，差别主要来自现金可用性及回款。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "21_research_workflow": {
+      "score": 5,
+      "weight": 0,
+      "label": "利润增长与现金流分化的检验点是年末收款，通函负责揭示交易上限、实际使用率、付款和退还机制。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    },
+    "22_deep_methods": {
+      "score": 5,
+      "weight": 0,
+      "label": "优先验证一年以上应收、第三方项目现金贡献、保证金峰值与存款集中。情景区间宽，按现价维持观察。",
+      "reasons_pass": [],
+      "reasons_fail": []
+    }
+  },
+  "reviewed_dimensions": {
+    "0_basic": {
+      "name": "证券与业务",
+      "label": "以港股收市25.76港元和总股本5.5333亿股计，市值142.54亿港元，物管贡献八成收入。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://stockanalysis.com/quote/hkg/6049/history/",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1103/2026110300816.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf"
+      ],
+      "status": "仅观察"
+    },
+    "1_financials": {
+      "name": "财务与现金流",
+      "label": "上半年归母净利增4.8%，经营净流出扩大至4.82亿元。一年以上贸易应收及票据净额同比增约91%。",
+      "score": 6,
+      "weight": 5,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0925/2025092500521_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf"
+      ],
+      "status": "已评估"
+    },
+    "2_kline": {
+      "name": "价格与趋势",
+      "label": "收盘低于MA5、MA10、MA20和MA50；日内25.44港元触及52周低位。50个交易日不足以判断长期趋势。",
+      "score": 3,
+      "weight": 4,
+      "sources": [
+        "https://stockanalysis.com/quote/hkg/6049/history/",
+        "https://cn.investing.com/news/stock-market-news/article-3681234"
+      ],
+      "status": "已评估"
+    },
+    "3_macro": {
+      "name": "宏观",
+      "label": "竣工与土地出让收入分别降26.6%和25.8%，新增交付减少，公共项目回款需要更严格筛选。",
+      "score": 4,
+      "weight": 3,
+      "sources": [
+        "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965840.html",
+        "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm"
+      ],
+      "status": "已评估"
+    },
+    "4_peers": {
+      "name": "同行",
+      "label": "中海、建发、越秀近似同业的TTM PE中位7.77倍。华润万象商业管理占营收40.1%，仅用来观察商管溢价。",
+      "score": 6,
+      "weight": 4,
+      "sources": [
+        "https://static.cninfo.com.cn/finalpage/2026-09-04/1225547603.PDF",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0824/2026082400452.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0827/2026082700246.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083100073.pdf",
+        "https://cibo.hk/zh-CN/market-heatmap.html?display=price%2Cchange&market=hk&mode=name&scale=10.0&sector=%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86&universe=main"
+      ],
+      "status": "已评估"
+    },
+    "5_chain": {
+      "name": "客户与供应商",
+      "label": "主要供应端是用工及安保、保洁与工程分包，需求来自住宅业主、商办、公建与开发商；项目规模与收款质量要同时衡量。",
+      "score": 6,
+      "weight": 4,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf"
+      ],
+      "status": "已评估"
+    },
+    "6_research": {
+      "name": "券商研究",
+      "label": "国信4月用2026E EPS 2.90元，较上年2.810元高3.2%。研究样本仅核对一份原文，处于中报发布前。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://pdf.dfcfw.com/pdf/H3_AP202604091821093398_1.pdf?1775758173000.pdf=",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf"
+      ],
+      "status": "仅观察"
+    },
+    "7_industry": {
+      "name": "行业景气",
+      "label": "中指2025百强营收均值增长3.44%，保利26H1第三方物管增18.4%。中海基础毛利下降2.4个百分点，扩张仍要看项目质量。",
+      "score": 5,
+      "weight": 4,
+      "sources": [
+        "https://www.cih-index.com/wy/industrydynamics/news/industryheadline/54607971.html",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://static.cninfo.com.cn/finalpage/2026-09-04/1225547603.PDF"
+      ],
+      "status": "已评估"
+    },
+    "8_materials": {
+      "name": "成本传导",
+      "label": "半年用工成本16.16亿元；广州最低工资上调7.2%，仅受影响项目和分包续标承受直接压力。",
+      "score": 5,
+      "weight": 3,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://rsj.gz.gov.cn/zzzq/tzgg/content/post_10981804.html"
+      ],
+      "status": "已评估"
+    },
+    "9_futures": {
+      "name": "期货与能源",
+      "label": "年报金融风险主要为利率和汇率；公司未披露可量化商品期货敞口，燃动PPI只用于间接成本假设。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf",
+        "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
+        "https://www.shfe.com.cn/products/futures/energyandchemical/fu_f/standard_fu/202312/t20231205_327331.html"
+      ],
+      "status": "仅观察"
+    },
+    "10_valuation": {
+      "name": "估值与派息",
+      "label": "按报告期EPS拼接约7.65倍，税前历史股息率6.24%。相对同行中位数折价很小，DCF结果取决于回款与现金折价。",
+      "score": 6,
+      "weight": 5,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0529/2026052901551.pdf",
+        "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2"
+      ],
+      "status": "已评估"
+    },
+    "11_governance": {
+      "name": "关联与治理",
+      "label": "保利财务存款20.23亿元，接近20.30亿元日上限；车位一期30亿元历史峰值需单列核查。",
+      "score": 4,
+      "weight": 4,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301474.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1215/2025121500486.pdf"
+      ],
+      "status": "已评估"
+    },
+    "12_capital_flow": {
+      "name": "南向与资金",
+      "label": "港交所11月21日南向持股约占H股20.83%。当日主力净买入缺可靠记录，持股数据只作存量观察。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://www3.hkexnews.hk/sdw/search/mutualmarket_c.aspx?t=hk",
+        "https://www.hkex.com.hk/eng/stat/smstat/ssturnover/ncms/mshtmain.htm"
+      ],
+      "status": "仅观察"
+    },
+    "13_policy": {
+      "name": "监管与政策",
+      "label": "城市更新规划及上海片区联合招标有利于存量物管拓展，实际利润与现金要通过中标价、履约和结算验证。",
+      "score": 6,
+      "weight": 3,
+      "sources": [
+        "https://www.mohurd.gov.cn/gongkai/fdzdgknr/zgzygwywj/art/2026/art_c6751b4672d646fab1d427eb36687b68.html",
+        "https://www.shanghai.gov.cn/202613bgtwj/20260714/ad06aa94754b41a4adc3a46fe6aa3ff5.html"
+      ],
+      "status": "已评估"
+    },
+    "14_moat": {
+      "name": "规模与壁垒",
+      "label": "186城、3221个在管项目和核心50城拓展密度可摊薄后台成本，物业管理毛利率降至15.82%说明竞价约束仍在。",
+      "score": 7,
+      "weight": 3,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf"
+      ],
+      "status": "已评估"
+    },
+    "15_events": {
+      "name": "事项与催化",
+      "label": "11月13日续签关联框架，公告预计12月15日或前寄发通函。车位保证金为资金占用，框架上限不能直接换算收入。",
+      "score": 5,
+      "weight": 4,
+      "sources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301417_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301474.pdf"
+      ],
+      "status": "已评估"
+    },
+    "16_lhb": {
+      "name": "龙虎榜",
+      "label": "A股龙虎榜框架不适用；港交所沽空统计可用于单独观察港股。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://www.hkex.com.hk/eng/stat/smstat/ssturnover/ncms/mshtmain.htm"
+      ],
+      "status": "仅观察"
+    },
+    "17_sentiment": {
+      "name": "交易情绪",
+      "label": "11月13日可申报淡仓约占已发H股0.98%，11月23日股价接近52周低位；该统计只覆盖达到申报门槛的持仓。",
+      "score": 4,
+      "weight": 3,
+      "sources": [
+        "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546",
+        "https://stockanalysis.com/quote/hkg/6049/history/"
+      ],
+      "status": "已评估"
+    },
+    "18_trap": {
+      "name": "异常推广筛查",
+      "label": "公开市场初筛未见可核实的典型异常拉升或推广信号。私域推广未核验；关联资金集中须在治理维度评估。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://stockanalysis.com/quote/hkg/6049/history/",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1103/2026110300816.pdf"
+      ],
+      "status": "仅观察"
+    },
+    "19_contests": {
+      "name": "组合与赛事",
+      "label": "缺可信持仓组合和历史策略样本，模拟组合结果不参与个股评分。",
+      "score": null,
+      "weight": 0,
+      "sources": [],
+      "status": "仅观察"
+    },
+    "20_valuation_models": {
+      "name": "机构建模",
+      "label": "基准DCF 36.92港元，压力值18.26港元，同行中位26.17港元，差别主要来自现金可用性及回款。",
+      "score": 5,
+      "weight": 3,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://cibo.hk/zh-CN/market-heatmap.html?display=price%2Cchange&market=hk&mode=name&scale=10.0&sector=%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86&universe=main",
+        "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2"
+      ],
+      "status": "已评估"
+    },
+    "21_research_workflow": {
+      "name": "业绩与催化",
+      "label": "利润增长与现金流分化的检验点是年末收款，通函负责揭示交易上限、实际使用率、付款和退还机制。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301417_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301474.pdf"
+      ],
+      "status": "仅观察"
+    },
+    "22_deep_methods": {
+      "name": "投委会判断",
+      "label": "优先验证一年以上应收、第三方项目现金贡献、保证金峰值与存款集中。情景区间宽，按现价维持观察。",
+      "score": null,
+      "weight": 0,
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0925/2025092500521_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1215/2025121500486.pdf"
+      ],
+      "status": "仅观察"
+    }
+  }
+}

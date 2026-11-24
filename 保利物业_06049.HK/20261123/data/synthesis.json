@@ -1,0 +1,165 @@
+{
+  "ticker": "06049.HK",
+  "name": "保利物业",
+  "dim_commentary": {
+    "0_basic": "以港股收市25.76港元和总股本5.5333亿股计，市值142.54亿港元，物管贡献八成收入。",
+    "1_financials": "上半年归母净利增4.8%，经营净流出扩大至4.82亿元。一年以上贸易应收及票据净额同比增约91%。",
+    "2_kline": "收盘低于MA5、MA10、MA20和MA50；日内25.44港元触及52周低位。50个交易日不足以判断长期趋势。",
+    "3_macro": "竣工与土地出让收入分别降26.6%和25.8%，新增交付减少，公共项目回款需要更严格筛选。 https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965840.html https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+    "4_peers": "中海、建发、越秀近似同业的TTM PE中位7.77倍。华润万象商业管理占营收40.1%，仅用来观察商管溢价。",
+    "5_chain": "主要供应端是用工及安保、保洁与工程分包，需求来自住宅业主、商办、公建与开发商；项目规模与收款质量要同时衡量。",
+    "6_research": "国信4月用2026E EPS 2.90元，较上年2.810元高3.2%。研究样本仅核对一份原文，处于中报发布前。",
+    "7_industry": "中指2025百强营收均值增长3.44%，保利26H1第三方物管增18.4%。中海基础毛利下降2.4个百分点，扩张仍要看项目质量。 https://www.cih-index.com/wy/industrydynamics/news/industryheadline/54607971.html https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf https://static.cninfo.com.cn/finalpage/2026-09-04/1225547603.PDF",
+    "8_materials": "半年用工成本16.16亿元；广州最低工资上调7.2%，仅受影响项目和分包续标承受直接压力。 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf https://rsj.gz.gov.cn/zzzq/tzgg/content/post_10981804.html",
+    "9_futures": "年报金融风险主要为利率和汇率；公司未披露可量化商品期货敞口，燃动PPI只用于间接成本假设。 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043001632.pdf https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html https://www.shfe.com.cn/products/futures/energyandchemical/fu_f/standard_fu/202312/t20231205_327331.html",
+    "10_valuation": "按报告期EPS拼接约7.65倍，税前历史股息率6.24%。相对同行中位数折价很小，DCF结果取决于回款与现金折价。",
+    "11_governance": "保利财务存款20.23亿元，接近20.30亿元日上限；车位一期30亿元历史峰值需单列核查。",
+    "12_capital_flow": "港交所11月21日南向持股约占H股20.83%。当日主力净买入缺可靠记录，持股数据只作存量观察。",
+    "13_policy": "城市更新规划及上海片区联合招标有利于存量物管拓展，实际利润与现金要通过中标价、履约和结算验证。 https://www.mohurd.gov.cn/gongkai/fdzdgknr/zgzygwywj/art/2026/art_c6751b4672d646fab1d427eb36687b68.html https://www.shanghai.gov.cn/202613bgtwj/20260714/ad06aa94754b41a4adc3a46fe6aa3ff5.html",
+    "14_moat": "186城、3221个在管项目和核心50城拓展密度可摊薄后台成本，物业管理毛利率降至15.82%说明竞价约束仍在。",
+    "15_events": "11月13日续签关联框架，公告预计12月15日或前寄发通函。车位保证金为资金占用，框架上限不能直接换算收入。 https://www.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301417_c.pdf https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1113/2026111301474.pdf",
+    "16_lhb": "A股龙虎榜框架不适用；港交所沽空统计可用于单独观察港股。",
+    "17_sentiment": "11月13日可申报淡仓约占已发H股0.98%，11月23日股价接近52周低位；该统计只覆盖达到申报门槛的持仓。",
+    "18_trap": "公开市场初筛未见可核实的典型异常拉升或推广信号。私域推广未核验；关联资金集中须在治理维度评估。",
+    "19_contests": "缺可信持仓组合和历史策略样本，模拟组合结果不参与个股评分。"
+  },
+  "institutional_modeling": {
+    "dcf_intrinsic": 36.92,
+    "dcf_safety_margin_pct": 30.22,
+    "dcf_verdict": "基准情景依赖可用现金及回款",
+    "lbo_irr_pct": 10.88,
+    "lbo_verdict": "收购压力测试，无真实交易或融资",
+    "comps_verdict": "三家同业中位数折算 26.17 港元",
+    "initiating_rating": null,
+    "target_price": null,
+    "upside_pct": null,
+    "ic_recommendation": null,
+    "bcg_position": null,
+    "industry_attractiveness": null
+  },
+  "agent_reviewed": true,
+  "panel_insights": "多头框架 1 多、15 中、19 空、29 弃权。两位做空框架均未建立可验证空头论点。价值框架对低倍数有兴趣，成长和技术框架更谨慎；科技主题回避仅说明题材范围。",
+  "debate": {
+    "bull": {
+      "investor_id": "dengxiaofeng",
+      "name": "邓晓峰",
+      "group": "E"
+    },
+    "bear": {
+      "investor_id": "wood",
+      "name": "木头姐",
+      "group": "B"
+    },
+    "rounds": [
+      {
+        "round": 1,
+        "bull_say": "第三方物管收入增18.4%，占物管46.5%。8.94亿平方米在管规模支持片区运营。",
+        "bear_say": "一年以上应收由2.71亿元升至5.19亿元。第三方扩张要看新增项目利润与回款。"
+      },
+      {
+        "round": 2,
+        "bull_say": "过去税前股息率6.24%，且期末没有银行借款。通过实际回款可恢复现金转化。",
+        "bear_say": "20.23亿元在集团财务公司，车位一期保证金峰值30亿元。现金余额和能分配给股东的金额有差距。"
+      },
+      {
+        "round": 3,
+        "bull_say": "以可用现金40亿元、正常股权现金流12亿元测算，基准DCF为36.92港元。",
+        "bear_say": "三家物管同行中位折算26.17港元，股息折现22.07港元，压力DCF 18.26港元。"
+      }
+    ],
+    "punchline": "基础物管营收增11.9%，经营净流出却扩大至4.82亿元。"
+  },
+  "great_divide": {
+    "bull_avatar": "dengxiaofeng",
+    "bear_avatar": "wood",
+    "bull_score": 68,
+    "bear_score": 15,
+    "bull_signal": "bullish",
+    "bear_signal": "bearish",
+    "punchline": "基础物管营收增11.9%，经营净流出却扩大至4.82亿元。"
+  },
+  "risks": [
+    "回款。2026H1超过一年应收及票据5.19亿元，同比约+91%，快于营收。",
+    "关联资金。保利财务存款20.23亿元，车位一期30亿元为期间峰值，敞口需分开核对。",
+    "利润率。物管收入增11.9%，分部毛利率降0.77个百分点；两类增值营收分别跌16.7%和14.4%。"
+  ],
+  "buy_zones": {
+    "value": {
+      "price": 31.38,
+      "rationale": "基准DCF打85折；须先验证回款和现金可用性"
+    },
+    "growth": {
+      "price": 21.55,
+      "rationale": "2029E EPS×同业中位PE，以11.5%折回三年"
+    },
+    "technical": {
+      "price": 26.44,
+      "rationale": "MA20；连续收回且成交放大才是技术观察点"
+    },
+    "youzi": {
+      "price": null,
+      "rationale": "港股无A股龙虎榜，缺可核验的集中成本"
+    }
+  },
+  "data_gaps": {
+    "coverage_pct": 89.0,
+    "total_gaps": 2,
+    "unresolved": 0,
+    "tasks": [
+      {
+        "dim": "10_valuation",
+        "field": "pe_quantile",
+        "label": "PE 5 年分位",
+        "severity": "optional",
+        "suggested_actions": [
+          "mx: '06049 PE 5年分位数'",
+          "ws: '06049 PE历史分位'"
+        ],
+        "status": "acknowledged",
+        "agent_note": "曾查理杏仁，未核验截至11月23日的五年同口径序列"
+      },
+      {
+        "dim": "10_valuation",
+        "field": "pb_quantile",
+        "label": "PB 5 年分位",
+        "severity": "optional",
+        "suggested_actions": [
+          "mx: '06049 PB 5年分位数'",
+          "ws: '06049 PB历史分位'"
+        ],
+        "status": "acknowledged",
+        "agent_note": "未核验截至11月23日的五年同口径序列"
+      }
+    ]
+  },
+  "as_of": "2026-11-23",
+  "verdict": "观察",
+  "research_conclusion": "25.76港元约对应7.65倍滚动市盈率和6.24%历史税前股息率。同行中值已接近现价，若年末回款无法显著改善，现金折价足以抵消账面估值优势。",
+  "price_currency": "HKD",
+  "method_simulation_tally": {
+    "bullish": 1,
+    "neutral": 15,
+    "bearish": 19,
+    "skip": 29
+  },
+  "catalysts": [
+    {
+      "event": "关联交易通函",
+      "probability": "公司预计",
+      "impact": "高",
+      "timing": "12月15日或前"
+    },
+    {
+      "event": "独立股东表决",
+      "probability": "须召开",
+      "impact": "高",
+      "timing": "待公告"
+    },
+    {
+      "event": "年底回款",
+      "probability": "例行观察",
+      "impact": "高",
+      "timing": "2026年末，随年报核验"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "ticker": "09999.HK",
+  "fundamental_score": 57.2,
+  "dimensions": {
+    "0_basic": {
+      "score": 5,
+      "weight": 0,
+      "label": "11月23日收159.50港元，按32.014亿普通股计市值5106亿元港币。1 ADS对应5股，避免重复计算。"
+    },
+    "1_financials": {
+      "score": 8,
+      "weight": 5,
+      "label": "三季度营业利润增17.7%，经营现金流却降18.6%。前三季度经营利润增24.2%，归母净利降5.3%，公允价值和汇兑加重利润波动。"
+    },
+    "2_kline": {
+      "score": 3,
+      "weight": 4,
+      "label": "财报次日下跌17.60%，成交为此前20日均值的4.57倍。49个已收市交易日显示股价低于20日均线185.35港元。"
+    },
+    "3_macro": {
+      "score": 5,
+      "weight": 3,
+      "label": "香港基本利率4.25%，港币与人民币换算、净现金再投资收益与高风险折现率同时影响港股价格。"
+    },
+    "4_peers": {
+      "score": 5,
+      "weight": 4,
+      "label": "本地参考倍数9.29至11.82倍低于网易自算13.54倍。腾讯、心动和金山收入结构差异限制直接折价解读。"
+    },
+    "5_chain": {
+      "score": 7,
+      "weight": 3,
+      "label": "游戏分部97.5%来自在线游戏运营。分发、IP及研发人才是上游约束，自研长线运营能提高毛利贡献。"
+    },
+    "6_research": {
+      "score": 5,
+      "weight": 2,
+      "label": "11月23日公开报道显示招商证券国际调低港股目标至204港元，招银国际调低2026至2028年收入预测4%至6%。使用媒体转述作预期变化观察。"
+    },
+    "7_industry": {
+      "score": 6,
+      "weight": 4,
+      "label": "国内游戏销售同比增5.11%，网易游戏及增值收入降1.7%。因收入覆盖和定义不同，方向分化可观察，份额变动无法由此计算。"
+    },
+    "8_materials": {
+      "score": 7,
+      "weight": 3,
+      "label": "同比减少的集团营业成本主要来自分成，当季游戏毛利率74.35%。研发升至46.94亿元，对新游转化要求更高。"
+    },
+    "9_futures": {
+      "score": 5,
+      "weight": 0,
+      "label": "商品期货关联度低。2025年20-F美元现金定存与美元债净折算对美元人民币波动敏感，未来对冲敞口取决于资产币种结构。"
+    },
+    "10_valuation": {
+      "score": 5,
+      "weight": 5,
+      "label": "按11月23日收盘自算13.54倍PE。股查查11月20日五年PE、PB分位为3.1%、0.8%。基准DCF 169.80港元，可比中位131.24港元。"
+    },
+    "11_governance": {
+      "score": 5,
+      "weight": 4,
+      "label": "2025年VIE产生85.2%收入。已授权50亿美元回购，截至三季度使用约23亿美元，持续回购与股权激励一起决定净股本。"
+    },
+    "12_capital_flow": {
+      "score": 5,
+      "weight": 0,
+      "label": "11月23日港股通结算持股约7191万股。11月13日可申报空仓约5093万股，口径是存量。个股南向流量和东财主力资金缺证。"
+    },
+    "13_policy": {
+      "score": 6,
+      "weight": 3,
+      "label": "《桃花》10月获国产版号，供给可上市选择增加。国内网络出版许可续期获批，产品经营仍受实名认证等规则约束。"
+    },
+    "14_moat": {
+      "score": 7,
+      "weight": 4,
+      "label": "游戏毛利率74.35%体现自研与运营的质量。2025年五大产品贡献35.2%集团收入，长线运营和新品接续须同时成立。"
+    },
+    "15_events": {
+      "score": 6,
+      "weight": 4,
+      "label": "《无限大》排期2027年1月15日，《遗忘之海》12月4日封测。商业贡献需要等产品留存、付费与确认收入数据。"
+    },
+    "16_lhb": {
+      "score": 5,
+      "weight": 0,
+      "label": "港股交易机制下A股龙虎榜及涨停战法不适用。观察港交所成交、披露与实际交易反应。"
+    },
+    "17_sentiment": {
+      "score": 4,
+      "weight": 2,
+      "label": "财报后放量跌17.6%，下一交易日反弹3.57%。以价格成交观察情绪，缺少可核实多期社区样本。"
+    },
+    "18_trap": {
+      "score": 5,
+      "weight": 0,
+      "label": "公开披露与行情初筛的典型拉盘信号偏低。涉及招揽话术、账户控制或监管调查的证据未核验。"
+    },
+    "19_contests": {
+      "score": 5,
+      "weight": 0,
+      "label": "缺少可核对的实盘组合原始持仓、成本和可复现记录，该维度在综合分中权重为零。"
+    },
+    "20_valuation_models": {
+      "score": 6,
+      "weight": 5,
+      "label": "压力、基准、改善DCF分别约99、170和256港元。可比中位131港元，LBO基准IRR约3.8%，反映付溢价后的回报偏低。"
+    },
+    "21_research_workflow": {
+      "score": 6,
+      "weight": 3,
+      "label": "接下来两个月关注12月封测、长线产品更新及1月新游上线。游戏收入和经营现金流恢复才改变基准假设。"
+    },
+    "22_deep_methods": {
+      "score": 5,
+      "weight": 3,
+      "label": "投资决策为观察。尽调先验证产品回收期与净现金动用范围，单款付费、留存或渠道合同未披露的数值保留为空。"
+    }
+  },
+  "rule_score_reference": 59.7,
+  "reviewed_dimensions": {
+    "0_basic": {
+      "name": "公司概况",
+      "score": null,
+      "weight": 0,
+      "label": "11月23日收159.50港元，按32.014亿普通股计市值5106亿元港币。1 ADS对应5股，避免重复计算。",
+      "sources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ"
+      ]
+    },
+    "1_financials": {
+      "name": "财务质量",
+      "score": 8,
+      "weight": 5,
+      "label": "三季度营业利润增17.7%，经营现金流却降18.6%。前三季度经营利润增24.2%，归母净利降5.3%，公允价值和汇兑加重利润波动。",
+      "sources": [
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://ir.netease.com/static-files/4ce9997f-f8b2-4df7-a71e-a754261a5fb4",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-and-interim-2026-unaudited"
+      ]
+    },
+    "2_kline": {
+      "name": "趋势与波动",
+      "score": 3,
+      "weight": 4,
+      "label": "财报次日下跌17.60%，成交为此前20日均值的4.57倍。49个已收市交易日显示股价低于20日均线185.35港元。",
+      "sources": [
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ"
+      ]
+    },
+    "3_macro": {
+      "name": "宏观与汇率",
+      "score": 5,
+      "weight": 3,
+      "label": "香港基本利率4.25%，港币与人民币换算、净现金再投资收益与高风险折现率同时影响港股价格。 https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+      "sources": [
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+        "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html"
+      ]
+    },
+    "4_peers": {
+      "name": "同行与方法",
+      "score": 5,
+      "weight": 4,
+      "label": "本地参考倍数9.29至11.82倍低于网易自算13.54倍。腾讯、心动和金山收入结构差异限制直接折价解读。",
+      "sources": [
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700",
+        "https://stockanalysis.com/quote/hkg/3888/",
+        "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf"
+      ]
+    },
+    "5_chain": {
+      "name": "产业链",
+      "score": 7,
+      "weight": 3,
+      "label": "游戏分部97.5%来自在线游戏运营。分发、IP及研发人才是上游约束，自研长线运营能提高毛利贡献。",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ]
+    },
+    "6_research": {
+      "name": "研究预期",
+      "score": 5,
+      "weight": 2,
+      "label": "11月23日公开报道显示招商证券国际调低港股目标至204港元，招银国际调低2026至2028年收入预测4%至6%。使用媒体转述作预期变化观察。",
+      "sources": [
+        "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555997&NewsSource=HK6&NewsType=",
+        "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555999&NewsSource=HK6&NewsType="
+      ]
+    },
+    "7_industry": {
+      "name": "行业景气",
+      "score": 6,
+      "weight": 4,
+      "label": "国内游戏销售同比增5.11%，网易游戏及增值收入降1.7%。因收入覆盖和定义不同，方向分化可观察，份额变动无法由此计算。 https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html https://www.ithome.com/1/015/969.htm",
+      "sources": [
+        "https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html",
+        "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.ithome.com/1/015/969.htm"
+      ]
+    },
+    "8_materials": {
+      "name": "投入与分成",
+      "score": 7,
+      "weight": 3,
+      "label": "同比减少的集团营业成本主要来自分成，当季游戏毛利率74.35%。研发升至46.94亿元，对新游转化要求更高。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ]
+    },
+    "9_futures": {
+      "name": "衍生品与外汇",
+      "score": null,
+      "weight": 0,
+      "label": "商品期货关联度低。2025年20-F美元现金定存与美元债净折算对美元人民币波动敏感，未来对冲敞口取决于资产币种结构。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/dqe261123.htm",
+        "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en"
+      ]
+    },
+    "10_valuation": {
+      "name": "估值",
+      "score": 5,
+      "weight": 5,
+      "label": "按11月23日收盘自算13.54倍PE。股查查11月20日五年PE、PB分位为3.1%、0.8%。基准DCF 169.80港元，可比中位131.24港元。",
+      "sources": [
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+        "https://www.getstockcheck.com/en/stock/9999.HK/"
+      ]
+    },
+    "11_governance": {
+      "name": "治理与资本分配",
+      "score": 5,
+      "weight": 4,
+      "label": "2025年VIE产生85.2%收入。已授权50亿美元回购，截至三季度使用约23亿美元，持续回购与股权激励一起决定净股本。",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf"
+      ]
+    },
+    "12_capital_flow": {
+      "name": "港股通与筹码",
+      "score": null,
+      "weight": 0,
+      "label": "11月23日港股通结算持股约7191万股。11月13日可申报空仓约5093万股，口径是存量。个股南向流量和东财主力资金缺证。",
+      "sources": [
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+        "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk"
+      ]
+    },
+    "13_policy": {
+      "name": "监管",
+      "score": 6,
+      "weight": 3,
+      "label": "《桃花》10月获国产版号，供给可上市选择增加。国内网络出版许可续期获批，产品经营仍受实名认证等规则约束。 https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+      "sources": [
+        "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+        "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+        "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html"
+      ]
+    },
+    "14_moat": {
+      "name": "护城河",
+      "score": 7,
+      "weight": 4,
+      "label": "游戏毛利率74.35%体现自研与运营的质量。2025年五大产品贡献35.2%集团收入，长线运营和新品接续须同时成立。",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+      ]
+    },
+    "15_events": {
+      "name": "近期事件",
+      "score": 6,
+      "weight": 4,
+      "label": "《无限大》排期2027年1月15日，《遗忘之海》12月4日封测。商业贡献需要等产品留存、付费与确认收入数据。 https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+      "sources": [
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+        "https://www.playstation.com/zh-hans-cn/games/ananta/"
+      ]
+    },
+    "16_lhb": {
+      "name": "龙虎榜",
+      "score": null,
+      "weight": 0,
+      "label": "港股交易机制下A股龙虎榜及涨停战法不适用。观察港交所成交、披露与实际交易反应。",
+      "sources": [
+        "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666"
+      ]
+    },
+    "17_sentiment": {
+      "name": "市场情绪",
+      "score": 4,
+      "weight": 2,
+      "label": "财报后放量跌17.6%，下一交易日反弹3.57%。以价格成交观察情绪，缺少可核实多期社区样本。",
+      "sources": [
+        "https://stockanalysis.com/quote/hkg/9999/history/",
+        "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546"
+      ]
+    },
+    "18_trap": {
+      "name": "异常炒作筛查",
+      "score": null,
+      "weight": 0,
+      "label": "公开披露与行情初筛的典型拉盘信号偏低。涉及招揽话术、账户控制或监管调查的证据未核验。",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+        "https://stockanalysis.com/quote/hkg/9999/history/"
+      ]
+    },
+    "19_contests": {
+      "name": "实盘策略样本",
+      "score": null,
+      "weight": 0,
+      "label": "缺少可核对的实盘组合原始持仓、成本和可复现记录，该维度在综合分中权重为零。",
+      "sources": [
+        "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666"
+      ]
+    },
+    "20_valuation_models": {
+      "name": "情景建模",
+      "score": 6,
+      "weight": 5,
+      "label": "压力、基准、改善DCF分别约99、170和256港元。可比中位131港元，LBO基准IRR约3.8%，反映付溢价后的回报偏低。",
+      "sources": [
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+        "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700"
+      ]
+    },
+    "21_research_workflow": {
+      "name": "催化与跟踪",
+      "score": 6,
+      "weight": 3,
+      "label": "接下来两个月关注12月封测、长线产品更新及1月新游上线。游戏收入和经营现金流恢复才改变基准假设。",
+      "sources": [
+        "https://www.playstation.com/zh-hans-cn/games/ananta/",
+        "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf"
+      ]
+    },
+    "22_deep_methods": {
+      "name": "投资决策",
+      "score": 5,
+      "weight": 3,
+      "label": "投资决策为观察。尽调先验证产品回收期与净现金动用范围，单款付费、留存或渠道合同未披露的数值保留为空。",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+        "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+        "https://www.szse.cn/disclosure/notice/t20260630_621363.html"
+      ]
+    }
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "agent_reviewed": true,
+  "analysis_input_hash": "6b44d16a8c9bb9184a98db4c28ae6da5c88259e1b87037a87cffc5497a18140b",
+  "dim_commentary": {
+    "0_basic": "11月23日收159.50港元，按32.014亿普通股计市值5106亿元港币。1 ADS对应5股，避免重复计算。",
+    "1_financials": "三季度营业利润增17.7%，经营现金流却降18.6%。前三季度经营利润增24.2%，归母净利降5.3%，公允价值和汇兑加重利润波动。",
+    "2_kline": "财报次日下跌17.60%，成交为此前20日均值的4.57倍。49个已收市交易日显示股价低于20日均线185.35港元。",
+    "3_macro": "香港基本利率4.25%，港币与人民币换算、净现金再投资收益与高风险折现率同时影响港股价格。 https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+    "4_peers": "本地参考倍数9.29至11.82倍低于网易自算13.54倍。腾讯、心动和金山收入结构差异限制直接折价解读。",
+    "5_chain": "游戏分部97.5%来自在线游戏运营。分发、IP及研发人才是上游约束，自研长线运营能提高毛利贡献。",
+    "6_research": "11月23日公开报道显示招商证券国际调低港股目标至204港元，招银国际调低2026至2028年收入预测4%至6%。使用媒体转述作预期变化观察。",
+    "7_industry": "国内游戏销售同比增5.11%，网易游戏及增值收入降1.7%。因收入覆盖和定义不同，方向分化可观察，份额变动无法由此计算。 https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html https://www.ithome.com/1/015/969.htm",
+    "8_materials": "同比减少的集团营业成本主要来自分成，当季游戏毛利率74.35%。研发升至46.94亿元，对新游转化要求更高。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "9_futures": "商品期货关联度低。2025年20-F美元现金定存与美元债净折算对美元人民币波动敏感，未来对冲敞口取决于资产币种结构。 https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "10_valuation": "按11月23日收盘自算13.54倍PE。股查查11月20日五年PE、PB分位为3.1%、0.8%。基准DCF 169.80港元，可比中位131.24港元。",
+    "11_governance": "2025年VIE产生85.2%收入。已授权50亿美元回购，截至三季度使用约23亿美元，持续回购与股权激励一起决定净股本。",
+    "12_capital_flow": "11月23日港股通结算持股约7191万股。11月13日可申报空仓约5093万股，口径是存量。个股南向流量和东财主力资金缺证。",
+    "13_policy": "《桃花》10月获国产版号，供给可上市选择增加。国内网络出版许可续期获批，产品经营仍受实名认证等规则约束。 https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+    "14_moat": "游戏毛利率74.35%体现自研与运营的质量。2025年五大产品贡献35.2%集团收入，长线运营和新品接续须同时成立。",
+    "15_events": "《无限大》排期2027年1月15日，《遗忘之海》12月4日封测。商业贡献需要等产品留存、付费与确认收入数据。 https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+    "16_lhb": "港股交易机制下A股龙虎榜及涨停战法不适用。观察港交所成交、披露与实际交易反应。",
+    "17_sentiment": "财报后放量跌17.6%，下一交易日反弹3.57%。以价格成交观察情绪，缺少可核实多期社区样本。",
+    "18_trap": "公开披露与行情初筛的典型拉盘信号偏低。涉及招揽话术、账户控制或监管调查的证据未核验。",
+    "19_contests": "缺少可核对的实盘组合原始持仓、成本和可复现记录，该维度在综合分中权重为零。",
+    "20_valuation_models": "压力、基准、改善DCF分别约99、170和256港元。可比中位131港元，LBO基准IRR约3.8%，反映付溢价后的回报偏低。",
+    "21_research_workflow": "接下来两个月关注12月封测、长线产品更新及1月新游上线。游戏收入和经营现金流恢复才改变基准假设。",
+    "22_deep_methods": "投资决策为观察。尽调先验证产品回收期与净现金动用范围，单款付费、留存或渠道合同未披露的数值保留为空。"
+  },
+  "qualitative_deep_dive": {
+    "3_macro": {
+      "evidence": [
+        {
+          "source": "美联储（10月28日决议）",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "finding": "联邦基金利率目标区间维持3.75%–4.00%，两位委员投票支持上调25个基点。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "香港金融管理局（2026年10月）",
+          "url": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+          "finding": "港元基本利率4.25%。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国家外汇管理局（日度中间价）",
+          "url": "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+          "finding": "11月23日1港元兑0.85630元人民币。11月24日1港元兑0.85587元人民币、1美元兑6.7111元人民币。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国家统计局（11月16日发布）",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html",
+          "finding": "2026年10月社会消费品零售总额同比增长0.4%，1至10月同比增长1.0%。社零覆盖口径与游戏付费不同。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2025年20-F Item 11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "2025年末美元现金及定存118亿美元，美元债25亿美元。美元兑人民币变动10%的年报静态折算敏感度分别为约83亿元与17亿元人民币。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "20_valuation_models",
+          "chain_id": "宏观折现",
+          "causal_chain": "美联储保持3.75%–4.00%利率区间 → 港元利率与估值折现条件随市场调整 → 有较高终值占比的游戏现金流对资本成本上行敏感",
+          "estimated_impact": "以增速2.5%、折现率9.5%为情景，折现率增至10.0%时，Gordon未折现终值约下降6.7%，其现值与整体股权价值需逐模型计算。"
+        },
+        {
+          "link_to": "20_valuation_models",
+          "chain_id": "汇率折算",
+          "causal_chain": "网易以人民币披露财务、普通股以港元报价 → 港元估值等于人民币估值除以每港元兑人民币汇率 → 需压力测试港元折算与美元头寸",
+          "estimated_impact": "如1港元兑人民币提高10%，固定人民币估值对应的港元价值下降约9.1%。历史年报披露的美元资产减美元负债折算敏感度约±66亿元人民币，属于2025年末静态存量，非当期利润预测。"
+        },
+        {
+          "link_to": "7_industry",
+          "chain_id": "居民需求",
+          "causal_chain": "10月社零同比仅增0.4% → 国内可选消费增长偏弱 → 游戏付费需靠新品留存和内容更新驱动",
+          "estimated_impact": "FY25游戏相关收入占81.9%；若整个游戏分部收入相对情景低1%、其他业务不变，集团收入约低0.82%。社零无法估计游戏付费弹性。"
+        }
+      ],
+      "conclusion": "港元折现率和人民币折算需要分别建模。10月社零同比增0.4%，游戏流水及递延收入对网易短期业绩的解释力更直接。"
+    },
+    "13_policy": {
+      "evidence": [
+        {
+          "source": "国家新闻出版署（2026年10月国产审批）",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+          "finding": "10月28日批准183款国产游戏。第106项《桃花》由广州网易计算机系统有限公司出版、杭州网易雷火科技有限公司运营，国新出审〔2026〕2615号。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国家新闻出版署（2026年进口审批）",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+          "finding": "10月28日批准12款进口游戏。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国家新闻出版署（防沉迷通知）",
+          "url": "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+          "finding": "自2021年9月1日起，未成年人仅可于周五、周六、周日和法定节假日20至21时使用网络游戏。所有游戏须接入防沉迷实名验证。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国务院行政法规库《未成年人网络保护条例》",
+          "url": "https://xzfg.moj.gov.cn/law/download?LawID=1694&t=1698903300500&type=pdf",
+          "finding": "条例规定平台防沉迷义务和相关部门制定服务时段、时长和消费上限等管理规则的职责。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2025年20-F Item 3、Item 4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "2025年VIE产生85.2%集团净收入。上市股东持有开曼控股实体股权，内地VIE通过合同安排并表。公司风险因素说明许可、VIE合同可执行性及资金跨境划转存在约束。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "国家新闻出版署（行政审批许可结果）",
+          "url": "https://www.nppa.gov.cn/data/xkjg/202605/t20260508_988675.html",
+          "finding": "网易2025年20-F提交时披露网络出版许可在续期。国家新闻出版署后续许可结果显示，于2026年4月29日批准广州网易计算机系统有限公司继续从事网络出版服务（Chrome已核对动态办结日期）。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2025年20-F Item 5.B",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "控股层披露对子公司和VIE现金和未来盈利无直接取用权，其现金及短长定存2025年末为1426亿元。同口径境内子公司及VIE持有397亿元，约占集团27.8%。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "版号与排期",
+          "causal_chain": "国产版号开通境内商业上线入口 → 发行窗口及获客竞争决定用户获取与后续留存 → 流水和递延收入共同决定财报兑现节奏",
+          "estimated_impact": "《桃花》获得版号，仅进入可商业发行的储备情景。公司未披露排期与流水指引，基准模型不给单品额外收入。"
+        },
+        {
+          "link_to": "20_valuation_models",
+          "chain_id": "VIE与现金可达性",
+          "causal_chain": "内地开展受监管业务需当地运营主体和相关许可 → 85.2%收入依赖VIE安排 → 股权价值须反映合同安排和境内资金跨境分配条件",
+          "estimated_impact": "对三季度集团净现金1752亿元做10%可达性折扣的情景，股权价值减少175.2亿元人民币，按32亿股及0.85630人民币/港元折算约6.39港元每股。折扣为模型情景，无法从披露直接估计。"
+        }
+      ],
+      "conclusion": "10月批次同时给网易增加发行储备、给行业增加竞争供给。实名、防沉迷和VIE分配约束仍应进入风险折扣。"
+    },
+    "8_materials": {
+      "evidence": [
+        {
+          "source": "网易2025年20-F Item 5和财报附注2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "游戏主要直接成本为平台、开发商和内容提供商分成、员工、授权金及服务器带宽。公司是绝大多数游戏交易的主要责任人，应用商店和支付平台费用一般计入营业成本。2025年授权游戏收入同比+37.8%至约108亿元，带动游戏成本同比+6.8%至279.11亿元。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2026Q3业绩公告及分部表",
+          "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+          "finding": "集团收入278.524亿元，集团成本88.074亿元，毛利率68.38%（去年同期64.10%，上季70.47%）。游戏收入229.374亿元，游戏成本58.841亿元，游戏毛利率74.35%（去年同期69.34%，上季76.13%）。集团同比少支出13.74亿元直接成本，游戏贡献12.67亿元。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2025年20-F附注2及2026Q3业绩公告",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "游戏开发人员和技术服务主要进入研发费用，2023至2025财年符合资本化的对外销售软件开发成本金额不重大。Q3 2026研发费用46.94亿元另见季度公告。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "渠道分成与毛利",
+          "causal_chain": "渠道/授权费用上调、覆盖渠道结构变化 → 游戏直接成本变动 → 毛利改变。",
+          "estimated_impact": "以Q3实际游戏成本58.84亿元为基数，假设其中50%对分成、授权等数字投入价格变化敏感，收入、销量、结构及转嫁保持固定。该成本±10%/±20%对应集团毛利率∓1.06/∓2.11个百分点、游戏毛利率∓1.28/∓2.57个百分点、季度毛利∓2.94/∓5.88亿元。50%是情景假设，分项金额未披露。"
+        },
+        {
+          "link_to": "15_events",
+          "chain_id": "新品费用前置",
+          "causal_chain": "新作研发支出进当期费用 → 上线需营销和渠道获客 → 长期道具收入按预计付费玩家游玩期限摊销 → 现金回收与财报贡献错开。",
+          "estimated_impact": "Q3研发费用46.94亿元，占营收16.85%。新品首周排名需要结合流水、次月留存及随后确认收入。"
+        }
+      ],
+      "conclusion": "Q3 游戏毛利率同比由69.34%升至74.35%，环比由76.13%回落。公司归因集团成本同比减少主要来自分成下降，估值宜同时检验游戏收入增速和分成率。"
+    },
+    "9_futures": {
+      "evidence": [
+        {
+          "source": "网易2025年20-F Item 11",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+          "finding": "2025年末美元现金、现金等价物及定存118亿美元，美元债务25亿美元。截至20-F披露未开展外汇风险对冲。美元兑人民币变动±10%分别影响上述资产折算±83亿元、债务折算±17亿元。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易2026Q3业绩公告",
+          "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+          "finding": "Q3净汇兑亏损2.809亿元，上季4.365亿元，去年同期3.738亿元。2026年前9个月净汇兑损失13.395亿元，去年同期2.580亿元。Q3列报未实现汇兑损失3.238亿元，属于经营现金流间接法调整。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "港交所美元兑人民币（香港）期货规格",
+          "url": "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en",
+          "finding": "合约以每美元离岸人民币报价，标准名义本金10万美元，按香港财资市场公会的USD/CNY(HK)现货定盘交收。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "港交所人民币外汇期货日报",
+          "url": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf261116.htm",
+          "finding": "2026-11-16，2026年12月、2027年1月、2027年3月合约结算6.6535、6.6350、6.6042，远月较近月折价。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "港交所人民币外汇期货日报",
+          "url": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf260924.htm",
+          "finding": "2026-09-24，同一2026年12月合约结算6.6764，至2026-11-16下降约0.34%。两时点样本。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "3_macro",
+          "chain_id": "折算与港币估值",
+          "causal_chain": "美元兑人民币下跌 → 正美元现金净头寸的人民币价值下降 → 净现金及汇兑损益受影响。人民币兑港币升值同时提高同等人民币经营价值的港币折算。",
+          "estimated_impact": "以2025年末静态两项敞口估算，美元兑人民币±10%对应净折算约±66亿元，±1%约±6.6亿元。余额、会计分类及币种基差随时间变化，不能由离岸期货价格直接推算归母利润。"
+        }
+      ],
+      "conclusion": "外汇主要影响净现金与其他损益。2026年前9个月净汇兑损失13.40亿元，2025年报披露的美元资产负债敞口只适用于年末静态压力测试。"
+    },
+    "7_industry": {
+      "evidence": [
+        {
+          "source": "游戏工委报告，新华财经转引",
+          "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html",
+          "finding": "2026Q3中国国内游戏市场实际销售额925.22亿元，同比+5.11%、环比+1.36%。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "游戏工委报告，IT之家转引",
+          "url": "https://www.ithome.com/1/015/969.htm",
+          "finding": "2026Q3中国移动游戏678.20亿元，同比+5.33%；客户端205.47亿元，+1.26%；自研游戏海外57.72亿美元，+15.58%、环比-4.46%。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "腾讯Q3业绩",
+          "url": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+          "finding": "2026Q3本土游戏476亿元、同比+11%；国际游戏189亿元、同比-9%（按固定汇率-4%），受同期部分Supercell游戏热度和新品高基数影响。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易Q3业绩",
+          "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+          "finding": "游戏及相关增值服务收入229亿元，同比-1.7%；环比下降主要来自部分自研游戏。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "心动H1业绩",
+          "url": "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+          "finding": "2026H1游戏收入23.179亿元、同比+11.9%，占总收入70%；TapTap占30%。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "Capcom业绩",
+          "url": "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+          "finding": "截至2026-09-30半年销售1208.87亿日元，同比+49.0%，营业利润607.69亿日元、+54.5%。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "Take-Two业绩",
+          "url": "https://ir.take2games.com/node/32676",
+          "finding": "截至2026-09-30季度收入14.97亿美元、约-15.6%，GAAP净亏0.54亿美元；买断和经常性支出并存。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "Rockstar首日销售公告",
+          "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm",
+          "finding": "2026-11-19主机新品 GTA VI 首日零售额37.9亿美元，为发行商全球估计，并非确认收入。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "15_events",
+          "chain_id": "行业增速与产品排期",
+          "causal_chain": "自研游戏出海两位数增长，为网易新品打开海外需求；腾讯国际游戏按固定汇率仍下滑，说明高基数与单品节奏可盖过行业增长。网易要靠《无限大》付费和长线留存将需求转成确认收入。",
+          "estimated_impact": "以网易最新季度游戏分部229亿元作参照，每新增10亿元当季确认的净收入约为分部基数的4.4%；未假设实现。"
+        },
+        {
+          "link_to": "14_moat",
+          "chain_id": "长线经营与注意力",
+          "causal_chain": "腾讯国内增量由长线与新兴主力产品带动；Capcom新品带动目录销售。网易用《燕云十六声》和《漫威争锋》活动维持运营频次，仍需观察海外用户留存及产品贡献的可持续性。",
+          "estimated_impact": "净收入和付费拆分未披露，销量、启动量及累计玩家数不可直接换算收入。"
+        }
+      ],
+      "conclusion": "Q3国内市场增5.11%、网易游戏及增值收入降1.7%，约6.8个百分点的方向差表明网易需靠内容兑现争取增量。行业实际销售额与公司会计收入、地域不同，不能据此推算份额。 https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results"
+    },
+    "15_events": {
+      "evidence": [
+        {
+          "source": "网易Q3业绩",
+          "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+          "finding": "11月19日公布Q3，游戏收入同比-1.7%，集团经营现金流105.4亿元；《燕云十六声》8月全球累计玩家破1亿；《无限大》计划2027-01-15全球多平台上线。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易Q3业绩会管理层答问第三方转录",
+          "url": "https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+          "finding": "《无限大》以外观付费为主，管理层依靠玩家覆盖、付费参与和生命周期扩大长期收入；未给出首月流水或转化预测。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "PlayStation产品页",
+          "url": "https://www.playstation.com/zh-hans-cn/games/ananta/",
+          "finding": "《无限大》2027-01-15起免费下载。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易游戏公告",
+          "url": "https://www.neteasegames.com/news/20261110/37000_1319180.html",
+          "finding": "《遗忘之海》封闭测试2026-12-03 16:00 PT起，即北京时间12月4日08:00，多平台。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "《燕云十六声》官方周年信",
+          "url": "https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html",
+          "finding": "年内12月预告代号Beyond的消息，未给出具体日或规模。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "《漫威争锋》官方更新",
+          "url": "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+          "finding": "11月13日第11赛季更新，11月23–29日举办IGNITE总决赛。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "暴雪国服",
+          "url": "https://wow.blizzard.cn/news/24315820/index.html",
+          "finding": "2026-11-05《魔兽世界》：“无限”全球同步上线。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "港交所分派表",
+          "url": "https://www3.hkexnews.hk/reports/doe/eent_c.htm",
+          "finding": "2026-12-02网易普通股除息，12-03登记，每股0.117美元，预计12-14付款见网易Q3公告。",
+          "retrieved_at": "2026-11-24"
+        },
+        {
+          "source": "网易中报持股披露",
+          "url": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf",
+          "finding": "6月30日网易持有云音乐129,034,168股、有道65,387,160股B和2,898,293股A。",
+          "retrieved_at": "2026-11-24"
+        }
+      ],
+      "associations": [
+        {
+          "link_to": "1_financials",
+          "chain_id": "新品流水与利润时点",
+          "causal_chain": "《无限大》1月15日跨2026财年，按外观模式运营，首周流水有待留存和付费验证，财报要再看合同负债变化及收入确认。",
+          "estimated_impact": "当季确认净收入每增加10亿元相当于2026Q3游戏分部基数4.4%；只是敏感性，不代表预售或流水。"
+        },
+        {
+          "link_to": "20_fin_models",
+          "chain_id": "港股分派与净现金",
+          "causal_chain": "普通股每股派US$0.117标记净现金回到股东，估值时按除息口径处理。",
+          "estimated_impact": "按USD/HKD 7.77估每股HK$0.91，约为11月23日收盘HK$159.50的0.57%。"
+        }
+      ],
+      "conclusion": "《无限大》计划1月15日多平台上线，财务验证主要落在2027Q1；12月的《遗忘之海》封测和《燕云十六声》消息先检验新品及长线运营，商业化幅度仍待数据。 https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results https://www.neteasegames.com/news/20261110/37000_1319180.html https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html"
+    }
+  },
+  "panel_insights": "66项框架模拟中，4项偏多、17项中性、10项偏空、35项弃权。价值派重视现金与经营质量，技术和GARP框架对放量破位与负增长更敏感。量化和A股席位框架因证据或市场限制弃权。",
+  "great_divide_override": {
+    "punchline": "基准DCF 170港元，同业中位131港元。159.50港元押注网易维持约295亿元正常年经营自由现金流。",
+    "bull_say_rounds": [
+      "季度游戏毛利率74.35%，经营利润增17.7%。分成降低后，老游戏仍能贡献现金。",
+      "1752亿元净现金中只计1000亿元，基准仍值169.80港元。收入只要恢复温和增长就有价值缓冲。",
+      "以4.57倍放量下跌起算，低价已提供较财报前更好的赔率。《无限大》1月15日计划上线，验证产品接棒。"
+    ],
+    "bear_say_rounds": [
+      "游戏收入同比降1.7%，季度经营现金流降18.6%。毛利上升无法消除收入和回款风险。",
+      "腾讯、心动、金山的中位倍数推算131.24港元，压力DCF为98.60港元。159.50港元的基准上行只有6.5%。",
+      "财报次日跌17.60%，随后收159.50港元，仍低于185.35港元的20日均线。首发日期不能验证留存和付费。"
+    ]
+  },
+  "narrative_override": {
+    "core_conclusion": "网易有现金和长线游戏支撑，159.50港元仍只比基准DCF低约6%。估值观察位约144港元，或等游戏收入和经营现金流同步企稳。",
+    "risks": [
+      "游戏收入占比82.4%，前五款游戏占2025收入35.2%。主力游戏若继续衰退，单一新品容易填不上缺口。",
+      "三季度经营现金流同比降18.6%，同期营业利润增17.7%。延续多个季度将压低正常化现金流估计。",
+      "1752亿元公司口径净现金包括限制性项目及境内余额。若基准可计现金由1000亿元减到800亿元，DCF每股减少约7.29港元。",
+      "2025年VIE产生85.2%收入，涉及协议控制与分红上划，另有游戏审批、海外合规和授权续约风险。",
+      "财报后首日最低150.30港元，若继续跌破且经营数据走弱，压力DCF约98.60港元。"
+    ],
+    "buy_zones": {
+      "value": {
+        "price": 144.33,
+        "rationale": "基准DCF 169.80港元乘85%，留15%折价。"
+      },
+      "growth": {
+        "price": 104.9,
+        "rationale": "2029情景EPS乘本地可比中位PE，以12%年回报门槛折现三年。"
+      },
+      "technical": {
+        "price": 164.8,
+        "rationale": "11月20日盘中高点，收复并放量才是价格确认，20日线在185.35。"
+      },
+      "youzi": {
+        "price": 150.3,
+        "rationale": "A股席位法不适用。本字段仅记录港股财报下跌日低点，作为短线风险观察位。"
+      }
+    }
+  },
+  "data_gap_acknowledged": {
+    "12_capital_flow": "交易所验证结算存量和空仓，逐日净额及东财主力流量无独立核验。",
+    "19_contests": "缺少可再现组合样本，零权重。",
+    "18_trap": "公开资料初筛，未核实私域推广和异常账户行为。",
+    "2_kline.long_stage": "仅用49个已收市交易日，长周期趋势分类未核实。",
+    "10_valuation.quantile_as_of": "五年分位取11月20日快照，11月23日同源五年分位未核验。"
+  },
+  "review_acknowledged": {
+    "12_capital_flow": "继续保留缺口，持仓与沽空存量各按名称展示",
+    "10_valuation": "11月20日五年分位独立列示。可比本地样本为3家，全球倍数样本不足。",
+    "panel": "35项弃权有明确原因，其中24项为A股交易框架。"
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "ticker": "09999.HK",
+  "research_date": "2026-11-24",
+  "price_hkd": 159.5,
+  "price_date": "2026-11-23",
+  "model": {
+    "dcf_cases": {
+      "压力": {
+        "fcf_rmb_bn": 27,
+        "growth": -0.02,
+        "discount": 0.1275,
+        "terminal": 0.005,
+        "available_net_cash_rmb_bn": 70,
+        "flows_rmb_bn": [
+          26.46,
+          25.930799999999998,
+          25.412183999999996,
+          24.903940319999997,
+          24.405861513599998
+        ],
+        "pv_explicit_rmb_bn": 90.39896200996037,
+        "pv_terminal_rmb_bn": 109.88574651435655,
+        "equity_rmb_bn": 270.2847085243169,
+        "price_hkd": 98.59596841201295,
+        "upside_pct": -38.18434582318937
+      },
+      "基准": {
+        "fcf_rmb_bn": 32,
+        "growth": 0.035,
+        "discount": 0.115,
+        "terminal": 0.02,
+        "available_net_cash_rmb_bn": 100,
+        "flows_rmb_bn": [
+          33.12,
+          34.279199999999996,
+          35.47897199999999,
+          36.72073601999999,
+          38.005961780699984
+        ],
+        "pv_explicit_rmb_bn": 128.6829315219059,
+        "pv_terminal_rmb_bn": 236.78487452644256,
+        "equity_rmb_bn": 465.4678060483485,
+        "price_hkd": 169.79595091604315,
+        "upside_pct": 6.45514164015244
+      },
+      "改善": {
+        "fcf_rmb_bn": 37,
+        "growth": 0.07,
+        "discount": 0.105,
+        "terminal": 0.025,
+        "available_net_cash_rmb_bn": 130,
+        "flows_rmb_bn": [
+          39.59,
+          42.3613,
+          45.326591,
+          48.49945237000001,
+          51.89441403590001
+        ],
+        "pv_explicit_rmb_bn": 168.14580937552728,
+        "pv_terminal_rmb_bn": 403.5925127179086,
+        "equity_rmb_bn": 701.738322093436,
+        "price_hkd": 255.9840318617161,
+        "upside_pct": 60.49155602615428
+      }
+    },
+    "sensitivity_hkd": {
+      "0.095": {
+        "0.01": 190.56834041767408,
+        "0.015": 197.65912061606386,
+        "0.02": 205.695338174239,
+        "0.025": 214.87958681215343,
+        "0.03": 225.47679677897779
+      },
+      "0.105": {
+        "0.01": 174.11528606996245,
+        "0.015": 179.55334845937392,
+        "0.02": 185.6311828945985,
+        "0.025": 192.46874663422616,
+        "0.03": 200.21798553913754
+      },
+      "0.115": {
+        "0.01": 160.80352156642252,
+        "0.015": 165.0749255074923,
+        "0.02": 169.79595091604315,
+        "0.025": 175.04153470332184,
+        "0.03": 180.90424599498627
+      },
+      "0.125": {
+        "0.01": 149.81327218072784,
+        "0.015": 153.2343172630903,
+        "0.02": 156.98117616282065,
+        "0.025": 161.10272095252398,
+        "0.03": 165.65811256219612
+      },
+      "0.135": {
+        "0.01": 140.58710678014467,
+        "0.015": 143.37184712892224,
+        "0.02": 146.3987388123762,
+        "0.025": 149.70080246705317,
+        "0.03": 153.3173483745566
+      }
+    },
+    "reverse_fcf_base_rmb_bn": 29.52867629653665,
+    "reverse_fcf_at_intraday_rmb_bn": 28.472550020886374,
+    "relative_hkd": {
+      "低": 109.4565305489454,
+      "中位": 131.2429199824074,
+      "高": 139.26546728617168
+    },
+    "local_median_pe": 11.139095315024234,
+    "LBO": {
+      "压力": {
+        "premium": 0.2,
+        "entry_equity_rmb_bn": 524.6917703102671,
+        "sponsor_equity_rmb_bn": 474.6917703102671,
+        "initial_debt_rmb_bn": 50,
+        "interest_rate": 0.06,
+        "annual_principal_rmb_bn": 10,
+        "exit_ev_fcf": 7,
+        "exit_cash_rmb_bn": 70,
+        "flows_rmb_bn": [
+          14.060000000000002,
+          14.010799999999996,
+          13.972183999999995,
+          13.943940319999996,
+          254.7668921088
+        ],
+        "irr_pct": -8.802153292982256
+      },
+      "基准": {
+        "premium": 0.2,
+        "entry_equity_rmb_bn": 524.6917703102671,
+        "sponsor_equity_rmb_bn": 474.6917703102671,
+        "initial_debt_rmb_bn": 50,
+        "interest_rate": 0.06,
+        "annual_principal_rmb_bn": 10,
+        "exit_ev_fcf": 9,
+        "exit_cash_rmb_bn": 100,
+        "flows_rmb_bn": [
+          20.72,
+          22.359199999999994,
+          24.038971999999994,
+          25.76073601999999,
+          469.57961780699986
+        ],
+        "irr_pct": 3.771211354099846
+      },
+      "改善": {
+        "premium": 0.2,
+        "entry_equity_rmb_bn": 524.6917703102671,
+        "sponsor_equity_rmb_bn": 474.6917703102671,
+        "initial_debt_rmb_bn": 50,
+        "interest_rate": 0.06,
+        "annual_principal_rmb_bn": 10,
+        "exit_ev_fcf": 11,
+        "exit_cash_rmb_bn": 130,
+        "flows_rmb_bn": [
+          27.190000000000005,
+          30.4413,
+          33.886591,
+          37.53945237000001,
+          742.2529684308001
+        ],
+        "irr_pct": 14.169125864780597
+      }
+    },
+    "three_stmt": [
+      {
+        "year": 2027,
+        "revenue_rmb_bn": 121.32157400000001,
+        "op_rmb_bn": 41.85594303,
+        "net_rmb_bn": 32.834754424,
+        "ocf_rmb_bn": 35.052210944,
+        "dep_amort_rmb_bn": 2.42643148,
+        "working_capital_investment_rmb_bn": 0.2089749599999999,
+        "capex_rmb_bn": 2.183788332,
+        "dividend_rmb_bn": 14.447291946560002,
+        "net_cash_rmb_bn": 193.62113066543998,
+        "equity_rmb_bn": 191.98574847744,
+        "eps_cny": 10.256457801192244
+      },
+      {
+        "year": 2028,
+        "revenue_rmb_bn": 126.78104483,
+        "op_rmb_bn": 44.373365690499995,
+        "net_rmb_bn": 34.848692552399996,
+        "ocf_rmb_bn": 37.1659346158,
+        "dep_amort_rmb_bn": 2.5356208966000002,
+        "working_capital_investment_rmb_bn": 0.21837883319999946,
+        "capex_rmb_bn": 2.28205880694,
+        "dividend_rmb_bn": 15.333424723055998,
+        "net_cash_rmb_bn": 213.171581751244,
+        "equity_rmb_bn": 211.501016306784,
+        "eps_cny": 10.885543408515945
+      },
+      {
+        "year": 2029,
+        "revenue_rmb_bn": 131.8522866232,
+        "op_rmb_bn": 46.14830031812,
+        "net_rmb_bn": 36.268640254496006,
+        "ocf_rmb_bn": 38.702836315232005,
+        "dep_amort_rmb_bn": 2.637045732464,
+        "working_capital_investment_rmb_bn": 0.20284967172800009,
+        "capex_rmb_bn": 2.3733411592176,
+        "dividend_rmb_bn": 15.958201711978242,
+        "net_cash_rmb_bn": 233.54287519528015,
+        "equity_rmb_bn": 231.81145484930178,
+        "eps_cny": 11.329086658402492
+      },
+      {
+        "year": 2030,
+        "revenue_rmb_bn": 136.46711665501198,
+        "op_rmb_bn": 47.76349082925419,
+        "net_rmb_bn": 37.560792663403355,
+        "ocf_rmb_bn": 40.10554179523112,
+        "dep_amort_rmb_bn": 2.7293423331002398,
+        "working_capital_investment_rmb_bn": 0.18459320127247908,
+        "capex_rmb_bn": 2.4564080997902153,
+        "dividend_rmb_bn": 16.526748771897477,
+        "net_cash_rmb_bn": 254.66526011882357,
+        "equity_rmb_bn": 252.84549874080767,
+        "eps_cny": 11.732711015799243
+      },
+      {
+        "year": 2031,
+        "revenue_rmb_bn": 140.56113015466235,
+        "op_rmb_bn": 49.19639555413182,
+        "net_rmb_bn": 38.70711644330546,
+        "ocf_rmb_bn": 41.35457850641269,
+        "dep_amort_rmb_bn": 2.8112226030932472,
+        "working_capital_investment_rmb_bn": 0.16376053998601492,
+        "capex_rmb_bn": 2.530100342783922,
+        "dividend_rmb_bn": 17.031131235054403,
+        "net_cash_rmb_bn": 276.45860704739795,
+        "equity_rmb_bn": 274.52148394905873,
+        "eps_cny": 12.09078348143265
+      }
+    ],
+    "declared_dividend_4q_usd": 0.589,
+    "paid_dividend_4q_usd": 0.586,
+    "illustrative_ddm_hkd": 55.17431294117646,
+    "dividend_payout_fcf": 44,
+    "sotp_music_youdao_hkd_bn": 20.2671468842947,
+    "sotp_music_youdao_hkd_per_share": 6.330765690679113,
+    "acquisition_eps_scenario": {
+      "target_earnings_rmb_bn": 1,
+      "cash_price_rmb_bn": 15,
+      "loss_of_interest_after_tax_percent": 2.4,
+      "eps_change_cny": 0.19991417959152133,
+      "scope": "纯假设，无并购公告，未计商誉、整合成本及协同"
+    },
+    "one_title_scenario": {
+      "incremental_revenue_rmb_bn": 1.0,
+      "assumed_contribution_margin": 0.35,
+      "after_tax_income_rmb_bn": 0.27999999999999997,
+      "value_hkd_per_share_at_local_median_pe": 1.137746825664472
+    },
+    "value_entry_hkd": 144.32655827863667,
+    "growth_entry_hkd": 104.89742006280626,
+    "model_notes": [
+      "估值以人民币十亿元建模，按0.85630人民币/港元和32.014亿普通股换算。1 ADS=5普通股。",
+      "用正常经营现金流和可计净现金建立近似经营企业价值。基期正常现金流为假设，不直接套用滚动实际FCF。",
+      "无高目标杠杆，11.5%基准折现率含产品与中国监管风险。净现金按1000亿元计价，覆盖限制性现金、运营及上划风险。",
+      "可比样本以腾讯、心动、金山为本地估值参考，三家模式不同，Capcom和Take-Two仅作业务参照。",
+      "股息折现只计观察到的实际派息流，未包含留存或回购，作为分红下限观察。",
+      "三表为五年简化联动。净现金和归母权益从2026Q3快照起算，2026Q4未桥接；冻结股本与汇率，不预测回购、并购及其他综合收益。"
+    ]
+  },
+  "conclusion": "网易有现金和长线游戏支撑，159.50港元仍只比基准DCF低约6%。估值观察位约144港元，或等游戏收入和经营现金流同步企稳。",
+  "source_index": {
+    "三季报": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf",
+    "三季报财务表": "https://ir.netease.com/news-releases/news-release-details/netease-announces-third-quarter-2026-unaudited-financial-results",
+    "三季报演示": "https://ir.netease.com/static-files/4ce9997f-f8b2-4df7-a71e-a754261a5fb4",
+    "二季报": "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-and-interim-2026-unaudited",
+    "一季报": "https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results",
+    "2025年报": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926043468/ntes-20251231x20f.htm",
+    "2025四季报": "https://ir.netease.com/node/15256",
+    "历史损益": "https://ir.netease.com/financial-information/fundamentals/income-statement",
+    "历史权益": "https://ir.netease.com/financial-information/fundamentals/balance-sheet",
+    "股本与回购": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300364.pdf",
+    "股息公告": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900510.pdf",
+    "收市交叉核对": "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ",
+    "日线及延时报价": "https://stockanalysis.com/quote/hkg/9999/history/",
+    "汇率": "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+    "美联储": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "香港利率": "https://www.hkma.gov.hk/eng/data-publications-and-research/data-and-statistics/economic-financial-data-for-hong-kong/",
+    "社零": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261116_1965839.html",
+    "腾讯业绩": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf",
+    "腾讯行情": "https://www.gurufocus.com/term/pe-ratio/HKSE%3A00700",
+    "金山行情": "https://stockanalysis.com/quote/hkg/3888/",
+    "心动中报": "https://img.xdcdn.net/xdwp/2026/10/20261009091224167.pdf",
+    "心动行情": "https://stockanalysis.com/quote/hkg/2400/statistics/",
+    "Capcom业绩": "https://www.capcom.co.jp/ir/english/news/html/e261027b.html",
+    "Capcom行情": "https://stockanalysis.com/quote/tyo/9697/statistics/",
+    "港股通结算持仓": "https://www3.hkexnews.hk/sdw/search/mutualmarket.aspx?t=hk",
+    "三季行业": "https://www.cnfin.com/gs-lb/detail/20261020/4483870_1.html",
+    "版号": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+    "防沉迷": "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html",
+    "深港通": "https://www.szse.cn/disclosure/notice/t20260630_621363.html",
+    "南向及回购披露": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000041666",
+    "淡仓": "https://www.sfc.hk/-/media/EN/pdf/spr/2026/11/13/Short_Position_Reporting_Aggregated_Data_Eng_20261113.pdf?rev=bae41d7cc3474c978700b68fa7fc9546",
+    "券商一": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555997&NewsSource=HK6&NewsType=",
+    "券商二": "https://www.aastocks.com/en/mobile/News.aspx?NewsID=NOW.1555999&NewsSource=HK6&NewsType=",
+    "无限大": "https://www.playstation.com/zh-hans-cn/games/ananta/",
+    "遗忘之海": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+    "2026中报": "https://www.sec.gov/Archives/edgar/data/1110646/000110465926110155/tm2625995d1_ex99-1.pdf",
+    "云音乐行情": "https://stockanalysis.com/quote/hkg/9899/history/",
+    "有道行情": "https://stockanalysis.com/stocks/dao/history/",
+    "Take-Two业绩": "https://ir.take2games.com/node/32676",
+    "GTA VI": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm",
+    "港股期权": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/dqe261123.htm",
+    "理杏仁PE": "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pe-ttm",
+    "理杏仁PB": "https://www.lixinger.com/equity/company/detail/hk/09999/9999/fundamental/valuation/pb",
+    "五年估值分位": "https://www.getstockcheck.com/en/stock/9999.HK/",
+    "五年分位方法": "https://www.getstockcheck.com/zh/guides/stockcheck-methodology-data-sources/",
+    "国家新闻出版署（2026年进口审批）": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+    "国务院行政法规库《未成年人网络保护条例》": "https://xzfg.moj.gov.cn/law/download?LawID=1694&t=1698903300500&type=pdf",
+    "国家新闻出版署（行政审批许可结果）": "https://www.nppa.gov.cn/data/xkjg/202605/t20260508_988675.html",
+    "港交所美元兑人民币（香港）期货规格": "https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en",
+    "港交所人民币外汇期货日报": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf261116.htm",
+    "港交所人民币外汇期货日报 · cusf260924.htm": "https://www.hkex.com.hk/eng/stat/dmstat/dayrpt/cusf260924.htm",
+    "游戏工委报告，IT之家转引": "https://www.ithome.com/1/015/969.htm",
+    "网易Q3业绩会管理层答问第三方转录": "https://www.roic.ai/quote/HKEX-9999/transcripts/2026-year/3-quarter",
+    "网易游戏公告": "https://www.neteasegames.com/news/20261110/37000_1319180.html",
+    "《燕云十六声》官方周年信": "https://www.wherewindsmeetgame.com/news/official/anniversaryletter.html",
+    "《漫威争锋》官方更新": "https://www.marvelrivals.com/gameupdate/20261111/41548_1319332.html",
+    "暴雪国服": "https://wow.blizzard.cn/news/24315820/index.html",
+    "港交所分派表": "https://www3.hkexnews.hk/reports/doe/eent_c.htm"
+  },
+  "technical_sources": [
+    "https://stockanalysis.com/quote/hkg/9999/history/",
+    "https://markets.ft.markitdigital.com/data/equities/tearsheet/historical?s=9999%3AHKG.HZ"
+  ],
+  "coverage_checks": {
+    "ok": true,
+    "critical_missing": false,
+    "missing_critical": [],
+    "missing_optional": [],
+    "missing_enrichment": [],
+    "fallback_dims": [],
+    "coverage_pct": 100.0,
+    "passed_checks": 18,
+    "total_checks": 18
+  },
+  "review": {
+    "ticker": "09999.HK",
+    "market": "H",
+    "reviewed_at": "2026-11-24T14:48:56",
+    "critical_count": 0,
+    "warning_count": 2,
+    "info_count": 0,
+    "passed": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "category": "data",
+        "dim": "12_capital_flow",
+        "issue": "东财主力资金数据暂缺；新浪观察不作为评分依据",
+        "evidence": "东财主力资金和逐日个股南向净额未独立核验",
+        "suggested_fix": "检查东财资金流数据源，不要用跨源观测替代评分输入"
+      },
+      {
+        "severity": "warning",
+        "category": "panel",
+        "dim": "panel",
+        "issue": "53% 评委 skip（可能是不在其能力圈的股票，也可能是 bug）",
+        "evidence": "35/66 skip",
+        "suggested_fix": "确认是否是港股/美股/ST 股，否则查 investor_knowledge.reality_check"
+      }
+    ],
+    "checks_run": [
+      "check_industry_mapping_sanity",
+      "check_all_dims_exist",
+      "check_empty_dims",
+      "check_hk_kline_populated",
+      "check_hk_financials_populated",
+      "check_panel_non_empty",
+      "check_coverage_threshold",
+      "check_placeholder_strings",
+      "check_valuation_sanity",
+      "check_industry_data_coverage",
+      "check_metals_materials_populated",
+      "check_agent_analysis_exists",
+      "check_factcheck_redflags",
+      "check_consensus_formula_sanity",
+      "check_panel_hollow_verdicts",
+      "check_panel_insights_rendered",
+      "check_debate_bull_bear_populated"
+    ]
+  },
+  "method_simulation_tally": {
+    "neutral": 17,
+    "bearish": 10,
+    "skip": 35,
+    "bullish": 4
+  },
+  "data_limits": {
+    "12_capital_flow": "交易所验证结算存量和空仓，逐日净额及东财主力流量无独立核验。",
+    "19_contests": "缺少可再现组合样本，零权重。",
+    "18_trap": "公开资料初筛，未核实私域推广和异常账户行为。",
+    "2_kline.long_stage": "仅用49个已收市交易日，长周期趋势分类未核实。",
+    "10_valuation.quantile_as_of": "五年分位取11月20日快照，11月23日同源五年分位未核验。"
+  },
+  "dimensions_count": 23,
+  "investor_count": 66
+}
