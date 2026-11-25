@@ -1,0 +1,77 @@
+{
+ "time": "2026-11-25 16:14:58",
+ "source": "https://qt.gtimg.cn/q=sh600584,sz002156,sz002185,sh688362,sh000001,sh000688",
+ "quotes": [
+  {
+   "name": "长电科技",
+   "code": "600584",
+   "close": 47.19,
+   "chg_pct": -7.87,
+   "pe_ttm": 37.89,
+   "pb": 2.86,
+   "mcap_yi": 844.42,
+   "turnover_pct": 3.61,
+   "amount_yi": 31.39
+  },
+  {
+   "name": "通富微电",
+   "code": "002156",
+   "close": 36.01,
+   "chg_pct": -8.46,
+   "pe_ttm": 16.79,
+   "pb": 2.57,
+   "mcap_yi": 573.93
+  },
+  {
+   "name": "华天科技",
+   "code": "002185",
+   "close": 12.75,
+   "chg_pct": -6.59,
+   "pe_ttm": 36.04,
+   "pb": 2.11,
+   "mcap_yi": 457.08
+  },
+  {
+   "name": "甬矽电子",
+   "code": "688362",
+   "close": 32.01,
+   "chg_pct": -11.75,
+   "pe_ttm": 296.64,
+   "pb": 3.91,
+   "mcap_yi": 145.35
+  },
+  {
+   "name": "上证指数",
+   "code": "000001",
+   "close": 3476.47,
+   "chg_pct": -2.03
+  },
+  {
+   "name": "科创50",
+   "code": "000688",
+   "close": 1186.14,
+   "chg_pct": -5.12
+  }
+ ],
+ "kline": {
+  "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600584,day,2025-11-01,2026-11-25,320,qfq",
+  "adjust": "qfq",
+  "high": {
+   "date": "2026-07-10",
+   "price": 113.82
+  },
+  "low_60d": {
+   "date": "2026-11-03",
+   "price": 46.68
+  },
+  "close_2025": 36.63,
+  "ma20": 51.61,
+  "ma60": 60.89,
+  "ma250": 58.16
+ },
+ "external": {
+  "date": "2026-11-24",
+  "event": "费城半导体指数收跌7.9%",
+  "url": "https://www.investors.com/news/technology/chip-stocks-fall-data-center-spending-fears/"
+ }
+}

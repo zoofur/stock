@@ -1,0 +1,50 @@
+{
+ "ticker": "600584.SH",
+ "name": "长电科技",
+ "analysis_date": "2026-11-25",
+ "timezone": "Asia/Shanghai",
+ "quote_price": 47.19,
+ "source_snapshot_time": "2026-11-25 16:14:58",
+ "raw_fetched_at": "2026-11-25 12:11:16（午间采集，行情已改收盘）",
+ "overall_score": 42.6,
+ "verdict": "谨慎 · 7 派看空",
+ "panel": {
+  "active": 44,
+  "bearish": 30,
+  "neutral": 9,
+  "bullish": 0,
+  "skip_overrides": 5,
+  "skip_total": 22,
+  "note": "66套方法为模拟，非真人观点"
+ },
+ "mechanical_review": {
+  "critical": 0,
+  "warning": 0,
+  "passed": true
+ },
+ "agent_corrections": [
+  "0_basic行业由空改为半导体封测；PE由动态40.61改为TTM 37.89",
+  "financial_health单位错误已按三季报重填",
+  "DCF基期FCF由OCF 46.52改为常态20亿，并计入Q4资本开支缺口69亿",
+  "LBO入场由8x改为市价14.7x EV/EBITDA",
+  "3表毛利率35%改为16.5%",
+  "研报一致预期EPS 1.66弃用，参考近期1.28",
+  "首次覆盖“自由现金流健康”论点替换为现金流承压"
+ ],
+ "limitations": [
+  "东财push2限流：主力资金、筹码分布未取得",
+  "雪球/同花顺需登录：实盘比赛未取得",
+  "风格识别为脚本启发式“量化因子型”，对评分影响+0.1",
+  "2026季报未经审计",
+  "报告页眉DATA时间为采集时点，非行情时点"
+ ],
+ "visual_check": {
+  "desktop": "1440px 无横向溢出、无控制台错误、无外部请求",
+  "mobile": "390px 修复机构建模卡片溢出后无横向溢出"
+ },
+ "html_edits": [
+  "移除Google Fonts与二维码远程依赖",
+  "移除游资头像缺失引用",
+  "机构建模指标行允许换行"
+ ]
+}
