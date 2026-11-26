@@ -7,6 +7,7 @@
 | 公司 | 历史深度报告 | 财报更新 | 补充 |
 |---|---|---|---|
 | 长电科技 600584.SH | [2026-11-25](长电科技_600584.SH/20261125/full-report-standalone.html) | — | — |
+| 速腾聚创 02498.HK | [2026-09-23](速腾聚创_02498.HK/20260923/full-report-standalone.html) | [2026-11-25 三季报解读](速腾聚创_02498.HK/20261125/full-report-standalone.html) | [港交所原文](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501197.pdf) |
 | 网易 09999.HK | [2026-11-24](网易_09999.HK/20261124/full-report-standalone.html) | — | [2026 三季报](https://www.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900471_c.pdf) |
 | 保利物业 06049.HK | [2026-11-23](保利物业_06049.HK/20261123/full-report-standalone.html) | — | [2026 中报](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091600310.pdf) |
 | 阿里巴巴 09988.HK | — | [2026-11-19 三季报解读](阿里巴巴_09988.HK/20261119/full-report-standalone.html) | [港交所原文](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1119/2026111900873.pdf) |
@@ -23,7 +24,6 @@
 | 瑞芯微 603893.SH | [2026-10-30](瑞芯微_603893.SH/20261030/full-report-standalone.html) | [2026-10-30 三季报](瑞芯微_603893.SH/20261030/三季报解读.html) | — |
 | 德明利 001309.SZ | [2026-10-26](德明利_001309.SZ/20261026/full-report-standalone.html) | — | — |
 | 澜起科技 688008.SH | [2026-10-28](澜起科技_688008.SH/20261028/full-report-standalone.html) | [2026-10-30 三季报](澜起科技_688008.SH/20261030/full-report-standalone.html) | [2026-10-30 港股购买意见](澜起科技_688008.SH/20261030/港股购买意见.html) |
-| 速腾聚创 02498.HK | [2026-09-23](速腾聚创_02498.HK/20260923/full-report-standalone.html) | — | — |
 
 直接用浏览器打开HTML。核心正文、样式及本地头像已内嵌；部分旧报告的远程图片仍需联网。
 

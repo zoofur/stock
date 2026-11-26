@@ -1,0 +1,76 @@
+{
+  "ticker": "02498.HK",
+  "release_date": "2026-11-25",
+  "reporting_unit": "CNY thousands unless otherwise specified",
+  "period_order": ["2025Q3", "2026Q2", "2026Q3", "2025M9", "2026M9"],
+  "profit_and_loss": {
+    "revenue": [407107, 560999, 672726, 1190314, 1692475],
+    "gross_profit": [97409, 122588, 24760, 300545, 246949],
+    "operating_profit": [-117257, -95183, -152762, -314406, -324536],
+    "net_profit": [-100016, -96624, -167954, -248622, -327901],
+    "net_profit_attributable_to_owners": [-101042, -96995, -169379, -252022, -330598],
+    "share_based_compensation": [35443, 17828, 13584, 69657, 50821],
+    "company_non_ifrs_net_profit": [-64573, -78796, -154370, -178965, -277080],
+    "basic_eps_cny": [-0.22, -0.21, -0.36, -0.55, -0.71]
+  },
+  "q3_detail_period_order": ["2025Q3", "2026Q3"],
+  "q3_detail": {
+    "product_revenue": [387134, 614574],
+    "solution_revenue": [11945, 12702],
+    "service_and_other_revenue": [8028, 45450],
+    "cost_of_sales": [309698, 647966],
+    "research_and_development_expense": [179747, 184584],
+    "sales_and_marketing_expense": [34854, 38982],
+    "administrative_expense": [47918, 68075],
+    "net_impairment_reversal": [788, 848],
+    "other_income": [21443, 23724],
+    "other_gains_net": [25622, 89547],
+    "finance_income_net": [21271, 3249],
+    "share_of_associate_losses": [3041, 3532],
+    "income_tax_expense": [989, 14909]
+  },
+  "replacement_provision_approx": {"2026Q3": 118700, "2026M9": 137400},
+  "lidar_units": {
+    "2025Q3": {"total": 185600, "adas": 150100, "robotics_and_other": 35500},
+    "2026Q2": {"total": 388900, "adas": 291800, "robotics_and_other": 97100},
+    "2026Q3": {"total": 575500, "adas": 430300, "robotics_and_other": 145200},
+    "2026Q3_october_9_update": {"total": 595600, "adas": 450400, "robotics_and_other": 145200},
+    "2026M9": {"total": 1294700, "adas": 866900, "robotics_and_other": 427800}
+  },
+  "balance_sheet_date_order": ["2025-12-31", "2026-06-30", "2026-09-30"],
+  "balance_sheet": {
+    "cash_and_equivalents": [2097873, 940300, 730434],
+    "current_time_deposits": [341744, 1109063, 860842],
+    "restricted_cash": [154681, 7980, 8005],
+    "restricted_time_deposits": [24612, 0, 0],
+    "current_borrowings": [289917, 370951, 627379],
+    "non_current_borrowings": [157300, 154400, 134500],
+    "inventory": [395171, 539671, 744748],
+    "trade_and_notes_receivables": [800267, 658234, 846436],
+    "trade_and_notes_payables": [545673, 485329, 652778],
+    "prepayments_other_receivables_and_other_current_assets": [211147, 315105, 379134],
+    "current_assets": [4637880, 4283583, 4427439],
+    "total_assets": [5265682, 5273933, 5573299],
+    "current_liabilities": [1206923, 1377712, 1915651],
+    "total_liabilities": [1460243, 1721146, 2239166]
+  },
+  "operating_cash_flow_cny_millions_rounded": {
+    "2025H1": -563.9,
+    "2025M9": -654.6,
+    "2026H1": -419.7,
+    "2026M9": -946.3
+  },
+  "calculation_notes": {
+    "gross_margin_excluding_replacement_provision": "(Gross profit + disclosed replacement provision) / reported revenue. Sensitivity, without further adjustments for sales, taxes or any other items.",
+    "operating_profit_excluding_replacement_provision_and_other_gains": "Reported operating profit + replacement provision - other gains net. 2025Q3 comparison subtracts other gains net only.",
+    "quarterly_operating_cash_flow": "Nine-month operating cash flow minus six-month operating cash flow, based on the rounded company disclosures.",
+    "cash_less_borrowings": "Cash and equivalents plus current time deposits minus current and non-current borrowings. Excludes restricted cash and deposits, other financial assets and leases.",
+    "product_revenue_per_lidar_unit": "Total product revenue divided by reported LiDAR units, a blended proxy. Product categories and mix differ across periods."
+  },
+  "sources": {
+    "2026M9": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501197.pdf",
+    "2026H1": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082601087.pdf",
+    "2025M9": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1125/2025112501075.pdf",
+    "2026Q3_october_9_update": "https://www.robosense.ai/en/news-show-2004"
+  }
+}
